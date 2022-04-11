@@ -13,8 +13,8 @@ _logger = logging.getLogger(__name__)
 #=== General configuration ===#
 
 # General information about the project.
-project = 'Odoo'
-copyright = 'Odoo S.A.'
+project = 'Daeris'
+copyright = 'Daeris'
 
 # `version` if the version info for the project being documented, acts as replacement for |version|,
 # also used in various other places throughout the built documents.
@@ -159,7 +159,7 @@ versions_names = {
     'master': "Master",
     'saas-15.2': "Odoo Online",
     'saas-15.1': "Odoo Online",
-    '15.0': "Odoo 15",
+    '15.0': "Daeris 15",
     '14.0': "Odoo 14",
     '13.0': "Odoo 13",
 }
@@ -196,7 +196,7 @@ html_theme_path = ['extensions']
 
 # The name of an image file (within the static path) to use as favicon of the docs.
 # This file should be a Windows icon file (.ico) being 16x16 or 32x32 pixels large.
-html_favicon = os.path.join(html_theme_path[0], html_theme, 'static', 'img', 'favicon.ico')
+html_favicon = os.path.join(html_theme_path[0], html_theme, 'static', 'img', 'favicon-mini.ico')
 
 # The paths that contain custom static files, relative to this directory.
 # They are copied after the builtin static files, so a file named "default.css" will overwrite the

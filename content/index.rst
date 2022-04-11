@@ -1,13 +1,10 @@
 :nosearch:
 
-==================
-Odoo Documentation
-==================
+=======================
+Documentación de Daeris
+=======================
 
 
 .. toctree::
 
-    applications
-    administration
-    developer
-    contributing
+    aplicaciones

@@ -198,7 +198,7 @@ header.o_main_header {
     @include o-transition(all, .3s);
     padding-top: 4rem;
     padding-left: $padding-s;
-    background-color: lighten($o-violet-dark, 70%) ;
+    background-color: white ;
     z-index: 10;
     @include font-size($font-size-secondary);
     color: $o-violet-dark;
@@ -1018,7 +1018,7 @@ header.o_main_header {
             &:not([aria-selected="true"]) {
                 cursor: pointer;
                 background: hsl(317deg, 16%, 90%);
-                color: #7A436B;
+                color: #00376E;
                 transition: color .15s, background .15s;
                 border-radius: 0;
             }
