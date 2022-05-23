@@ -10,6 +10,11 @@ Existe un práctico módulo de Notas en la aplicación Daeris para que los usuar
 y varias operaciones en la empresa. Puedes compartir notas con otros empleados y clientes a través de este módulo, y
 ayudar a los usuarios a tomar notas en la vista Kanban y Lista.
 
+.. youtube:: gJ53u2bWZEA
+    :align: right
+    :width: 700
+    :height: 394
+
 Crear una nota
 ==============
 
