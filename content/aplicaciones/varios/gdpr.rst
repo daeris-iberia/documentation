@@ -60,7 +60,7 @@ los procedimientos de gestión de esos datos personales.
 Ejecutar una operación GDPR
 ===========================
 
-Desde la pantalla :menuselection:`GDPR > GDPR > Ejecutar Operación`, puedes navegar a la vista de operaciones GDPR, en donde
+Desde la pantalla :menuselection:`GDPR --> GDPR > Ejecutar Operación`, puedes navegar a la vista de operaciones GDPR, en donde
 aparece un formulario que te permite introducir la siguiente información:
 
 .. image:: gdpr/ejecutar-operacion.png
@@ -106,7 +106,7 @@ Una vez informados los campos necesarios, debes pulsar el botón *Ejecutar*, que
 Consultar el registro GDPR
 ==========================
 
-Para consultar el registro de operaciones GDPR ejecutadas, debes navegar a la pantalla :menuselection:`GDPR > GDPR > Registro GDPR`,
+Para consultar el registro de operaciones GDPR ejecutadas, debes navegar a la pantalla :menuselection:`GDPR --> GDPR --> Registro GDPR`,
 donde aparece un listado con todas las operaciones ejecutadas:
 
 .. image:: gdpr/registro-gdpr.png
