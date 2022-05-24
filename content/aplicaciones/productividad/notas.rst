@@ -18,7 +18,7 @@ ayudar a los usuarios a tomar notas en la vista Kanban y Lista.
 Crear una nota
 ==============
 
-Desde la pantalla :menuselection:`Notas > Notas` puedes visualizar la lista Kanban de todas las notas:
+Desde la pantalla :menuselection:`Notas --> Notas` puedes visualizar la lista Kanban de todas las notas:
 
 .. image:: notas/kanban-notas.png
    :align: center
@@ -52,7 +52,7 @@ desplegable ubicado en la propia nota de la pantalla Kanban de notas:
 Crear una etapa o tipo de nota
 ==============================
 
-Desde la pantalla :menuselection:`Notas > Notas` puedes visualizar la lista Kanban de todas las notas:
+Desde la pantalla :menuselection:`Notas --> Notas` puedes visualizar la lista Kanban de todas las notas:
 
 .. image:: notas/kanban-notas.png
    :align: center
@@ -99,7 +99,7 @@ Al hacer esto, la etapa aparecerá replegada en la pantalla Kanban de todas las 
 Programar una actividad asociada a una nota
 ===========================================
 
-Para programar una actividad asociada a una nota, navega a la pantalla Kanban de todas las notas en :menuselection:`Notas > Notas`.
+Para programar una actividad asociada a una nota, navega a la pantalla Kanban de todas las notas en :menuselection:`Notas --> Notas`.
 
 Es posible programar actividades para cada Nota pulsando el icono del Reloj:
 
@@ -135,7 +135,7 @@ Es esencial proporcionar una plataforma colaborativa en tiempo real para trabaja
 a un mismo contenido se beneficiarán en gran medida a través de este tipo de opción.
 
 Para que los usuarios puedan editar la descripción de las notas de forma colaborativa en tiempo real, navega a la pantalla
-:menuselection:`Ajustes > Opciones Generales`, y marca la opción de **Pads colaborativos**:
+:menuselection:`Ajustes --> Opciones Generales`, y marca la opción de **Pads colaborativos**:
 
 .. image:: notas/pads-colaborativos.png
    :align: center
