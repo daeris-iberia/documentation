@@ -10,6 +10,11 @@ ni confusión. Este módulo actuará como una libreta de direcciones digital ded
 básicos de tus empleados, clientes, proveedores y socios de tu negocio. Mantener los datos de contacto es muy importante en un
 entorno empresarial.
 
+.. youtube:: PMdNfNtXRBo
+    :align: right
+    :width: 700
+    :height: 394
+
 Crear un contacto de tipo individual
 ====================================
 
