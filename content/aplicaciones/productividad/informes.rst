@@ -11,6 +11,11 @@ Estos informes proporcionan información conveniente para que las personas respo
 las ganancias, los defectos comerciales, las diversas actividades realizadas y muchos más aspectos relacionados con las operaciones
 de su organización.
 
+.. youtube:: EcmYJqzeWmM
+    :align: right
+    :width: 700
+    :height: 394
+
 Analizar datos de la aplicación con informes
 ============================================
 
