@@ -7,6 +7,11 @@ Chatter
 *Chatter* proporciona una funcionalidad, accesible desde varios módulos y entidades, que permite adjuntar mensajes,
 notas y actividades sobre diferentes tipos de elementos de la aplicación.
 
+.. youtube:: xJjVhd0gysc
+    :align: right
+    :width: 700
+    :height: 394
+
 Enviar mensajes en Chatter
 ==========================
 

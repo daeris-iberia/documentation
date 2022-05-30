@@ -9,6 +9,11 @@ notas y chat. Comparte información, proyectos, archivos, prioriza tareas y perm
 todas las aplicaciones. Establece mejores relaciones, aumenta la productividad y la transparencia al promover una forma
 conveniente de comunicarse.
 
+.. youtube:: IxGS0f6dpmI
+    :align: right
+    :width: 700
+    :height: 394
+
 Seleccionar la preferencia de notificaciones
 ============================================
 
