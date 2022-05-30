@@ -22,4 +22,4 @@ Descubre nuestras guías de usuario y tutoriales de configuración por aplicaci�
     aplicaciones/recursos_humanos
     aplicaciones/servicios
     aplicaciones/productividad
-    aplicaciones/general
+    aplicaciones/varios

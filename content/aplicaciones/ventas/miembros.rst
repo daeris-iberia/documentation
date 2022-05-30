@@ -16,6 +16,11 @@ Los módulos de ventas y contabilidad se pueden integrar con los sistemas de ges
 La integración con estos módulos ayuda en la generación automatizada de facturas y el envío de solicitudes
 para la renovación de la membresía.
 
+.. youtube:: dLVALHfA_lU
+    :align: right
+    :width: 700
+    :height: 394
+
 Crear y administrar productos de suscripción
 ============================================
 
