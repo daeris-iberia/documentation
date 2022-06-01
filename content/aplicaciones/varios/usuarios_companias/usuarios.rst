@@ -8,6 +8,11 @@ Daeris define un usuario como alguien que tiene acceso a una base de datos para 
 el tipo de información a la que puede acceder cada usuario modificando sus permisos de acceso. También es posible
 desactivar usuarios que se han dado de baja, así como gestionar las contraseñas de los usuarios activos.
 
+.. youtube:: cXUuHmRQ4NE
+    :align: right
+    :width: 700
+    :height: 394
+
 Agregar usuarios individuales
 =============================
 

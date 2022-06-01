@@ -8,6 +8,11 @@ Daeris te permite seleccionar varias empresas simultáneamente y configurar sus 
 contactos específicos. Te brinda la capacidad de generar informes de cifras agregadas sin cambiar de interfaz,
 lo que facilita las tareas diarias y el proceso de gestión general.
 
+.. youtube:: ZFNdOgxzE4c
+    :align: right
+    :width: 700
+    :height: 394
+
 Gestionar compañías y registros
 ===============================
 
