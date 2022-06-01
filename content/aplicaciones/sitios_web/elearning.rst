@@ -61,11 +61,11 @@ Si deseas dar acceso a los visitantes de tu sitio web, debes publicar tu curso. 
    :align: center
    :alt: Publicar curso de elearning
 
-Añadir una sección a un curso de eLearning
-===========================================
+Añadir una sección a un curso
+=============================
 
-Las `secciones` son apartados que agrupan contenidos del curso.
-Para añadir una nueva sección, pulsa el botón *añadir sección* que encontrarás sobre la página principal del curso.
+Las **secciones** son apartados que agrupan contenidos del curso.
+Para añadir una nueva sección, pulsa el botón *Añadir sección* que encontrarás sobre la página principal del curso.
 
 .. image:: elearning/añadir-seccion.png
    :align: center
@@ -84,20 +84,25 @@ La nueva sección quedará registrada y aparecerá sobre la página del curso.
    :alt: Sección sobre un curso de elearning
 
 
-Añadir una presentación a un curso de eLearning
-================================================
+Añadir contenidos
+=================
+
+Añadir una presentación a un curso
+----------------------------------
 
 Para añadir tus presentaciones como contenidos de un curso de eLearning debes guardarlas previamente como ficheros PDF.
-Si dispones de presentaciones en formato Power Point o documentos de Microsoft Word, debes guardarlas en formato PDF, antes de adjuntarlas en tus presentaciones.
-En el caso de que quieras subir una imagen, los formatos soportados son JPG y PNG. Todos los contenidos de tipo imagen serán considerados *Infografías*
+Si dispones de presentaciones en formato Power Point o documentos de Microsoft Word, debes guardarlas en formato PDF, antes
+de adjuntarlas en tus presentaciones. En el caso de que quieras subir una imagen, los formatos soportados son JPG y PNG.
+Todos los contenidos de tipo imagen serán considerados *Infografías*.
 
-Para añadir una presentación a un curso de eLearning, pulsa el botón *+ añadir contenido* de la sección que desees, que encontrarás sobre la página principal del curso.
+Para añadir una presentación a un curso de eLearning, pulsa el botón *+ Añadir contenido* de la sección que desees, que
+encontrarás sobre la página principal del curso.
 
 .. image:: elearning/nuevo-contenido.png
    :align: center
    :alt: Añadir un nuevo contenido
 
-Selecciona la opción `Presentación` sobre el formulario.
+Selecciona la opción **Presentación** sobre el formulario.
 
 .. image:: elearning/nueva-presentacion.png
    :align: center
@@ -133,19 +138,19 @@ Al hacer clic sobre el título del contenido, este se muestra en pantalla comple
    :align: center
    :alt: Presentación en pantalla completa de un curso de elearning
 
-Añadir una página web a un curso de eLearning
-==============================================
+Añadir una página web a un curso
+--------------------------------
 
 Para añadir una página web como contenido de un curso de eLearning es necesario crear un contenido de tipo *página web*.
 Posteriormente es posible editar el contenido mediante el configurador de sitios web con el cual es posible soltar bloques de creación en tu página y editarlos.
 
-Para crear un nuevo contenido de un curso de eLearning , pulsa el botón *+ añadir contenido* de la sección que desees, que encontrarás sobre la página principal del curso.
+Para crear un nuevo contenido de un curso de eLearning , pulsa el botón *+ Añadir contenido* de la sección que desees, que encontrarás sobre la página principal del curso.
 
 .. image:: elearning/nuevo-contenido.png
    :align: center
    :alt: Añadir un nuevo contenido
 
-Selecciona sobre el formulario la opción `Página web`.
+Selecciona sobre el formulario la opción **Página web**.
 
 .. image:: elearning/nueva-web.png
    :align: center
@@ -182,18 +187,18 @@ Por último, edita tu página con los contenidos que desees usando el gestor de 
    :align: center
    :alt: Página web de un curso de elearning
 
-Añadir una video  de youtube o google drive a un curso de eLearning
-====================================================================
+Añadir una video  de YouTube o Google Drive a un curso
+------------------------------------------------------
 
-El sistema de eLearning de daeris permite incorporar videos publicados en youtube o google drive sobre sus contenidos.
+El sistema de eLearning de Daeris permite incorporar videos publicados en YouTube o Google Drive sobre sus contenidos.
 
-Para crear un nuevo contenido de un curso de eLearning , pulsa el botón *+ añadir contenido* de la sección que desees, que encontrarás sobre la página principal del curso.
+Para crear un nuevo contenido de un curso de eLearning , pulsa el botón *+ Añadir contenido* de la sección que desees, que encontrarás sobre la página principal del curso.
 
 .. image:: elearning/nuevo-contenido.png
    :align: center
    :alt: Añadir un nuevo contenido
 
-Selecciona sobre el formulario la opción `Video`.
+Selecciona sobre el formulario la opción **Video**.
 
 .. image:: elearning/nuevo-video.png
    :align: center
@@ -207,8 +212,8 @@ Al seleccionar esta opción, se presentará un nuevo formulario.
 
 Informa los siguientes campos sobre el formulario:
 
-- **Enlace a Youtube**: Enlace del video de Youtube que deseas incorporar.
-- **Título**: Se pre-informa con el título  del video de Youtube seleccionado. Es posible modificarlo y se recomienda incorporar un texto breve y descriptivo.
+- **Enlace a YouTube**: Enlace del video de Youtube que deseas incorporar.
+- **Título**: Se pre-informa con el título  del video de YouTube seleccionado. Es posible modificarlo y se recomienda incorporar un texto breve y descriptivo.
 - **Sección**: El apartado sobre donde se ubicará el contenido.
 - **Etiquetas**: Sirven para complementar la información del contenido.
 - **Duración**: Tiempo medio que pasarán los usuarios realizando este contenido. Se pre-informa con la duración del video incorporado sobre el campo enlace.
@@ -229,28 +234,28 @@ Al hacer clic sobre el título del contenido, este se muestra en pantalla comple
    :align: center
    :alt: Video en pantalla completa de un curso de elearning
 
-.. important:: Si no deseas compartir tus videos de youtube de forma pública, ocúltalos. Un video de YouTube "Oculto" o "Unlisted" significa que es un video que solo pueden ver los usuarios con el enlace hacia él. Tu vídeo nunca aparecerá en los resultados de búsqueda ni en tu canal de youtube.
+.. important:: Si no deseas compartir tus videos de YouTube de forma pública, ocúltalos. Un video de YouTube "Oculto" o "Unlisted" significa que es un video que solo pueden ver los usuarios con el enlace hacia él. Tu vídeo nunca aparecerá en los resultados de búsqueda ni en tu canal de YouTube.
 
-.. important:: En el caso de usar un video de google drive, debes ejecutar la opción "compartir el video a cualquier persona con el enlace" y usar este enlace sobre tu contenido.
+.. important:: En el caso de usar un video de Google Drive, debes ejecutar la opción "compartir el video a cualquier persona con el enlace" y usar este enlace sobre tu contenido.
 .. image:: elearning/drive1.png
    :align: center
    :alt: Compartir video de google drive
 
-Añadir un cuestionario a un curso de eLearning
-=================================================
+Añadir un cuestionario a un curso
+---------------------------------
 
-El sistema de eLearning de daeris permite incorporar cuestionarios sobre sus contenidos. Esta opción ofrece la posibilidad
+El sistema de eLearning de Daeris permite incorporar cuestionarios sobre sus contenidos. Esta opción ofrece la posibilidad
 de que los alumnos pongan a prueba sus conocimientos sobre las lecciones aprendidas.
 
 También es posible incorporar cuestionarios sobre contenidos de otras tipologías (videos, presentaciones, páginas web...) que aparecerán tras finalizar el contenido.
 
-Para crear un nuevo contenido de un curso de eLearning , pulsa el botón *+ añadir contenido* de la sección que desees, que encontrarás sobre la página principal del curso.
+Para crear un nuevo contenido de un curso de eLearning , pulsa el botón *+ Añadir contenido* de la sección que desees, que encontrarás sobre la página principal del curso.
 
 .. image:: elearning/nuevo-contenido.png
    :align: center
    :alt: Añadir un nuevo contenido
 
-Selecciona sobre el formulario la opción `cuestionario`.
+Selecciona sobre el formulario la opción **Cuestionario**.
 
 .. image:: elearning/nuevo-cuestionario.png
    :align: center
@@ -337,15 +342,15 @@ Una vez completada la prueba, esta será visible desde el contenido haciendo cli
    :alt: Prueba sobre contenido de tipo presentación
 
 
-Añadir una certificación a un curso de eLearning
-=================================================
+Añadir una certificación a un curso
+-----------------------------------
 
-El sistema de eLearning de daeris permite generar exámenes para certificar los conocimientos de los alumnos.
+El sistema de eLearning de Daeris permite generar exámenes para certificar los conocimientos de los alumnos.
 Las certificaciones se han de generar en el backend del sistema. Posteriormente, desde el sitio web, se puede generar
 un contenido de tipo certificación, asociándole la certificación previamente creada.
 
-Para crear una nueva certificación , navega a la pantalla :menuselection:`elearning --> cursos --> certificaciones` y haz clic sobre
-el botón *crear*.
+Para crear una nueva certificación , navega a la pantalla :menuselection:`eLearning --> Cursos --> Certificaciones` y haz clic sobre
+el botón *Crear*.
 
 .. image:: elearning/pantalla-certificación.png
    :align: center
@@ -380,7 +385,7 @@ La forma de generar las preguntas es exactamente la misma que las preguntas que 
    :align: center
    :alt: Añadir preguntas a una certificación
 
-Puedes obtener más información sobre como generar las preguntas de las encuestas haciendo clic aquí.
+Puedes obtener más información sobre como generar las preguntas de las encuestas haciendo clic :doc:`aquí <../marketing/encuestas>`.
 
 .. image:: elearning/certificación-preguntas3.png
    :align: center
@@ -437,9 +442,9 @@ Desde la página inicial de cursos se visualizan todos los cursos a los que tien
 
 A continuación, accede al detalle de un curso, donde se visualizan todos los contenidos subidos a este canal (vídeos, páginas web, documentos o infografías), y se puede navegar al detalle de cada uno de ellos.
 
-Para subir una nueva certificación, pulsa el botón Subir nuevo contenido:
+Para subir una nueva certificación, pulsa el botón *Subir nuevo contenido*.
 
-A continuación, se muestra un formulario donde deberás seleccionar el tipo de contenido, que en este caso es una Certificación:
+A continuación, se muestra un formulario donde deberás seleccionar el tipo de contenido, que en este caso es una Certificación.
 
 A continuación, se muestra un formulario donde completar los siguientes campos:
 
@@ -457,19 +462,19 @@ Una vez completados todos los campos, es posible pulsar uno de los siguientes bo
 
 Una vez publicada, es posible editar el contenido desde el sitio web o también desde el backend, seleccionando la opción deseada:
 
-Además, la página inicial del curso aparecerá con un fondo gris, indicando que dispone de una certificación:
+Además, la página inicial del curso aparecerá con un fondo gris, indicando que dispone de una certificación.
 
 
-Gestionar los contenidos de un curso de eLearning
-===================================================
+Gestionar los contenidos de un curso
+====================================
 
-Para gestionar los contenidos de un curso, navega a la pantalla :menuselection:`elearning --> cursos --> cursos` y haz clic sobre el número de contenidos:
+Para gestionar los contenidos de un curso, navega a la pantalla :menuselection:`eLearning --> Cursos --> Cursos` y haz clic sobre el número de contenidos:
 
 .. image:: elearning/editar-cursos.png
    :align: center
    :alt: Editar cursos de e-learning
 
-También puedes acceder a la pantalla de contenidos de todos los cursos desde :menuselection:`elearning --> cursos --> contenidos`.
+También puedes acceder a la pantalla de contenidos de todos los cursos desde :menuselection:`eLearning --> Cursos --> Contenidos`.
 Desde esta pantalla puedes ver la ficha de cada contenido, que contiene la siguiente información:
 
 - **Nombre y descripción del contenido**
@@ -526,7 +531,7 @@ Una vez informados todos los campos necesarios, pulsa el botón *Guardar*.
 
 .. warning:: Es importante recordar que si el contenido es de tipo *infografía* , la imagen de la infografía se ha de incorporar sobre el campo imagen del contenido. No es posible modificarla desde el editor del sitio web.
 
-Vender cursos de eLearning en la tienda Online
+Vender cursos de eLearning en la tienda online
 ===============================================
 
 Daeris permite vender los cursos de tipo formación sobre la tienda online, así como en la página de registro de cada curso. De este modo, los estudiantes deberán registrarse en la plataforma y completar el pago para inscribirse en el curso.
@@ -554,7 +559,7 @@ Al pulsar el botón que aparece junto al nombre, es posible editarlo. Por defect
 - **Tipo de producto**: Servicio.
 - **Política de facturación**: Prepago.
 
-Informa la *imagen*, el *precio de venta* y sus correspondientes *impuestos del cliente* así como el resto de campos que consideres oportunos y pulsa el botón *guardar*.
+Informa la *imagen*, el *precio de venta* y sus correspondientes *impuestos del cliente* así como el resto de campos que consideres oportunos y pulsa el botón *Guardar*.
 
 .. image:: elearning/curso_producto.png
    :align: center
@@ -587,7 +592,7 @@ Desde tu eCommerce, tus visitantes también pueden realizar la compra del curso.
 Integrar YouTube con los cursos de eLearning
 =============================================
 
-Mediante la integración con la API de Google, el módulo de cursos obtiene información de Youtube al compartir
+Mediante la integración con la API de Google, el módulo de cursos obtiene información de YouTube al compartir
 un enlace de cualquiera de estas aplicaciones web, y completa de forma automática los metadatos del enlace
 compartido (descripción, transcripción, etc.).
 
@@ -625,7 +630,7 @@ Para obtener una clave API es necesario disponer de una cuenta de Google y segui
    :align: center
    :alt: Clave de API creada
 
-- Para configurar la API de Google en daeris, es necesario navegar a la pantalla :menuselection:`Sitio Web --> Configuración --> Ajustes`, e informar la clave API en el campo *Clave API de Google Drive* :
+- Para configurar la API de Google en Daeris, es necesario navegar a la pantalla :menuselection:`Sitio Web --> Configuración --> Ajustes`, e informar la clave API en el campo *Clave API de Google Drive* :
 
 .. image:: elearning/integrar-youtube-paso7.png
    :align: center
