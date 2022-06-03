@@ -1,10 +1,13 @@
 :nosearch:
-:show-content:
-:hide-page-toc:
-:show-toc:
 
 =============
 Autenticación
 =============
 
-Descripción
+.. toctree::
+   :titlesonly:
+
+   autenticacion/google
+   autenticacion/facebook
+   autenticacion/ldap
+   autenticacion/2fa
