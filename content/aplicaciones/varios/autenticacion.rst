@@ -1,11 +1,13 @@
 :nosearch:
+:show-content:
+:hide-page-toc:
+:show-toc:
 
 =============
 Autenticación
 =============
 
 .. toctree::
-   :titlesonly:
 
    autenticacion/google
    autenticacion/facebook
