@@ -8,7 +8,7 @@ Daeris define un usuario como alguien que tiene acceso a una base de datos para 
 el tipo de información a la que puede acceder cada usuario modificando sus permisos de acceso. También es posible
 desactivar usuarios que se han dado de baja, así como gestionar las contraseñas de los usuarios activos.
 
-.. youtube:: cXUuHmRQ4NE
+.. youtube:: cYym8bVWk1s
     :align: right
     :width: 700
     :height: 394
@@ -67,16 +67,6 @@ quedará asignado el usuario:
    :align: center
    :alt: Categorías de soporte de un usuario
 
-En función del paquete contratado, existe un número máximo de usuarios a crear en Daeris. Una vez alcanzado dicho número,
-al guardar los datos del nuevo usuario, se muestra el siguiente mensaje de error en la aplicación:
-
-.. image:: usuarios/numero-maximo-usuarios.png
-   :align: center
-   :alt: Número máximo de usuarios alcanzado
-
-.. note::
-   Llegado el caso, es posible ampliar el límite de usuarios de la aplicación poniéndose en contacto con Daeris.
-
 Una vez creado el usuario, tras guardar el registro, se envía automáticamente un correo electrónico de invitación al
 usuario. También es posible enviar el correo de forma manual mediante el botón llamado *Enviar un correo de invitación*:
 
@@ -105,8 +95,7 @@ y hacer clic en el menú *Acción* sobre la opción *Archivar*:
    :align: center
    :alt: Archivar usuario
 
-Al desactivar el usuario, deja de aparecer en el listado de usuarios activos de la aplicación, y no se tiene en cuenta
-en el límite máximo de usuarios contratado.
+Al desactivar el usuario, deja de aparecer en el listado de usuarios activos de la aplicación.
 
 .. danger::
    **Nunca** desactives el usuario principal.
