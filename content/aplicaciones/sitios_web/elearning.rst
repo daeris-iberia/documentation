@@ -4,11 +4,6 @@
 eLearning
 ==========
 
-.. youtube:: QaTaU6RGLGo
-    :align: right
-    :width: 700
-    :height: 394
-
 La educación en línea o eLearning permite a los docentes y estudiantes participar en un entorno digital
 a través de las nuevas tecnologías, haciendo uso intensivo de las facilidades que proporciona Internet y
 las tecnologías digitales.
@@ -19,6 +14,11 @@ nuestras vidas, adaptado a nuestras necesidades personales.
 
 Daeris dispone de un módulo de **eLearning**. Este módulo puede ser usado para ofrecer formaciones
 en línea y puede utilizarse tanto para la venta de cursos online como para la formación de nuestros empleados o seguidores.
+
+.. youtube:: QaTaU6RGLGo
+    :align: right
+    :width: 700
+    :height: 394
 
 Crear un curso de eLearning
 =============================
