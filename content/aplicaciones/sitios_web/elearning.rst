@@ -405,7 +405,9 @@ En él, puedes incorporar un mensaje de agradecimiento así como facilitar instr
    :align: center
    :alt: Mensaje final de una certificación
 
-Bajo la pestaña *Opciones* puedes informar los siguientes campos:
+Desde la pestaña opciones, puedes indicar varios parámetros de tu certificación.
+Para que las opciones se muestren en su totalidad, haz clic sobre el botón guardar y vuelve a hacer clic sobre el botón editar, posicionándote de nuevo sobre la pestaña opciones.
+Desde este apartado puedes informar los siguientes campos:
 
 - **Diseño**: Permite mostrar una página con todas las preguntas, una página por sección o una página por pregunta.
 - **Modo de progresión**: Si seleccionamos *Número* se mostrará el número de preguntas respondidas sobre el número total de preguntas por responder. Si se selecciona *porcentaje* mostrará la media de preguntas respondidas.
@@ -436,33 +438,51 @@ Una vez completados los campos necesarios, pulsa el botón *Guardar*.
 
 Para probar que la certificación se ha definido correctamente, pulsa el botón *Prueba*, que te llevará al sitio web a completar una certificación en modo de prueba.
 
-Por último, para añadir la certificación a un curso, navega a la página de Cursos del sitio web:
+.. image:: elearning/certificacion-prueba.png
+   :align: center
+   :alt: Editar cursos de e-learning
 
-Desde la página inicial de cursos se visualizan todos los cursos a los que tienes acceso con el usuario conectado, que podría ser un simple visitante, un cliente registrado o un empleado de tu organización. En función de las opciones de visibilidad del curso, se aplican unas reglas que determinan la visibilidad de los diferentes cursos.
+Por último, para añadir la certificación a un curso, navega a la página de Cursos del sitio web.
+Desde la página inicial de cursos, se visualizan todos los cursos a los que tienes acceso con el usuario conectado, que podría ser un simple visitante, un cliente registrado o un empleado de tu organización.
+En función de las opciones de visibilidad del curso, se aplican unas reglas que determinan el tipo de usuario que puede visualizarlo.
 
-A continuación, accede al detalle de un curso, donde se visualizan todos los contenidos subidos a este canal (vídeos, páginas web, documentos o infografías), y se puede navegar al detalle de cada uno de ellos.
+.. image:: elearning/cursos-pinicial.png
+   :align: center
+   :alt: Página principal de cursos de e-learning
 
-Para subir una nueva certificación, pulsa el botón *Subir nuevo contenido*.
+A continuación, accede al detalle de un curso, desde donde se visualizan todos los contenidos (vídeos, páginas web, documentos o infografías), y se puede navegar al detalle de cada uno de ellos.
 
-A continuación, se muestra un formulario donde deberás seleccionar el tipo de contenido, que en este caso es una Certificación.
+.. image:: elearning/curso-detalle.png
+   :align: center
+   :alt: Página de detalle de un curso de e-learning
+
+Para subir una nueva certificación, pulsa el botón *Añadir contenido*.
+
+Esta acción, muestra un formulario donde deberás seleccionar el tipo de contenido  Certificación.
+
+.. image:: elearning/añadir-certificación.png
+   :align: center
+   :alt: Añadir un contenido de tipo certificación
 
 A continuación, se muestra un formulario donde completar los siguientes campos:
 
 - **Certificación**: Certificación de la lista de certificaciones disponibles.
-- **Título**: Título del contenido.
+- **Título**: Título del contenido que se preinforma con el nombre de la certificación seleccionada.
+- **Sección**: Ubicación sobre la que aparecerá la certificación.
 - **Etiquetas**: Etiquetas asociadas al contenido.
-- **Categoría**: Categoría del contenido de la lista de categorías disponibles en el curso.
-- **Archivo de imagen o portada**: Imagen de portada asociada al contenido.
+- **Duración**: Tiempo medio que pasarán los usuarios realizando este contenido.
 
 Una vez completados todos los campos, es posible pulsar uno de los siguientes botones:
 
-- **Guardar borrador**: Guarda la publicación como borrador para que sea revisada y publicada posteriormente. Esta es la opción recomendada, ya que es la que garantiza una mejor calidad del contenido publicado en el curso.
-- **Publicar**: Guarda la publicación y la publica de forma automática en el curso.
+- **Guardar y publicar**: Guarda el contenido y lo publica de forma automática en el curso.
+- **Guardar**: Guarda el contenido como borrador para que sea revisado y publicado posteriormente. Esta es la opción recomendada, ya que es la que garantiza una mejor calidad del contenido publicado en el curso.
 - **Volver atrás**: Descarta los cambios y se posiciona sobre la pantalla de selección anterior.
 
-Una vez publicada, es posible editar el contenido desde el sitio web o también desde el backend, seleccionando la opción deseada:
+.. image:: elearning/formulario-certificación.png
+   :align: center
+   :alt: Formulario de un contenido de tipo certificación
 
-Además, la página inicial del curso aparecerá con un fondo gris, indicando que dispone de una certificación.
+Una vez publicado, es posible editar el contenido desde el sitio web o también desde el backend, seleccionando la opción deseada.
 
 
 Gestionar los contenidos de un curso
@@ -545,7 +565,10 @@ Para permitir a tus visitantes el darse de alta como usuarios de forma autónoma
 
 Una vez informado, pulsa el botón *Guardar*.
 
-Para poder vender tu curso, debes incorporarle una serie de opciones. Para ello, navega a la pantalla :menuselection:`eLearning --> Cursos`, y haz clic sobre el nombre del curso que quieres vender.
+Para poder vender tu curso, debes incorporarle una serie de opciones.
+Para ello, navega a la pantalla :menuselection:`eLearning --> Configuración --> Ajustes`, e informa la opción *vender en ecommerce*,si no lo está ya. Recuerda pulsar el botón *Guardar* para que tus cambios queden registrados.
+
+Posteriormente, navega a la pantalla :menuselection:`eLearning --> Cursos`, y haz clic sobre el nombre del curso que quieres vender.
 Sobre la pestaña *Opciones* debes indicar como *política de registro* el valor *en el momento del pago*. Esta acción habilita el campo *producto* el cual debes informar con el nombre del producto que quieres crear.
 Se recomienda incorporar el mismo nombre que el curso.
 
