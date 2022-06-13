@@ -4,6 +4,11 @@
 eLearning
 ==========
 
+.. youtube:: QaTaU6RGLGo
+    :align: right
+    :width: 700
+    :height: 394
+
 La educación en línea o eLearning permite a los docentes y estudiantes participar en un entorno digital
 a través de las nuevas tecnologías, haciendo uso intensivo de las facilidades que proporciona Internet y
 las tecnologías digitales.
