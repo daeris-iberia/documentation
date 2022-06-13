@@ -2,8 +2,8 @@
 Plugin de Gmail
 ===============
 
-Configurar del plugin de Gmail
-================================
+Configurar el plugin de Gmail
+=============================
 
 El :doc:`Plugin de Correo <../plugins_de_correo>` de Gmail se debe configurar tanto en Daeris como en Gmail.
 

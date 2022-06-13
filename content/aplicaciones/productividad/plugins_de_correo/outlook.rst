@@ -2,8 +2,8 @@
 Plugin de Outlook
 =================
 
-Configurar del plugin de Outlook
-================================
+Configurar el plugin de Outlook
+===============================
 
 El :doc:`Plugin de Correo <../plugins_de_correo>` de Outlook se debe configurar tanto en Daeris como en Outlook.
 
