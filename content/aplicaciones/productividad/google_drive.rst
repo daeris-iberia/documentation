@@ -18,7 +18,7 @@ Configuración
 .. _productividad/google_drive/habilitar_google_drive:
 
 Habilitar Google Drive
-~~~~~~~~~~~~~~~~~~~~~~
+----------------------
 
 Para integrar Daeris con Google Drive, navega a la pantalla :menuselection:`Ajustes --> Opciones Generales`, y dentro del
 apartado de integraciones, activa la opción de **Google Drive**:
@@ -69,7 +69,7 @@ A continuación, introduce el token copiado en Daeris, y pulsa el botón *Confir
    :alt: Confirmar token de Google Drive
 
 Configurar plantillas de Google Drive
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------
 
 El siguiente paso consiste en configurar las plantillas de Google Drive. Para ello, pulsa el enlace *Plantillas de Google Drive*:
 
