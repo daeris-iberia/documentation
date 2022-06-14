@@ -7,4 +7,8 @@
 Calendario
 ==========
 
-Descripción
+.. toctree::
+
+   calendario/informacion_general
+   calendario/google
+   calendario/outlook
