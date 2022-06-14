@@ -70,7 +70,7 @@ Desde el modo de edición, puedes modificar el contenido de la plantilla desde e
 
 .. danger::
    Cualquier modificación de una plantilla, puede dar lugar a errores en la configuración de dicha plantilla, que provoquen
-   que el correo no se envíe a los destinatarios. Hay que prestar especial atención a las variables definidas entre corchetes,
+   que el mensaje no se envíe a los destinatarios. Hay que prestar especial atención a las variables definidas entre corchetes,
    ya que hacen referencia a campos internos de los objetos de Daeris.
 
 En el caso de que una plantilla no se visualice correctamente tras los cambios realizados, o que, al enviar un mensaje
