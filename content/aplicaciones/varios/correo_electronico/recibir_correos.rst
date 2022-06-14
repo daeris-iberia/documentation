@@ -38,7 +38,7 @@ Cuenta de correo con dominio propio
 ===================================
 
 Crear cuentas y alias en tu servidor de correo
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------------
 
 #. Crea una dirección de correo electrónico genérica en tu servidor de correo (por ejemplo, general@miempresa.com).
 
@@ -65,7 +65,7 @@ Crear cuentas y alias en tu servidor de correo
    Crea solamente aquellos alias que necesites en función de tu negocio.
 
 Establecer el alias del dominio
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------
 
 Establece tu nombre de dominio desde la pantalla :menuselection:`Ajustes --> Opciones generales`. Desde el apartado de
 *Conversaciones* activa la opción **Servidores de correo electrónico personalizados** e informa el *Alias del dominio*:
@@ -75,7 +75,7 @@ Establece tu nombre de dominio desde la pantalla :menuselection:`Ajustes --> Opc
    :alt: Alias de dominio
 
 Crear servidor de correo entrante genérico
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------
 
 A continuación, crea un servidor de correo entrante genérico en Daeris desde la pantalla :menuselection:`Ajustes --> Correo electrónico --> Servidores de correo entrante`.
 Para dar de alta un nuevo servidor de correo entrante, haz clic en el botón *Crear*, que abrirá un nuevo formulario en
@@ -124,7 +124,7 @@ Si todo ha ido bien, el estado del servidor pasará a *Confirmado*:
    Por defecto, los mensajes entrantes se actualizan cada 5 minutos en Daeris.
 
 Crear servidor de correo entrante de soporte
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------------------------
 
 Si necesitas gestionar tickets en el servicio de asistencia, crea un servidor de correo entrante adicional en Daeris
 desde la pantalla :menuselection:`Ajustes --> Correo electrónico --> Servidores de correo entrante`. Para dar de alta
@@ -175,7 +175,7 @@ Si todo ha ido bien, el estado del servidor pasará a *Confirmado*:
    Por defecto, los mensajes entrantes se actualizan cada 5 minutos en Daeris.
 
 Configurar los alias de correo electrónico
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------
 
 Por último, es necesario configurar cada uno de los alias utilizados en Daeris:
 
@@ -245,7 +245,7 @@ Cuenta de correo de Google Gmail
 ================================
 
 Crear cuentas de correo
-~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------
 
 #. Crea una dirección de correo electrónico genérica en tu proveedor de correo (por ejemplo, miempresa@gmail.com).
 
@@ -253,7 +253,7 @@ Crear cuentas de correo
    ejemplo, soporte.miempresa@gmail.com).
 
 Establecer el alias del dominio
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------
 
 Establece tu nombre de dominio desde la pantalla :menuselection:`Ajustes --> Opciones generales`. Desde el apartado de
 *Conversaciones* activa la opción **Servidores de correo electrónico personalizados** e informa el *Alias del dominio*:
@@ -263,7 +263,7 @@ Establece tu nombre de dominio desde la pantalla :menuselection:`Ajustes --> Opc
    :alt: Alias de dominio
 
 Crear servidor de correo entrante genérico
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------
 
 A continuación, crea un servidor de correo entrante genérico en Daeris desde la pantalla :menuselection:`Ajustes --> Correo electrónico --> Servidores de correo entrante`.
 Para dar de alta un nuevo servidor de correo entrante, haz clic en el botón *Crear*, que abrirá un nuevo formulario en
@@ -324,7 +324,7 @@ Si todo ha ido bien, el estado del servidor pasará a *Confirmado*:
    Por defecto, los mensajes entrantes se actualizan cada 5 minutos en Daeris.
 
 Crear servidor de correo entrante de soporte
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------------------------
 
 Si necesitas gestionar tickets en el servicio de asistencia, crea un servidor de correo entrante adicional en Daeris
 desde la pantalla :menuselection:`Ajustes --> Correo electrónico --> Servidores de correo entrante`. Para dar de alta
@@ -387,7 +387,7 @@ Si todo ha ido bien, el estado del servidor pasará a *Confirmado*:
    Por defecto, los mensajes entrantes se actualizan cada 5 minutos en Daeris.
 
 Configurar los alias de correo electrónico
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------
 
 Por último, es necesario configurar cada uno de los alias utilizados en Daeris:
 
@@ -462,7 +462,7 @@ Cuenta de correo de Microsoft Outlook
 =====================================
 
 Crear cuentas de correo
-~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------
 
 #. Crea una dirección de correo electrónico genérica en tu proveedor de correo (por ejemplo, miempresa@outlook.com).
 
@@ -470,7 +470,7 @@ Crear cuentas de correo
    ejemplo, soporte.miempresa@outlook.com).
 
 Establecer el alias del dominio
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------
 
 Establece tu nombre de dominio desde la pantalla :menuselection:`Ajustes --> Opciones generales`. Desde el apartado de
 *Conversaciones* activa la opción **Servidores de correo electrónico personalizados** e informa el *Alias del dominio*:
@@ -480,7 +480,7 @@ Establece tu nombre de dominio desde la pantalla :menuselection:`Ajustes --> Opc
    :alt: Alias de dominio de Outlook
 
 Crear servidor de correo entrante genérico
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------
 
 A continuación, crea un servidor de correo entrante genérico en Daeris desde la pantalla :menuselection:`Ajustes --> Correo electrónico --> Servidores de correo entrante`.
 Para dar de alta un nuevo servidor de correo entrante, haz clic en el botón *Crear*, que abrirá un nuevo formulario en
@@ -536,7 +536,7 @@ Si todo ha ido bien, el estado del servidor pasará a *Confirmado*:
    Por defecto, los mensajes entrantes se actualizan cada 5 minutos en Daeris.
 
 Crear servidor de correo entrante de soporte
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------------------------
 
 Si necesitas gestionar tickets en el servicio de asistencia, crea un servidor de correo entrante adicional en Daeris
 desde la pantalla :menuselection:`Ajustes --> Correo electrónico --> Servidores de correo entrante`. Para dar de alta
@@ -594,7 +594,7 @@ Si todo ha ido bien, el estado del servidor pasará a *Confirmado*:
    Por defecto, los mensajes entrantes se actualizan cada 5 minutos en Daeris.
 
 Configurar los alias de correo electrónico
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------
 
 Por último, es necesario configurar cada uno de los alias utilizados en Daeris:
 
