@@ -282,6 +282,8 @@ Al pulsar el botón *Combinar con verificación manual* el sistema realizará la
 verificar manualmente la fusión, antes de llevarla a cabo. Por el contrario, si se pulsa el botón *Combinar automáticamente*,
 el sistema realizará la búsqueda de contactos duplicados y la fusión de forma automática.
 
+.. _ventas/contactos/enviar_correo_contacto:
+
 Enviar un correo electrónico a un contacto
 ==========================================
 
@@ -312,6 +314,8 @@ correspondiente e informa el campo *Responder A*.
 
 Una vez completados los campos necesarios, debes pulsar el botón *Enviar*. De esta manera, el correo electrónico se enviará
 a los contactos seleccionados.
+
+.. _ventas/contactos/enviar_sms_contacto:
 
 Enviar un SMS a un contacto
 ===========================
