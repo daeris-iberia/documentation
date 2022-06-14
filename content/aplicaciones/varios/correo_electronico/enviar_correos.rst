@@ -21,6 +21,9 @@ correo con dominio propio o si se dispone de una cuenta de correo de Google Gmai
    a tus usuarios una dirección de correo electrónico de tu propio dominio, en lugar de una dirección de correo electrónico
    genérica (gmail.com, outlook.com, etc.).
 
+.. seealso::
+   * :ref:`ventas/contactos/enviar_correo_contacto`
+
 Cuenta de correo con dominio propio
 ===================================
 
