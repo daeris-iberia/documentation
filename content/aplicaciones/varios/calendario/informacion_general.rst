@@ -6,6 +6,11 @@ Daeris dispone de un módulo de calendario dinámico para administrar todos tus 
 Puedes registrar los detalles de tus citas y tareas comerciales en este módulo. El módulo **Calendario** en Daeris es la
 mejor solución para planificar tus actividades comerciales diarias.
 
+.. youtube:: HjtHDRYACDk
+    :align: right
+    :width: 700
+    :height: 394
+
 Planificar reuniones desde el calendario
 ========================================
 
