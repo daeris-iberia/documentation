@@ -154,6 +154,19 @@ Activación en Daeris
 Sincronizar calendario con Google
 =================================
 
+.. important::
+   | El Calendario de Daeris envía un correo electrónico de confirmación en la creación de un evento a sus asistentes.
+     Pero, en la primera sincronización, el calendario de Google también enviará correos electrónicos de confirmación de
+     todos los eventos programados (incluidos los anteriores).
+   | Para evitar esta situación, recomendamos archivar todos los eventos pasados y eliminarse de los futuros en el
+     calendario de Daeris antes de la primera sincronización. Esto evitará que se creen eventos en Google y, por lo
+     tanto, no se enviarán correos electrónicos redundantes durante la primera sincronización. Después de la
+     sincronización, los eventos solo enviarán un correo electrónico de confirmación.
+
+      .. image:: google/archivar-reuniones.png
+         :align: center
+         :alt: Archivar reuniones en Daeris
+
 Los usuarios que quieran sincronizar su calendario con Google, deben navegar a la pantalla :menuselection:`Calendario` y
 pulsar el botón *Google*:
 
@@ -204,3 +217,7 @@ El sistema solicitará confirmación para detener la sincronización. Pulsa el b
 .. image:: google/aceptar-detener-sincronizacion-google-calendar.png
   :align: center
   :alt: Aceptar detener sincronización con Google Calendar
+
+.. note::
+   Todos los usuarios que quieran utilizar la sincronización simplemente necesitan sincronizar su calendario con Google.
+   La configuración de la API de Google solo se realiza una vez.
