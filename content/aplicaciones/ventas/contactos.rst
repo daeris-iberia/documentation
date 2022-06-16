@@ -486,3 +486,32 @@ junto con sus códigos postales. Una vez finalizada la importación, se podrán 
 .. image:: contactos/ciudades.png
    :align: center
    :alt: Lista de ciudades
+
+Recalcular los nombres de los contactos
+=======================================
+
+Es posible configurar algunos formatos de nombres comunes desde la pantalla :menuselection:`Ajustes --> Opciones generales`:
+
+-  Apellido Nombre: Por ejemplo, 'García Roberto'
+
+-  Apellido, Nombre: Por ejemplo, 'García, Roberto'
+
+-  Nombre Apellido: Por ejemplo, 'Roberto García'
+
+.. image:: contactos/formatos-nombres.png
+   :align: center
+   :alt: Formatos de los nombres de los contactos
+
+Después de realizar un cambio en el formato, pulsa el botón *Guardar* de la pantalla de ajustes.
+
+Una vez guardados los cambios, puedes volver a calcular el nombre de todos los contactos haciendo clic en el botón
+*Recalcular nombres*:
+
+.. image:: contactos/recalcular-nombres.png
+   :align: center
+   :alt: Recalcular nombres de los contactos
+
+.. note::
+   Este proceso puede llevar mucho tiempo dependiendo de cuántos contactos haya en la base de datos.
+
+Al finalizar el proceso, todos los contactos aparecerán con el nombre recalculado en base al formato definido.
