@@ -5,6 +5,81 @@ Oportunidades de venta
 Configuración
 =============
 
+Configurar las etapas de las oportunidades de venta
+---------------------------------------------------
+
+Las etapas son las fases en las que se puede encontrar una oportunidad dentro del CRM. En función de tu modelo de negocio
+y sistema de ventas, es posible que necesites aumentar o modificar las inicialmente propuestas.
+
+Por lo general, la gestión de oportunidades se basa en las siguientes etapas:
+
+-  Nuevo
+
+-  Calificado
+
+-  Propuesta
+
+-  Ganado
+
+Desde la pantalla :menuselection:`CRM --> Ventas --> Mi pipeline` puedes visualizar la vista Kanban de oportunidades:
+
+.. image:: oportunidades/kanban-oportunidades.png
+   :align: center
+   :alt: Vista kanban de oportunidades
+
+Cada oportunidad está ubicada en su correspondiente columna en base a su etapa. Para incorporar una nueva etapa debes
+hacer clic sobre el icono *Agregar una columna*:
+
+.. image:: oportunidades/agregar-columna.png
+   :align: center
+   :alt: Agregar etapa a la oportunidad
+
+A continuación, debes introducir el nombre de la nueva etapa en el campo habilitado para ello:
+
+.. image:: oportunidades/nombre-etapa.png
+   :align: center
+   :alt: Nombre de la etapa
+
+Una vez añadida la nueva etapa, aparecerá como una nueva columna en la pantalla de oportunidades:
+
+.. image:: oportunidades/nueva-etapa.png
+   :align: center
+   :alt: Nueva etapa en la pantalla de oportunidades
+
+Para cambiar la ubicación de la nueva etapa, puedes arrastrar la columna sobre la posición deseada:
+
+.. image:: oportunidades/cambiar-etapa.png
+   :align: center
+   :alt: Cambiar ubicación de la etapa en la pantalla de oportunidades
+
+A continuación, es posible configurar la etapa pulsando la opción *Editar Etapa*:
+
+.. image:: oportunidades/editar-etapa.png
+   :align: center
+   :alt: Editar etapa de la oportunidad
+
+En el formulario de detalle de la etapa puedes encontrar los siguientes campos:
+
+.. image:: oportunidades/formulario-etapa.png
+   :align: center
+   :alt: Formulario de detalle de la etapa de la oportunidad
+
+El detalle de los campos es el siguiente:
+
+-  **Nombre de la etapa**
+
+-  **¿Está en la etapa ganada?**: Indica si las oportunidades dentro de esta etapa son oportunidades ya ganadas.
+
+-  **Doblado en el pipeline**: Si está marcado, se muestra la etapa replegada en la vista kanban de oportunidades.
+
+-  **Equipo de ventas**: Si se informa, este equipo será el único que pueda visualizar la etapa dentro de la vista
+   kanban de oportunidades.
+
+-  **Requerimientos**: Instrucciones para los agentes de los equipos de ventas. Cuando informas este campo con un texto,
+   aparece en la vista kanban de oportunidades cuando pasas el ratón sobre el nombre de la etapa.
+
+Una vez informados todos los campos necesarios, pulsa el botón *Guardar*.
+
 Configurar los tipos de actividad
 ---------------------------------
 

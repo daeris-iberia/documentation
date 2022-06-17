@@ -12,7 +12,6 @@ cerrar oportunidades y obtener pronósticos precisos. Organiza tus oportunidades
 tus actividades del día a día con reuniones y próximas actividades.
 
 .. toctree::
-   :titlesonly:
 
    crm/clientes_potenciales
    crm/oportunidades
