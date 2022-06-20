@@ -169,6 +169,47 @@ Al asociar una etiqueta a una oportunidad, se podrá visualizar la misma desde e
    :align: center
    :alt: Etiquetas en una oportunidad de venta
 
+Definir planes e ingresos recurrentes en las oportunidades
+----------------------------------------------------------
+
+Existen oportunidades de venta que, además de tener un ingreso estimado fijo, puedan llegar a tener un ingreso estimado
+recurrente, como por ejemplo, en el caso de las suscripciones. Si ese es tu caso, navega a la pantalla
+:menuselection:`CRM --> Configuración --> Ajustes` y activa la opción de **Ingresos recurrentes**:
+
+.. image:: oportunidades/ingresos-recurrentes.png
+   :align: center
+   :alt: Ingresos recurrentes en las oportunidades
+
+Una vez activada esa opción, pulsa el botón *Guardar*.
+
+A continuación, configura tus planes recurrentes haciendo clic en el enlace *Gestiona planes recurrentes*:
+
+.. image:: oportunidades/planes-recurrentes.png
+   :align: center
+   :alt: Gestionar planes recurrentes en las oportunidades
+
+El sistema navegará a la pantalla listado de planes recurrentes, donde podrás configurar tus planes y el número de meses
+de cada plan:
+
+.. image:: oportunidades/listado-planes-recurrentes.png
+   :align: center
+   :alt: Listado de planes recurrentes en las oportunidades
+
+Una vez configurados los planes, si navegas al detalle de una oportunidad desde la pantalla :menuselection:`CRM --> Ventas --> Mi pipeline`,
+puedes ver que aparecen disponibles dos nuevos campos, en donde es posible informar el ingreso recurrente y el plan
+recurrente asociado:
+
+.. image:: oportunidades/ingreso-recurrente-oportunidad.png
+   :align: center
+   :alt: Ingreso recurrente en las oportunidades
+
+Tras informar el ingreso recurrente en una oportunidad, también es posible visualizarlo desde la pantalla kanban de
+oportunidades:
+
+.. image:: oportunidades/ingreso-recurrente-kanban.png
+   :align: center
+   :alt: Ingreso recurrente en la vista kanban de oportunidades
+
 Gestión de oportunidades
 ========================
 
@@ -360,6 +401,117 @@ necesario:
 .. image:: oportunidades/restaurar-oportunidad.png
    :align: center
    :alt: Restaurar oportunidad de venta
+
+Comunicarse en las oportunidades de venta
+=========================================
+
+Enviar un correo en las oportunidades
+-------------------------------------
+
+.. seealso::
+   * :doc:`../../varios/correo_electronico/enviar_correos`
+
+Es posible realizar un envío de correo a las oportunidades de venta a partir de la selección de una o más oportunidades
+desde la pantalla :menuselection:`CRM --> Ventas --> Mi pipeline`. Para ello, cambia a la vista de tipo lista y marca
+todas las oportunidades a las que les quieres enviar el correo. Desde el menú *Acción*, pulsa *Enviar correo*:
+
+.. image:: oportunidades/enviar-correo.png
+   :align: center
+   :alt: Enviar correo a oportunidades
+
+El sistema desplegará un formulario desde donde podrás redactar el asunto y cuerpo del correo electrónico. También es posible
+adjuntar ficheros mediante el botón *Adjuntar un archivo*. Si quieres utilizar una plantilla de correo electrónico para que
+se complete el asunto y el cuerpo del correo de forma automática, selecciona la plantilla en el desplegable *Usar plantilla*.
+O si quieres crear una nueva plantilla con el asunto y cuerpo del mensaje redactado, pulsa el botón *Grabar como nueva plantilla*.
+Por último, si quieres que la respuesta al correo se registre en el hilo de discusión original, marca la opción *Registrar en
+el hilo de discusión original*, o si quieres que la respuesta se redirija a otra dirección de correo electrónico, marca la opción
+correspondiente e informa el campo *Responder A*.
+
+.. image:: oportunidades/formulario-enviar-correo.png
+   :align: center
+   :alt: Formulario para enviar correo a oportunidades
+
+Una vez completados los campos necesarios, pulsa el botón *Enviar*. El correo electrónico se enviará a las oportunidades
+seleccionadas.
+
+.. _ventas/crm/enviar_sms_oportunidades:
+
+Enviar un SMS en las oportunidades
+----------------------------------
+
+.. seealso::
+   * :doc:`../../varios/sms`
+
+Es posible realizar un envío de SMS a las oportunidades de venta a partir de la selección de una o más oportunidades
+desde la pantalla :menuselection:`CRM --> Ventas --> Mi pipeline`. Para ello, cambia a la vista de tipo lista y marca
+todas las oportunidades a las que les quieres enviar el SMS. Desde el menú *Acción*, pulsa *Manda Mensaje de Texto SMS*:
+
+.. image:: oportunidades/enviar-sms.png
+   :align: center
+   :alt: Enviar SMS a una oportunidad
+
+El sistema desplegará un formulario desde donde podrás redactar el mensaje de texto:
+
+.. image:: oportunidades/formulario-enviar-sms.png
+   :align: center
+   :alt: Formulario para enviar SMS a una oportunidad
+
+.. note::
+   El número de teléfono debe estar informado con formato internacional (por ejemplo, +33123456789).
+
+Una vez informado el mensaje, debes pulsar el botón *Enviar ahora*. De esta manera, el SMS se enviará a las oportunidades
+seleccionadas. También tienes la opción de *Poner en cola* el mensaje, para que pueda ser enviado más tarde.
+
+Desde el formulario de detalle de la oportunidad también dispones de la opción de envío de SMS, ya sea mediante el
+menú de acción, o mediante el icono de SMS disponible al lado de los campos de teléfono de la oportunidad:
+
+.. image:: oportunidades/enviar-sms-detalle-oportunidad.png
+   :align: center
+   :alt: Enviar SMS desde el detalle de una oportunidad
+
+.. _ventas/crm/enviar_whatsapp_oportunidades:
+
+Enviar un mensaje de WhatsApp en una oportunidad
+------------------------------------------------
+
+.. seealso::
+   * :doc:`../../varios/whatsapp`
+
+Es posible enviar un WhatsApp a una oportunidad desde el formulario de oportunidades. Para ello, debes navegar a la
+pantalla :menuselection:`CRM --> Ventas --> Mi pipeline`, y acceder al detalle de una oportunidad.
+
+Siempre y cuando se haya informado el campo **Móvil**, aparecerá un botón que permitirá enviar un mensaje de WhatsApp
+en la oportunidad:
+
+.. image:: oportunidades/detalle-oportunidad-enviar-whatsapp.png
+   :align: center
+   :alt: Enviar WhatsApp desde el detalle de una oportunidad
+
+.. note::
+   El número de teléfono móvil debe estar informado con formato internacional (por ejemplo, +33123456789).
+
+El sistema desplegará un formulario desde donde podrás redactar el mensaje de WhatsApp o seleccionar una plantilla que
+informe el mensaje de forma automática:
+
+.. image:: oportunidades/formulario-enviar-whatsapp.png
+   :align: center
+   :alt: Formulario para enviar WhatsApp a una oportunidad
+
+Una vez informado el mensaje, debes pulsar el botón *Enviar*.
+
+En caso de estar conectado a la aplicación mediante un dispositivo de escritorio, el sistema tratará de establecer
+conexión mediante la aplicación WhatsApp Web, para lo cual, habrá que escanear el código QR mostrado en pantalla, e
+iniciar sesión en tu cuenta de WhatsApp.
+
+Por otro lado, en caso de estar conectado a la aplicación mediante un dispositivo móvil, el sistema tratará de enviar
+el mensaje mediante la aplicación WhatsApp instalada en el dispositivo.
+
+Una vez enviado el mensaje desde WhatsApp, cierra la ventana del mensaje mediante la cruz ubicada en la parte superior
+derecha del formulario:
+
+.. image:: oportunidades/cerrar-formulario-enviar-whatsapp.png
+   :align: center
+   :alt: Cerrar formulario para enviar WhatsApp a una oportunidad
 
 Gestión de presupuestos
 =======================

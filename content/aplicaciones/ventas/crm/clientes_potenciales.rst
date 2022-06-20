@@ -9,5 +9,6 @@ Clientes potenciales
 
    clientes_potenciales/gestionar_clientes_potenciales
    clientes_potenciales/generar_clientes_potenciales
+   clientes_potenciales/importar_clientes_potenciales
    clientes_potenciales/asignar_clientes_potenciales
 

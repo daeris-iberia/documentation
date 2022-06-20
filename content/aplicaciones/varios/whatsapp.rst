@@ -27,9 +27,9 @@ Las entidades que permiten realizar el envío de mensajes de WhatsApp son las si
 
 -  Registro de eventos
 
--  Oportunidades
+-  :ref:`Oportunidades <ventas/crm/enviar_whatsapp_oportunidades>`
 
--  Clientes potenciales
+-  :ref:`Clientes potenciales <ventas/crm/enviar_whatsapp_cliente_potencial>`
 
 
 Activar las comunicaciones con WhatsApp

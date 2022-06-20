@@ -11,6 +11,8 @@ lectura considerablemente elevados.
 
 .. seealso::
    * :ref:`ventas/contactos/enviar_sms_contacto`
+   * :ref:`ventas/crm/enviar_sms_cliente_potencial`
+   * :ref:`ventas/crm/enviar_sms_oportunidades`
 
 Para poder realizar dichos envíos, es necesario conectar a un proveedor externo de telefonía que realice dichos envíos.
 `OVH <https://www.ovh.es/sms/>`_ permite enviar SMS por Internet mediante la conexión a su API.
