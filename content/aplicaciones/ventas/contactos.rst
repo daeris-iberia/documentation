@@ -10,7 +10,7 @@ ni confusión. Este módulo actuará como una libreta de direcciones digital ded
 básicos de tus empleados, clientes, proveedores y socios de tu negocio. Mantener los datos de contacto es muy importante en un
 entorno empresarial.
 
-.. youtube:: PMdNfNtXRBo
+.. youtube:: IW9Q4xvXutc
     :align: right
     :width: 700
     :height: 394
@@ -282,11 +282,13 @@ Al pulsar el botón *Combinar con verificación manual* el sistema realizará la
 verificar manualmente la fusión, antes de llevarla a cabo. Por el contrario, si se pulsa el botón *Combinar automáticamente*,
 el sistema realizará la búsqueda de contactos duplicados y la fusión de forma automática.
 
+.. _ventas/contactos/enviar_correo_contacto:
+
 Enviar un correo electrónico a un contacto
 ==========================================
 
 .. seealso::
-   * :doc:`../varios/correo_electronico`
+   * :doc:`../varios/correo_electronico/enviar_correos`
 
 Es posible enviar un correo electrónico a un contacto desde el mismo listado de contactos. Para ello, debes navegar a la
 pantalla :menuselection:`Contactos --> Contactos`, y cambiar al tipo de vista listado.
@@ -312,6 +314,8 @@ correspondiente e informa el campo *Responder A*.
 
 Una vez completados los campos necesarios, debes pulsar el botón *Enviar*. De esta manera, el correo electrónico se enviará
 a los contactos seleccionados.
+
+.. _ventas/contactos/enviar_sms_contacto:
 
 Enviar un SMS a un contacto
 ===========================
@@ -350,6 +354,77 @@ o mediante el icono de SMS disponible al lado del campo de teléfono o móvil de
 
 .. note::
    El número de teléfono debe estar informado con formato internacional (por ejemplo, +33123456789).
+
+.. _ventas/contactos/enviar_whatsapp_contacto:
+
+Enviar un WhatsApp a un contacto
+================================
+
+.. seealso::
+   * :doc:`../varios/whatsapp`
+
+Es posible enviar un WhatsApp a un contacto desde el formulario de contactos. Para ello, debes navegar a la
+pantalla :menuselection:`Contactos --> Contactos`, y acceder al detalle de un contacto.
+
+Desde el formulario de detalle del contacto dispones de la opción de envío de WhatsApp mediante el icono de WhatsApp
+disponible al lado del campo de teléfono móvil del contacto:
+
+.. image:: contactos/detalle-contacto-enviar-whatsapp.png
+   :align: center
+   :alt: Enviar WhatsApp desde el detalle de un contacto
+
+.. note::
+   El número de teléfono móvil debe estar informado con formato internacional (por ejemplo, +33123456789).
+
+El sistema desplegará un formulario desde donde podrás redactar el mensaje de WhatsApp o seleccionar una plantilla que
+informe el mensaje de forma automática:
+
+.. image:: contactos/formulario-enviar-whatsapp.png
+   :align: center
+   :alt: Formulario para enviar WhatsApp a un contacto
+
+Una vez informado el mensaje, debes pulsar el botón *Enviar*.
+
+En caso de estar conectado a la aplicación mediante un dispositivo de escritorio, el sistema tratará de establecer
+conexión mediante la aplicación WhatsApp Web, para lo cual, habrá que escanear el código QR mostrado en pantalla, e
+iniciar sesión en tu cuenta de WhatsApp.
+
+Por otro lado, en caso de estar conectado a la aplicación mediante un dispositivo móvil, el sistema tratará de enviar
+el mensaje mediante la aplicación WhatsApp instalada en el dispositivo.
+
+Una vez enviado el mensaje desde WhatsApp, cierra la ventana del mensaje mediante la cruz ubicada en la parte superior
+derecha del formulario:
+
+.. image:: contactos/cerrar-formulario-enviar-whatsapp.png
+   :align: center
+   :alt: Cerrar formulario para enviar WhatsApp a un contacto
+
+En la botonera ubicada en la parte superior del formulario del contacto, puedes encontrar una opción que muestra el
+número de mensajes de WhatsApp enviados al contacto:
+
+.. image:: contactos/whatsapps-contacto.png
+   :align: center
+   :alt: WhatsApps enviados a un contacto
+
+.. note::
+   El botón de WhatsApp solamente aparece si el contacto tiene el número de teléfono *Móvil* informado.
+
+Al pulsar dicho botón, el sistema navega al listado de mensajes de WhatsApp asociados al contacto:
+
+.. image:: contactos/listado-whatsapps-contacto.png
+   :align: center
+   :alt: Listado de mensajes de WhatsApp enviados a un contacto
+
+Para consultar el detalle de un mensaje, puedes hacer clic sobre el mensaje correspondiente, acción que mostrará el
+formulario de detalle con la información asociada:
+
+.. image:: contactos/detalle-whatsapp-contacto.png
+   :align: center
+   :alt: Detalle de un mensaje de WhatsApp enviado a un contacto
+
+También es posible acceder al listado de mensajes de WhatsApp enviados a todos los contactos desde la pantalla
+:menuselection:`Ajustes --> WhatsApp --> Registro de WhatsApp`. En este caso, el listado no estará filtrado por ningún
+contacto en concreto y se podrán consultar todos los mensajes enviados.
 
 Localizar geográficamente a un contacto
 =======================================
@@ -411,3 +486,32 @@ junto con sus códigos postales. Una vez finalizada la importación, se podrán 
 .. image:: contactos/ciudades.png
    :align: center
    :alt: Lista de ciudades
+
+Recalcular los nombres de los contactos
+=======================================
+
+Es posible configurar algunos formatos de nombres comunes desde la pantalla :menuselection:`Ajustes --> Opciones generales`:
+
+-  Apellido Nombre: Por ejemplo, 'García Roberto'
+
+-  Apellido, Nombre: Por ejemplo, 'García, Roberto'
+
+-  Nombre Apellido: Por ejemplo, 'Roberto García'
+
+.. image:: contactos/formatos-nombres.png
+   :align: center
+   :alt: Formatos de los nombres de los contactos
+
+Después de realizar un cambio en el formato, pulsa el botón *Guardar* de la pantalla de ajustes.
+
+Una vez guardados los cambios, puedes volver a calcular el nombre de todos los contactos haciendo clic en el botón
+*Recalcular nombres*:
+
+.. image:: contactos/recalcular-nombres.png
+   :align: center
+   :alt: Recalcular nombres de los contactos
+
+.. note::
+   Este proceso puede llevar mucho tiempo dependiendo de cuántos contactos haya en la base de datos.
+
+Al finalizar el proceso, todos los contactos aparecerán con el nombre recalculado en base al formato definido.

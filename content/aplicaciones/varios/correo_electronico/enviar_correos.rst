@@ -25,7 +25,7 @@ Cuenta de correo con dominio propio
 ===================================
 
 Crear cuentas en tu servidor de correo
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------------------
 
 #. Crea una dirección de correo electrónico genérica en tu servidor de correo (por ejemplo, *general@miempresa.com*).
 
@@ -33,7 +33,7 @@ Crear cuentas en tu servidor de correo
    Esta cuenta puede ser la misma que la utilizada en tu servidor de correo entrante de Daeris.
 
 Establecer el alias del dominio
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------
 
 Establece tu nombre de dominio desde la pantalla :menuselection:`Ajustes --> Opciones generales`. Desde el apartado de
 *Conversaciones* activa la opción **Servidores de correo electrónico personalizados** e informa el *Alias del dominio*:
@@ -43,7 +43,7 @@ Establece tu nombre de dominio desde la pantalla :menuselection:`Ajustes --> Opc
    :alt: Alias de dominio
 
 Crear servidor de correo saliente genérico
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------
 
 A continuación, crea un servidor de correo saliente genérico en Daeris desde la pantalla :menuselection:`Ajustes --> Correo electrónico --> Servidores de correo saliente`.
 Para dar de alta un nuevo servidor de correo saliente, haz clic en el botón *Crear*, que abrirá un nuevo formulario en
@@ -95,7 +95,7 @@ Cuenta de correo de Google Gmail
 ================================
 
 Crear cuentas de correo
-~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------
 
 #. Crea una dirección de correo electrónico genérica en tu proveedor de correo (por ejemplo, *miempresa@gmail.com*).
 
@@ -103,7 +103,7 @@ Crear cuentas de correo
    Esta cuenta puede ser la misma que la utilizada en tu servidor de correo entrante de Daeris.
 
 Establecer el alias del dominio
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------
 
 Establece tu nombre de dominio desde la pantalla :menuselection:`Ajustes --> Opciones generales`. Desde el apartado de
 *Conversaciones* activa la opción **Servidores de correo electrónico personalizados** e informa el *Alias del dominio*:
@@ -113,7 +113,7 @@ Establece tu nombre de dominio desde la pantalla :menuselection:`Ajustes --> Opc
    :alt: Alias de dominio de Gmail
 
 Crear servidor de correo saliente genérico
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------
 
 A continuación, crea un servidor de correo saliente genérico en Daeris desde la pantalla :menuselection:`Ajustes --> Correo electrónico --> Servidores de correo saliente`.
 Para dar de alta un nuevo servidor de correo saliente, haz clic en el botón *Crear*, que abrirá un nuevo formulario en
@@ -176,7 +176,7 @@ Cuenta de correo de Microsoft Outlook
 =====================================
 
 Crear cuentas de correo
-~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------
 
 #. Crea una dirección de correo electrónico genérica en tu proveedor de correo (por ejemplo, *miempresa@outlook.com*).
 
@@ -184,7 +184,7 @@ Crear cuentas de correo
    Esta cuenta puede ser la misma que la utilizada en tu servidor de correo entrante de Daeris.
 
 Establecer el alias del dominio
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------
 
 Establece tu nombre de dominio desde la pantalla :menuselection:`Ajustes --> Opciones generales`. Desde el apartado de
 *Conversaciones* activa la opción **Servidores de correo electrónico personalizados** e informa el *Alias del dominio*:
@@ -194,7 +194,7 @@ Establece tu nombre de dominio desde la pantalla :menuselection:`Ajustes --> Opc
    :alt: Alias de dominio de Outlook
 
 Crear servidor de correo saliente genérico
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------
 
 A continuación, crea un servidor de correo saliente genérico en Daeris desde la pantalla :menuselection:`Ajustes --> Correo electrónico --> Servidores de correo saliente`.
 Para dar de alta un nuevo servidor de correo saliente, haz clic en el botón *Crear*, que abrirá un nuevo formulario en
@@ -378,7 +378,7 @@ Protección SPF, DKIM y DMARC
 ============================
 
 Cumplimiento SPF
-~~~~~~~~~~~~~~~~
+----------------
 
 El protocolo del Convenio de Remitentes (del inglés, **Sender Policy Framework**) permite al propietario de un nombre de
 dominio especificar qué servidores pueden enviar correos electrónicos desde ese dominio. Cuando un servidor recibe un
@@ -416,7 +416,7 @@ Puedes verificar que tu registro SPF sea válido con una herramienta gratuita co
    deberás ponerte en contacto con nosotros para que podamos dar de alta el registro SPF en tu subdominio.
 
 Habilitar DKIM
-~~~~~~~~~~~~~~
+--------------
 
 El Correo Identificado con Claves de Dominio (del inglés, **Domain Keys Identified Mail**) te permite autenticar tus
 correos electrónicos con una firma digital.
@@ -436,7 +436,7 @@ Puedes verificar si tu registro DKIM es válido mediante una herramienta gratuit
    deberás ponerte en contacto con nosotros para que podamos dar de alta el registro DKIM en tu subdominio.
 
 Verificar tu política DMARC
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 La Autenticación de Mensajes Basada en Dominios, Reportes y Conformidad (del inglés, **Domain-based Message Authentification Reporting and Conformance**)
 es un protocolo que unifica el SPF y el DKIM. Las instrucciones que vienen en el registro DMARC de un nombre de dominio
@@ -472,7 +472,7 @@ Puedes revisar el registro DMARC de un nombre de dominio con una herramienta com
    deberás ponerte en contacto con nosotros para que podamos dar de alta el registro DMARC en tu subdominio.
 
 Documentación de SPF, DKIM y DMARC de los proveedores más comunes
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------------------------------------
 
 - `OVH DNS <https://docs.ovh.com/us/en/domains/web_hosting_how_to_edit_my_dns_zone/>`_
 - `OVH SPF <https://docs.ovh.com/us/en/domains/web_hosting_the_spf_record/>`_

@@ -135,6 +135,9 @@ ha añadido la acción del contexto:
    :align: center
    :alt: Acción del contexto en una plantilla de correo
 
+.. note::
+   Es necesario refrescar o cargar la página de nuevo en el navegador para que se vean reflejados los cambios en el menú Acción.
+
 Al seleccionar esa acción, se desplegará el compositor de correos electrónicos informando por defecto la plantilla de
 correo electrónico:
 

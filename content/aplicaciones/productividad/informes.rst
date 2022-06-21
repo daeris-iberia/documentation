@@ -16,6 +16,8 @@ de su organización.
     :width: 700
     :height: 394
 
+.. _productividad/informes/analizar_datos:
+
 Analizar datos de la aplicación con informes
 ============================================
 

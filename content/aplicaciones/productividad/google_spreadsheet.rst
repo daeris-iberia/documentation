@@ -12,12 +12,12 @@ Configuración
 =============
 
 Habilitar Google Drive
-~~~~~~~~~~~~~~~~~~~~~~
+----------------------
 
 Para configurar las hojas de cálculo de Google en Daeris, es necesario :ref:`habilitar la integración con Google Drive <productividad/google_drive/habilitar_google_drive>`.
 
 Habilitar hojas de cálculo de Google
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------
 
 Una vez habilitada la integración con Google Drive, para activar la funcionalidad de hojas de cálculo de Google, navega
 a la pantalla :menuselection:`Ajustes > Opciones Generales`, y activa la opción de **Hojas de Cálculo de Google**:
@@ -32,7 +32,7 @@ Crear una nueva hoja de cálculo de Google en Daeris
 ===================================================
 
 Añadir consulta a la hoja de cálculo de Google
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------------
 
 Para crear una nueva hoja de cálculo, navega a cualquier listado y desde el menú de *Favoritos* selecciona la opción
 **Añadir a la hoja de cálculo de Google**. En este caso, a modo de ejemplo, lo haremos desde la pantalla de *Contactos*:
@@ -59,7 +59,7 @@ la integración con hojas de cálculo de Google:
    :alt: Tutorial de las hojas de cálculo de Google
 
 Configurar ajustes de la hoja de cálculo de Google
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------------------------------
 
 El primer paso será vincular la hoja de cálculo recién creada con tu entorno de Daeris. Para ello, pulsa sobre la opción
 de menú superior :menuselection:`Daeris --> Ajustes`:
@@ -122,7 +122,7 @@ Además, introduce la contraseña del usuario:
    :alt: Contraseña de tu instancia Daeris
 
 Refrescar datos de la hoja de cálculo de Google
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------------------
 
 Una vez configurados los ajustes del servidor, si quieres que la fórmula se refresque con los datos de la aplicación
 Daeris, tienes dos opciones:
