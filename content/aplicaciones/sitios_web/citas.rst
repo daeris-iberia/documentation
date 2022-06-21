@@ -122,8 +122,19 @@ Configurar la protección de envio de formularios frente a SPAM
 ----------------------------------------------------------------
 
 Daeris protege el envío de formularios de citas mediante el sistema de validación de Google ReCaptcha v2.
+
+.. image:: citas/citas-formulario2.png
+   :align: center
+   :alt: Formulario de cita
+
 Para que tus visitantes puedan enviar formularios deberán validar el cuadro de confirmación de Google ReCaptcha.
+
 Para habilitar el sistema de Google ReCaptcha navega a la pantalla :menuselection:`Citas --> Configuración --> Ajustes` e informa sobre el campo *Clave ReCaptcha* tu clave de Google ReCaptcha.
+
+.. image:: citas/recaptcha.png
+   :align: center
+   :alt: Configurar ReCaptcha
+
 Una vez informada la clave, debes pulsar el botón Guardar.
 
 .. important:: Si no dispones de una clave ReCaptcha, puedes crear una `Aquí <http://www.google.com/recaptcha/admin>`_.. La clave creada debe ser de tipo ReCaptcha v2 y el dominio debe coincidir con el dominio de tu instancia daeris.
