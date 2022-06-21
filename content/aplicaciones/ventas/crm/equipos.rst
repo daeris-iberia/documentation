@@ -5,6 +5,11 @@ Equipos de venta
 Daeris te permite administrar varios equipos, departamentos o canales de ventas, cada uno con sus propios procesos de
 ventas únicos, utilizando **equipos de ventas**.
 
+.. youtube:: 40Jk3Nft1xU
+    :align: right
+    :width: 700
+    :height: 394
+
 Configuración
 =============
 

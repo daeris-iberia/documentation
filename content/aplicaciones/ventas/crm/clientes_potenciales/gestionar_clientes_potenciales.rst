@@ -2,6 +2,11 @@
 Gestionar clientes potenciales
 ==============================
 
+.. youtube:: w25vLQLNA5g
+    :align: right
+    :width: 700
+    :height: 394
+
 Configuración
 =============
 

@@ -213,6 +213,11 @@ oportunidades:
 Gestión de oportunidades
 ========================
 
+.. youtube:: lsrxqKjmes4
+    :align: right
+    :width: 700
+    :height: 394
+
 Crear una oportunidad de venta
 ------------------------------
 
