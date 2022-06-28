@@ -86,6 +86,8 @@ Al **crear** un registro, la empresa que se tiene en cuenta es:
 
 -  El conjunto de empresa es el vinculado al documento (lo mismo que si se está editando un registro).
 
+.. _varios/usuarios_companias/configurar_formato_documentos:
+
 Configurar los formatos de los documentos
 =========================================
 

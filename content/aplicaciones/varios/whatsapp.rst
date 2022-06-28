@@ -13,7 +13,7 @@ Las entidades que permiten realizar el envío de mensajes de WhatsApp son las si
 
 -  :ref:`Contactos <ventas/contactos/enviar_whatsapp_contacto>`
 
--  Pedidos de venta
+-  :ref:`Pedidos de venta <ventas/presupuestos_pedidos/enviar_whatsapp_pedidos_venta>`
 
 -  Pedidos de compra
 
