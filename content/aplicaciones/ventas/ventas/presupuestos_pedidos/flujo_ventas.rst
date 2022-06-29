@@ -7,6 +7,11 @@ venta de un producto o servicio. Un **pedido de venta** es un presupuesto acepta
 principal diferencia entre un presupuesto y un pedido de venta es el estado en el que se encuentra la negociación (en
 trámite o aceptada por el cliente).
 
+.. youtube:: IlvwZ4DrFbE
+    :align: right
+    :width: 700
+    :height: 394
+
 Crear un presupuesto de venta
 =============================
 

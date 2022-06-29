@@ -13,6 +13,11 @@ cantidades realmente demandas e igualándolas a las entregadas. Posteriormente, 
 el presupuesto (el sistema ya le habrá incorporado las líneas y cantidades de productos descuadradas) siendo
 responsabilidad del gestor, incorporar los precios acordados con el cliente.
 
+.. youtube:: 3u7U-QkNwK8
+    :align: right
+    :width: 700
+    :height: 394
+
 A continuación, se muestra un ejemplo con el flujo a seguir en las oportunidades de ampliación de ventas.
 
 Creación del presupuesto de venta

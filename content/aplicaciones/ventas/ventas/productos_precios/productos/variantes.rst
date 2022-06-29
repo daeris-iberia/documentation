@@ -19,6 +19,11 @@ y colores son **atributos**.
 El ejemplo anterior tiene un total de 20 productos diferentes (5 tallas x 4 colores). Cada uno de estos productos tiene
 su propio inventario, ventas, etc.
 
+.. youtube:: dt1Axg3N1VE
+    :align: right
+    :width: 700
+    :height: 394
+
 Configuración
 =============
 
