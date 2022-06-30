@@ -38,6 +38,11 @@ continuación:
 
 #. Si el empleado ha pagado la factura inicialmente de su bolsillo, se podrá proceder a registrar el reembolso al empleado.
 
+.. youtube:: lUpbMD4y2yA
+    :align: right
+    :width: 700
+    :height: 394
+
 Cómo configurar los tipos de gasto
 ==================================
 
@@ -321,11 +326,6 @@ Pueden hacer clic en *Validar asientos de diario* para publicar entradas de diar
 
 .. note::
    Para poder contabilizar un gasto, el empleado debe tener registrada una dirección privada.
-
-Mediante este botón se crearán las líneas de gastos sobre los pedidos de venta relacionados con el gasto (en caso de
-haber alguno). Desde el propio pedido de venta se podrá efectuar la acción de facturar, para refacturar al cliente el
-gasto relacionado con el pedido. La factura generada podrá ser enviada al cliente para que efectué los pagos
-correspondientes.
 
 Cómo reembolsar a los empleados
 ===============================
