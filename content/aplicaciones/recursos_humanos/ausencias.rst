@@ -69,8 +69,8 @@ como *Sí*. Las **Solicitudes de empleados** se pueden elegir como *Días adicio
 De manera similar, la **Aprobación** se puede seleccionar entre opciones como *No se necesita validación*,
 *Aprobado por el oficial de tiempo libre* o *Establecido por el encargado de ausencias*.
 
-Finalmente, en la sección **Mostrar opción** se permite elegir un color y una imagen de portada para mostrar con el tipo
-de ausencia.
+Finalmente, en la sección **Mostrar opción** se permite elegir un color para el informe de ausencias de empleado, un color
+y una imagen de portada para mostrar con el tipo de ausencia.
 
 Configurar planes de acumulación
 --------------------------------
