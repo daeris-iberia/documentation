@@ -179,6 +179,8 @@ destaca en la imagen a continuación:
 Una vez completados los campos necesarios, pulsa el botón *Guardar*. De esta manera, el nuevo empleado quedará dado de
 alta en la aplicación.
 
+.. _recursos_humanos/empleados/imprimir_identificacion:
+
 Imprimir la identificación de un empleado
 -----------------------------------------
 
