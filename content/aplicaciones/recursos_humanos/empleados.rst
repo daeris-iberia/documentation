@@ -86,6 +86,8 @@ y la empresa, dispones del número de la ubicación:
    :align: center
    :alt: Detalle de lugares de trabajo de los empleados
 
+.. _recursos_humanos/empleados/crear_empleado:
+
 Crear un empleado de la compañía
 --------------------------------
 
@@ -291,11 +293,11 @@ puesto de trabajo:
 
 En esta ventana de creación de puestos de trabajo, puedes proporcionar el nombre del puesto de trabajo. Luego, en la
 pestaña **Descripción del trabajo**, puedes informar una descripción del trabajo personalizada. Además, la pestaña
-**Reclutamiento** te permite introducir información relacionada con el proceso de selección para ese puesto de trabajo,
+**Contratación** te permite introducir información relacionada con el proceso de selección para ese puesto de trabajo,
 en caso de haberlo.
 
 .. seealso::
-   * :doc:`proceso_de_seleccion`
+   * :doc:`contratacion`
 
 Una vez que completes todos los campos, puedes hacer clic en el botón *Guardar* para guardar los detalles.
 
