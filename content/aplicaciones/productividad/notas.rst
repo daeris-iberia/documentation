@@ -128,6 +128,8 @@ Notas:
    :align: center
    :alt: Vista de actividades de las notas
 
+.. _productividad/notas/utilizar_pads_colaborativos:
+
 Utilizar pads colaborativos en notas
 ====================================
 
@@ -201,3 +203,6 @@ el chat incorporado:
 .. image:: notas/chat-etherpad.png
    :align: center
    :alt: Chat de etherpad
+
+.. seealso::
+   * :ref:`servicios/gestion_de_proyecto/utilizar_pads_colaborativos`
