@@ -351,6 +351,8 @@ de gastos quedará en estado pagado o en proceso de pago:
    :align: center
    :alt: Registrar pago en los informes de gastos (3)
 
+.. _finanzas/gastos/facturar_gastos:
+
 Cómo volver a facturar gastos a tus clientes
 ============================================
 
