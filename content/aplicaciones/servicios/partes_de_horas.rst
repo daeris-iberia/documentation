@@ -133,6 +133,29 @@ El sistema generará un fichero en formato PDF con la información de detalle de
    :align: center
    :alt: Imprimir entradas en la hoja de horas (2)
 
+Registrar las horas de un servicio
+----------------------------------
+
+Cuando un empleado preste un servicio, podrá registrar las horas, siempre que disponga de una tarea asignada. Para ello,
+el empleado debe navegar a la pantalla :menuselection:`Proyecto --> Mis tareas`, y acceder al detalle de la tarea. Desde
+la pestaña **Partes de horas** será posible registrar las horas dedicadas a la tarea:
+
+.. image:: partes_de_horas/registrar-horas-tarea.png
+   :align: center
+   :alt: Registrar las horas de un servicio
+
+Desde esta pestaña se puede observar el porcentaje de progreso de la tarea, así como las horas restantes:
+
+.. image:: partes_de_horas/registrar-horas-tarea-2.png
+   :align: center
+   :alt: Registrar las horas de un servicio (2)
+
+Una vez informado el parte de horas, cuando se haya completado la tarea, el empleado podrá marcar la tarea como realizada:
+
+.. image:: partes_de_horas/registrar-horas-tarea-3.png
+   :align: center
+   :alt: Registrar las horas de un servicio (3)
+
 Informes
 ========
 
