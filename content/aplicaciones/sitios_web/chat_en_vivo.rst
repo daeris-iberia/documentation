@@ -7,4 +7,7 @@
 Chat en Vivo
 ============
 
-Descripción
+.. toctree::
+
+   chat_en_vivo/chat_en_vivo
+   chat_en_vivo/multi_chat
