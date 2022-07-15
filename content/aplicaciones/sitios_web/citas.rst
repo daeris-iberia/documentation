@@ -137,7 +137,7 @@ Para habilitar el sistema de Google ReCaptcha navega a la pantalla :menuselectio
 
 Una vez informada la clave, debes pulsar el botón Guardar.
 
-.. important:: Si no dispones de una clave ReCaptcha, puedes crear una `Aquí <http://www.google.com/recaptcha/admin>`_.. La clave creada debe ser de tipo ReCaptcha v2 y el dominio debe coincidir con el dominio de tu instancia daeris.
+.. important:: Si no dispones de una clave ReCaptcha, puedes crear una `Aquí <http://www.google.com/recaptcha/admin>`_. La clave creada debe ser de tipo ReCaptcha v2 y el dominio debe coincidir con el dominio de tu instancia daeris.
 
 
 Limitar el acceso al registro de citas
