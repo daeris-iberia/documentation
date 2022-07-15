@@ -15,7 +15,7 @@ Las entidades que permiten realizar el envío de mensajes de WhatsApp son las si
 
 -  :ref:`Pedidos de venta <ventas/presupuestos_pedidos/enviar_whatsapp_pedidos_venta>`
 
--  Pedidos de compra
+-  :ref:`Pedidos de compra <compras/presupuestos_pedidos/enviar_whatsapp_pedidos_compra>`
 
 -  Facturas de cliente
 
@@ -25,7 +25,7 @@ Las entidades que permiten realizar el envío de mensajes de WhatsApp son las si
 
 -  Tickets de atención al cliente
 
--  Registro de eventos
+-  :ref:`Asistentes del evento <sitios_web/eventos/enviar_whatsapp_asistentes_evento>`
 
 -  :ref:`Oportunidades <ventas/crm/enviar_whatsapp_oportunidades>`
 
