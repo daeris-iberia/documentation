@@ -7,4 +7,7 @@
 Eventos
 =======
 
-Descripción
+.. toctree::
+
+   eventos/eventos
+   eventos/sesiones
