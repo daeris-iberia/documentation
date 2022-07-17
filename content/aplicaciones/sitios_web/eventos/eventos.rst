@@ -511,6 +511,51 @@ Este botón te lleva a una nueva ventana como se muestra a continuación:
 Puedes crear un correo de invitación o SMS en esta plataforma, tal y como se detalla en los módulos de **Marketing por correo electrónico**
 y **Marketing por SMS**.
 
+.. _sitios_web/eventos/enviar_whatsapp_asistentes_evento:
+
+Enviar un mensaje de WhatsApp a los asistentes del evento
+---------------------------------------------------------
+
+.. seealso::
+   * :doc:`../../varios/whatsapp`
+
+Es posible enviar un WhatsApp a un asistente del evento desde el formulario de asistentes al evento. Para ello, debes navegar a la
+pantalla :menuselection:`Eventos --> Eventos`, y acceder al detalle de un evento. Mediante el botón inteligente de
+**Asistentes** el sistema navegará al listado de asistentes al evento, donde podrás acceder al detalle de un asistente
+haciendo clic sobre cualquier registro.
+
+Desde esta pantalla, aparecerá un botón que permitirá enviar un mensaje de WhatsApp:
+
+.. image:: eventos/detalle-asistente-enviar-whatsapp.png
+   :align: center
+   :alt: Enviar WhatsApp desde el detalle de un asistente
+
+.. note::
+   El número de teléfono móvil del asistente debe estar informado con formato internacional (por ejemplo, +33123456789).
+
+El sistema desplegará un formulario desde donde podrás redactar el mensaje de WhatsApp o seleccionar una plantilla que
+informe el mensaje de forma automática:
+
+.. image:: eventos/formulario-enviar-whatsapp.png
+   :align: center
+   :alt: Formulario para enviar WhatsApp en un asistente al evento
+
+Una vez informado el mensaje, debes pulsar el botón *Enviar*.
+
+En caso de estar conectado a la aplicación mediante un dispositivo de escritorio, el sistema tratará de establecer
+conexión mediante la aplicación WhatsApp Web, para lo cual, habrá que escanear el código QR mostrado en pantalla, e
+iniciar sesión en tu cuenta de WhatsApp.
+
+Por otro lado, en caso de estar conectado a la aplicación mediante un dispositivo móvil, el sistema tratará de enviar
+el mensaje mediante la aplicación WhatsApp instalada en el dispositivo.
+
+Una vez enviado el mensaje desde WhatsApp, cierra la ventana del mensaje mediante la cruz ubicada en la parte superior
+derecha del formulario:
+
+.. image:: eventos/cerrar-formulario-enviar-whatsapp.png
+   :align: center
+   :alt: Cerrar formulario para enviar WhatsApp en un asistente al evento
+
 Confirmar y registrar la asistencia de personas al evento
 ---------------------------------------------------------
 
@@ -593,3 +638,6 @@ También tienes disponibles las vistas de tipo gráfico, kanban y lista:
 .. image:: eventos/analisis-asistentes-grafico.png
    :align: center
    :alt: Informe de análisis de asistentes a eventos en modo gráfico
+
+.. seealso::
+   * :ref:`productividad/informes/analizar_datos`
