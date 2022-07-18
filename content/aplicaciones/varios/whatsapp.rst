@@ -23,7 +23,7 @@ Las entidades que permiten realizar el envío de mensajes de WhatsApp son las si
 
 -  Transferencias de inventario
 
--  Tickets de atención al cliente
+-  :ref:`Tickets de atención al cliente <servicios/atencion_al_cliente/gestión_de_tickets/enviar_whatsapp_contacto>`
 
 -  :ref:`Asistentes del evento <sitios_web/eventos/enviar_whatsapp_asistentes_evento>`
 

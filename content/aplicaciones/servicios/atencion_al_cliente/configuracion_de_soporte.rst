@@ -4,7 +4,7 @@ Sitio Web de soporte
 
 Daeris dispone de un apartado de soporte al cliente sobre el Sitio Web, que permite a tus clientes, consultar la documentación, así como crear y consultar sus tickets de soporte.
 
-.. youtube:: SuTXBVoH83M
+.. youtube:: 0F5rh1_Pats
     :align: right
     :width: 700
     :height: 394
@@ -34,7 +34,7 @@ y sobre la sección *Portal de documentación de soporte*,  informa los siguient
 Si deseas que aparezca un enlace que permita a tus usuarios, registrarse en la plataforma como usuarios de forma autónoma, debes ir a la sección *Características* e
 informar el campo *Cuenta de cliente* con el valor *Registro Gratis*. En el caso de incorporar el valor *Por invitación*, no se mostrará el enlace.
 
-Una vez realizados los cambios, pulsa el botón Guardar.
+Una vez realizados los cambios, pulsa el botón *Guardar*.
 
 .. image:: configuracion_de_soporte/cuenta_cliente.png
    :align: center
@@ -51,7 +51,7 @@ Grupos de ayuda
 
 Los grupos de ayuda son contenedores de páginas web que permiten agrupar documentación de soporte de una temática particular.
 
-Para crear un grupo, navega a la pantalla :menuselection:`Soporte --> Ayuda --> Grupos de ayuda` y haz clic sobre el botón nuevo.
+Para crear un grupo, navega a la pantalla :menuselection:`Soporte --> Ayuda --> Grupos de ayuda` y haz clic sobre el botón *Crear*.
 
 .. image:: configuracion_de_soporte/lista_grupos_ayuda.png
    :align: center
@@ -96,7 +96,7 @@ Categorías de páginas de ayuda
 Las categorías de páginas de ayuda, permiten separar las páginas de un grupo sobre el menú del grupo.
 Esta opción es muy útil para organizar las páginas por áreas de la misma temática.
 
-Para crear una categoría, navega a la pantalla :menuselection:`Soporte --> Ayuda --> Categoría de páginas` y haz clic sobre el botón nuevo.
+Para crear una categoría, navega a la pantalla :menuselection:`Soporte --> Ayuda --> Categoría de páginas` y haz clic sobre el botón *Crear*.
 
 .. image:: configuracion_de_soporte/lista_categorias_ayuda.png
    :align: center
@@ -122,7 +122,7 @@ Páginas de ayuda
 
 Las páginas de ayuda del sitio web, permiten crear documentación de soporte de una temática particular para los clientes y/o empleados.
 
-Para crear una página de ayuda, navega a la pantalla :menuselection:`Soporte --> Ayuda --> Páginas de ayuda` y haz clic sobre el botón nuevo.
+Para crear una página de ayuda, navega a la pantalla :menuselection:`Soporte --> Ayuda --> Páginas de ayuda` y haz clic sobre el botón *Crear*.
 
 .. image:: configuracion_de_soporte/lista_paginas_ayuda.png
    :align: center

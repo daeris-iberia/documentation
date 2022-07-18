@@ -4,7 +4,7 @@ Configuración Básica
 
 La aplicación de soporte de Daeris se puede configurar para adaptarla a tus necesidades de negocio, siendo posible configurar las categorías, estados, prioridades, tipologías, así como crear diferentes modelos de SLA (contratos de niveles de servicio).
 
-.. youtube:: Q0-c0YaZ7a0
+.. youtube:: JxdAu2Qxel8
     :align: right
     :width: 700
     :height: 394
@@ -17,7 +17,7 @@ Las *categorías* permiten clasificar y agrupar los tickets en función de las n
 Cada categoría, permite asociar seguidores, asignar un gestor predeterminado, incorporar una encuesta de satisfacción,
 requerir al cliente la firma en línea, así como establecer un pliego de términos y condiciones especifico.
 
-Para crear una categoría de tickets de soporte, navega a la pantalla :menuselection:`Soporte --> Configuración --> Categorías` y haz clic sobre el botón nuevo.
+Para crear una categoría de tickets de soporte, navega a la pantalla :menuselection:`Soporte --> Configuración --> Categorías` y haz clic sobre el botón *Crear*.
 
 .. image:: configuracion_basica/listado_categorias.png
    :align: center
