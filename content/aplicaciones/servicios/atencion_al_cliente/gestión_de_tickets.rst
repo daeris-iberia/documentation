@@ -5,7 +5,7 @@ Gestión de Tickets
 El módulo de gestión de **Soporte** de Daeris permite registrar los casos de los clientes y visitantes del Sitio Web, desde diferentes canales.
 A partir de la entrada de un ticket de soporte en el sistema, el gestor y el cliente podrán interactuar en el caso mediante acciones (botones) disponibles en el propio ticket.
 
-.. youtube:: 6YDzU1UDXr8
+.. youtube:: V6HEtJRrP8s
     :align: right
     :width: 700
     :height: 394
@@ -105,7 +105,7 @@ Cerrar (cliente)
 Los clientes pueden visualizar sus tickets de soporte desde la página de Soporte del sitio web, pulsando el enlace de Mis tickets
 Posteriormente, es posible acceder al detalle de un ticket pulsando en el enlace del número del ticket.
 
-Desde la página de detalle del ticket, el cliente puede darlo por cerrado mediante el botón Cerrar Ticket
+Desde la página de detalle del ticket, el cliente puede darlo por cerrado mediante el botón *Cerrar Ticket*
 
 .. image:: gestión_de_tickets/cerrar_tickets_portal.png
    :align: center
@@ -132,7 +132,7 @@ Al hacer clic sobre este botón, se muestra una nueva ventana que solicita el mo
 
 Es posible usar plantillas de correo que acelerarán la gestión de la respuesta.
 
-Una vez informado el mensaje o plantilla, es necesario pulsar el botón Cerrar.
+Una vez informado el mensaje o plantilla, es necesario pulsar el botón *Cerrar*.
 
 .. image:: gestión_de_tickets/cerrar_tickets_app.png
    :align: center
@@ -165,7 +165,7 @@ Si el cliente pulsa el enlace de la encuesta, se desplegará una nueva ventana d
    :align: center
    :alt: Completar encuesta sobre el área privada de portal
 
-Si el cliente rellena la encuesta de satisfacción, será posible visualizar los resultados en el propio detalle del ticket, o en el caso de usar una encuesta distinta a la genérica, desde la aplicación de encuestas,
+Si el cliente rellena la encuesta de satisfacción, será posible visualizar los resultados en el propio detalle del ticket, o en el caso de usar una encuesta distinta a la genérica, desde la aplicación de encuestas.
 
 .. image:: gestión_de_tickets/consultar_encuestas.png
    :align: center
@@ -197,6 +197,8 @@ Si el cliente rellena la encuesta de satisfacción, será posible visualizar los
 .. image:: gestión_de_tickets/visualizar_encuesta.png
    :align: center
    :alt: Visualizar resultado de la encuesta
+
+.. _servicios/atencion_al_cliente/gestión_de_tickets/enviar_whatsapp_contacto:
 
 Enviar un mensaje de WhatsApp
 ===========================================================

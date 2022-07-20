@@ -6,7 +6,7 @@ Un ticket de soporte es el registro de un servicio de atención al cliente el cu
 Un cliente o cliente potencial, puede requerir de los servicios de nuestra compañía y debe tener la posibilidad de ponerse en contacto con el centro de soporte. Es recomendable ofrecer distintos canales de contacto ya que aumenta el grado de satisfacción de los clientes.
 Daeris permite la entrada de tickets desde el chat, correo electrónico, formulario web y aplicación de Soporte.
 
-.. youtube:: OiTmneke9UM
+.. youtube:: GgP0VHxMhec
     :align: right
     :width: 700
     :height: 394
@@ -161,7 +161,7 @@ Una vez configurado se debe indicar sobre el campo *Crear un nuevo registro* el 
 Una vez se ha configurado el sistema, es posible crear un ticket de soporte por correo electrónico enviando un nuevo correo a la dirección
 de soporte configurada en el servidor de correo entrante.
 
-Pasados unos minutos, el ticket de soporte se creará en el sistema, y será posible gestionarlo desde la Soporte > Tickets de soporte.
+Pasados unos minutos, el ticket de soporte se creará en el sistema, y será posible gestionarlo desde la la pantalla :menuselection:`Soporte --> Tickets de soporte`.
 
 El ticket incluirá los siguientes campos informados:
 
@@ -290,7 +290,7 @@ opciones que le permiten tomar una decisión sobre la autorización planteada po
    :align: center
    :alt: Autorizar tickets sobre el área privada de portal
 
-También se encuentra disponible sobre el formulario el botón "Cerrar*, que permite dar por concluidas las gestiones.
+También se encuentra disponible sobre el formulario el botón *Cerrar*, que permite dar por concluidas las gestiones.
 Esta opción se encuentra dispobible siempre que  el ticket no se encuentre en estado *Cerrado por equipo* ni *Cerrado por cliente*.
 
 .. image:: multicanalidad/cerrar_tickets_portal.png
