@@ -6,8 +6,8 @@ La aplicación de soporte de Daeris se puede configurar para adaptarla a tus nec
 
 .. youtube:: JxdAu2Qxel8
     :align: right
-    :width: 700
-    :height: 394
+    :width: 786
+    :height: 442
 
 Categorías
 ==========================

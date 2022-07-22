@@ -9,8 +9,8 @@ notas y actividades sobre diferentes tipos de elementos de la aplicación.
 
 .. youtube:: xJjVhd0gysc
     :align: right
-    :width: 700
-    :height: 394
+    :width: 786
+    :height: 442
 
 Enviar mensajes en Chatter
 ==========================

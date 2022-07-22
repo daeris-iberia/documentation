@@ -7,8 +7,8 @@ A partir de la entrada de un ticket de soporte en el sistema, el gestor y el cli
 
 .. youtube:: V6HEtJRrP8s
     :align: right
-    :width: 700
-    :height: 394
+    :width: 786
+    :height: 442
 
 Responder (equipo)
 ===========================================================

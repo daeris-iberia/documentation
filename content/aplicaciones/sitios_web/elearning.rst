@@ -17,8 +17,8 @@ en línea y puede utilizarse tanto para la venta de cursos online como para la f
 
 .. youtube:: QaTaU6RGLGo
     :align: right
-    :width: 700
-    :height: 394
+    :width: 786
+    :height: 442
 
 Crear un curso de eLearning
 =============================

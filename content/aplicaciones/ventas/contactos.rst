@@ -12,8 +12,8 @@ entorno empresarial.
 
 .. youtube:: IW9Q4xvXutc
     :align: right
-    :width: 700
-    :height: 394
+    :width: 786
+    :height: 442
 
 Crear un contacto de tipo individual
 ====================================

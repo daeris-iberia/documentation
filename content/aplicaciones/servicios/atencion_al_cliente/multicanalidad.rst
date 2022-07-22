@@ -8,8 +8,8 @@ Daeris permite la entrada de tickets desde el chat, correo electrónico, formula
 
 .. youtube:: GgP0VHxMhec
     :align: right
-    :width: 700
-    :height: 394
+    :width: 786
+    :height: 442
 
 Crear un ticket desde aplicación
 ===========================================================
