@@ -21,8 +21,8 @@ su propio inventario, ventas, etc.
 
 .. youtube:: dt1Axg3N1VE
     :align: right
-    :width: 700
-    :height: 394
+    :width: 786
+    :height: 442
 
 Configuración
 =============

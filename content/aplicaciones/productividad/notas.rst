@@ -12,8 +12,8 @@ ayudar a los usuarios a tomar notas en la vista Kanban y Lista.
 
 .. youtube:: gJ53u2bWZEA
     :align: right
-    :width: 700
-    :height: 394
+    :width: 786
+    :height: 442
 
 Crear una nota
 ==============

@@ -10,8 +10,8 @@ Gracias a la aplicación de citas, tus clientes serán autónomos a la hora de r
 
 .. youtube:: T1PJS_ZdJUI
     :align: right
-    :width: 700
-    :height: 394
+    :width: 786
+    :height: 442
 
 
 Configuración

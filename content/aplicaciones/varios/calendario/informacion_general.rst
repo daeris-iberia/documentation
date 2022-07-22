@@ -8,8 +8,8 @@ mejor solución para planificar tus actividades comerciales diarias.
 
 .. youtube:: HjtHDRYACDk
     :align: right
-    :width: 700
-    :height: 394
+    :width: 786
+    :height: 442
 
 Planificar reuniones desde el calendario
 ========================================

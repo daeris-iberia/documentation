@@ -13,8 +13,8 @@ de su organización.
 
 .. youtube:: EcmYJqzeWmM
     :align: right
-    :width: 700
-    :height: 394
+    :width: 786
+    :height: 442
 
 .. _productividad/informes/analizar_datos:
 

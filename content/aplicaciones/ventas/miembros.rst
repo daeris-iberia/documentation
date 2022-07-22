@@ -18,8 +18,8 @@ para la renovación de la membresía.
 
 .. youtube:: dLVALHfA_lU
     :align: right
-    :width: 700
-    :height: 394
+    :width: 786
+    :height: 442
 
 Crear y administrar productos de suscripción
 ============================================

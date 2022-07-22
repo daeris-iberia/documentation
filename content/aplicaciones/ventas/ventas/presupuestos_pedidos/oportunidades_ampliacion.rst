@@ -15,8 +15,8 @@ responsabilidad del gestor, incorporar los precios acordados con el cliente.
 
 .. youtube:: 3u7U-QkNwK8
     :align: right
-    :width: 700
-    :height: 394
+    :width: 786
+    :height: 442
 
 A continuación, se muestra un ejemplo con el flujo a seguir en las oportunidades de ampliación de ventas.
 

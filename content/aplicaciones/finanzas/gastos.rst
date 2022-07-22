@@ -40,8 +40,8 @@ continuación:
 
 .. youtube:: lUpbMD4y2yA
     :align: right
-    :width: 700
-    :height: 394
+    :width: 786
+    :height: 442
 
 Cómo configurar los tipos de gasto
 ==================================
