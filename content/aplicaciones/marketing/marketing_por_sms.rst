@@ -17,7 +17,7 @@ Daeris. Para controlar esto, es posible agregar números de teléfono en la list
 SMS desde campañas de marketing.
 
 Para ello, navega a la pantalla :menuselection:`Ajustes --> SMS --> Lista negra de teléfonos` y pulsa el botón *Crear*.
-A continuación, añade el número de teléfono que debe dejar de recibir mensajes SMS:
+A continuación, añade el número de teléfono que debes dejar de recibir mensajes SMS:
 
 .. image:: marketing_por_sms/lista-negra.png
    :align: center
