@@ -13,8 +13,8 @@ La aplicación Flota está destinada a gestionar la flota de vehículos de una e
 
 .. youtube:: 0B5eZ6mxM84
     :align: right
-    :width: 700
-    :height: 394
+    :width: 786
+    :height: 442
 
 Gestión de vehículos
 =====================

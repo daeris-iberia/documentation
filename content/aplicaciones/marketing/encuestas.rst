@@ -12,8 +12,8 @@ Gracias a la aplicación de encuestas, es posible obtener y analizar, toda la in
 
 .. youtube:: KtmKa6AZ310
     :align: right
-    :width: 700
-    :height: 394
+    :width: 786
+    :height: 442
 
 Crear encuestas
 ===================
