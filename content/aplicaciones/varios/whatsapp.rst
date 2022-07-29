@@ -21,7 +21,7 @@ Las entidades que permiten realizar el envío de mensajes de WhatsApp son las si
 
 -  Facturas de proveedor
 
--  Transferencias de inventario
+-  :ref:`Transferencias de inventario <inventario_y_fabricacion/inventario/enviar_whatsapp_transferencia>`
 
 -  :ref:`Tickets de atención al cliente <servicios/atencion_al_cliente/gestión_de_tickets/enviar_whatsapp_contacto>`
 

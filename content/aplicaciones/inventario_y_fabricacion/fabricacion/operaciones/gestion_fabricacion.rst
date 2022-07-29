@@ -80,6 +80,8 @@ Esto cambiará el estado de la orden de producción a *Hecho*:
    :align: center
    :alt: Validar órdenes de producción (2)
 
+.. _inventario_y_fabricacion/fabricacion/orden_produccion_bajo_pedido:
+
 Crear una orden de producción bajo pedido
 =========================================
 
@@ -176,34 +178,6 @@ las cantidades a consumir:
 .. image:: gestion_fabricacion/desbloquear-pedidos-fabricacion-3.png
    :align: center
    :alt: Desbloquear órdenes de producción (3)
-
-Planificar antes las órdenes de producción para evitar retrasos
-===============================================================
-
-El **Tiempo de entrega de fabricación** es el tiempo que se necesita para fabricar el producto. Para especificarlo, abre la
-pestaña de *Inventario* en el formulario de tu producto y agrega el número de días que requiere la fabricación:
-
-.. image:: gestion_fabricacion/plazo-seguridad.png
-   :align: center
-   :alt: Plazo de seguridad en la fabricación de productos
-
-Al trabajar con tiempos de entrega de fabricación la fecha límite de la orden de producción es igual a la fecha de compromiso
-menos el tiempo de espera de fabricación.
-
-El plazo de seguridad para fabricación permite generar órdenes de producción más temprano para lidiar con el riesgo de
-retrasos en la fabricación. Para activarlo navega a la pantalla :menuselection:`Fabricación --> Configuración --> Ajustes`
-y marca la opción **Plazo de seguridad**. En el campo que se muestra, informa los días que se utilizarán como plazo de
-seguridad:
-
-.. image:: gestion_fabricacion/plazo-seguridad-2.png
-   :align: center
-   :alt: Plazo de seguridad en la fabricación de productos (2)
-
-Una vez hecho esto, pulsa el botón *Guardar* de la pantalla de ajustes.
-
-Por ejemplo, un cliente ordena un producto "B" con una fecha de entrega esperada para el 20 de junio. El plazo de espera
-para la fabricación es de 14 días y el plazo de seguridad es de 3 días, así que la fabricación del producto "B" debe
-empezar al menos el 3 de junio, que es la fecha planificada de la orden de producción.
 
 Utilizar lotes y números de serie en la fabricación de productos
 ================================================================
