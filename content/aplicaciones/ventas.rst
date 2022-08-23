@@ -11,4 +11,4 @@ Ventas
     ventas/ventas
     ventas/punto_de_venta
     ventas/contactos
-    ventas/miembros
+    ventas/suscripciones

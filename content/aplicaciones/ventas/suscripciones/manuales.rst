@@ -1,8 +1,6 @@
-:show-content:
-
-========
-Miembros
-========
+=======================================
+Gestionar suscripciones de forma manual
+=======================================
 
 Daeris dispone de un módulo de gestión de **Miembros**. Este módulo puede ser usado para operar clubes,
 gimnasios, bibliotecas y muchas otras organizaciones. El módulo de miembros de Daeris es el más adecuado
@@ -27,7 +25,7 @@ Crear y administrar productos de suscripción
 Para crear un producto de suscripción, navega a la pantalla :menuselection:`Miembros --> Configuración --> Productos de Suscripción`
 y pulsa el botón *Crear*:
 
-.. image:: miembros/crear-productos.png
+.. image:: manuales/crear-productos.png
    :align: center
    :alt: Crear productos de suscripción
 
@@ -48,7 +46,7 @@ A continuación, en el formulario de productos de suscripción, puedes informar 
 - **Descripción**: Descripción del producto de suscripción.
 - **Descripción de ventas**: Descripción mostrada en los presupuestos de venta.
 
-.. image:: miembros/formulario-producto.png
+.. image:: manuales/formulario-producto.png
    :align: center
    :alt: Formulario de productos de la suscripción
 
@@ -59,7 +57,7 @@ Crear y configurar miembros
 
 Para crear un nuevo miembro, navega a la pantalla :menuselection:`Miembros --> Miembros` y pulsa el botón *Crear*:
 
-.. image:: miembros/crear-miembros.png
+.. image:: manuales/crear-miembros.png
    :align: center
    :alt: Crear miembros de suscripciones
 
@@ -71,7 +69,7 @@ A continuación, en el formulario de miembros, puedes informar los siguientes ca
 - **Datos de contacto**: Direcciones de contacto del miembro, teléfono, correo electrónico, sitio web, etc.
 - **Imagen**: Fotografía del miembro o logo de la compañía.
 
-.. image:: miembros/formulario-miembro.png
+.. image:: manuales/formulario-miembro.png
    :align: center
    :alt: Formulario de miembros de la suscripción
 
@@ -85,13 +83,13 @@ para una membresía gratuita y para comprar la membresía.
 
 Para configurar la membresía gratuita, navega al detalle de un miembro desde la pantalla :menuselection:`Miembros --> Miembros`:
 
-.. image:: miembros/kanban-miembro.png
+.. image:: manuales/kanban-miembro.png
    :align: center
    :alt: Navegar al detalle de un miembro
 
 A continuación, accede a la pestaña *Suscripción*:
 
-.. image:: miembros/datos-miembro-gratuito.png
+.. image:: manuales/datos-miembro-gratuito.png
    :align: center
    :alt: Datos de un miembro gratuito
 
@@ -106,13 +104,13 @@ membresía gratuita y para comprar la membresía.
 
 Para configurar la membresía de pago, navega al detalle de un miembro desde la pantalla :menuselection:`Miembros --> Miembros`:
 
-.. image:: miembros/kanban-miembro.png
+.. image:: manuales/kanban-miembro.png
    :align: center
    :alt: Navegar al detalle de un miembro
 
 A continuación, accede a la pestaña *Suscripción*:
 
-.. image:: miembros/datos-miembro-pago.png
+.. image:: manuales/datos-miembro-pago.png
    :align: center
    :alt: Datos de un miembro de pago
 
@@ -123,7 +121,7 @@ deberás pulsar la opción *Comprar Suscripción*. El sistema mostrará una vent
 - **Suscripción**: Producto de suscripción asociado al miembro.
 - **Precio miembro**: Precio asociado al producto de suscripción.
 
-.. image:: miembros/unirse-suscripcion.png
+.. image:: manuales/unirse-suscripcion.png
    :align: center
    :alt: Unirse a la suscripción de pago
 
@@ -133,7 +131,7 @@ El sistema generará una factura en estado borrador y navegará al listado de fa
 
 Al acceder al detalle de la factura, será posible revisar los datos y confirmarla mediante el botón *Confirmar*:
 
-.. image:: miembros/factura-borrador.png
+.. image:: manuales/factura-borrador.png
    :align: center
    :alt: Confirmar el borrador de una factura
 
@@ -141,21 +139,21 @@ Por último, será necesario registrar el pago de la factura mediante el botón 
 
 Al registrar el pago será necesario informar los datos del pago en la siguiente ventana:
 
-.. image:: miembros/registrar-pago.png
+.. image:: manuales/registrar-pago.png
    :align: center
    :alt: Registrar pago de una factura
 
 Una vez completados los datos del pago, se deberá pulsar el botón *Crear pago*. La factura quedará marcada como pagada o
 en proceso de pago:
 
-.. image:: miembros/factura-en-proceso-de-pago.png
+.. image:: manuales/factura-en-proceso-de-pago.png
    :align: center
    :alt: Factura en proceso de pago
 
 Al volver al detalle del miembro, se puede comprobar la fecha de inicio y fin de la suscripción, así como el producto
 de suscripción asociado al miembro:
 
-.. image:: miembros/datos-membresia.png
+.. image:: manuales/datos-membresia.png
    :align: center
    :alt: Datos de la membresía
 
@@ -165,6 +163,6 @@ Asociar un miembro a otro
 Si seleccionamos la opción de **Miembro Asociado** al crear un nuevo miembro, entonces el período de
 membresía del nuevo miembro se basará en el período de membresía del miembro asociado:
 
-.. image:: miembros/miembro-asociado.png
+.. image:: manuales/miembro-asociado.png
    :align: center
    :alt: Miembro asociado a un miembro
