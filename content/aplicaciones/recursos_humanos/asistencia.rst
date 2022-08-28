@@ -16,6 +16,11 @@ El módulo de asistencia de Daeris registrará todos los detalles relacionados c
 iniciaron sesión en el sistema. Puedes utilizar esta plataforma para gestionar la asistencia de los empleados de forma
 diaria, semanal, mensual y anual.
 
+.. youtube:: SrU-O5JFqZE
+    :align: right
+    :width: 786
+    :height: 442
+
 Configuración
 =============
 
