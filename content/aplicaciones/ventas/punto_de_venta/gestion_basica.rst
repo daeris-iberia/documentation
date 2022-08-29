@@ -402,3 +402,147 @@ El sistema mostrará un listado de las ventas realizadas a ese cliente mediante 
 .. image:: gestion_basica/tpv_cliente_ventas2.png
    :align: center
    :alt: Listado de Ventas TPV
+
+
+Importar presupuestos / pedidos sobre el TPV
+---------------------------------------------
+
+En función de los circuitos de venta establecidos en tu negocio, es posible que envíes presupuestos a tus clientes
+o generes pedidos de venta pendientes de pago.
+
+Desde cualquier TPV, es posible la importación de los presupuestos o pedidos con el objetivo de que el cliente
+pueda realizar un pago inicial o completar el pago.
+
+En el caso de que los productos asociados al pedido no estén incorporados al TPV, la aplicación solicitará la
+importación para poder proceder con su venta.
+
+Además, se incorporará el cliente asociado al pedido sobre el TPV y se permitirá emitir la factura correspondiente.
+
+Para importar un presupuesto o pedido sobre el TPV debes hacer clic sobre el botón **Presupuesto / Pedido**
+
+.. image:: gestion_basica/importar1.png
+   :align: center
+   :alt: Importar presupuestos / pedidos sobre el TPV
+
+Esta acción muestra un listado sobre una ventana con todos los presupuestos / pedidos no finalizados. El listado
+dispone de información relevante como el número de presupuesto/pedido, fecha, cliente, comercial, importe y estado.
+Además, es posible realizar búsquedas con el buscador de la barra superior.
+
+.. image:: gestion_basica/importar2.png
+   :align: center
+   :alt: Importar presupuestos / pedidos sobre el TPV
+
+Al seleccionar un pedido, la aplicación solicita al empleado la acción que se procede a realizar, siendo posible
+escoger una de las siguientes opciones:
+
+   -  **Aplicar un pago inicial**: Solicitará el porcentaje a aplicar sobre el precio total del pedido.
+   -  **Liquidar el pedido**: Aplicará el precio total del pedido.
+
+.. image:: gestion_basica/importar3.png
+   :align: center
+   :alt: Importar presupuestos / pedidos sobre el TPV
+
+En el caso de que algunos de los productos asociados al pedido no estén asociados al TPV, la aplicación solicitará
+realizar su carga, acción que debe confirmarse.
+
+.. image:: gestion_basica/importar4.png
+   :align: center
+   :alt: Importar presupuestos / pedidos sobre el TPV
+
+Una vez seleccionada la opción, se incorporarán las líneas del pedido como línea del pedido del TPV, además del cliente
+asociado.
+
+.. image:: gestion_basica/importar5.png
+   :align: center
+   :alt: Importar presupuestos / pedidos sobre el TPV
+
+Una vez completado el pedido se debe proceder al pago, mediante el botón **pagos**. Esta acción navega a la pantalla
+de pago del pedido desde dónde es necesario seleccionar el método de pago.
+
+.. image:: gestion_basica/importar6.png
+   :align: center
+   :alt: Importar presupuestos / pedidos sobre el TPV
+
+Posteriormente es necesario hacer clic sobre el botón **Facturas del cliente**, en el caso de que quieras imprimir
+la factura tras **validar** el pago.
+
+.. image:: gestion_basica/importar7.png
+   :align: center
+   :alt: Importar presupuestos / pedidos sobre el TPV
+
+Al **validar** el pago aparece la factura, para realizar su impresión.
+
+.. image:: gestion_basica/importar8.png
+   :align: center
+   :alt: Importar presupuestos / pedidos sobre el TPV
+
+Al validar el pago aparece la pantalla de gestión del recibo, desde dónde es posible enviar el recibo y la factura por
+correo electrónico.
+
+.. image:: gestion_basica/importar9.png
+   :align: center
+   :alt: Importar presupuestos / pedidos sobre el TPV
+
+Limitar la carga de clientes y/o productos
+--------------------------------------------
+
+Al iniciar una sesión del TPV, se cargan de forma predeterminada todos los **productos** y **clientes**.
+En función de tu negocio, es posible que dispongas de un volumen de productos o clientes muy elevado.
+Esta situación puede provocar **lentitud a la hora de iniciar la sesión**.
+
+Para corregir esta situación, Daeris permite establecer la carga de un número máximo de registros e incluso permite
+la opción de cargar el resto de forma invisible una vez se ha iniciado la sesión.
+
+Para limitar la carga de clientes al iniciar la sesión del TPV, navega a la pantalla
+:menuselection:`Punto de Venta --> Configuración --> Punto de Venta`, accede al detalle
+del TPV y sobre el apartado **Interfaz TPV**, informa la opción **Carga de clientes limitada**.
+
+Al activar esta opción, se cargarán **los primeros 100 clientes** al iniciar la sesión.
+
+En el caso de que desees que se carguen el resto de clientes una vez iniciada la sesión, selecciona la opción
+**Cargar todos los clientes restantes en segundo plano**.
+
+Posteriormente, pulsa el botón **Guardar**.
+
+.. image:: gestion_basica/carga1.png
+   :align: center
+   :alt: Carga de clientes limitada
+
+En el caso de que no incorpores la opción de **Cargar todos los clientes restantes en segundo plano**,
+puedes igualmente llegar a cargar un cliente cuando lo necesites.
+
+Sobre el TPV, a la hora de buscar el cliente, debes hacer clic sobre el botón cliente.
+Sobre el buscador, introduce parte del nombre del cliente y haz clic posteriormente sobre el botón
+**Cargar Clientes**. En el caso de que existan clientes que coincidan con la búsqueda, estos serán cargados
+sobre el TPV y aparecerán en el listado.
+
+.. image:: gestion_basica/carga1b.png
+   :align: center
+   :alt: Carga de clientes limitada
+
+Para limitar la carga de productos al iniciar la sesión del TPV, navega a la pantalla
+:menuselection:`Punto de Venta --> Configuración --> Punto de Venta`, accede al detalle
+del TPV y sobre el apartado **Inventario**, informa la opción **Carga de productos limitada**.
+
+Al activar esta opción, se cargarán **los 20.000 productos mas comunes** al iniciar la sesión.
+
+En el caso de que desees que se carguen el resto de productos una vez iniciada la sesión, selecciona la opción
+**Cargar todos los productos restantes en segundo plano**.
+
+Posteriormente, pulsa el botón **Guardar**.
+
+.. image:: gestion_basica/carga2.png
+   :align: center
+   :alt: Carga de productos limitada
+
+En el caso de que no incorpores la opción de **Cargar todos los productos restantes en segundo plano**,
+puedes igualmente llegar a cargar un producto cuando lo necesites.
+
+Desde el TPV, debes introducir sobre el buscador, el nombre del producto
+y hacer clic sobre el icono **Base de datos** que se encuentra junto al icono de la lupa.
+En el caso de que existan productos que coincidan con la búsqueda, estos serán cargados
+sobre el TPV y aparecerán en el listado.
+
+.. image:: gestion_basica/carga2b.png
+   :align: center
+   :alt: Carga de productos limitada
