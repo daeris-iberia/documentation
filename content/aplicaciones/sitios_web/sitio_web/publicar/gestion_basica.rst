@@ -22,18 +22,104 @@ posible con Daeris, y los pasos a seguir son los siguientes:
 #. Una vez enviado el correo, espera a que el equipo de soporte de Daeris se ponga en contacto contigo para iniciar las
    gestiones de cambio de dominio.
 
+Ejecutar el configurador del sitio web
+======================================
+
+El configurador del sitio web de Daeris te permite construir tu sitio web de forma automática en unos pocos pasos con
+solo responder a unas simples preguntas. Para lanzar el configurador del sitio web, navega a la pantalla
+:menuselection:`Sitio web --> Configuración --> Ajustes` y pulsa el botón **Configurador del Sitio Web**:
+
+.. image:: gestion_basica/configurador-sitio-web.png
+   :align: center
+   :alt: Ejecutar el configurador del sitio web
+
+.. important::
+   El configurador del sitio web solo se puede ejecutar una vez por cada sitio web creado. Después de ejecutar el configurador,
+   se permitirá solamente cambiar el tema del sitio web.
+
+El sistema navegará al configurador del sitio web. Pulsa el botón **Vamos a hacerlo** para iniciar el configurador:
+
+.. image:: gestion_basica/configurador-sitio-web-2.png
+   :align: center
+   :alt: Ejecutar el configurador del sitio web (2)
+
+.. warning::
+   Si pulsas el enlace *Saltar y empezar de cero*, el sistema te permitirá seleccionar un tema para que configures el
+   sitio web de forma manual, pero ya no podrás volver a lanzar el configurador para este sitio web.
+
+En primer lugar, indica qué tipo de sitio web deseas. Las opciones disponibles son un sitio web empresarial, una tienda
+en línea, un blog, un sitio web de eventos o una plataforma de eventos:
+
+.. image:: gestion_basica/configurador-sitio-web-3.png
+   :align: center
+   :alt: Ejecutar el configurador del sitio web (3)
+
+A continuación, deberás escribir en inglés el nombre de tu industria o tipo de negocio. El sistema buscará en una base de
+datos de industrias, y te mostrará las coincidencias:
+
+.. image:: gestion_basica/configurador-sitio-web-4.png
+   :align: center
+   :alt: Ejecutar el configurador del sitio web (4)
+
+Tras esto, indica el objetivo principal de tu sitio web. Las opciones disponibles son obtener clientes potenciales,
+desarrollar la marca, vender más, informar a los clientes o programar citas:
+
+.. image:: gestion_basica/configurador-sitio-web-5.png
+   :align: center
+   :alt: Ejecutar el configurador del sitio web (5)
+
+El siguiente paso consiste en seleccionar una paleta de colores predefinida para tu sitio web. También puedes cargar tu
+logo para que el sistema detecte de forma automática los colores del mismo:
+
+.. image:: gestion_basica/configurador-sitio-web-6.png
+   :align: center
+   :alt: Ejecutar el configurador del sitio web (6)
+
+Por último, selecciona las páginas y características que quieres que aparezcan en tu sitio web. Una vez hayas seleccionado
+todo lo que necesites, pulsa el botón **Construir mi sitio web**:
+
+.. image:: gestion_basica/configurador-sitio-web-7.png
+   :align: center
+   :alt: Ejecutar el configurador del sitio web (7)
+
+.. note::
+   Algunas páginas y características aparecen instaladas por defecto. Más adelante, podrás ocultar las páginas que no
+   necesites editando el menú del sitio web.
+
+El sistema mostrará tres opciones de diseño distintas para tu sitio web. Selecciona la opción que más se adapte a tus
+necesidades para instalar ese tema:
+
+.. image:: gestion_basica/configurador-sitio-web-8.png
+   :align: center
+   :alt: Ejecutar el configurador del sitio web (8)
+
+Una vez seleccionado el tema, el sistema construirá el sitio web de forma automática, en base a las respuestas proporcionadas
+en el configurador:
+
+.. image:: gestion_basica/configurador-sitio-web-9.png
+   :align: center
+   :alt: Ejecutar el configurador del sitio web (9)
+
+Al finalizar, podrás editar el contenido de las páginas del sitio web para adaptarlas a tu negocio:
+
+.. image:: gestion_basica/configurador-sitio-web-10.png
+   :align: center
+   :alt: Ejecutar el configurador del sitio web (10)
+
 Personalizar el tema del sitio web
 ==================================
 
-El primer paso en la personalización del sitio web de Daeris consiste en seleccionar el tema que más se adapte a las
-características de tu negocio. Para ello, Daeris pone a tu disposición una amplia variedad de temas con diferentes diseños
-y estilos para que selecciones uno como plantilla base.
-
-Para ello, navega a la pantalla :menuselection:`Sitio web --> Configuración --> Ajustes`, y pulsa el botón **Elige un tema**:
+Daeris pone a tu disposición una amplia variedad de temas con diferentes diseños y estilos. Para personalizar el tema del
+sitio web, navega a la pantalla :menuselection:`Sitio web --> Configuración --> Ajustes`, y pulsa el botón **Elige un tema**:
 
 .. image:: gestion_basica/personalizar-tema.png
    :align: center
    :alt: Personalizar el tema del sitio web
+
+.. note::
+   Si no aparece el botón de **Elige un tema** y en su lugar aparece el botón de **Configurador del Sitio Web**, deberás
+   ejecutar el configurador para construir tu sitio web, y más tarde, si lo deseas, siempre podrás cambiar el tema, una
+   vez hayas finalizado el configurador.
 
 Por defecto, Daeris trae instalado el tema por defecto, que no contiene ningún diseño ni estilo predeterminado. Pero puedes
 instalar cualquier otro tema de los disponibles en la aplicación:
