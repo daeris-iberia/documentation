@@ -2,11 +2,11 @@
 Control de Caja
 ===============
 
-Configuración
-==============
+Gestión del TPV
+================
 
-Apertura del TPV 
-------------------
+Control de Apertura
+--------------------
 
 Para que un empleado pueda abrir una sesión de TPV debe realizar previamente el **control de apertura**.
 
@@ -51,8 +51,8 @@ Al abrir la sesión, se mostrará la pantalla inicial del TPV.
    :align: center
    :alt: Inicio del TPV
 
-Cierre del TPV
-----------------
+Control de Cierre
+-------------------
 
 Para realizar el **control de caja** sobre un TPV, pulsa el botón **Cerrar** de la barra superior derecha.
 
@@ -103,6 +103,45 @@ albaranes, pagos, apuntes contables y registros de caja.
 .. image:: control_caja/sesion_detalle.png
    :align: center
    :alt: Sesiones del TPV
+
+
+Entrada y retirada de efectivo
+-------------------------------
+
+Daeris permite la entrada y retirada de efectivo a los empleados **administradores** del TPV sin necesidad de
+tener que cerrar la sesión.
+
+Para realizar la entrada o retira de efectivo, haz clic sobre el botón ** Efectivo +/- ** disponible sobre la barra
+superior.
+
+.. image:: control_caja/entrada_retirada1.png
+   :align: center
+   :alt: Entrada y retirada de efectivo
+
+Al hacer clic sobre el botón se muestra una pantalla desde la que se debe indicar si es una entrada o retirada de efectivo
+pulsando el botón correspondiente, el cual, quedará sombreado. Posteriormente, incorpora la cantidad de efectivo
+a incorporar o retirar, el motivo por el cual se realiza la acción y haz clic sobre el botón **Aceptar**.
+
+.. image:: control_caja/entrada_retirada2.png
+   :align: center
+   :alt: Entrada y retirada de efectivo
+
+.. image:: control_caja/entrada_retirada3.png
+   :align: center
+   :alt: Entrada y retirada de efectivo
+
+Todos los movimientos realizados se podrán visualizar cuando se realice el control de cierre.
+
+.. image:: control_caja/entrada_retirada4.png
+   :align: center
+   :alt: Entrada y retirada de efectivo
+
+Todos los movimientos quedarán auditados y se crearán los apuntes contables pertinentes para su control.
+
+.. image:: control_caja/entrada_retirada4.png
+   :align: center
+   :alt: Entrada y retirada de efectivo
+
 
 Opciones adicionales
 =====================
