@@ -5,15 +5,15 @@
 # 
 # Translators:
 # AleEscandon <alejandra.escandon@jarsa.com.mx>, 2021
-# Vivian Montana <vmo@odoo.com>, 2021
 # Nicolás Broggi <rnbroggi@gmail.com>, 2021
 # José Cabrera Lozano <jose.cabrera@edukative.es>, 2021
-# Martin Trigaux, 2021
 # Jesús Alan Ramos Rodríguez <alan.ramos@jarsa.com.mx>, 2021
 # Luis M. Ontalba <luis.martinez@tecnativa.com>, 2021
 # Pablo Rojas <rojaspablo88@gmail.com>, 2021
 # jabelchi, 2021
 # Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2022
+# Lucia Pacheco <lpo@odoo.com>, 2022
+# Martin Trigaux, 2022
 # Braulio D. López Vázquez <bdl@odoo.com>, 2022
 # 
 #, fuzzy
@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-18 14:56+0000\n"
+"POT-Creation-Date: 2022-07-22 09:36+0000\n"
 "PO-Revision-Date: 2021-11-02 08:49+0000\n"
 "Last-Translator: Braulio D. López Vázquez <bdl@odoo.com>, 2022\n"
 "Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
@@ -29,7 +29,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../content/applications/productivity.rst:5
 msgid "Productivity"
@@ -39,13 +39,135 @@ msgstr "Productividad"
 msgid "Discuss"
 msgstr "Conversaciones"
 
+#: ../../content/applications/productivity/discuss/advanced.rst:5
+msgid "Advanced"
+msgstr "Avanzado"
+
+#: ../../content/applications/productivity/discuss/advanced/ice_servers.rst:3
+msgid "Configure ICE servers with Twilio"
+msgstr ""
+
+#: ../../content/applications/productivity/discuss/advanced/ice_servers.rst:5
+msgid ""
+"Odoo Discuss uses WebRTC API and peer-to-peer connections for voice and "
+"video calls. If one of the call attendees is behind a symmetric NAT, you "
+"need to configure an ICE server to establish a connection to the call "
+"attendee. To set up an ICE server, first, create a Twilio account for video "
+"calls, and then, connect that Twilio account to Odoo."
+msgstr ""
+
+#: ../../content/applications/productivity/discuss/advanced/ice_servers.rst:11
+msgid "Create a Twilio account"
+msgstr ""
+
+#: ../../content/applications/productivity/discuss/advanced/ice_servers.rst:13
+msgid ""
+"First, go to `Twilio <https://www.twilio.com_>`_ and click :guilabel:`Sign "
+"up` to create a new Twilio account. Next, enter your name and email address,"
+" create a password, and accept Twilio's terms of service. Then, click "
+":guilabel:`Start your free trial`. Verify your email address with Twilio, as"
+" per their instructions."
+msgstr ""
+
+#: ../../content/applications/productivity/discuss/advanced/ice_servers.rst:18
+msgid ""
+"Next, enter your phone number into Twilio. Then, Twilio will send you an SMS"
+" text message containing a verification code. Enter the verification code "
+"into Twilio to verify your phone number."
+msgstr ""
+
+#: ../../content/applications/productivity/discuss/advanced/ice_servers.rst:22
+msgid ""
+"After that, Twilio redirects to a welcome page. Use the following list to "
+"answer Twilio's questions:"
+msgstr ""
+
+#: ../../content/applications/productivity/discuss/advanced/ice_servers.rst:25
+msgid ""
+"For :guilabel:`Which Twilio product are you here to use?`, select "
+":guilabel:`Video`."
+msgstr ""
+
+#: ../../content/applications/productivity/discuss/advanced/ice_servers.rst:26
+msgid ""
+"For :guilabel:`What do you plan to build with Twilio?`, select "
+":guilabel:`Other`."
+msgstr ""
+
+#: ../../content/applications/productivity/discuss/advanced/ice_servers.rst:27
+msgid ""
+"For :guilabel:`How do you want to build with Twilio?`, select "
+":guilabel:`With no code at all`."
+msgstr ""
+
+#: ../../content/applications/productivity/discuss/advanced/ice_servers.rst:28
+msgid ""
+"For :guilabel:`What is your goal today?`, select :guilabel:`3rd party "
+"integrations`."
+msgstr ""
+
+#: ../../content/applications/productivity/discuss/advanced/ice_servers.rst:34
+msgid ""
+"If necessary, change the billing country. Finally, click :guilabel:`Get "
+"Started with Twilio`."
+msgstr ""
+
+#: ../../content/applications/productivity/discuss/advanced/ice_servers.rst:37
+msgid "Locate the Twilio Account SID and Auth Token"
+msgstr ""
+
+#: ../../content/applications/productivity/discuss/advanced/ice_servers.rst:39
+msgid ""
+"To locate the Account SID and Auth Token, go to the Twilio account "
+"dashboard. Then, click :guilabel:`Develop` on the sidebar. In the "
+":guilabel:`Account Info` section, locate the :guilabel:`Account SID` and the"
+" :guilabel:`Auth Token`. Both of these are needed to connect Twilio to Odoo."
+msgstr ""
+
+#: ../../content/applications/productivity/discuss/advanced/ice_servers.rst:49
+msgid "Connect Twilio to Odoo"
+msgstr ""
+
+#: ../../content/applications/productivity/discuss/advanced/ice_servers.rst:51
+msgid ""
+"Open the Odoo database and go to :menuselection:`Settings --> General "
+"Settings --> Discuss`. Check the box next to :guilabel:`Use Twilio ICE "
+"servers` and enter the Twilio account's :guilabel:`Account SID` and "
+":guilabel:`Auth Token`. Finally, click :guilabel:`Save` to apply these "
+"changes."
+msgstr ""
+
+#: ../../content/applications/productivity/discuss/advanced/ice_servers.rst:61
+msgid "Define a list of custom ICE servers"
+msgstr ""
+
+#: ../../content/applications/productivity/discuss/advanced/ice_servers.rst:63
+msgid ""
+"This step is not required for the Twilio configuration. However, if Twilio "
+"is not configured or is not working at any given moment, Odoo will fall back"
+" on the custom ICE servers list. The user must define the list of custom ICE"
+" servers."
+msgstr ""
+
+#: ../../content/applications/productivity/discuss/advanced/ice_servers.rst:67
+msgid ""
+"In :menuselection:`Settings --> General Settings --> Discuss`, click the "
+":guilabel:`ICE Servers` button under :guilabel:`Custom ICE server list`."
+msgstr ""
+
+#: ../../content/applications/productivity/discuss/advanced/ice_servers.rst:74
+msgid ""
+"Odoo will redirect to the :guilabel:`ICE servers` page. Here you can define "
+"your own list of ICE servers."
+msgstr ""
+
 #: ../../content/applications/productivity/discuss/overview.rst:5
 msgid "Overview"
 msgstr "Información general"
 
 #: ../../content/applications/productivity/discuss/overview/get_started.rst:3
 msgid "Get Started with Discuss"
-msgstr "Empiece a discutir"
+msgstr "Empezar a usar Conversaciones"
 
 #: ../../content/applications/productivity/discuss/overview/get_started.rst:5
 msgid ""
@@ -55,11 +177,12 @@ msgid ""
 " applications. Forge better relationships, increase productivity and "
 "transparency by promoting a convenient way of communicating."
 msgstr ""
-"Discusiones te permite unir todas las comunicaciones de tu empresa a través "
-"de mensajes, notas y chat. Comparta información, proyectos, archivos, "
-"priorice tareas y permanezca conectado con colegas y socios en todas las "
-"aplicaciones. Establezca mejores relaciones, aumente la productividad y la "
-"transparencia al promover una forma conveniente de comunicarse."
+"La aplicación de Conversaciones le permite unificar todas las comunicaciones"
+" de su empresa a través de mensajes, notas y chat. Comparta información, "
+"proyectos, archivos, priorice tareas y permanezca conectado con colegas y "
+"partners a través de todas las aplicaciones. Establezca mejores relaciones, "
+"aumente la productividad y la transparencia al promover una forma "
+"conveniente de comunicarse."
 
 #: ../../content/applications/productivity/discuss/overview/get_started.rst:13
 msgid "Choose your notifications preference"
@@ -87,17 +210,17 @@ msgstr ""
 #: ../../content/applications/productivity/discuss/overview/get_started.rst:24
 msgid "Messages can then be *Marked as Todo*, *Replied*, or *Marked as Read*."
 msgstr ""
-"Los mensajes se pueden *Marcar como Por Hacer *, *Respondido* o *Marcado "
-"como Leído*."
+"Los mensajes se pueden *marcar como por realizar *, *respondido* o *marcar "
+"como leído*."
 
 #: ../../content/applications/productivity/discuss/overview/get_started.rst:30
 msgid ""
 "The messages tagged as *Mark as Todo* are also shown in *Starred*, while the"
 " ones *Marked as Read* are moved to *History*."
 msgstr ""
-"Los mensajes etiquetados como *Marcar como Por Hacer* también se muestran en"
-" *Destacados*, mientras que los *Marcados como Leídos* se mueven a "
-"*Historial*."
+"Los mensajes etiquetados como *marcar como por realizar* también se muestran"
+" en *destacado*, mientras que los *marcar como leídos* se mueven a "
+"*historial*."
 
 #: ../../content/applications/productivity/discuss/overview/get_started.rst:38
 msgid "Start Chatting"
@@ -112,8 +235,8 @@ msgid ""
 msgstr ""
 "La primera vez que inicia sesión en su cuenta, OdooBot le envía un mensaje "
 "solicitando permiso para recibir notificaciones de escritorio en los chats. "
-"Si se acepta, recibirá notificaciones automáticas de los mensajes que se le "
-"envíen independientemente de dónde se encuentre en Odoo."
+"Si acepta, recibirá notificaciones automáticas de los mensajes que se le "
+"envíen independientemente de en qué parte de Odoo se encuentre."
 
 #: ../../content/applications/productivity/discuss/overview/get_started.rst:50
 msgid ""
@@ -128,8 +251,8 @@ msgid ""
 "To start a chat, click on *New Message* on the *Messaging Menu*, or go to "
 "*Discuss* and send a *Direct Message*."
 msgstr ""
-"Para iniciar un chat, haga clic en *Nuevo mensaje* en el *Menú de "
-"mensajería*, o vaya a *Discusión* y envíe un *Mensaje directo*."
+"Para iniciar un chat, haga clic en *nuevo mensaje* en el *menú de "
+"mensajería*, o vaya a *conversaciones* y envíe un *mensaje directo*."
 
 #: ../../content/applications/productivity/discuss/overview/get_started.rst:60
 msgid ""
@@ -139,23 +262,23 @@ msgstr ""
 
 #: ../../content/applications/productivity/discuss/overview/get_started.rst:63
 msgid "Mentions in the chat and on the Chatter"
-msgstr "Menciones en el chat y en Chatter"
+msgstr "Menciones en el chat y en el chatter"
 
 #: ../../content/applications/productivity/discuss/overview/get_started.rst:66
 msgid ""
 "To mention a user within a chat or the chatter type *@user-name*; to refer "
 "to a channel, type *#channel-name*."
 msgstr ""
-"Para mencionar a un usuario dentro de un chat o el tipo de charla *@nombre-"
-"usuario *; para referirse a un canal, escriba *#nombre-canal *."
+"Para mencionar a un usuario dentro de un chat o en el chatter escriba "
+"*@nombre-usuario *. Para referir a un canal, escriba *#nombre-canal *."
 
 #: ../../content/applications/productivity/discuss/overview/get_started.rst:68
 msgid ""
 "A notification is sent to the user mentioned either to his *Inbox* or "
 "through email, depending on his settings."
 msgstr ""
-"Se envía una notificación al usuario mencionado a su *Bandeja de entrada* o "
-"por correo electrónico, dependiendo de su configuración."
+"Se envía una notificación a la *Bandeja de entrada* del usuario mencionado o"
+" por correo electrónico, dependiendo de su configuración."
 
 #: ../../content/applications/productivity/discuss/overview/get_started.rst:75
 msgid ""
@@ -165,10 +288,10 @@ msgid ""
 " scope of the search becomes all partners."
 msgstr ""
 "Cuando se menciona a un usuario, la lista de búsqueda (lista de nombres) "
-"sugiere valores en primer lugar en función de los seguidores de la tarea y, "
-"en segundo lugar, en *Empleados*. Si el registro que se busca no coincide "
-"con un seguidor o un empleado, el alcance de la búsqueda se convierte en "
-"todos los socios."
+"sugiere valores, en primer lugar, en función de los seguidores de la tarea "
+"y, en segundo lugar, en función de *Empleados*. Si el registro que se busca "
+"no coincide con un seguidor o un empleado, el alcance de la búsqueda se "
+"convierte en todos los partners."
 
 #: ../../content/applications/productivity/discuss/overview/get_started.rst:80
 msgid "Chat status"
@@ -181,7 +304,7 @@ msgid ""
 "left side of a contact’s names on Discuss’ sidebar and on the *Messaging "
 "menu*."
 msgstr ""
-"Es útil ver qué están haciendo los colegas y qué tan rápido pueden responder"
+"Es útil ver qué están haciendo sus colegas y qué tan rápido pueden responder"
 " a los mensajes al verificar su *Estado*. El estado se muestra en el lado "
 "izquierdo de los nombres de un contacto en la barra lateral de Discusiones y"
 " en el *menú de Mensajería*."
@@ -192,7 +315,7 @@ msgstr "Verde = en línea"
 
 #: ../../content/applications/productivity/discuss/overview/get_started.rst:87
 msgid "Orange = away"
-msgstr "Naranja = lejos"
+msgstr "Naranja = ocupado"
 
 #: ../../content/applications/productivity/discuss/overview/get_started.rst:88
 msgid "White = offline"
@@ -213,7 +336,7 @@ msgstr ":doc:`/applications/general/email_communication/email_servers`"
 
 #: ../../content/applications/productivity/discuss/overview/plan_activities.rst:3
 msgid "Get Organized by Planning Activities"
-msgstr "Organícese por actividades de planificación"
+msgstr "Planifique actividades para organizarse"
 
 #: ../../content/applications/productivity/discuss/overview/plan_activities.rst:5
 msgid ""
@@ -222,7 +345,7 @@ msgid ""
 "that, you do not leave space for wasteful activities and reduce the chance "
 "of having overlapping actions between team members."
 msgstr ""
-"Cuando planifica actividades, minimiza el riesgo de incertidumbres, ya que "
+"Al planificar actividades minimiza el riesgo de incertidumbres, ya que "
 "proporciona instrucciones claras para el curso de su próxima acción. Además "
 "de eso, no deja espacio para actividades inútiles y reduce la posibilidad de"
 " que haya acciones superpuestas entre los miembros del equipo."
@@ -236,8 +359,8 @@ msgid ""
 "Access and manage your activities wherever you are in Odoo by the "
 "*Activities* menu."
 msgstr ""
-"Acceda y administre sus actividades en cualquier lugar de Odoo mediante el "
-"menú *Actividades*."
+"Acceda a sus actividades y adminístrelas en cualquier lugar de Odoo mediante"
+" el menú *Actividades*."
 
 #: ../../content/applications/productivity/discuss/overview/plan_activities.rst:20
 msgid "Plan activities"
@@ -248,12 +371,12 @@ msgid ""
 "Activities can be planned and managed from the chatter by clicking on "
 "*Schedule activity*, or through Kanban views."
 msgstr ""
-"Las actividades se pueden planificar y administrar desde la charla haciendo "
+"Las actividades se pueden planear y administrar desde el chatter. Solo haga "
 "clic en *Programar actividad*, o mediante las vistas Kanban."
 
 #: ../../content/applications/productivity/discuss/overview/plan_activities.rst:31
 msgid "Set your activity types"
-msgstr "Establece tus tipos de actividad"
+msgstr "Establezca sus tipos de actividad"
 
 #: ../../content/applications/productivity/discuss/overview/plan_activities.rst:33
 msgid ""
@@ -261,7 +384,7 @@ msgid ""
 "meeting, etc.). However, you can set new ones going to "
 ":menuselection:`Settings --> Activity types`."
 msgstr ""
-"Hay varios tipos de actividades disponibles de forma predeterminada en Odoo "
+"Hay varios tipos de actividades disponibles automáticamente en Odoo "
 "(llamada, correo electrónico, reunión, etc.). Sin embargo, puede establecer "
 "nuevos en :menuselection:`Configuración --> Tipos de actividad`."
 
@@ -271,7 +394,7 @@ msgid ""
 " to create it with an *Action to Perform* set as *Meeting*."
 msgstr ""
 "Si necesita crear un tipo de actividad con un calendario disponible, "
-"asegúrese de crearlo con una *Acción para realizar* establecida como "
+"asegúrese de crearlo con una *Acción por realizar* establecida como "
 "*Reunión*."
 
 #: ../../content/applications/productivity/discuss/overview/plan_activities.rst:46
@@ -283,8 +406,8 @@ msgid ""
 "Odoo helps you to plan a flow of activities by allowing you to set "
 "*Recommended Next Activities*."
 msgstr ""
-"Odoo le ayuda a planificar un flujo de actividades permitiéndole establecer "
-"*Próximas actividades recomendadas*."
+"Con Odoo, puede establecer *Próximas actividades recomendadas*, lo que le "
+"ayuda a planear su flujo de trabajo."
 
 #: ../../content/applications/productivity/discuss/overview/plan_activities.rst:55
 msgid ""
@@ -310,10 +433,10 @@ msgid ""
 "communication. This way, you keep everyone in the loop updated with the "
 "latest developments."
 msgstr ""
-"Puede utilizar canales para organizar discusiones entre equipos "
-"individuales, departamentos, proyectos o cualquier otro grupo que requiera "
-"una comunicación regular. De esta manera, mantendrá a todos informados al "
-"día con los últimos desarrollos."
+"Puede utilizar canales para organizar conversaciones entre equipos "
+"individuales, departamentos, proyectos o cualquier otro grupo que requieran "
+"estar comunicados constantemente. De esta manera, mantendrá a todos "
+"informados al día con los últimos desarrollos."
 
 #: ../../content/applications/productivity/discuss/overview/team_communication.rst:10
 msgid "Public and Private channels"
@@ -334,10 +457,10 @@ msgid ""
 "whenever information should be limited to specific groups (such as a "
 "specific department)."
 msgstr ""
-"Un canal público se utiliza mejor cuando muchos empleados necesitan acceder "
-"a información (como anuncios de la empresa), mientras que un canal privado "
-"se puede utilizar siempre que la información deba limitarse a grupos "
-"específicos (como un departamento específico)."
+"Un canal público es mejor cuando muchos empleados necesitan acceder a "
+"información (como anuncios de la empresa), mientras que un canal privado es "
+"mejor cuando la información deba limitarse a grupos específicos (como un "
+"departamento específico)."
 
 #: ../../content/applications/productivity/discuss/overview/team_communication.rst:26
 msgid "Configuration options"
@@ -349,7 +472,7 @@ msgid ""
 " clicking on the *Channel Settings* icon on the sidebar."
 msgstr ""
 "Puedes configurar el nombre, la descripción, el alias de correo electrónico "
-"y la privacidad de un canal haciendo clic en el ícono *Configuración del "
+"y la privacidad de un canal haciendo clic en el icono *Configuración de "
 "canal * en la barra lateral."
 
 #: ../../content/applications/productivity/discuss/overview/team_communication.rst:36
@@ -363,7 +486,7 @@ msgid ""
 "to follow a private channel lets other users view and join it, as they would"
 " a public one."
 msgstr ""
-"Cambiar *¿Quién puede seguir las actividades del grupo?* Le permite "
+"Al cambiar la opción *¿Quién puede seguir las actividades del grupo?* Podrá "
 "controlar qué grupos pueden tener acceso al canal. Tenga en cuenta que "
 "permitir que *Todos* sigan un canal privado permite que otros usuarios lo "
 "vean y se unan, como lo harían con uno público."
@@ -374,9 +497,9 @@ msgid ""
 "members, or, go to Discuss’ main page, select the channel and click on "
 "*Invite*."
 msgstr ""
-"Si elige *Solo personas invitadas*, vaya a la pestaña *Miembros* para "
-"agregar sus miembros, o vaya a la página principal de Discusión, seleccione "
-"el canal y haga clic en *Invitar*."
+"Si eligió la opción *Solo personas invitadas*, vaya a la pestaña *Miembros* "
+"para agregar a los usuarios que quiere, o vaya a la página principal de "
+"Conversaciones, seleccione el canal y haga clic en *Invitar*."
 
 #: ../../content/applications/productivity/discuss/overview/team_communication.rst:49
 msgid ""
@@ -394,7 +517,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/discuss/overview/team_communication.rst:55
 msgid "Use a channel as a mailing list"
-msgstr "Use un canal como lista de correo"
+msgstr "Use un canal como lista de correos"
 
 #: ../../content/applications/productivity/discuss/overview/team_communication.rst:57
 msgid ""
@@ -409,15 +532,15 @@ msgid ""
 "Enabling this option allows you to *Moderate this channel*, meaning that "
 "messages will need to be approved before being sent."
 msgstr ""
-"Habilitar esta opción le permite *Moderar este canal*, lo que significa que "
-"los mensajes deberán ser aprobados antes de enviarse."
+"Habilitar esta opción le permite *Moderar este canal*, esto significa que "
+"los mensajes se deberán de aprobar antes de enviarse."
 
 #: ../../content/applications/productivity/discuss/overview/team_communication.rst:66
 msgid ""
 "Under the *Moderation* tab choose as many moderators as you need, and if you"
 " would like them to receive an *Automatic notification*."
 msgstr ""
-"En la pestaña *Moderación*, elija tantos moderadores como necesite, y si "
+"En la pestaña *Moderación* elija todos los moderadores que necesite y si "
 "desea que reciban una *Notificación automática*."
 
 #: ../../content/applications/productivity/discuss/overview/team_communication.rst:67
@@ -425,16 +548,16 @@ msgid ""
 "Mark *Send guidelines to new subscribers* to automatically send instructions"
 " to newcomers."
 msgstr ""
-"Marque *Enviar pautas a nuevos suscriptores* para enviar instrucciones "
-"automáticamente a los recién llegados."
+"Marque *enviarle las reglas a nuevos suscriptores* para que los nuevos "
+"usuarios reciban las instrucciones automáticamente."
 
 #: ../../content/applications/productivity/discuss/overview/team_communication.rst:73
 msgid ""
 "Moderators can: *Accept*, *Reject*, *Discard*, *Always Allow* or *Ban* "
 "messages."
 msgstr ""
-"Los moderadores pueden: *Aceptar*, *Rechazar*, *Descartar*, *Permitir "
-"siempre* o *Prohibir* mensajes."
+"Los moderadores pueden: *aceptar*, *rechazar*, *descartar*, *siempre "
+"permitir* o *prohibir* mensajes."
 
 #: ../../content/applications/productivity/discuss/overview/team_communication.rst:80
 msgid ""
@@ -449,9 +572,9 @@ msgid ""
 "Once a channel is moderated, the menu *Ban List* allows you to add email "
 "addresses per moderated channel to auto-ban them from sending messages."
 msgstr ""
-"Una vez que se modera un canal, el menú *Lista de prohibición* le permite "
-"agregar direcciones de correo electrónico por canal moderado para prohibir "
-"automáticamente el envío de mensajes."
+"Una vez que se modera un canal, el menú *Lista de prohibiciones* le permite "
+"agregar direcciones de correo electrónico por cada canal moderado para "
+"prohibir enviar mensajes automáticamente."
 
 #: ../../content/applications/productivity/discuss/overview/team_communication.rst:91
 msgid "Quick search bar"
@@ -464,11 +587,11 @@ msgid ""
 "*Quick search…* bar is displayed. It is a clever way to filter conversations"
 " and quickly find the one you need."
 msgstr ""
-"Una vez que se anclan al menos 20 canales, mensajes directos y "
-"conversaciones de chat en vivo (si el módulo está instalado en su base de "
-"datos) en la barra lateral, se muestra una barra de *Búsqueda rápida ...*. "
-"Es una forma inteligente de filtrar conversaciones y encontrar rápidamente "
-"la que necesita."
+"Una vez que se anclan a la barra lateral al menos 20 canales, mensajes "
+"directos y conversaciones de chat en vivo (si el módulo está instalado en su"
+" base de datos) se muestra una barra de *Búsqueda rápida ...*. Esta barra es"
+" una forma inteligente de filtrar conversaciones y encontrar rápidamente la "
+"que necesita."
 
 #: ../../content/applications/productivity/discuss/overview/team_communication.rst:103
 msgid "Finding channels"
@@ -480,7 +603,7 @@ msgid ""
 "channels, and join or leave them from a single screen."
 msgstr ""
 "Haga clic en *Canales* (en la barra lateral), explore la lista de canales "
-"públicos y únase a ellos o déjelos desde una sola pantalla."
+"públicos y únase a ellos o déjelos desde una misma pantalla."
 
 #: ../../content/applications/productivity/discuss/overview/team_communication.rst:108
 msgid ""
@@ -488,9 +611,9 @@ msgid ""
 "accepts wildcards by using the underscore character *(_)* to represent a "
 "single character."
 msgstr ""
-"Aplique criterios de filtros y guárdelos para su uso posterior. La función "
-"de búsqueda acepta comodines utilizando el carácter de subrayado *(_)* para "
-"representar un solo carácter."
+"Aplique criterios de filtros y guárdelos para usarlos después. La función de"
+" búsqueda acepta caracteres comodines. Para esto, use el guion bajo *(_)* "
+"para representar un solo caracter."
 
 #: ../../content/applications/productivity/discuss/overview/team_communication.rst:116
 msgid ":doc:`plan_activities`"
@@ -498,7 +621,7 @@ msgstr ":doc:`plan_activities`"
 
 #: ../../content/applications/productivity/iot.rst:8
 msgid "Internet of Things (IoT)"
-msgstr "Internet de las cosas (IoT)"
+msgstr "Internet de las cosas (IoT, por su sigla en inglés)"
 
 #: ../../content/applications/productivity/iot/config.rst:5
 #: ../../content/applications/productivity/mail_plugins/gmail.rst:6
@@ -591,7 +714,7 @@ msgid ""
 "to the IP address of the box). Give a name to your IoT Box (not required) "
 "and paste the token, then click on next."
 msgstr ""
-"Será redirigido a la página de inicio de la Caja IoT (si no funciona, "
+"Se le va a redirigir a la página de inicio de la Caja IoT (si no funciona, "
 "conéctese a la dirección IP de la caja). Dele un nombre a su Caja IoT "
 "(aunque no es obligatorio), pegue el token y haga clic en \"Siguiente\"."
 
@@ -621,11 +744,11 @@ msgstr ""
 
 #: ../../content/applications/productivity/iot/config/connect.rst:72
 msgid "You should now see the IoT Box."
-msgstr "Ahora debería ver la IoT Box."
+msgstr "Ahora debería ver la Caja IoT."
 
 #: ../../content/applications/productivity/iot/config/connect.rst:78
 msgid "IoT Box Schema"
-msgstr "Schema de la Caja IoT"
+msgstr "Diagrama de la Caja IoT"
 
 #: ../../content/applications/productivity/iot/config/flash_sdcard.rst:3
 msgid "Flashing your SD Card"
@@ -641,7 +764,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/iot/config/flash_sdcard.rst:9
 msgid "Upgrade from the IoT Box homepage"
-msgstr "Actualizar desde la página de inicio de IoT Box"
+msgstr "Actualizar desde la página de inicio de la Caja IoT"
 
 #: ../../content/applications/productivity/iot/config/flash_sdcard.rst:11
 msgid ""
@@ -1786,7 +1909,7 @@ msgid ""
 "appear. You can then click on *Close*."
 msgstr ""
 "Haga clic en *Instalar complemento*. Debe aparecer una notificación que diga"
-" \"Se instaló la implementación\". Luego haga clic en *Cerrar*."
+" \"Se instaló el despliegue\". Luego haga clic en *Cerrar*."
 
 #: ../../content/applications/productivity/mail_plugins/gmail.rst:52
 msgid "Configure your Gmail mailbox"
@@ -1830,14 +1953,14 @@ msgstr ""
 " :ref:`créditos prepagados <mail_plugins/pricing>`."
 
 #: ../../content/applications/productivity/mail_plugins/gmail.rst:83
-#: ../../content/applications/productivity/mail_plugins/outlook.rst:78
+#: ../../content/applications/productivity/mail_plugins/outlook.rst:93
 msgid "Enter your Odoo database URL and click on *Login*."
 msgstr ""
 "Introduzca el URL de su base de datos de Odoo y haga clic en *Iniciar "
 "sesión*."
 
 #: ../../content/applications/productivity/mail_plugins/gmail.rst:89
-#: ../../content/applications/productivity/mail_plugins/outlook.rst:90
+#: ../../content/applications/productivity/mail_plugins/outlook.rst:105
 msgid "If you aren't logged into your database, enter your credentials."
 msgstr ""
 "Si no ha iniciado sesión en su base de datos, introduzca sus credenciales."
@@ -1902,50 +2025,85 @@ msgstr "Lea la advertencia y haga clic en *Instalar*."
 
 #: ../../content/applications/productivity/mail_plugins/outlook.rst:59
 msgid "Connect your database"
-msgstr ""
+msgstr "Conectar su base de datos"
 
 #: ../../content/applications/productivity/mail_plugins/outlook.rst:61
 msgid ""
 "Open any email in your Outlook mailbox, click on the *More actions* button, "
 "and select *Odoo for Outlook*."
 msgstr ""
+"Abra cualquier correo electrónico en su bandeja de entrada de Outlook, haga "
+"clic en el botón de *Más acciones* y seleccione *Odoo para Outlook*."
+
+#: ../../content/applications/productivity/mail_plugins/outlook.rst:79
+msgid ""
+"If, after a short while, the panel is still empty, it is possible that your "
+"browser cookie settings prevented it from loading. Note that these settings "
+"also change if you are in \"Incognito\" mode on your browser."
+msgstr ""
 
 #: ../../content/applications/productivity/mail_plugins/outlook.rst:84
-msgid "Click on *Allow* to open the pop-up window."
+msgid ""
+"To fix this issue, configure your browser to always allow cookies on Odoo's "
+"plugin page."
 msgstr ""
 
-#: ../../content/applications/productivity/mail_plugins/outlook.rst:92
+#: ../../content/applications/productivity/mail_plugins/outlook.rst:86
+msgid ""
+"For Google Chrome, you can do so by following the guide at: "
+"`https://support.google.com/chrome/answer/95647 "
+"<https://support.google.com/chrome/answer/95647#:~:text=Allow%20or%20block%20cookies%20for%20a%20specific%20site>`_"
+" and adding `download.odoo.com` to the list of `Sites that can always use "
+"cookies`."
+msgstr ""
+
+#: ../../content/applications/productivity/mail_plugins/outlook.rst:90
+msgid "Once done, the Outlook panel needs to be opened again."
+msgstr ""
+
+#: ../../content/applications/productivity/mail_plugins/outlook.rst:99
+msgid "Click on *Allow* to open the pop-up window."
+msgstr "Haga clic en *Permitir* para abrir la ventana emergente."
+
+#: ../../content/applications/productivity/mail_plugins/outlook.rst:107
 msgid "Click on *Allow* to let the Outlook Plugin connect to your database."
 msgstr ""
+"Haga clic en *Permitir* para que el plugin de Outlook se conecte con su base"
+" de datos."
 
-#: ../../content/applications/productivity/mail_plugins/outlook.rst:101
+#: ../../content/applications/productivity/mail_plugins/outlook.rst:116
 msgid "Add a shortcut to the plugin"
-msgstr ""
+msgstr "Agregar un atajo al plugin"
 
-#: ../../content/applications/productivity/mail_plugins/outlook.rst:103
+#: ../../content/applications/productivity/mail_plugins/outlook.rst:118
 msgid ""
 "By default, the Outlook Plugin can be opened from the *More actions* menu. "
 "However, to save time, it's possible to add it next to the other default "
 "actions."
 msgstr ""
+"De forma predeterminada, el plugin de Outlook se puede abrir desde el menú "
+"de *Más acciones*. Sin embargo, para ahorrar tiempo, es posible agregarlo al"
+" lado de las demás acciones predeterminadas."
 
-#: ../../content/applications/productivity/mail_plugins/outlook.rst:106
+#: ../../content/applications/productivity/mail_plugins/outlook.rst:121
 msgid ""
 "In your Outlook mailbox, click on *Settings*, then on *View all Outlook "
 "settings*."
 msgstr ""
-"En su bandeja de entrada de Outlook, vaya a *Ajustes* luego a *Ver todos los"
-" ajustes de Outlook*."
+"En su bandeja de entrada de Outlook, haga clic en *Ajustes* luego en *Ver "
+"todos los ajustes de Outlook*."
 
-#: ../../content/applications/productivity/mail_plugins/outlook.rst:112
+#: ../../content/applications/productivity/mail_plugins/outlook.rst:127
 msgid ""
 "Select *Customize actions* under *Mail*, click on *Odoo for Outlook*, and "
 "then *Save*."
 msgstr ""
+"Seleccione *Personalizar acciones* en *Correo*, haga clic en *Odoo para "
+"Outlook* y luego en *Guardar*."
 
-#: ../../content/applications/productivity/mail_plugins/outlook.rst:118
+#: ../../content/applications/productivity/mail_plugins/outlook.rst:133
 msgid "Open any email; the shortcut should be displayed."
-msgstr ""
+msgstr "Abra cualquier correo, el atajo debe aparecer."
 
 #: ../../content/applications/productivity/studio.rst:8
 msgid "Studio"
@@ -2021,16 +2179,16 @@ msgid ""
 "*On Creation*: when a new record is created. Note that the record is created"
 " once saved for the first time."
 msgstr ""
-"*En creación*: cuando se crea un nuevo registro. Tome en cuenta que el "
-"registro se crea cuando se guarda por primera vez."
+"*Creación*: cuando se crea un nuevo registro. Tome en cuenta que el registro"
+" se crea cuando se guarda por primera vez."
 
 #: ../../content/applications/productivity/studio/concepts/understanding_automated_actions.rst:23
 msgid ""
 "*On Update*: when the record is updated. Note that the update happens once "
 "the record is saved."
 msgstr ""
-"*On Update*: when the record is updated. Note that the update happens once "
-"the record is saved."
+"*Actualización*: cuando se actualiza el registro. Tome en cuenta que la "
+"actualización sucede cuando el registro se guarda."
 
 #: ../../content/applications/productivity/studio/concepts/understanding_automated_actions.rst:24
 msgid ""
@@ -2053,7 +2211,7 @@ msgid ""
 "record). Note that this action can only be used with the *Execute Python "
 "Code* action type."
 msgstr ""
-"*Basado en la modificación del formulario*: cuando el valor del campo "
+"*Según la modificación del formulario*: cuando el valor del campo "
 "*Activador* especificado se cambia en la interfaz (el usuario puede ver los "
 "cambios antes de guardar el registro). Tome en cuenta que esta acción solo "
 "se puede utilizar con el tipo de acción *Ejecutar código Python*."
@@ -2066,76 +2224,103 @@ msgid ""
 "date/time is not set on the form of the model chosen, the date/time "
 "considered is the one of the creation/update of the record."
 msgstr ""
+"*Según una condición de tiempo*: ocurre un retraso después de una fecha u "
+"hora específicas. Establezca un *Retraso después de la fecha de activación* "
+"si necesita que ocurra un retraso antes de la *Fecha de activación*. Por "
+"ejemplo: para enviar un recordatorio 15 minutos antes de una reunión. Si no "
+"se establece la hora o fecha en el formulario del modelo elegido, se "
+"considerará la hora o fecha de la creación o actualización del registro."
 
 #: ../../content/applications/productivity/studio/concepts/understanding_automated_actions.rst:34
 msgid "For every Trigger option, **conditions** can be applied, such as:"
 msgstr ""
+"Se pueden aplicar **condiciones** a todas las opciones de activadores, como:"
 
 #: ../../content/applications/productivity/studio/concepts/understanding_automated_actions.rst:36
 msgid ""
 "*Before Update Domain*: if designated, this condition must be satisfied "
 "before the record is updated."
 msgstr ""
+"*Antes de actualizar el dominio*: si se designa, esta condición se debe "
+"cumplir antes de que se actualice el registro."
 
 #: ../../content/applications/productivity/studio/concepts/understanding_automated_actions.rst:38
 msgid ""
 "*Apply on*: if designated, this condition must be satisfied before executing"
 " the action rule (*Action To Do*), and after the update."
 msgstr ""
+"*Aplicar en*: si se designa, esta condición se debe cumplir antes de "
+"ejecutar la regla de acción (*Acción por hacer*), y después de la "
+"actualización."
 
 #: ../../content/applications/productivity/studio/concepts/understanding_automated_actions.rst:41
 msgid ""
 "The **Active** option is to be turned off when the rule should be hidden and"
 " not executed."
 msgstr ""
+"Se debe desactivar la opción de **Activo** cuando la regla se debe ocultar y"
+" no ejecutar."
 
 #: ../../content/applications/productivity/studio/concepts/understanding_automated_actions.rst:43
 msgid ""
 "Under **Action To Do** choose the type of server action that must be "
 "executed once records meet the *Trigger* conditions:"
 msgstr ""
+"En **Acción por realizar** elija el tipo de acción de servidor que se debe "
+"ejecutar una vez que el registro cumpla las condiciones de *Activación*:"
 
 #: ../../content/applications/productivity/studio/concepts/understanding_automated_actions.rst:45
 msgid ""
 "*Execute Python Code*: a block of code is executed. A *Help* tab with the "
 "variables that can be used is available."
 msgstr ""
+"*Ejecutar código Python*: se ejecuta un bloque de código. Está disponible "
+"una pestaña de *Ayuda* con las variables que se pueden utilizar."
 
 #: ../../content/applications/productivity/studio/concepts/understanding_automated_actions.rst:47
 msgid "*Create New Record*: a new record with new values is created."
-msgstr ""
+msgstr "*Crear nuevo registro*: se crea un nuevo registro con nuevos valores."
 
 #: ../../content/applications/productivity/studio/concepts/understanding_automated_actions.rst:48
 msgid "*Update a Record*: updates the record that triggered the action."
-msgstr ""
+msgstr "*Actualizar un registro*: actualiza el registro que activó la acción."
 
 #: ../../content/applications/productivity/studio/concepts/understanding_automated_actions.rst:49
 msgid ""
 "*Execute several actions*: defines an action that triggers other server "
 "actions."
 msgstr ""
+"*Ejecutar varias acciones*: define una acción que activa otras acciones de "
+"servidor."
 
 #: ../../content/applications/productivity/studio/concepts/understanding_automated_actions.rst:50
 msgid ""
 "*Send Email*: an automatic :doc:`email "
 "</applications/general/email_communication/email_template>` is sent."
 msgstr ""
+"*Enviar correo electrónico*: se envía un :doc:`correo electrónico "
+"</applications/general/email_communication/email_template>` automático."
 
 #: ../../content/applications/productivity/studio/concepts/understanding_automated_actions.rst:51
 msgid "*Add Followers*: followers are notified of changes in the task."
 msgstr ""
+"*Agregar seguidores*: se notifica a los seguidores de cambios en las tareas."
 
 #: ../../content/applications/productivity/studio/concepts/understanding_automated_actions.rst:52
 msgid ""
 "*Create Next Activity*: creates an activity such as: *Call*, *Email*, "
 "*Reminder*."
 msgstr ""
+"*Crear siguiente actividad*: crea una actividad como: *llamada*, *correo "
+"electrónico*, *recordatorio*."
 
 #: ../../content/applications/productivity/studio/concepts/understanding_automated_actions.rst:53
 msgid ""
 "*Send SMS Text Message*: sends an :doc:`SMS "
 "</applications/marketing/sms_marketing/pricing/pricing_and_faq>`."
 msgstr ""
+"*Enviar mensaje de texto SMS*: envía un :doc:`SMS "
+"</applications/marketing/sms_marketing/pricing/pricing_and_faq>`."
 
 #: ../../content/applications/productivity/studio/concepts/understanding_automated_actions.rst:56
 msgid "Example"
@@ -2147,36 +2332,53 @@ msgid ""
 "Lead/Opportunity *Model*, with a *Trigger Condition* set to *On Update*, "
 "goes through:"
 msgstr ""
+"Este es el proceso por el que pasa la actualización del campo de *Correo "
+"electrónico* en el *modelo* de lead/oportunidad, con una *condición de "
+"activador* que se establece como *En la actualización*:"
 
 #: ../../content/applications/productivity/studio/concepts/understanding_automated_actions.rst:65
 msgid "The user creates the record without an email address set."
 msgstr ""
+"El usuario crea el registro sin una dirección de correo electrónico "
+"establecida."
 
 #: ../../content/applications/productivity/studio/concepts/understanding_automated_actions.rst:66
 msgid "The user updates the record defining an email address."
 msgstr ""
+"El usuario actualiza el registro al definir una dirección de correo "
+"electrónico."
 
 #: ../../content/applications/productivity/studio/concepts/understanding_automated_actions.rst:67
 msgid ""
 "Once the change is saved, the automation checks if any of the *Watched "
 "Fields* are being updated (for the example: field name *email_from* (Email)."
 msgstr ""
+"Una vez que se guarde el cambio, la automatización comprueba si alguno de "
+"los *campos observados* se están actualizando (para el ejemplo: *email_from*"
+" (Correo electrónico) en el nombre del campo."
 
 #: ../../content/applications/productivity/studio/concepts/understanding_automated_actions.rst:69
 msgid ""
 "If true, it checks if the record matches the *Before Update Domain* (for the"
 " example: *email is not set*)."
 msgstr ""
+"Si es verdadero, comprueba si el registro coincide con el *dominio antes de "
+"la actualización* (en el ejemplo: *no se estableció un correo electrónico*)."
 
 #: ../../content/applications/productivity/studio/concepts/understanding_automated_actions.rst:71
 msgid ""
 "If true, it checks (*after the update*) whether the record matches the "
 "*Apply on* domain (for the example: *email is set*)."
 msgstr ""
+"Si es verdadero, comprueba (*después de la actualización*) si el registro "
+"coincide con el dominio *Aplicar en* (para el ejemplo: *correo electrónico "
+"establecido*)."
 
 #: ../../content/applications/productivity/studio/concepts/understanding_automated_actions.rst:73
 msgid "If true, the chosen *Action To Do* is performed on the record."
 msgstr ""
+"Si es verdadero, la *Acción por hacer* elegida se lleva a cabo en el "
+"registro."
 
 #: ../../content/applications/productivity/studio/concepts/understanding_automated_actions.rst:76
 msgid ":doc:`understanding_general`"
@@ -2188,7 +2390,7 @@ msgstr ":doc:`../use_cases/automated_actions`"
 
 #: ../../content/applications/productivity/studio/concepts/understanding_general.rst:3
 msgid "Understanding General Concepts"
-msgstr ""
+msgstr "Entendiendo conceptos generales"
 
 #: ../../content/applications/productivity/studio/concepts/understanding_general.rst:7
 msgid ""
@@ -2197,6 +2399,11 @@ msgid ""
 " You can also create custom views and modify existing ones without having to"
 " get into the XML code."
 msgstr ""
+"Odoo Studio es un conjunto de herramientas que permite añadir modelos o "
+"adaptar funciones sobre el comportamiento estándar de Odoo sin necesidad de "
+"tener conocimientos de programación. También puede crear vistas "
+"personalizadas y modificar las existentes sin tener que modificar el código "
+"XML."
 
 #: ../../content/applications/productivity/studio/concepts/understanding_general.rst:11
 msgid ""
@@ -2206,6 +2413,11 @@ msgid ""
 "that makes customizations and designing new applications easy with or "
 "without programming skills."
 msgstr ""
+"Incluso para los desarrolladores expertos, escribir código requiere tiempo. "
+"Si utiliza Odoo Studio, podrá configurar rápidamente sus modelos y centrarse"
+" en las partes cruciales de su aplicación. En conclusión, cuenta con una "
+"solución accesible que realiza personalizaciones y diseña nuevas "
+"aplicaciones sin necesidad de contar con conocimientos de programación."
 
 #: ../../content/applications/productivity/studio/concepts/understanding_general.rst:15
 msgid "Getting started"
@@ -2218,6 +2430,11 @@ msgid ""
 "existing screens (*views*), by adding new *fields* in existing applications,"
 " or by creating an entirely new *model*."
 msgstr ""
+"Una vez que comience a utilizar Odoo Studio, podrá crear automáticamente un "
+"nuevo *módulo* que contenga todas sus modificaciones. Estas modificaciones "
+"se pueden hacer en pantallas existentes (*vistas*), solo debe agregar nuevos"
+" *campos* en las aplicaciones existentes o crear un *modelo* completamente "
+"nuevo."
 
 #: ../../content/applications/productivity/studio/concepts/understanding_general.rst:22
 msgid "What is a Module?"
@@ -2229,6 +2446,9 @@ msgid ""
 "objects (models), object views, data files, web controllers, and static web "
 "data. An application is a collection of modules."
 msgstr ""
+"Un **módulo** de Odoo puede contener varios elementos, entre estos: objetos "
+"empresariales (modelos), vistas de objeto, archivos de datos, controladores "
+"web y datos web estáticos. Una aplicación es una colección de módulos."
 
 #: ../../content/applications/productivity/studio/concepts/understanding_general.rst:29
 msgid ""
@@ -2238,10 +2458,15 @@ msgid ""
 "model that represents the Properties for sale would probably be your first "
 "step."
 msgstr ""
+"En la programación orientada a objetos, los modelos suelen representar un "
+"concepto del mundo real. Ejemplo: Odoo tiene modelos para órdenes de venta, "
+"usuarios, países, etc. Si usted fuera a construir una aplicación para "
+"gestionar las ventas de bienes raíces, el primer paso probablemente sería "
+"crear un modelo que represente las propiedades en venta."
 
 #: ../../content/applications/productivity/studio/concepts/understanding_general.rst:38
 msgid "What is a Model (also called Object)?"
-msgstr ""
+msgstr "¿Qué es un modelo (también conocido como objeto)?"
 
 #: ../../content/applications/productivity/studio/concepts/understanding_general.rst:40
 msgid ""
@@ -2250,6 +2475,10 @@ msgid ""
 "In other words, a model is a table of information that can be bridged with "
 "other tables."
 msgstr ""
+"Un **Modelo** determina la estructura lógica de una base de datos y "
+"fundamentalmente determina de qué manera se pueden almacenar, organizar y "
+"manipular los datos. En otras palabras, un modelo es una tabla de "
+"información que puede conectarse con otras tablas."
 
 #: ../../content/applications/productivity/studio/concepts/understanding_general.rst:45
 msgid "What are Fields?"
@@ -2260,6 +2489,8 @@ msgid ""
 "**Fields** compose models. It is where a record (a piece of data) is "
 "registered."
 msgstr ""
+"Los **campos** componen modelos. Es el lugar donde se registra un registro "
+"(un dato)."
 
 #: ../../content/applications/productivity/studio/concepts/understanding_general.rst:49
 msgid ""
@@ -2267,12 +2498,17 @@ msgid ""
 "would include the price, address, a picture, a link to the current owner, "
 "etc."
 msgstr ""
+"Por ejemplo: en la aplicación de bienes raíces, los campos del modelo de "
+"propiedades incluirían el precio, la dirección, una foto, un enlace al "
+"propietario actual, etc."
 
 #: ../../content/applications/productivity/studio/concepts/understanding_general.rst:50
 msgid ""
 "There are 2 main types of fields in Odoo: *basic (or scalar) fields* and "
 "*relational fields*."
 msgstr ""
+"Hay 2 tipos principales de campos en Odoo: *campos básicos (o escalares)* y "
+"*campos relacionales*."
 
 #: ../../content/applications/productivity/studio/concepts/understanding_general.rst:53
 msgid ""
@@ -2281,16 +2517,22 @@ msgid ""
 "*Customers* and another one for *Properties*, you would use a relational "
 "field to link each Property to its Customer."
 msgstr ""
+"Los campos básicos representan valores simples, como números o texto. Los "
+"campos relacionales representan relaciones entre modelos. De esta forma, si "
+"tiene un modelo para *Clientes* y otro para *Propiedades*, utilizaría un "
+"campo relacional para vincular cada propiedad con su cliente."
 
 #: ../../content/applications/productivity/studio/concepts/understanding_general.rst:56
 msgid "Relational Fields in detail"
-msgstr ""
+msgstr "Campos relacionales a detalle"
 
 #: ../../content/applications/productivity/studio/concepts/understanding_general.rst:59
 msgid ""
 "**Relational Fields** provide the option to link the data of one model with "
 "the data of another model."
 msgstr ""
+"Los **campos relacionales** ofrecen la posibilidad de vincular los datos de "
+"un modelo con los de otro."
 
 #: ../../content/applications/productivity/studio/concepts/understanding_general.rst:60
 msgid ""
@@ -2312,28 +2554,37 @@ msgid ""
 "Example: a Sales Order can contain multiple Sales Order Lines, which also "
 "contain multiple fields of information."
 msgstr ""
+"Por ejemplo: una orden de venta puede contener múltiples líneas de orden de "
+"venta, que a su vez contienen múltiples campos de información."
 
 #: ../../content/applications/productivity/studio/concepts/understanding_general.rst:69
 msgid ""
 "A **Many2one** field is a *one-way* direction of selecting *one* record from"
 " a table."
 msgstr ""
+"Un campo **Many2one** es una dirección *unidireccional* que permite "
+"seleccionar *un* registro de una tabla."
 
 #: ../../content/applications/productivity/studio/concepts/understanding_general.rst:70
 msgid ""
 "Example: you can have many product categories, but each product can only "
 "belong to one category."
 msgstr ""
+"Por ejemplo: puede tener muchas categorías de productos, pero cada producto "
+"solo puede pertenecer a una categoría."
 
 #: ../../content/applications/productivity/studio/concepts/understanding_general.rst:71
 msgid ""
 "A **Many2many** field is a *two-way* direction of selecting records from a "
 "table."
 msgstr ""
+"Un campo **Many2many** es una dirección *bidireccional* de selección de "
+"registros de una tabla."
 
 #: ../../content/applications/productivity/studio/concepts/understanding_general.rst:72
 msgid "Example: multiple tags can be added to a lead’s form."
 msgstr ""
+"Por ejemplo: se pueden añadir varias etiquetas al formulario de un lead."
 
 #: ../../content/applications/productivity/studio/concepts/understanding_general.rst:75
 msgid "An *One2many* field must have a *Many2one* related to it."
@@ -2341,7 +2592,7 @@ msgstr "Un campo *One2many* debe tener un *Many2one* relacionado."
 
 #: ../../content/applications/productivity/studio/concepts/understanding_general.rst:78
 msgid "What are Views?"
-msgstr ""
+msgstr "¿Qué son las vistas?"
 
 #: ../../content/applications/productivity/studio/concepts/understanding_general.rst:80
 msgid ""
@@ -2351,24 +2602,32 @@ msgid ""
 "represents a mode of visualization. Some examples are: *form*, *list*, "
 "*kanban*."
 msgstr ""
+"Las **vistas** definen cómo se muestran los registros. Se especifican en "
+"XML, lo que implica que se pueden editar independientemente de los modelos "
+"que representan. Existen varios tipos de vistas en Odoo, y cada una de ellas"
+" representa un modo de visualización. Algunos ejemplos son: *formulario*, "
+"*lista*, *kanban*."
 
 #: ../../content/applications/productivity/studio/concepts/understanding_general.rst:85
 msgid "What is a Menu?"
-msgstr ""
+msgstr "¿Qué es un menú?"
 
 #: ../../content/applications/productivity/studio/concepts/understanding_general.rst:87
 msgid ""
 "A **Menu** is a button that executes an action. In Odoo Studio, to create "
 "menus (models) and rearrange their hierarchy, click on *Edit Menu*."
 msgstr ""
+"Un **Menú** es un botón que ejecuta una acción. Odoo Studio permite crear "
+"menús (modelos) y reorganizar su jerarquía, solo haga clic en *Editar menú*."
 
 #: ../../content/applications/productivity/studio/concepts/understanding_general.rst:95
 msgid "`Studio Basics <https://www.odoo.com/fr_FR/slides/studio-31>`_"
 msgstr ""
+"`Fundamentos de Studio <https://www.odoo.com/fr_FR/slides/studio-31>`_"
 
 #: ../../content/applications/productivity/studio/how_to.rst:5
 msgid "How To"
-msgstr ""
+msgstr "Cómo..."
 
 #: ../../content/applications/productivity/studio/how_to/export_import.rst:3
 msgid "Export and Import Modules"
@@ -2379,6 +2638,9 @@ msgid ""
 "When you do customizations in Odoo Studio, a new module is created in your "
 "database, making it easy to use Studio for prototyping."
 msgstr ""
+"Cuando se hacen personalizaciones en Odoo Studio, se crea un nuevo módulo en"
+" su base de datos, lo que facilita el uso de Studio para la creación de "
+"prototipos."
 
 #: ../../content/applications/productivity/studio/how_to/export_import.rst:8
 msgid ""
@@ -2386,12 +2648,18 @@ msgid ""
 "under the menu *Customizations*, click on *Export*. The default filename is "
 "*customizations.zip*."
 msgstr ""
+"Para exportar estas personalizaciones, active Studio en el tablero principal"
+" y, en el menú *Personalizaciones*, haga clic en *Exportar*. El nombre "
+"predeterminado del archivo es *customizations.zip*."
 
 #: ../../content/applications/productivity/studio/how_to/export_import.rst:16
 msgid ""
 "The module created contains the definition of custom models and fields, as "
 "well as the UI elements of any customization in an XML format."
 msgstr ""
+"El módulo creado contiene la definición de los modelos y los campos "
+"personalizados, así como los elementos de la interfaz de cualquier "
+"personalización en formato XML."
 
 #: ../../content/applications/productivity/studio/how_to/export_import.rst:18
 msgid ""
@@ -2399,6 +2667,9 @@ msgid ""
 " destination database, activate Studio and, under *Customizations*, click on"
 " *Import*."
 msgstr ""
+"Para importar e instalar las personalizaciones en otra instancia, conéctese "
+"a la base de datos destino, active Studio y, en el menú *Personalizaciones*,"
+" haga clic en *Importar*."
 
 #: ../../content/applications/productivity/studio/how_to/export_import.rst:25
 msgid ""
@@ -2408,10 +2679,15 @@ msgid ""
 "applications installed on the source database should be installed on the "
 "destination database."
 msgstr ""
+"Studio no sabe cuáles son las aplicaciones personalizadas (se puede "
+"modificar la misma vista en diferentes aplicaciones), por lo tanto, *no* "
+"añade los módulos subyacentes como dependencias de un módulo exportado. En "
+"otras palabras, se deben instalar las aplicaciones instaladas de la base de "
+"datos origen en la base de datos destino."
 
 #: ../../content/applications/productivity/studio/how_to/rainbow_man.rst:3
 msgid "Customizing the Rainbow Man"
-msgstr ""
+msgstr "Personalizar al hombre arcoíris."
 
 #: ../../content/applications/productivity/studio/how_to/rainbow_man.rst:5
 msgid ""
@@ -2419,6 +2695,10 @@ msgid ""
 "certain tasks and clicks on certain buttons. It is a way to make the "
 "software fun to use, and rewarding, for employees."
 msgstr ""
+"En Odoo, el hombre arcoíris es una animación que aparece cada que un usuario"
+" termina sus tareas y hace clic en ciertos botones. Es nuestra manera de "
+"tener un software divertido de usar que a la vez sea gratificante para los "
+"empleados."
 
 #: ../../content/applications/productivity/studio/how_to/rainbow_man.rst:13
 msgid ""
@@ -2426,22 +2706,26 @@ msgid ""
 "once they are selected in Studio, under their *Properties*, the *Rainbow "
 "Man* effect can be applied."
 msgstr ""
+"En la mayoría de los botones de Odoo, por ejemplo, *Enviar por correo "
+"electrónico*, *Confirmar* y *Cancelar*, se puede aplicar el efecto del "
+"*Hombre arcoíris*, solo se deben seleccionar en *Propiedades* dentro de "
+"Studio."
 
 #: ../../content/applications/productivity/studio/how_to/rainbow_man.rst:14
 msgid "By default, the feature is active:"
-msgstr ""
+msgstr "Esta función está activa de manera predeterminada cada que:"
 
 #: ../../content/applications/productivity/studio/how_to/rainbow_man.rst:16
 msgid "when opportunities are marked as won;"
-msgstr ""
+msgstr "se marca una oportunidad como ganada,"
 
 #: ../../content/applications/productivity/studio/how_to/rainbow_man.rst:17
 msgid "when users empty their inboxes;"
-msgstr ""
+msgstr "los usuarios limpian sus bandejas de entrada,"
 
 #: ../../content/applications/productivity/studio/how_to/rainbow_man.rst:18
 msgid "when the user finishes a tour;"
-msgstr ""
+msgstr "un usuario termina su recorrido,"
 
 #: ../../content/applications/productivity/studio/how_to/rainbow_man.rst:19
 msgid "when the user finishes doing reconciliations."
@@ -2449,7 +2733,7 @@ msgstr "cuando el usuario termina de hacer conciliaciones."
 
 #: ../../content/applications/productivity/studio/how_to/reports.rst:3
 msgid "Customizing Reports"
-msgstr ""
+msgstr "Personalizar reportes"
 
 #: ../../content/applications/productivity/studio/how_to/reports.rst:9
 msgid ""
@@ -2460,6 +2744,14 @@ msgid ""
 "Odoo’s reports also use Bootstrap’s grid layout, which is the containers, "
 "rows, and columns to align content, and support Odoo's website themes."
 msgstr ""
+"Odoo usa tecnología HTML y CSS para crear reportes. HTML es un lenguaje de "
+"marcado que usa etiquetas, también conocidas como elementos. Es el elemento "
+"principal de cualquier página web ya que brinda una estructura básica. CSS "
+"interactúa con los elementos HTML, juntos añaden estilo a la página y de "
+"esta manera se establece la manera en la que se muestra el HTML al usuario. "
+"Los reportes de Odoo también usan el diseño de tabla de Bootstrap, el cual "
+"consiste en contenedores, filas y columnas que acomodan el contenido, y son "
+"compatibles con los temas del sitio web de Odoo."
 
 #: ../../content/applications/productivity/studio/how_to/reports.rst:11
 msgid ""
@@ -2467,6 +2759,9 @@ msgid ""
 "the report to include header and footer (company logo, name, address, phone,"
 " email address, etc.)."
 msgstr ""
+"Al momento de crear un nuevo reporte, escoja su propósito y si le gustaría "
+"incluir un encabezado y pie de página (logo de su empresa, nombre, "
+"dirección, teléfono, dirección de correo electrónico, etc)."
 
 #: ../../content/applications/productivity/studio/how_to/reports.rst:17
 msgid ""
@@ -2476,6 +2771,12 @@ msgid ""
 "<../concepts/understanding_general>` related object). *Text*, *Title Block*,"
 " *Image*, and *Text in Cell* are static elements."
 msgstr ""
+"En la pestaña **Agregar** puede encontrar los campos listos para arrastrar y"
+" soltar en la vista. Los elementos *Campos*, *Tablas de datos*, *Subtotal y "
+"total* y *Libretas de direcciones* son dinámicos (esto significa que "
+"necesitan un objeto con relación :doc:`one2many o many2many "
+"<../concepts/understanding_general>`). Los elementos *Texto*, *Bloque de "
+"título*, *Imagen* y * Texto en celda* son estáticos."
 
 #: ../../content/applications/productivity/studio/how_to/reports.rst:26
 msgid ""
@@ -2484,12 +2785,19 @@ msgid ""
 "properties, allowing you to individually edit them. Fields with related "
 "objects have their directives shown on *Field Expression*."
 msgstr ""
+"Una vez que se agrega un elemento a la vista, selecciónelo para ver sus "
+"**Opciones**. La primera sección muestra la jerarquía de los objetos "
+"seleccionados y sus propiedades, permitiendo que los pueda editar de manera "
+"individual. Los campos con objetos relacionados tienen sus directivas "
+"mostradas en *Expresión de campo*."
 
 #: ../../content/applications/productivity/studio/how_to/reports.rst:34
 msgid ""
 "Under **Visible if**, define the rule(s) to set visibility conditions to "
 "fields."
 msgstr ""
+"Defina las reglas para configurar las condiciones de visibilidad de los "
+"campos en **Visible si**."
 
 #: ../../content/applications/productivity/studio/how_to/reports.rst:36
 msgid ""
@@ -2497,6 +2805,10 @@ msgid ""
 "rule to only display the ones that are *set* in the product form, avoiding "
 "having a plain icon when they are not set."
 msgstr ""
+"Ejemplo: si decide mostrar una imagen de producto, podría establecer una "
+"regla de visibilidad para que solo se muestren las que están *configuradas* "
+"en el formulario del producto, evitando que se muestre un icono cuando no "
+"están configuradas de esta manera."
 
 #: ../../content/applications/productivity/studio/how_to/reports.rst:40
 msgid ""
@@ -2506,6 +2818,11 @@ msgid ""
 "of the report to specifics groups, meaning that users belonging to other "
 "groups do not see the same final document."
 msgstr ""
+"**Visible para** se utiliza para establecer qué :doc:`grupos "
+"</applications/general/users>` pueden tener acceso a elementos específicos "
+"del reporte. **Limitar visibilidad a grupos**, en *Reporte*, establece la "
+"visibilidad del reporte a grupos específicos, lo que significa que los "
+"usuarios que pertenecen a otros grupos no ven el mismo documento final."
 
 #: ../../content/applications/productivity/studio/how_to/reports.rst:46
 msgid ""
@@ -2513,6 +2830,9 @@ msgid ""
 "the report should be added to the *Print* menu list on its respective "
 "document form."
 msgstr ""
+"En la pestaña **Reporte** puede nombrar su reporte, elegir el formato de "
+"papel y si se debe agregar el reporte a la lista del menú *Imprimir* en su "
+"respectivo formulario de documento."
 
 #: ../../content/applications/productivity/studio/how_to/reports.rst:53
 msgid ""
@@ -2520,12 +2840,17 @@ msgid ""
 "such as *Class* under *Options*, and *Reload from attachment* under "
 "*Report*, become visible."
 msgstr ""
+"Si activa el :ref:`modo de desarrollador`, los campos adicionales como "
+"*Clase* en *Opciones*, y *Volver a cargar desde el archivo adjunto* en "
+"*Reporte*, se hacen visibles."
 
 #: ../../content/applications/productivity/studio/how_to/reports.rst:56
 msgid ""
 "*Class*: add custom CSS classes to the selected element (e.g. Bootstrap "
 "classes such as *text-danger*)."
 msgstr ""
+"*Clase*: añade clases personalizadas de CSS al elemento seleccionado (por "
+"ejemplo, clases de Bootstrap como *text-danger*)."
 
 #: ../../content/applications/productivity/studio/how_to/reports.rst:59
 msgid ""
@@ -2537,12 +2862,23 @@ msgid ""
 " This is typically useful for reports linked to documents that should not "
 "change, such as Invoices."
 msgstr ""
+"*Volver a cargar desde el archivo adjunto*: guarda el reporte como un "
+"archivo adjunto del documento cuando se imprime. Cuando se vuelve a imprimir"
+" el reporte, se vuelve a descargar ese archivo adjunto en lugar de solo "
+"reimprimirlo. Esto significa que si el registro subyacente (por ejemplo, la "
+"factura) es diferente en comparación con la primera impresión, el reporte no"
+" refleja los cambios porque se hicieron después de la creación del archivo "
+"adjunto. Esta opción suele ser útil para los reportes vinculados a "
+"documentos que no deben cambiar, como las facturas."
 
 #: ../../content/applications/productivity/studio/how_to/reports.rst:67
 msgid ""
 "Actions in Odoo Studio can be undone until you *Close* the toolbox. Once you"
 " have closed Studio, changes can not be undone anymore."
 msgstr ""
+"Se pueden cancelar las acciones en Odoo Studio hasta que se *cierra* la caja"
+" de herramientas. Una vez que haya cerrado Studio, ya no se pueden deshacer "
+"los cambios."
 
 #: ../../content/applications/productivity/studio/use_cases.rst:5
 msgid "Use Cases"
@@ -2550,69 +2886,78 @@ msgstr "Casos de uso"
 
 #: ../../content/applications/productivity/studio/use_cases/automated_actions.rst:3
 msgid "Advanced Use Cases: Automated Actions"
-msgstr ""
+msgstr "Casos de uso avanzados: acciones automatizadas"
 
 #: ../../content/applications/productivity/studio/use_cases/automated_actions.rst:5
 msgid ""
 "**Case scenario 1: when a Belgian lead is created, a 3-stars priority should"
 " be automatically applied.**"
 msgstr ""
+"**Caso 1: si se crea un lead de Bélgica, automáticamente se le aplica una "
+"prioridad de 3 estrellas.**"
 
 #: ../../content/applications/productivity/studio/use_cases/automated_actions.rst:8
 msgid "Under *Automations*,  click on *Create* and set the following rules:"
 msgstr ""
+"En *automatizaciones*, haga clic en *crear* y configure las siguientes "
+"reglas:"
 
 #: ../../content/applications/productivity/studio/use_cases/automated_actions.rst:10
 msgid "*Model*: Lead/Opportunity"
-msgstr ""
+msgstr "*Modelo*: Lead/Oportunidad"
 
 #: ../../content/applications/productivity/studio/use_cases/automated_actions.rst:11
 msgid "*Active*: On"
-msgstr ""
+msgstr "*Activo*: Encendido"
 
 #: ../../content/applications/productivity/studio/use_cases/automated_actions.rst:12
 msgid "*Trigger*: On Creation & Update"
-msgstr ""
+msgstr "*Activación*: Al crear y actualizar"
 
 #: ../../content/applications/productivity/studio/use_cases/automated_actions.rst:13
 msgid "*Apply on*: Country > Country Name = Belgium"
-msgstr ""
+msgstr "*Aplicar en*: País > Nombre del país = Bélgica"
 
 #: ../../content/applications/productivity/studio/use_cases/automated_actions.rst:14
 #: ../../content/applications/productivity/studio/use_cases/filters_status_bar.rst:53
 msgid "*Action To Do*: Update the Record"
-msgstr ""
+msgstr "*Acción a realizar*: Actualizar el registro"
 
 #: ../../content/applications/productivity/studio/use_cases/automated_actions.rst:15
 msgid "*Data to Write*: Lead/Opportunity > Value > 3"
-msgstr ""
+msgstr "*Datos para escribir*: Lead/Oportunidad > Valor > 3"
 
 #: ../../content/applications/productivity/studio/use_cases/automated_actions.rst:22
 msgid ""
 "Check :doc:`this doc <filters_status_bar>` in order to have another "
 "automated action example."
 msgstr ""
+"Consulte :doc:`este documento <filters_status_bar>` para obtener otro "
+"ejemplo de una acción automatizada."
 
 #: ../../content/applications/productivity/studio/use_cases/automated_actions.rst:25
 msgid ":doc:`../concepts/understanding_automated_actions`"
-msgstr ""
+msgstr ":doc:`../concepts/understanding_automated_actions`"
 
 #: ../../content/applications/productivity/studio/use_cases/automated_actions.rst:26
 #: ../../content/applications/productivity/studio/use_cases/filters_status_bar.rst:61
 #: ../../content/applications/productivity/studio/use_cases/models_fields.rst:138
 #: ../../content/applications/productivity/studio/use_cases/views.rst:28
 msgid ":doc:`../concepts/understanding_general`"
-msgstr ""
+msgstr ":doc:`../concepts/understanding_general`"
 
 #: ../../content/applications/productivity/studio/use_cases/filters_status_bar.rst:3
 msgid "Advanced Use Cases: Filters and Status Bar"
-msgstr ""
+msgstr "Casos de uso avanzados: Filtros y barra de estado"
 
 #: ../../content/applications/productivity/studio/use_cases/filters_status_bar.rst:5
 msgid ""
 "**Case scenario 1: on Sales, set a filter on Belgian customers and define it"
 " as the default one (the user should still be able to unset the filter).**"
 msgstr ""
+"**Caso 1: en la aplicación de Ventas, establezca un filtro para los clientes"
+" belgas y defínalo como el predeterminado (el usuario debe ser capaz de "
+"desactivar el filtro).**"
 
 #: ../../content/applications/productivity/studio/use_cases/filters_status_bar.rst:8
 msgid ""
@@ -2620,12 +2965,18 @@ msgid ""
 "customers by country. Now, under *Favorites*, *Save Current Search* enabling"
 " *Use by default* and *Save*."
 msgstr ""
+"En la página de su cliente, haga clic en *Filtros* > *Añadir filtro "
+"personalizado* para agrupar a los clientes por país. Después, haga clic en "
+"*Favoritos*, *Guardar búsqueda actual* y active *Usar de forma "
+"predeterminada* y *Guardar*."
 
 #: ../../content/applications/productivity/studio/use_cases/filters_status_bar.rst:15
 msgid ""
 "On *Filter Rules* in Studio mode, select the respective filter and enable "
 "*Default Filter*."
 msgstr ""
+"En el modo Studio, vaya a *Reglas de filtro*, seleccione el filtro "
+"respectivo y active el *Filtro predeterminado*."
 
 #: ../../content/applications/productivity/studio/use_cases/filters_status_bar.rst:21
 msgid ""
@@ -2633,6 +2984,10 @@ msgid ""
 "cycle. Set the values: ‘Prototype’, ‘In use’ and ‘Deprecated’. By default, "
 "the Kanban view must be grouped by status.**"
 msgstr ""
+"**Caso 2: añadir una barra de estado en el formulario del producto para "
+"gestionar su ciclo de vida. Establezca los valores: 'Prototipo', 'En uso' y "
+"'Obsoleto'. De manera predeterminada, la vista de Kanban debe agruparse por "
+"estado.**"
 
 #: ../../content/applications/productivity/studio/use_cases/filters_status_bar.rst:26
 msgid ""
@@ -2640,12 +2995,19 @@ msgid ""
 "Status bars are *selection* fields that give you the ability to follow a "
 "specific flow. They are useful to show you the progress that has been made."
 msgstr ""
+"En el formulario de su producto, *añada una barra de estado del flujo* y "
+"asigne un nombre a sus valores. Las barras de estado son campos de "
+"*selección* que le permiten seguir un flujo específico. Resultan útiles para"
+" mostrar el progreso que se ha realizado."
 
 #: ../../content/applications/productivity/studio/use_cases/filters_status_bar.rst:28
 msgid ""
 "On the *Views* menu, access *Kanban* and, under its *View* options, set the "
 "*Default Group by* as *Pipeline status bar*."
 msgstr ""
+"Acceda a Kanban desde el menú \"Vistas\"; en las opciones de \"Vista\", "
+"establezca el \"Grupo predeterminado por\" como \"Barra de estado del "
+"flujo\"."
 
 #: ../../content/applications/productivity/studio/use_cases/filters_status_bar.rst:34
 msgid ""
@@ -2653,44 +3015,55 @@ msgid ""
 "you move products throughout stages (also through the product’s form), "
 "stages are shown in the Kanban view."
 msgstr ""
+"A continuación, abra el formulario de su producto y establezca el estado "
+"correcto para ese producto. A medida que mueva los productos a través de las"
+" etapas (también a través del formulario del producto), se mostrarán las "
+"etapas en vista Kanban."
 
 #: ../../content/applications/productivity/studio/use_cases/filters_status_bar.rst:38
 msgid ""
 "To make modifications in the pipeline status bar, for example, remember to "
 "go back to *Form View*."
 msgstr ""
+"Si, por ejemplo, desea realizar modificaciones en la barra de estado del "
+"flujo, recuerde regresar a la *Vista de formulario*."
 
 #: ../../content/applications/productivity/studio/use_cases/filters_status_bar.rst:44
 msgid ""
 "**Case scenario 2.a: when a product goes from ‘In use’ to ‘Deprecate’, set "
 "its cost to 0€.**"
 msgstr ""
+"**Caso 2.a: cuando un producto pasa de \"En uso\" a \"Obsoleto\", su costo "
+"se establece a 0€.**"
 
 #: ../../content/applications/productivity/studio/use_cases/filters_status_bar.rst:46
 msgid ""
 "Create an :doc:`automated action "
 "<../concepts/understanding_automated_actions>` with the selected values:"
 msgstr ""
+"Cree una :doc:`acción automatizada  "
+"<../concepts/understanding_automated_actions>` con los valores "
+"seleccionados:"
 
 #: ../../content/applications/productivity/studio/use_cases/filters_status_bar.rst:49
 msgid "*Model*: Product Template"
-msgstr ""
+msgstr "*Modelo*: Plantilla de producto"
 
 #: ../../content/applications/productivity/studio/use_cases/filters_status_bar.rst:50
 msgid "*Trigger*: On Update"
-msgstr ""
+msgstr "*Activador*: Al actualizar"
 
 #: ../../content/applications/productivity/studio/use_cases/filters_status_bar.rst:51
 msgid "*First Domain*: Pipeline status bar = In use"
-msgstr ""
+msgstr "*Primer dominio*: Barra de estado del flujo = En uso"
 
 #: ../../content/applications/productivity/studio/use_cases/filters_status_bar.rst:52
 msgid "*Second Domain*: Pipeline status bar = Deprecated"
-msgstr ""
+msgstr "*Segundo dominio*: Barra de estado del flujo = Obsoleto"
 
 #: ../../content/applications/productivity/studio/use_cases/filters_status_bar.rst:54
 msgid "*Data to Write*: Cost (Product Template) > Value > 0"
-msgstr ""
+msgstr "* Datos a escribir*: Costo (Plantilla de producto) > Valor > 0"
 
 #: ../../content/applications/productivity/studio/use_cases/models_fields.rst:3
 msgid "Advanced Use Cases: Creating Models and Adding Fields"
@@ -2701,21 +3074,29 @@ msgid ""
 "**Case scenario 1: on the leads’ form, if the chosen country is France, show"
 " a field 'Pay by check?'**"
 msgstr ""
+"**Caso 1: si elige Francia como país de destino en el formulario de leads, "
+"muestre un campo llamado '¿Pagar con cheque?'**"
 
 #: ../../content/applications/productivity/studio/use_cases/models_fields.rst:8
 msgid ""
 "On your leads’ form, add a *Related Field* to *Country > Country Name*."
 msgstr ""
+"En el formulario de sus leads, añada un *Campo relacionado* a *País > Nombre"
+" del país*."
 
 #: ../../content/applications/productivity/studio/use_cases/models_fields.rst:10
 msgid ""
 "Now, add a *Checkbox* field and define its invisibility options as *Country*"
 " (carefully select the one just created) *> is not = > France.*"
 msgstr ""
+"Ahora, añada una *Casilla de verificación* y defina sus opciones de "
+"invisibilidad como *País* (seleccione cuidadosamente el que acaba de crear) "
+"*> no es = > Francia.*"
 
 #: ../../content/applications/productivity/studio/use_cases/models_fields.rst:11
 msgid "You can now hide the related field created (*Country*) if you wish."
 msgstr ""
+"Ahora puede ocultar el campo relacionado creado (*País*) si así lo desea."
 
 #: ../../content/applications/productivity/studio/use_cases/models_fields.rst:19
 msgid ""
@@ -2723,22 +3104,30 @@ msgid ""
 ":menuselection:`Contacts --> Configuration --> Countries`, select France "
 "(for example), and on the URL check its *ID*."
 msgstr ""
+"Otro método es utilizar el ID del país. Para ello, vaya a "
+":menuselection:`Contactos --> Configuración --> Países`, seleccione Francia "
+"(por ejemplo), y en la URL marque su *ID*."
 
 #: ../../content/applications/productivity/studio/use_cases/models_fields.rst:21
 msgid ""
 "The related field invisibility path should now be *Country* (carefully "
 "select the one just created) *> is not = > 75*."
 msgstr ""
+"La ruta de invisibilidad del campo relacionado debe ser *País* (seleccione "
+"cuidadosamente el que acaba de crear) *> no es = > 75*."
 
 #: ../../content/applications/productivity/studio/use_cases/models_fields.rst:22
 msgid "Again, hide the related field with the country’s ID if you prefer."
 msgstr ""
+"Si lo prefiere, puede ocultar el campo relacionado con el ID del país."
 
 #: ../../content/applications/productivity/studio/use_cases/models_fields.rst:28
 msgid ""
 "**Case scenario 2: create a model called 'Properties' and add fields called:"
 " company, value, name, address, active, image.**"
 msgstr ""
+"**Caso 2: cree un modelo llamado \"Propiedades\" y añada campos llamados: "
+"empresa, valor, nombre, dirección, activo, imagen.**"
 
 #: ../../content/applications/productivity/studio/use_cases/models_fields.rst:31
 msgid ""
@@ -2746,6 +3135,10 @@ msgid ""
 "Menu* and start a *New Menu* (model). Set your menu name and *Confirm*. Now,"
 " on its form, drag & drop the necessary fields."
 msgstr ""
+"Cree un nuevo módulo desde el tablero (opcional). Después, haga clic en "
+"*Editar menú* e inicie un *Nuevo menú* (modelo). Establezca el nombre de su "
+"menú y *Confirme*. A continuación, arrastre y suelte los campos necesarios "
+"en su formulario."
 
 #: ../../content/applications/productivity/studio/use_cases/models_fields.rst:39
 msgid ""
@@ -2753,54 +3146,75 @@ msgid ""
 " which each property must be linked. And, on 'Regions', you would like to "
 "see the properties for each region.**"
 msgstr ""
+"**Caso 2.a: ahora le gustaría tener un modelo llamado 'Regiones' el cual "
+"debe estar vinculado a cada propiedad. Además, le gustaría ver las "
+"propiedades de cada región en este modelo.**"
 
 #: ../../content/applications/productivity/studio/use_cases/models_fields.rst:43
 msgid ""
 "Go to *Edit Menu > New Menu* and create your menu, calling it *Regions*. Add"
 " the necessary fields on its form by dragging & dropping them."
 msgstr ""
+"Vaya a *Editar menú > Nuevo menú*, cree su menú y nómbrelo *Regiones*. Use "
+"la función de arrastrar y soltar para añadir los campos necesarios en su "
+"formulario."
 
 #: ../../content/applications/productivity/studio/use_cases/models_fields.rst:45
 msgid ""
 "Now, in the form view of *Properties*, add a *Many2one* field with a "
 "relation to your model *Region*."
 msgstr ""
+"A continuación, en la vista de formulario de *Propiedades*, añada un campo "
+"*Many2one* relacionado a su modelo *Región*."
 
 #: ../../content/applications/productivity/studio/use_cases/models_fields.rst:48
 msgid ""
 "The *Existing Fields* are the ones that are on the current model but not yet"
 " in the view."
 msgstr ""
+"Los *campos existentes* son los que están en el modelo actual pero aún no "
+"están en la vista."
 
 #: ../../content/applications/productivity/studio/use_cases/models_fields.rst:60
 msgid ""
 "Now, go to the model *Regions*, select the form view, and add a status "
 "button selecting *Regions (Properties)* as your relational field."
 msgstr ""
+"Ahora, vaya al modelo de *Regiones*, seleccione la vista de formulario, y "
+"añada un botón de estado seleccionando *Regiones (Propiedades)* como su "
+"campo relacional."
 
 #: ../../content/applications/productivity/studio/use_cases/models_fields.rst:62
 msgid ""
 "*Status buttons* are computed fields, meaning that they count the numbers of"
 " records on the related model, and allow you to access them."
 msgstr ""
+"Los *botones de estado* son campos calculados, es decir, cuentan el número "
+"de registros en el modelo relacionado y permiten que pueda acceder a ellos."
 
 #: ../../content/applications/productivity/studio/use_cases/models_fields.rst:69
 msgid ""
 "When searching for relations, click on *Search more* and filter it by "
 "*Custom*. This way you avoid creating duplicates."
 msgstr ""
+"Cuando busque relaciones, haga clic en *Buscar más* y filtre por "
+"*Personalización*. De esta manera evitará crear duplicados."
 
 #: ../../content/applications/productivity/studio/use_cases/models_fields.rst:76
 msgid ""
 "**Case scenario 2.b: in the model 'Properties', show all the tags as "
 "checkboxes instead of tags.**"
 msgstr ""
+"**Escenario 2.b: en el modelo 'Propiedades', muestre todas las etiquetas "
+"como casillas de verificación en lugar de etiquetas.**"
 
 #: ../../content/applications/productivity/studio/use_cases/models_fields.rst:78
 msgid ""
 "Once the field *Tags* is added to the form, select it and, under its "
 "*Properties > Widgets*, choose *Checkboxes*."
 msgstr ""
+"Una vez que haya añadido el campo *Etiquetas* al formulario, selecciónelo y,"
+" en *Propiedades > Widgets*, elija *Casillas de verificación*."
 
 #: ../../content/applications/productivity/studio/use_cases/models_fields.rst:85
 msgid ""
@@ -2808,6 +3222,10 @@ msgid ""
 "values:'Tags' & 'List' & 'Checkboxes'. According to the value of the field, "
 "show tags as many2many_tags, many2many_radio, or many2many(_list).**"
 msgstr ""
+"**Caso 3: en el formulario de los leads, añada un campo de selección con los"
+" valores:'Etiquetas', 'Lista' y 'Casillas'. Dependiendo del valor del campo,"
+" muestre las etiquetas como many2many_tags, many2many_radio, o "
+"many2many(_list).**"
 
 #: ../../content/applications/productivity/studio/use_cases/models_fields.rst:89
 msgid ""
@@ -2815,6 +3233,10 @@ msgid ""
 " *Properties*, define its *Widget* as *Many2many*. Do the same process "
 "another 2 times for *Checkboxes* and *Tags*."
 msgstr ""
+"En la vista de formulario, añada un campo de *Etiquetas* y relaciónelo con "
+"*Etiqueta de partners*. En *Propiedades*, defina su *Widget* como "
+"*Many2many*. Repita el mismo proceso otras dos veces para las *Casillas de "
+"verificación* y las *Etiquetas*."
 
 #: ../../content/applications/productivity/studio/use_cases/models_fields.rst:96
 msgid "Now, add a *Selection* field and the necessary values."
@@ -2827,6 +3249,11 @@ msgid ""
 "invisibility rule for the *Partner Tags* is set as: *Select Tag type > is "
 "not = > Tags.*"
 msgstr ""
+"Continúe seleccionando sus campos de *Etiquetas*, uno por uno, para "
+"establecer sus opciones de *Invisibilidad* a partir de su *Widget*. En el "
+"siguiente ejemplo, la regla de invisibilidad para las *Etiquetas del "
+"partner* se establece como: *Seleccionar tipo de etiqueta > no es = > "
+"Etiquetas.*"
 
 #: ../../content/applications/productivity/studio/use_cases/models_fields.rst:105
 msgid ""
@@ -2835,6 +3262,10 @@ msgid ""
 " manager can see it, and the field should be set as mandatory if the untaxed"
 " amount is higher than 500€.**"
 msgstr ""
+"**Caso 4: en el formulario de una cotización, añada un campo de selección "
+"llamado 'Validación del gerente' con los valores: 'Aceptado' y 'Rechazado'. "
+"Este campo solo lo podrá ver un gerente de ventas, y deberá ser obligatorio "
+"si el importe sin impuestos es superior a 500€.**"
 
 #: ../../content/applications/productivity/studio/use_cases/models_fields.rst:109
 msgid ""
@@ -2842,14 +3273,20 @@ msgid ""
 "and *Refused*. Set its *Required* condition as *Untaxed Amount > 500* and "
 "the *Limit visibility to groups* as *Sales / Administrator* or managers."
 msgstr ""
+"En su formulario de cotización, añada un campo de *Selección* con los "
+"valores *Aceptado* y *Rechazado*. Establezca su condición *Requerida* como "
+"*Importe sin impuestos > 500* y la *Visibilidad limitada a grupos* como "
+"*Ventas/Administrador* o gerentes."
 
 #: ../../content/applications/productivity/studio/use_cases/models_fields.rst:117
 msgid "**Case scenario 5: change the tooltip of a field for all views.**"
 msgstr ""
+"**Caso 5: cambiar las herramientas de un campo para todas las vistas.**"
 
 #: ../../content/applications/productivity/studio/use_cases/models_fields.rst:119
 msgid "Activate the :ref:`developer mode <developer-mode>` and open Studio."
 msgstr ""
+"Active el :ref:`modo de desarrollador <developer-mode>` y abra Studio."
 
 #: ../../content/applications/productivity/studio/use_cases/models_fields.rst:122
 msgid ""
@@ -2858,6 +3295,11 @@ msgid ""
 "explanatory message shown when the user hovers the field. The message here "
 "written is displayed on all views forms where the field is added."
 msgstr ""
+"Seleccione el campo necesario y, en *Propiedades*, haga clic en *Más* para "
+"escribir su mensaje explicativo en el *Campo de información*. Esta "
+"descripción es el mensaje que se mostrará cuando el usuario pase el cursor "
+"sobre el campo. El mensaje escrito aquí se mostrará en todos los formularios"
+" de vista en los cuales se añada el campo."
 
 #: ../../content/applications/productivity/studio/use_cases/models_fields.rst:129
 msgid ""
@@ -2865,28 +3307,37 @@ msgid ""
 "like to change/apply a tooltip for a specific field, use the *Help Tooltip* "
 "option under *Properties*."
 msgstr ""
+"El mensaje en el *campo de información* solo puede aplicarse a los campos "
+"*nuevos*. Si desea cambiar/aplicar un mensaje de información para un campo "
+"específico, utilice la opción *Información de ayuda* en *Propiedades*."
 
 #: ../../content/applications/productivity/studio/use_cases/views.rst:3
 msgid "Advanced Use Cases: Views"
-msgstr ""
+msgstr "Casos de uso avanzados: Vistas"
 
 #: ../../content/applications/productivity/studio/use_cases/views.rst:5
 msgid ""
 "**Case scenario 1: in Sales, show orders in a Kanban View instead of a List "
 "View.**"
 msgstr ""
+"**Caso 1: mostrar las órdenes en vista de Kanban en vez de vista de lista en"
+" la aplicación de Ventas.**"
 
 #: ../../content/applications/productivity/studio/use_cases/views.rst:7
 msgid ""
 "From the Sales page, access Studio and, under *Views*, set the *Kanban* "
 "option as the default one."
 msgstr ""
+"Desde la página de Ventas, acceda a Studio y, en *Vistas*, establezca la "
+"opción *Kanban* como la predeterminada."
 
 #: ../../content/applications/productivity/studio/use_cases/views.rst:14
 msgid ""
 "**Case scenario 2: allow for the list of leads to be edited inline without "
 "having to switch to the form view.**"
 msgstr ""
+"**Caso 2: permitir que la lista de leads se edite en línea sin tener que "
+"cambiar a la vista de formulario.**"
 
 #: ../../content/applications/productivity/studio/use_cases/views.rst:19
 msgid ""
@@ -2894,9 +3345,16 @@ msgid ""
 " top* or *New record at the bottom*. This way, besides defining the order in"
 " which new records are displayed in the view, you are able to edit them."
 msgstr ""
+"En la *vista de lista*, vaya a *Vista* > *Editable*, y elija entre *Nuevo "
+"registro en la parte superior* o *Nuevo registro en la parte inferior*. De "
+"este modo, además de definir el orden en que se muestran los nuevos "
+"registros en la vista, podrá editarlos."
 
 #: ../../content/applications/productivity/studio/use_cases/views.rst:21
 msgid ""
 "If the field is left blank, no editing is possible and records are shown "
 "based on your column preferences on the lead's page (front-end)."
 msgstr ""
+"Si se deja el campo en blanco, no será posible editarlo y los registros se "
+"mostrarán según sus preferencias de columna en la página del lead "
+"(frontend)."

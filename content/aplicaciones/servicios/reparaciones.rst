@@ -11,6 +11,11 @@ La aplicación de gestión de reparaciones está destinada a gestionar las repar
 empresa, así como los productos en stock, permitiéndote planificar, ejecutar y supervisar las solicitudes de reparación.
 También te permite analizar los detalles de los defectos de tus productos.
 
+.. youtube:: 7BShoe40guk
+    :align: right
+    :width: 786
+    :height: 442
+
 Configuración
 =============
 
