@@ -246,8 +246,10 @@ puedes crear una nueva haciendo clic sobre el enlace **Impresoras**.
    :alt: Impresoras
 
 El sistema navega a la pantalla de impresoras de pedido, donde puedes crear una nueva impresora mediante el botón
-**Crear**. Al crear una nueva impresora debes informar un nombre , las categorías de productos que puedan llegar
-a imprimirse sobre un pedido asi com el tipo el cual **siempre** se ha de seleccionar la opción **Use una impresora Epson**.
+**Crear**.
+
+Al crear una nueva impresora debes informar un **nombre** , la **dirección IP** de la impresora Epson y
+las **categorías** de productos que puedan llegar a imprimirse sobre un pedido.
 
 .. note::
    Por ejemplo, si en un bar tienes la categoría comida y la categoría bebida, y solo quieres que se impriman los productos de la categoría comida, añade únicamente la categoría comida a la impresora. Todos los productos de la categoría bebida no se imprimirán sobre esa impresora.
@@ -292,11 +294,39 @@ Las líneas de pedido verdes, así como el sombreado verde del propio botón, de
 
 Actualizar pedidos de cocina
 -------------------------------
-Laa
 
-Registrar un pedido adicional
-------------------------------
-La
+Una vez hayas gestionado un pedido y emitido la correspondiente nota a cocina, puede darse el caso de que tengas que
+corregir, ampliar o reducir el pedido e informar a cocina.
+
+Para ello, inicia sesión en el TPV desde la pantalla :menuselection:`Punto de Venta --> Tablero`, y desde el pedido a actualizar,
+realiza los cambios correspondientes sobre las líneas de pedido afectadas.
+
+Cada cambio se verá reflejado en color verde. Además, el botón **Pedido** volverá a disponer del sombreado verde.
+
+.. image:: restaurante/imprimirmas01.png
+   :align: center
+   :alt: Líneas del pedido
+
+Al pulsar el botón **Pedido**, se solicitará confirmación para **imprimir** mediante una nueva ventana del navegador.
+
+.. image:: restaurante/imprimirmas02.png
+   :align: center
+   :alt: Imprimir pedido
+
+Sobre la impresión, puedes encontrar el número de pedido, la ubicación, la hora, la instrucción y el contenido de productos de la categoría.
+
+.. image:: restaurante/imprimirmas03.png
+   :align: center
+   :alt: Pedido impreso
+
+Las líneas de pedido verdes, así como el sombreado verde del propio botón, desaparecerán una vez impreso el pedido.
+
+.. image:: restaurante/imprimirmas04.png
+   :align: center
+   :alt: Líneas del pedido
+
+.. note::
+   Para permitir emitir impresiones de pedidos, debes tener habilitada la opción **Pedido en impresora** en la configuración de la TPV, y haber informado al menos una impresora.
 
 Transferir los clientes de una mesa a otra
 -------------------------------------------
@@ -381,7 +411,34 @@ dividiendo la cuenta mediante el botón **Dividir**.
 
 Imprimir una cuenta antes de realizar el pago
 -------------------------------------------------
-BEBE
+
+Para permitir ofrecer a un cliente su cuenta impresa sin tener que mantenerse a la espera de la gestión del pago,
+navega a la pantalla :menuselection:`Punto de Venta --> Configuración --> Punto de Venta`, accede al detalle
+del TPV y sobre el apartado **Facturas y recibos** marca la opción **Impresión de la cuenta**.
+
+.. image:: restaurante/imprimir_recibo01.png
+   :align: center
+   :alt: Imprimir la cuenta
+
+.. note::
+   Una cuenta impresa o recibo no puede considerarse una factura, ni una factura simplificada ya que para ello debe disponer de un código de secuencia único. Dicho código de secuencia se facilita tras haber realizado el correspondiente pago.
+
+Al iniciar una nueva sesión de TPV desde la pantalla :menuselection:`Punto de Venta --> Tablero`, tras iniciar
+un pedido, se habilita un nuevo botón **Recibo** precedido del icono de una impresora.
+
+.. image:: restaurante/imprimir_recibo02.png
+   :align: center
+   :alt: Recibo
+
+Al pulsar el botón, el sistema navega a la pantalla de impresión de la cuenta.
+
+Al hacer clic sobre el botón Imprimir, se llevará a cabo la impresión.
+
+.. image:: restaurante/imprimir_recibo03.png
+   :align: center
+   :alt: Imprimir
+
+
 
 Gestionar las propinas antes de completar un pago
 --------------------------------------------------
