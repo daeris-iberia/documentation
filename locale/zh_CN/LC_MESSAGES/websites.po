@@ -14,18 +14,19 @@
 # mrshelly <mrshelly@hotmail.com>, 2022
 # Datasource International <Hennessy@datasourcegroup.com>, 2022
 # Connie Xiao <connie.xiao@elico-corp.com>, 2022
-# Martin Trigaux, 2022
 # Jeffery CHEN <jeffery9@gmail.com>, 2022
 # Mandy Choy <mnc@odoo.com>, 2022
+# Martin Trigaux, 2022
+# diaojiaolou <124412206@qq.com>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-18 14:56+0000\n"
+"POT-Creation-Date: 2022-07-22 09:36+0000\n"
 "PO-Revision-Date: 2022-03-18 15:03+0000\n"
-"Last-Translator: Mandy Choy <mnc@odoo.com>, 2022\n"
+"Last-Translator: diaojiaolou <124412206@qq.com>, 2022\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,7 +46,7 @@ msgstr "电子商务"
 msgid ""
 "Run a modern open-source online store with Odoo eCommerce. Learn how to sell"
 " online, promote products and increase your average cart sizes."
-msgstr ""
+msgstr "使用Odoo电子商务运营一家现代开源在线商店。了解如何在线销售、推广产品和增加购物车的平均尺寸。"
 
 #: ../../content/applications/websites/ecommerce.rst:14
 #: ../../content/applications/websites/website.rst:14
@@ -55,17 +56,23 @@ msgid ""
 "website with an address such as ``www.example.com`` rather than the default "
 "``example.odoo.com``."
 msgstr ""
+"Odoo为所有Odoo Online数据库提供一个：ref：`免费的自定义域名<域名/odoo-"
+"register>`。然后，访问者可以使用“www.example.com”等地址而不是默认的“example.odoo.com”来访问您的网站。"
 
 #: ../../content/applications/websites/ecommerce.rst:19
-#: ../../content/applications/websites/website.rst:20
-msgid "`Odoo Tutorials: Website <https://www.odoo.com/slides/website-25>`_"
+msgid ":doc:`Website Documentation <website>`"
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce.rst:20
+#: ../../content/applications/websites/website.rst:20
+msgid "`Odoo Tutorials: Website <https://www.odoo.com/slides/website-25>`_"
+msgstr "`Odoo 教程: 网站 <https://www.odoo.com/slides/website-25>`_"
+
+#: ../../content/applications/websites/ecommerce.rst:21
 #: ../../content/applications/websites/website.rst:21
 msgid ""
 "`Odoo Tutorials: eCommerce <https://www.odoo.com/slides/ecommerce-26>`_"
-msgstr ""
+msgstr "`Odoo 教程：电子商务 <https://www.odoo.com/slides/ecommerce-26>`_"
 
 #: ../../content/applications/websites/ecommerce/getting_started.rst:5
 msgid "Get started"
@@ -82,7 +89,7 @@ msgstr "产品目录"
 #: ../../content/applications/websites/ecommerce/getting_started/catalog.rst:8
 msgid ""
 "All your published items show up in your catalog page (or *Shop* page)."
-msgstr "所有印刷的项目都会显示在你的目录（或 *商店* ）页面中"
+msgstr "所有印刷的项目都会显示在你的目录（或 *商店* ）页面中。"
 
 #: ../../content/applications/websites/ecommerce/getting_started/catalog.rst:13
 msgid ""
@@ -206,35 +213,35 @@ msgstr "这种额外的图片对于所有产品变量（如有）而言是很普
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:3
 msgid "Manage product variants"
-msgstr ""
+msgstr "管理产品变体"
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:5
 msgid ""
 "Product variants are used to offer variations of the same product to your "
 "customers on the product's page."
-msgstr ""
+msgstr "产品变体用于在产品页面上向客户提供相同产品的变体。"
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:8
 msgid ""
 "Let's say one of your customers selects a T-shirt from your product catalog."
-msgstr ""
+msgstr "假设您的一位客户从您的产品目录中选择了一件T恤。"
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:10
 msgid ""
 "Then, they choose the size and color they want. The various size and color "
 "combinations are known as product variants."
-msgstr ""
+msgstr "然后，他们选择他们想要的尺寸和颜色。各种尺寸和颜色组合称为产品变体。"
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:14
 msgid "Create attributes & variants"
-msgstr ""
+msgstr "创建属性和变体"
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:16
 msgid ""
 "In order to create various attributes and variants for your products, you "
 "first need to turn on *Variants* in :menuselection:`Sales --> Configuration "
 "--> Settings`."
-msgstr ""
+msgstr "为了为产品创建各种属性和变体，首先需要在：菜单选择：`销售-->配置-->设置`中启用*变体*。"
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:19
 msgid ""
@@ -242,61 +249,62 @@ msgid ""
 "Website --> Products --> Products`). When the product detail form opens, "
 "click on *Edit*, and go to the *Variants* tab."
 msgstr ""
+"然后，从产品列表中选择一个产品（：菜单选择：`销售/网站-->产品-->产品`）。打开产品详细信息表单后，单击*编辑*，然后转到*变体*选项卡。"
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:22
 msgid ""
 "Here, you can add as many different attributes as you'd like by clicking on "
 "*Add a line*."
-msgstr ""
+msgstr "在这里，您可以通过单击*添加一行*来添加任意多个不同的属性。"
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:24
 msgid "These attributes appear as three different types:"
-msgstr ""
+msgstr "这些属性显示为三种不同的类型："
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:26
 msgid "Radio buttons"
-msgstr ""
+msgstr "单选按钮"
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:27
 msgid "Color buttons"
-msgstr ""
+msgstr "颜色按钮"
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:28
 msgid "Drop-down menu"
-msgstr ""
+msgstr "下拉菜单"
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:30
 msgid ""
 "Several variants appear as soon as there are two values for one attribute."
-msgstr ""
+msgstr "一个属性有两个值时，就会出现几个变体。"
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:32
 msgid "Don't forget to hit *Save* once all variants have been entered."
-msgstr ""
+msgstr "输入所有变体后，不要忘记点击*保存*。"
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:39
 msgid "Edit variants"
-msgstr ""
+msgstr "编辑变体"
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:41
 msgid ""
 "After you hit *Save*, you are able to see all the variants from the product "
 "template detail form via the *Variants* smart button."
-msgstr ""
+msgstr "点击*保存*后，您可以通过*变体*智能按钮查看产品模板详细信息表单中的所有变体。"
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:48
 msgid ""
 "Clicking the *Variants* smart button takes you to the Product Variants page,"
 " where you can edit the following data for each specific variant:"
-msgstr ""
+msgstr "单击*变体*智能按钮将进入产品变体页面，您可以在其中编辑每个特定变体的以下数据："
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:51
 msgid "Picture(s)"
-msgstr ""
+msgstr "图片 (s)"
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:52
 msgid "Internal Reference (SKU #)"
-msgstr ""
+msgstr "内部参考（SKU#）"
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:53
 msgid "Barcode"
@@ -318,35 +326,35 @@ msgstr "成本"
 msgid ""
 "Both the Barcode and the Internal Reference are variant-specific. You need "
 "to populate them once the variants are generated."
-msgstr ""
+msgstr "条形码和内部参考都是特定于变体的。一旦生成变体，您需要填充它们。"
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:63
 msgid "Set specific prices per variant"
-msgstr ""
+msgstr "设定每个变体的具体价格"
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:65
 msgid ""
 "You can set a specific public price per variant by clicking on *Configure "
 "Variants* in the product detail form (top-left corner). That takes you to "
 "the *Product Variant Values* page for that product."
-msgstr ""
+msgstr "您可以通过单击产品详细信息表单（左上角）中的*配置变体*来设置每个变体的特定公共价格。这将带您进入该产品的*产品变量值*页面。"
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:72
 msgid ""
 "To set a specific public price for a particular variant, simply click on the"
 " variant you want to modify, then click on *Edit*."
-msgstr ""
+msgstr "要为特定变体设置特定的公共价格，只需单击要修改的变体，然后单击*编辑*。"
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:75
 msgid ""
 "The *Value Price Extra* field represents the monetary value that is added to"
 " the original product price whenever the corresponding attribute value is "
 "selected."
-msgstr ""
+msgstr "*超值价格*字段表示每当选择相应的属性值时添加到原始产品价格的货币值。"
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:82
 msgid "This is how the *Value Price Extra* looks on your website:"
-msgstr ""
+msgstr "以下是“超值价格”在您的网站上的外观："
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:89
 msgid ""
@@ -356,7 +364,7 @@ msgstr "通过价格表公式为各种价格变量设置高级价格计算方法
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:93
 msgid "Disable/archive variants"
-msgstr ""
+msgstr "禁用/存档变体"
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:95
 msgid ""
@@ -365,12 +373,13 @@ msgid ""
 "Simply select *Archive* in their detail form. You can reactivate them the "
 "same way."
 msgstr ""
+"您可以禁用/归档特定的变体，使其不再在报价中或您的网站上可用（不存在于您的股票中，已弃用等）。只需在其详细信息表单中选择*存档*。您可以用相同的方式重新激活它们。"
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:103
 msgid ""
 "To retrieve such items, hit *Archived* in the *Filters* category while "
 "searching the variants list."
-msgstr ""
+msgstr "要检索这些项目，请在搜索变体列表的同时点击*过滤器*类别中的*存档*。"
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:110
 msgid ":doc:`../../../sales/sales/products_prices/products/variants`"
@@ -381,87 +390,107 @@ msgid "Maximize my revenue"
 msgstr "最大限度地提升收入"
 
 #: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:3
-msgid "How to sell accessories and optional products (cross-selling)"
-msgstr "如何销售附件和可选产品（交叉销售）"
+msgid "Cross-selling: Accessory and Optional Products"
+msgstr ""
 
 #: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:5
 msgid ""
-"You sell computers. Why not stimulating your customers to buy a top-notch "
-"screen or an extra-warranty? That's the goal of cross-selling "
-"functionalities:"
-msgstr "当你出售计电脑时， 为什么不鼓励您的客户购买一流的屏幕或额外保修？ 这就是交叉销售功能的目标："
+"Any sales process is an opportunity to maximize revenues. For example, with "
+"an extended warranty or some accessories."
+msgstr ""
 
 #: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:8
-msgid "Accessory products on checkout page,"
-msgstr "结账页上的配套产品，"
-
-#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:9
 msgid ""
-"Optional products on a new *Add to Cart* screen (not installed by default)."
-msgstr "新的 *添加到购物车* 屏幕上的可选产品（默认情况下未安装）。"
+"To do so, you can use **Cross-selling**, a sales technique consisting in "
+"selling a customer something in addition to the product or service they were"
+" originally shopping for. It is a great way to maximize the value of each "
+"one of your customers."
+msgstr ""
 
 #: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:12
-msgid "Accessory products when checking out"
-msgstr "结帐时配套产品"
+msgid "It can be done via two different features:"
+msgstr ""
 
 #: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:14
 msgid ""
-"Accessories (e.g. for computers: mouse, keyboard) show up when the customer "
-"reviews the cart before paying."
-msgstr "当客户在付款前查看购物车时，会显示配件（例如，电脑的配件：鼠标，键盘）。"
+":ref:`Accessory products <cross_selling/accessory>` on the checkout page."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:15
+msgid ""
+":ref:`Optional products <cross_selling/optional>` on a new :guilabel:`Add to"
+" Cart` screen."
+msgstr ""
 
 #: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:20
-msgid "Select accessories in the *Sales* tab of the product detail page."
-msgstr "在产品详细信息页面的 *销售* 标签中选择配件。"
+msgid "Accessory Products"
+msgstr "配件"
 
-#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:26
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:22
 msgid ""
-"There is an algorithm to figure out the best accessories to display in case "
-"several items are added to cart. If any item is the accessory of several "
-"products added to cart, it is most likely that it will be atop the list of "
-"suggested accessories."
-msgstr "当多个产品被添加到购物车时，这是一种预测附件产品的最佳算法。如果某一附件对应多个加入购物车的产品，那么它很可能会出现在推荐附件的最顶端。"
-
-#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:31
-msgid "Optional products when adding to cart"
-msgstr "添加到购物车时的可选产品"
-
-#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:33
-msgid ""
-"Optional products are directly related to the item added to cart (e.g. for "
-"computers: warranty, OS software, extra components). Whenever the main "
-"product is added to cart, such a new screen pops up as an extra step."
+"**Accessory Products** are products that are displayed when customers review"
+" their cart before paying. As an example, you could suggest a mouse or a "
+"keyboard when someone buys a computer."
 msgstr ""
-"可选产品直接与加入购物车的产品相关（如对于电脑而言，质保期、操作系统软件、备件等）。如果主产品被放入购物车，则弹出新的窗口，提示下一个步骤。"
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:25
+msgid ""
+"To add *Accessory Products*, go to :menuselection:`Website --> Products --> "
+"Products` and, under the :guilabel:`Sales Tab`, add your products to the "
+":guilabel:`Accessory Products` field."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:32
+msgid ""
+"Now, go to your website and add the product to your cart. On the payment "
+"step, you can see your accessory products suggested to the customer."
+msgstr ""
 
 #: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:40
-msgid "To publish optional products:"
-msgstr "发布可选产品："
-
-#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:42
 msgid ""
-"Install *eCommerce Optional Products* addon in *Apps* menu. Remove the "
-"default filter to search on addons as well, otherwise only main apps show "
-"up."
-msgstr "在 *应用程式* 菜单中安装 *电子商务可选产品* 插件，移除默认过滤器并在插件上搜索，否则只会显示主要的应用程式。"
+"`Odoo Tutorials: Alternative, Accessory, and Optional Products "
+"<https://www.odoo.com/slides/slide/alternative-accessory-and-optional-"
+"products-637>`_."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:46
+msgid "Optional Products"
+msgstr "可选产品"
 
 #: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:48
-msgid "Select optional items from the *Sales* tab of the product detail form."
-msgstr "从产品详细信息表格的 *销售* 选项卡中选择可选项目。"
-
-#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:54
 msgid ""
-"The quantity of optional items added to cart is the same than the main item."
-msgstr "添加到购物车的可选项目数量与主要项目相同。"
+"**Optional products** are products directly related to an item. Each time "
+"the product is added to a cart, a pop-up appears, suggesting other products "
+"to buy."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:51
+msgid ""
+"To enable optional products, go to :menuselection:`Website --> Configuration"
+" --> Settings` and tick :guilabel:`Optional Products`. Then, go to "
+":menuselection:`Website --> Products --> Products` and open the item you "
+"want to add an optional product to. In the :guilabel:`Sales tab` of that "
+"product, add as many optional products as you want."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:60
+msgid ""
+"From now, when a customer adds this product to their cart, a pop-up appears "
+"and suggests also adding the optional product(s)."
+msgstr ""
+
+#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:68
+msgid ":doc:`upselling`"
+msgstr ""
 
 #: ../../content/applications/websites/ecommerce/maximizing_revenue/pricing.rst:3
 msgid "Adapt prices to website visitors"
-msgstr ""
+msgstr "根据网站访问者调整价格"
 
 #: ../../content/applications/websites/ecommerce/maximizing_revenue/pricing.rst:5
 msgid ""
 "This section sheds light on pricing features found in the eCommerce app:"
-msgstr ""
+msgstr "本节介绍了电子商务应用程序中的定价功能："
 
 #: ../../content/applications/websites/ecommerce/maximizing_revenue/pricing.rst:7
 msgid "force a price by geo-localization,"
@@ -476,16 +505,17 @@ msgid ""
 "As a pre-requisite, check out how to managing product pricing: "
 ":doc:`/applications/sales/sales/products_prices/prices/pricing`)."
 msgstr ""
+"作为先决条件，请查看如何管理产品定价：：doc：`/applications/sales/sales/products_prices/prices/pricing`)."
 
 #: ../../content/applications/websites/ecommerce/maximizing_revenue/pricing.rst:15
 msgid "Geo-IP automatically applies the right price"
-msgstr ""
+msgstr "Geo-IP自动应用正确的价格"
 
 #: ../../content/applications/websites/ecommerce/maximizing_revenue/pricing.rst:17
 msgid ""
 "Assign country groups to your pricelists. That way, visitors who aren't "
 "logged in yet will get their own currency when landing on your website."
-msgstr ""
+msgstr "将国家组分配到价格表。这样，尚未登录的访问者在登录您的网站时将获得自己的货币。"
 
 #: ../../content/applications/websites/ecommerce/maximizing_revenue/pricing.rst:20
 msgid "Once logged in, they get the pricelist matching their country."
@@ -502,6 +532,7 @@ msgid ""
 "website drop-down menu, which can be found in *Pricelists* under the "
 "*Products* menu, located in the Website application."
 msgstr ""
+"如果你用几种货币销售，你可以让你的客户自己选择。选中*可选*框，将价格表添加到网站下拉菜单中，该下拉菜单可在网站应用程序中*产品*菜单下的*价格表*中找到。"
 
 #: ../../content/applications/websites/ecommerce/maximizing_revenue/pricing.rst:35
 msgid ":doc:`/applications/sales/sales/products_prices/prices/pricing`"
@@ -670,17 +701,13 @@ msgid ""
 "page."
 msgstr "从产品网页的 *自定义* 菜单中打开 *替代品* 。"
 
-#: ../../content/applications/websites/ecommerce/publish.rst:5
-msgid "Launch my website"
-msgstr "启动我的网站"
-
 #: ../../content/applications/websites/ecommerce/shopper_experience.rst:5
 msgid "Get paid"
 msgstr "付款"
 
 #: ../../content/applications/websites/ecommerce/shopper_experience/payment_acquirer.rst:3
 msgid "Manage orders paid with Payment Acquirers"
-msgstr ""
+msgstr "管理与付款收单机构支付的订单"
 
 #: ../../content/applications/websites/ecommerce/shopper_experience/payment_acquirer.rst:5
 msgid ""
@@ -688,29 +715,29 @@ msgid ""
 "*automatically* confirms the order, which triggers the delivery. And, if you"
 " invoice based on ordered quantities, you are requested to invoice the "
 "order, as well."
-msgstr ""
+msgstr "在支付收单机构正式授权支付时，Odoo*自动*确认订单，从而触发交付。而且，如果您根据订购数量开具发票，则也需要为订单开具发票。"
 
 #: ../../content/applications/websites/ecommerce/shopper_experience/payment_acquirer.rst:9
 msgid ""
 "Let’s take a closer look at how to manage orders paid with Payment "
 "Acquirers."
-msgstr ""
+msgstr "让我们仔细看看如何管理支付收单机构支付的订单。"
 
 #: ../../content/applications/websites/ecommerce/shopper_experience/payment_acquirer.rst:12
 msgid "Checking the status of a payment"
-msgstr ""
+msgstr "检查付款状态"
 
 #: ../../content/applications/websites/ecommerce/shopper_experience/payment_acquirer.rst:14
 msgid ""
 "To check the status of a payment, go to :menuselection:`Website --> Orders "
 "--> Orders`. Then, simply click on the order you wish to check on."
-msgstr ""
+msgstr "要检查付款状态，请转至：菜单选择：`网站-->订单-->订单`。然后，只需点击您想要查看的订单。"
 
 #: ../../content/applications/websites/ecommerce/shopper_experience/payment_acquirer.rst:17
 msgid ""
 "Once you are on the Sales Order page, you will find the payment is confirmed"
 " with an automatic note in the *Chatter*."
-msgstr ""
+msgstr "一旦您进入销售订单页面，您将发现付款已通过*聊天*中的自动注释确认。"
 
 #: ../../content/applications/websites/ecommerce/shopper_experience/payment_acquirer.rst:24
 msgid ""
@@ -718,48 +745,48 @@ msgid ""
 "reconciled. This note in the *Chatter* includes a link to the Payment entry,"
 " which contains various details about the transaction, along with a link to "
 "the related Journal Entry."
-msgstr ""
+msgstr "如果用户决定创建发票，则直接对账付款。“聊天”中的此注释包括到付款分录的链接，其中包含有关交易的各种详细信息，以及到相关日记账分录的连接。"
 
 #: ../../content/applications/websites/ecommerce/shopper_experience/payment_acquirer.rst:32
 msgid ""
 "Specific messages are provided to your customers for every payment status "
 "whenever they are redirected to Odoo after the transaction. To edit these "
 "messages, go to the *Messages* tab of the payment method."
-msgstr ""
+msgstr "每当您的客户在交易后被重定向到Odoo时，都会针对每个付款状态向他们提供特定的消息。要编辑这些消息，请转到付款方式的*消息*选项卡。"
 
 #: ../../content/applications/websites/ecommerce/shopper_experience/payment_acquirer.rst:38
 msgid "Automatically generate invoices at order"
-msgstr ""
+msgstr "按订单自动生成发票"
 
 #: ../../content/applications/websites/ecommerce/shopper_experience/payment_acquirer.rst:40
 msgid ""
 "When the order is confirmed, you can also choose to have an invoice "
 "automatically issued and paid. This fully-automated feature is designed for "
 "businesses that invoice orders right away."
-msgstr ""
+msgstr "订单确认后，您还可以选择自动开具并支付发票。这项全自动功能是为立即为订单开具发票的企业而设计的。"
 
 #: ../../content/applications/websites/ecommerce/shopper_experience/payment_acquirer.rst:47
 msgid "To do automatically generate invoices at order:"
-msgstr ""
+msgstr "要按订单自动生成发票："
 
 #: ../../content/applications/websites/ecommerce/shopper_experience/payment_acquirer.rst:45
 msgid ""
 "Go to :menuselection:`Website --> Configuration --> Settings --> Invoicing`."
-msgstr ""
+msgstr "转到：菜单选择：`网站-->配置-->设置-->开票`。"
 
 #: ../../content/applications/websites/ecommerce/shopper_experience/payment_acquirer.rst:46
 msgid ""
 "Then, under the **Invoicing Policy** option, select *Invoice what is "
 "ordered*."
-msgstr ""
+msgstr "然后，在 **票政策 **项下，选择*发票订购内容*。"
 
 #: ../../content/applications/websites/ecommerce/shopper_experience/payment_acquirer.rst:47
 msgid "Then activate *Automatic Invoices* and *Save*."
-msgstr ""
+msgstr "然后激活*自动发票*和*保存*。"
 
 #: ../../content/applications/websites/ecommerce/shopper_experience/payment_acquirer.rst:54
 msgid "Capture payment after the delivery"
-msgstr ""
+msgstr "交付后捕获付款"
 
 #: ../../content/applications/websites/ecommerce/shopper_experience/payment_acquirer.rst:56
 msgid ""
@@ -767,7 +794,7 @@ msgid ""
 "manually, the order is confirmed, but the amount is kept on hold. Once the "
 "delivery is processed, you can capture the payment from the related Sales "
 "Order."
-msgstr ""
+msgstr "如果处理付款的收单机构被配置为手动捕获金额，则订单将被确认，但金额将被保留。处理完交货后，您可以从相关销售订单中获取付款。"
 
 #: ../../content/applications/websites/ecommerce/shopper_experience/payment_acquirer.rst:61
 msgid ":doc:`../../../finance/payment_acquirers`"
@@ -776,7 +803,7 @@ msgstr ""
 #: ../../content/applications/websites/ecommerce/shopper_experience/payment_acquirer.rst:62
 msgid ""
 ":ref:`Payment Acquirers: Place a hold on a card "
-"<payment_acquirers/capture_amount>`"
+"<payment_acquirers/features/manual_capture>`"
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/shopper_experience/portal.rst:3
@@ -836,7 +863,7 @@ msgstr "联机客服"
 
 #: ../../content/applications/websites/livechat.rst:11
 msgid "`Live Chat: product page <https://www.odoo.com/app/live-chat>`_"
-msgstr ""
+msgstr "`实时聊天：产品页面<https://www.odoo.com/app/live-chat>`_"
 
 #: ../../content/applications/websites/livechat/overview.rst:5
 #: ../../content/applications/websites/website/publish/translate.rst:6
@@ -886,14 +913,14 @@ msgid ""
 "you like, and keep in mind that operators that do not show any activity in "
 "Odoo for more than 30min are considered disconnected."
 msgstr ""
-"- **操作员** ：添加代理以回应聊天请求。 可根据需要添加数量，并且请记住，在Odoo中未进行任何活动超过30分钟的操作员将被视为断开连接。"
+"-  **作**  ：添加代理以回应聊天请求。 可根据需要添加数量，并且请记住，在Odoo中未进行任何活动超过30分钟的操作员将被视为断开连接。"
 
 #: ../../content/applications/websites/livechat/overview/get_started.rst:33
 msgid ""
 "- **Options**: set the default text to be shown on the live chat button; an "
 "automated welcome message to be seen by visitors when a conversation is "
 "initiated, and the text that prompts the user to initiate a chat."
-msgstr "- **选项** ：设置要在在线客服按钮上显示的默认文本； 发起对话时访问者可以看到自动的欢迎信息，以及提示用户发起聊天的文本。"
+msgstr "-  ****  ：设置要在在线客服按钮上显示的默认文本； 发起对话时访问者可以看到自动的欢迎信息，以及提示用户发起聊天的文本。"
 
 #: ../../content/applications/websites/livechat/overview/get_started.rst:36
 msgid ""
@@ -901,7 +928,7 @@ msgid ""
 "In the example below, the chat window automatically pops-up 3 seconds after "
 "users (from any country) land on the contact us page."
 msgstr ""
-"- **频道规则** ：为指定的网址和/或每个国家/地区选择一个操作。 在下面的示例中，用户（来自任何国家/地区）当登陆 *联系我们* "
+"-  **道规**  ：为指定的网址和/或每个国家/地区选择一个操作。 在下面的示例中，用户（来自任何国家/地区）当登陆 *联系我们* "
 "页面3秒后，聊天窗口会自动弹出。"
 
 #: ../../content/applications/websites/livechat/overview/get_started.rst:43
@@ -1111,7 +1138,7 @@ msgstr "网站"
 msgid ""
 "Discover the best **Open-Source Website Builder** and learn how to build "
 "beautiful websites that convert visitors into leads or revenues."
-msgstr ""
+msgstr "探索最好的 **源网站建设** ，学习如何创建美丽的网站，将访问者转化为潜在客户或收入。"
 
 #: ../../content/applications/websites/website/optimize.rst:5
 msgid "Optimize"
@@ -1164,19 +1191,51 @@ msgstr ":doc:`google_analytics_dashboard`"
 msgid "How to track your website traffic from your Odoo Dashboard"
 msgstr "如何从Odoo仪表中跟踪你的网站流量"
 
-#: ../../content/applications/websites/website/optimize/google_analytics_dashboard.rst:5
+#: ../../content/applications/websites/website/optimize/google_analytics_dashboard.rst:6
+msgid ""
+"It is not possible anymore for new Google Analytics accounts to integrate "
+"their **Google Analytics Dashboard** inside their **Odoo Dashboard**. Google"
+" deprecated **Universal Analytics** which won't be supported anymore in "
+"`July 2023 <https://support.google.com/analytics/answer/11583528>`_. They "
+"are replacing it with **Analytics 4**. New accounts are already using it."
+msgstr ""
+
+#: ../../content/applications/websites/website/optimize/google_analytics_dashboard.rst:12
+msgid ""
+"**Analytics 4** `doesn't allow "
+"<https://issuetracker.google.com/issues/233738709?pli=1>`_ its dashboard to "
+"be integrated in external websites."
+msgstr ""
+
+#: ../../content/applications/websites/website/optimize/google_analytics_dashboard.rst:15
+msgid ""
+"You now have to check your Analytics data directly in the Google Platform as"
+" it won't be possible in Odoo anymore."
+msgstr ""
+
+#: ../../content/applications/websites/website/optimize/google_analytics_dashboard.rst:18
+msgid ""
+"Accounts created before `October 2020 "
+"<https://support.google.com/analytics/answer/11583832>`_ should still be "
+"using **Universal Analytics** and be able to integrate their dashboard on "
+"external website until the official end of support `around mid 2023 "
+"<https://developers.googleblog.com/2022/03/gis-jsweb-authz-"
+"migration.html>`_."
+msgstr ""
+
+#: ../../content/applications/websites/website/optimize/google_analytics_dashboard.rst:23
 msgid ""
 "You can follow your traffic statistics straight from your Odoo Website "
 "Dashboard thanks to Google Analytics."
 msgstr "有了Google Analytics，你可以直接从Odoo网站跟踪你的流量统计。"
 
-#: ../../content/applications/websites/website/optimize/google_analytics_dashboard.rst:8
+#: ../../content/applications/websites/website/optimize/google_analytics_dashboard.rst:26
 msgid ""
 "A preliminary step is creating a Google Analytics account and entering the "
 "tracking ID in your Website's settings (see :doc:`google_analytics`)."
 msgstr "准备步骤包括创建一个Google Analytics账号并在网址设置中输入跟踪ID（参见doc:`google_analytics`）"
 
-#: ../../content/applications/websites/website/optimize/google_analytics_dashboard.rst:11
+#: ../../content/applications/websites/website/optimize/google_analytics_dashboard.rst:29
 msgid ""
 "Go to `Google APIs platform <https://console.developers.google.com>`__ to "
 "generate Analytics API credentials. Log in with your Google account."
@@ -1184,31 +1243,31 @@ msgstr ""
 "在 `Google API平台 <https://console.developers.google.com>`__中生成Analytics API "
 "凭证，再用Google账户登录。"
 
-#: ../../content/applications/websites/website/optimize/google_analytics_dashboard.rst:14
+#: ../../content/applications/websites/website/optimize/google_analytics_dashboard.rst:32
 msgid "Select Analytics API."
 msgstr "选择Analytics API。"
 
-#: ../../content/applications/websites/website/optimize/google_analytics_dashboard.rst:19
+#: ../../content/applications/websites/website/optimize/google_analytics_dashboard.rst:37
 msgid ""
 "Create a new project and give it a name (e.g. Odoo). This project is needed "
 "to store your API credentials."
 msgstr "创建一个新项目并命名（如Odoo），此项目用于存放你的API凭证。"
 
-#: ../../content/applications/websites/website/optimize/google_analytics_dashboard.rst:25
+#: ../../content/applications/websites/website/optimize/google_analytics_dashboard.rst:43
 msgid "Enable the API."
 msgstr "启用API接口。"
 
-#: ../../content/applications/websites/website/optimize/google_analytics_dashboard.rst:30
+#: ../../content/applications/websites/website/optimize/google_analytics_dashboard.rst:48
 msgid "Create credentials to use in Odoo."
 msgstr "创建一个用于Odoo的凭证。"
 
-#: ../../content/applications/websites/website/optimize/google_analytics_dashboard.rst:35
+#: ../../content/applications/websites/website/optimize/google_analytics_dashboard.rst:53
 msgid ""
 "Select *Web browser (Javascript)* as calling source and *User data* as kind "
 "of data."
 msgstr "选择 *网页浏览器（Javascript）* 作为调用源，选择 *用户数据* 作为数据类型。"
 
-#: ../../content/applications/websites/website/optimize/google_analytics_dashboard.rst:41
+#: ../../content/applications/websites/website/optimize/google_analytics_dashboard.rst:59
 msgid ""
 "Then you can create a Client ID. Enter the name of the application (e.g. "
 "Odoo) and the allowed pages on which you will be redirected. The *Authorized"
@@ -1219,7 +1278,7 @@ msgstr ""
 "接着创建一个客户端ID。输入应用的名称（如Odoo）及允许转向的页面。*授权JavaScript源文件* 是你的实例URL地址，*授权转向URI* "
 "是你Odoo实例的URL地址'/google_account/authentication'。"
 
-#: ../../content/applications/websites/website/optimize/google_analytics_dashboard.rst:51
+#: ../../content/applications/websites/website/optimize/google_analytics_dashboard.rst:69
 msgid ""
 "Go through the Consent Screen step by entering a product name (e.g. Google "
 "Analytics in Odoo). Feel free to check the customizations options but this "
@@ -1229,18 +1288,18 @@ msgstr ""
 "输入产品名称（如在Odoo中输入Google "
 "Analytics），完成用户许可步骤，可任意选择自定义选项（非强制）。只有第一次在Odoo中输入客户端ID时显示用户许可画面。"
 
-#: ../../content/applications/websites/website/optimize/google_analytics_dashboard.rst:56
+#: ../../content/applications/websites/website/optimize/google_analytics_dashboard.rst:74
 msgid ""
 "Finally you are provided with your Client ID. Copy and paste it in Odoo."
 msgstr "最后，你会获得一个客户端ID。将此ID复制粘贴到Odoo。"
 
-#: ../../content/applications/websites/website/optimize/google_analytics_dashboard.rst:61
+#: ../../content/applications/websites/website/optimize/google_analytics_dashboard.rst:79
 msgid ""
 "Open your Website Dashboard in Odoo and link your Analytics account to past "
 "your Client ID."
-msgstr ""
+msgstr "在Odoo中打开你的网站仪表板，并将你的分析帐户链接到过去的客户ID。"
 
-#: ../../content/applications/websites/website/optimize/google_analytics_dashboard.rst:67
+#: ../../content/applications/websites/website/optimize/google_analytics_dashboard.rst:85
 msgid "As a last step, authorize Odoo to access Google API."
 msgstr "最后，授权Odoo访问Google API接口。"
 
@@ -1289,18 +1348,18 @@ msgstr "**URL** : 您要跟踪的页面的网址（例如，主页或产品页�
 
 #: ../../content/applications/websites/website/optimize/link_tracker.rst:29
 msgid "**Campaign**: context of your link (e.g. a special promotion)."
-msgstr "**活动** : 链接的撮要（例如特殊促销）。"
+msgstr " ****  : 链接的撮要（例如特殊促销）。"
 
 #: ../../content/applications/websites/website/optimize/link_tracker.rst:30
 msgid ""
 "**Medium**: channel used to share (deliver) your link (e.g. an email or a "
 "Facebook ad)."
-msgstr "**媒介** : 用于共享（提供）您的链接的渠道（例如电子邮件或Facebook广告）。"
+msgstr " ****  : 用于共享（提供）您的链接的渠道（例如电子邮件或Facebook广告）。"
 
 #: ../../content/applications/websites/website/optimize/link_tracker.rst:31
 msgid ""
 "**Source**: platform where the traffic originates (e.g. Google or Twitter)."
-msgstr "**来源** ：流量产生的平台（例如Google或Twitter）。"
+msgstr " ****  ：流量产生的平台（例如Google或Twitter）。"
 
 #: ../../content/applications/websites/website/optimize/link_tracker.rst:33
 msgid ""
@@ -1320,10 +1379,11 @@ msgid ""
 "statistics by clicking on *Stats*, including the number of clicks, and the "
 "country of origin for those clicks."
 msgstr ""
+"要查看链接的统计信息，请转到：菜单选择：`网站-->转到网站-->升级-->跟踪此页面`。除了能够看到*点击次数最多*和*最近使用*的链接外，您还可以通过单击*统计*查看完整的统计数据，包括点击次数和这些点击的原产国。"
 
 #: ../../content/applications/websites/website/optimize/link_tracker.rst:50
 msgid "You can also access the link tracker on *odoo.com/r* via your browser."
-msgstr ""
+msgstr "您也可以在*odoo上访问链接跟踪器。com/r*通过浏览器。"
 
 #: ../../content/applications/websites/website/optimize/link_tracker.rst:51
 msgid ""
@@ -1347,10 +1407,12 @@ msgid ""
 "</applications/sales/crm/track_leads/prospect_visits>` application allows "
 "you to understand where your leads and opportunities are coming from."
 msgstr ""
+"与 :doc:`CRM </applications/sales/crm/track_leads/prospect_visits>` "
+"应用程序允许您了解您的潜在客户和机会来自哪里。"
 
 #: ../../content/applications/websites/website/optimize/seo.rst:3
 msgid "How to do Search Engine Optimisation (SEO) in Odoo"
-msgstr ""
+msgstr "如何在Odoo中进行搜索引擎优化（SEO）"
 
 #: ../../content/applications/websites/website/optimize/seo.rst:5
 msgid ""
@@ -1435,7 +1497,7 @@ msgstr "当谈到搜索引擎优化时，始终记住内容为王。Odoo提供�
 
 #: ../../content/applications/websites/website/optimize/seo.rst:60
 msgid "**Odoo Blogs**: write great contents."
-msgstr "**Odoo博客**：撰写优质内容。"
+msgstr "**Odoo博** ：撰写优质内容。"
 
 #: ../../content/applications/websites/website/optimize/seo.rst:62
 msgid ""
@@ -1444,7 +1506,7 @@ msgid ""
 "`odoo.com/slides/public-channel-1 <https://www.odoo.com/slides/public-"
 "channel-1>`_"
 msgstr ""
-"**Odoo幻灯片** ：发表所有的PowerPoint或者PDF演示文稿。内容将自动在网页上进行索引。例如: "
+"**Odoo幻灯**  ：发表所有的PowerPoint或者PDF演示文稿。内容将自动在网页上进行索引。例如: "
 "`odoo.com/slides/public-channel-1 <https://www.odoo.com/slides/public-"
 "channel-1>`_"
 
@@ -1454,7 +1516,7 @@ msgid ""
 "`odoo.com/forum/1 <https://odoo.com/forum/1>`_ (accounts for 30% of Odoo.com"
 " landing pages)"
 msgstr ""
-"**Odoo论坛**：让社区为你创建内容。例如:`odoo.com/forum/1 "
+"**Odoo论** ：让社区为你创建内容。例如:`odoo.com/forum/1 "
 "<https://odoo.com/forum/1>`_（占Odoo.com登录页面的30%）"
 
 #: ../../content/applications/websites/website/optimize/seo.rst:70
@@ -1463,7 +1525,7 @@ msgid ""
 "website. Example: `odoo.com/groups/community-59 "
 "<https://www.odoo.com/groups/community-59>`_ (1000 pages created per month)"
 msgstr ""
-"**Odoo邮件列表存档**：在网站上发布邮件列表存档。例如: `odoo.com/groups/community-59 "
+"**Odoo邮件列表存** ：在网站上发布邮件列表存档。例如: `odoo.com/groups/community-59 "
 "<https://www.odoo.com/groups/community-59>`_（每月创建1000页）"
 
 #: ../../content/applications/websites/website/optimize/seo.rst:76
@@ -1536,7 +1598,7 @@ msgstr "Twitter 滚动条"
 msgid ""
 "Display the Twitter feeds with customer satifaction on your website. This "
 "will increase the number of tweets and shares."
-msgstr ""
+msgstr "在你的网站上显示客户满意度的推特提要。这将增加推特和共享的数量。"
 
 #: ../../content/applications/websites/website/optimize/seo.rst:129
 msgid "Test Your Website"
@@ -1684,7 +1746,7 @@ msgstr "Odoo将自动在新的URL更新所有链接。"
 msgid ""
 "If external websites still points to the old URL, a 301 redirect will be "
 "done to route visitors to the new address of the page."
-msgstr ""
+msgstr "如果外部网站仍然指向旧的URL，将执行301重定向，将访问者路由到页面的新地址。"
 
 #: ../../content/applications/websites/website/optimize/seo.rst:209
 msgid "As an example, this URL:"
@@ -1709,6 +1771,7 @@ msgid ""
 "link still functions when used by external websites, via a 301 redirect, "
 "maintaining the SEO link juice."
 msgstr ""
+"简而言之，只需更改博客帖子的标题或产品的名称，这些更改将自动应用于您网站的任何地方。当被外部网站使用时，旧链接仍然有效，通过301重定向，维持SEO链接。"
 
 #: ../../content/applications/websites/website/optimize/seo.rst:223
 msgid "HTTPS"
@@ -1826,7 +1889,7 @@ msgstr "用这种方法："
 msgid ""
 "Search engines will redirect to the right language according to the visitor "
 "language."
-msgstr ""
+msgstr "搜索引擎将根据访问者的语言重定向到正确的语言。"
 
 #: ../../content/applications/websites/website/optimize/seo.rst:287
 msgid ""
@@ -1846,6 +1909,7 @@ msgid ""
 "version according to their browser language preference (e.g. "
 "yourwebsite.com/fr\\_FR/shop)."
 msgstr ""
+"当访问者第一次登陆您的网站（例如yourwebsite.com/shop）时，他们可能会根据其浏览器语言偏好自动重定向到翻译版本（例如yourwebsite.com/fr\\_FR/shop）。"
 
 #: ../../content/applications/websites/website/optimize/seo.rst:299
 msgid ""
@@ -1985,7 +2049,7 @@ msgid ""
 "instead of overwriting them through extra CSS lines, resulting in a smaller "
 "file."
 msgstr ""
-" **预处理 :** Odoo使用的CSS框架是Bootstrap。虽然某个主题可能会使用其他框架，大部分`Odoo 主题 "
+"  **处理 :** Odoo使用的CSS框架是Bootstrap。虽然某个主题可能会使用其他框架，大部分`Odoo 主题 "
 "<https://www.odoo.com/apps/themes>`__延长并直接定制Bootstrap。由于Odoo支持Less和Sass，你可以修改CSS"
 " 规则，而不是通过额外的CSS线覆盖它们，导致文件变得更小。"
 
@@ -2000,7 +2064,7 @@ msgid ""
 "files like .JS and .CSS. Thus, the time to load CSS resources depends more "
 "on the number of requests to be done than the actual file size."
 msgstr ""
-" **级联：** "
+"  **联：** "
 "你在Odoo中可能使用的每个模块或库都有自己的一套的CSS、Less或Sass文件（电子商务、博客、主题等）。多个CSS文件对于模块化非常有用，但是对性能不太好，因为大多数浏览器只能执行并行6个请求载入的文件。对于像.JS和.CSS等小文件，等待传送文件的时间通常比实际的数据传输时间更长。因此，加载CSS资源的时间更多地取决于请求的数目而不是实际的文件大小。"
 
 #: ../../content/applications/websites/website/optimize/seo.rst:405
@@ -2011,16 +2075,16 @@ msgid ""
 "shared amongst all pages, when the visitor clicks on another page, the "
 "browser does not even have to load a new CSS file!"
 msgstr ""
-"为了解决这个问题，所有的CSS / Less / Sass文件合并为一个.CSS文件发送至浏览器。因此一位访客每页 **只需要加载一个.css文件** "
+"为了解决这个问题，所有的CSS / Less / Sass文件合并为一个.CSS文件发送至浏览器。因此一位访客每页  **需要加载一个.css文**  "
 "，这是特别有效的。由于CSS是在所有页面共享的，当访问者点击另一页上，浏览器甚至无需加载新的CSS文件！"
 
 #: ../../content/applications/websites/website/optimize/seo.rst:412
 msgid "**Both files in the <head>**"
-msgstr " **<head>中全部文件** "
+msgstr " **<head>中全部文**  "
 
 #: ../../content/applications/websites/website/optimize/seo.rst:412
 msgid "**What the visitor gets (only one file)**"
-msgstr " **访问者得到什么(只有一个文件)** "
+msgstr "  **问者得到什么(只有一个文件)** "
 
 #: ../../content/applications/websites/website/optimize/seo.rst:414
 msgid "/\\* From bootstrap.css \\*/"
@@ -2090,15 +2154,15 @@ msgstr ""
 msgid ""
 "**Minified:** After being pre-processed and concatenated, the resulting CSS "
 "is minified to reduce its size."
-msgstr " **精缩 :** 预先处理并且串联后, 所得CSS将被减小其尺寸。"
+msgstr "  **缩 :** 预先处理并且串联后, 所得CSS将被减小其尺寸。"
 
 #: ../../content/applications/websites/website/optimize/seo.rst:444
 msgid "**Before minification**"
-msgstr " **缩小前** "
+msgstr "  **小**  "
 
 #: ../../content/applications/websites/website/optimize/seo.rst:444
 msgid "**After minification**"
-msgstr " **缩小后** "
+msgstr "  **小**  "
 
 #: ../../content/applications/websites/website/optimize/seo.rst:446
 msgid "/\\* some comments \\*/"
@@ -2167,6 +2231,7 @@ msgid ""
 "But it allows you to easily debug with the Chrome debugger as CSS and "
 "Javascript resources are not transformed from their original versions."
 msgstr ""
+"如果您使用：ref:`开发者模式<developermode>`，则CSS和Javascript既不会串联，也不会缩小。因此，速度要慢得多。但它允许您轻松地使用Chrome调试器进行调试，因为CSS和Javascript资源不是从其原始版本转换而来的。"
 
 #: ../../content/applications/websites/website/optimize/seo.rst:488
 msgid "CDN"
@@ -2203,7 +2268,7 @@ msgstr "不同的服务，允许加载更多的资源并行的资源加载(域�
 msgid ""
 "You can configure your CDN options from the **Website Admin** app, using the"
 " Configuration menu. Here is an example of configuration you can use:"
-msgstr "你可从 **网站管理员** 程序中使用配置菜单配置CDN选项。这是配置示例："
+msgstr "你可从  **站管理**  程序中使用配置菜单配置CDN选项。这是配置示例："
 
 #: ../../content/applications/websites/website/optimize/seo.rst:511
 msgid "HTML Pages"
@@ -2291,40 +2356,24 @@ msgstr "扩展性"
 #: ../../content/applications/websites/website/optimize/seo.rst:561
 msgid ""
 "In addition to being fast, Odoo is also more scalable than traditional CMS "
-"and eCommerce (Drupal, Wordpress, Magento, Prestashop). The following link "
-"provides an analysis of the major open source CMS and eCommerce compared to "
-"Odoo when it comes to high query volumes: "
-"`https://www.odoo.com/slides/slide/197 "
-"<https://www.odoo.com/slides/slide/odoo-cms-performance-comparison-and-"
-"optimisation-197>`_"
-msgstr ""
-"除了速度快，Odoo也比传统的CMS和电子商务（Drupal、Wordpress、Magento、Prestashop）更具可扩展性。以下链接提供了在高查询量时主要的开源CMS和电子商务与Odoo的分析比较：`https://www.odoo.com/slides/slide/197"
-" <https://www.odoo.com/slides/slide/odoo-cms-performance-comparison-and-"
-"optimisation-197>`_"
-
-#: ../../content/applications/websites/website/optimize/seo.rst:568
-msgid "Todo"
-msgstr "待办"
-
-#: ../../content/applications/websites/website/optimize/seo.rst:568
-msgid "fix above link"
+"and eCommerce (Drupal, Wordpress, Magento, Prestashop)."
 msgstr ""
 
-#: ../../content/applications/websites/website/optimize/seo.rst:570
+#: ../../content/applications/websites/website/optimize/seo.rst:564
 msgid ""
 "Here is the slide that summarizes the scalability of Odoo Website & "
 "eCommerce."
 msgstr "这里总结了Odoo网站和电子商务可扩展性的概览。"
 
-#: ../../content/applications/websites/website/optimize/seo.rst:576
+#: ../../content/applications/websites/website/optimize/seo.rst:570
 msgid "Search Engines Files"
 msgstr "搜索引擎文件"
 
-#: ../../content/applications/websites/website/optimize/seo.rst:579
+#: ../../content/applications/websites/website/optimize/seo.rst:573
 msgid "Sitemap"
 msgstr "网站地图"
 
-#: ../../content/applications/websites/website/optimize/seo.rst:581
+#: ../../content/applications/websites/website/optimize/seo.rst:575
 msgid ""
 "The sitemap points out pages to index to search engine robots. Odoo "
 "generates a ``/sitemap.xml`` file automatically for you. For performance "
@@ -2332,7 +2381,7 @@ msgid ""
 msgstr ""
 "网站地图向搜索引擎机器人指出索引的页面。Odoo将自动生成 ``/sitemap.xml`` 文件。基于性能原因，该文件被缓存，并将每12小时更新一次。"
 
-#: ../../content/applications/websites/website/optimize/seo.rst:585
+#: ../../content/applications/websites/website/optimize/seo.rst:579
 msgid ""
 "By default, all URLs will be in a single ``/sitemap.xml`` file, but if you "
 "have a lot of pages, Odoo will automatically create a Sitemap Index file, "
@@ -2343,22 +2392,22 @@ msgstr ""
 "默认情况下，所有的URL将在``/sitemap.xml``文件，但是如果有很多页，Odoo将自动创建一个网站地图索引文件，遵守`sitemaps.org"
 " protocol <http://www.sitemaps.org/protocol.html>`__ 在每个文件的45000中分组网站地图 URL。"
 
-#: ../../content/applications/websites/website/optimize/seo.rst:591
+#: ../../content/applications/websites/website/optimize/seo.rst:585
 msgid "Every sitemap entry has 4 attributes that are computed automatically:"
 msgstr "每一个网站的入口有4个属性，自动计算："
 
-#: ../../content/applications/websites/website/optimize/seo.rst:593
+#: ../../content/applications/websites/website/optimize/seo.rst:587
 msgid "``<loc>`` : the URL of a page"
 msgstr "``<loc>`` : 页面的URL"
 
-#: ../../content/applications/websites/website/optimize/seo.rst:595
+#: ../../content/applications/websites/website/optimize/seo.rst:589
 msgid ""
 "``<lastmod>`` : last modification date of the resource, computed "
 "automatically based on related object. For a page related to a product, this"
 " could be the last modification date of the product or the page."
 msgstr "``<lastmod>``：资源的最后修改日期，基于相关对象自动计算。一页关联一个产品，这可能是该产品或页面的最后修改日期。"
 
-#: ../../content/applications/websites/website/optimize/seo.rst:600
+#: ../../content/applications/websites/website/optimize/seo.rst:594
 msgid ""
 "``<priority>`` : modules may implement their own priority algorithm based on"
 " their content (example: a forum might assign a priority based on the number"
@@ -2367,11 +2416,11 @@ msgid ""
 msgstr ""
 "``<priority>``：模块可以基于自己的内容有优先级算法（例如：一个论坛可能基于投票的数量分配优先权）。静态页面的优先级是由它的优先级字段定义的，呈常规化（16是默认值）。"
 
-#: ../../content/applications/websites/website/optimize/seo.rst:607
+#: ../../content/applications/websites/website/optimize/seo.rst:601
 msgid "Structured Data Markup"
 msgstr "结构化数据标记"
 
-#: ../../content/applications/websites/website/optimize/seo.rst:609
+#: ../../content/applications/websites/website/optimize/seo.rst:603
 msgid ""
 "Structured Data Markup is used to generate Rich Snippets in search engine "
 "results. It is a way for website owners to send structured data to search "
@@ -2381,13 +2430,13 @@ msgstr ""
 "结构化数据标记是用来在搜索引擎结果中生成Rich "
 "Snippets的。这是网站所有者用于将结构化数据发送给搜索引擎机器人的途径；帮助它们了解你的内容，并产生良好的搜索结果。"
 
-#: ../../content/applications/websites/website/optimize/seo.rst:614
+#: ../../content/applications/websites/website/optimize/seo.rst:608
 msgid ""
 "Google supports a number of rich snippets for content types, including: "
 "Reviews, People, Products, Businesses, Events and Organizations."
 msgstr "谷歌支持许多内容类型的丰富片段，包括：审核人、人、产品、企业、活动和组织。"
 
-#: ../../content/applications/websites/website/optimize/seo.rst:617
+#: ../../content/applications/websites/website/optimize/seo.rst:611
 msgid ""
 "Odoo implements micro data as defined in the `schema.org "
 "<http://schema.org>`__ specification for events, eCommerce products, forum "
@@ -2397,11 +2446,11 @@ msgstr ""
 "Odoo实现微观数据在`schema.org <http://schema.org>`__ 中定义，对活动, "
 "电子商务产品，论坛帖子和联系地址的描述。这可以让你的产品页面显示在谷歌信息栏，如产品的价格和评级："
 
-#: ../../content/applications/websites/website/optimize/seo.rst:627
+#: ../../content/applications/websites/website/optimize/seo.rst:621
 msgid "robots.txt"
 msgstr "robots.txt"
 
-#: ../../content/applications/websites/website/optimize/seo.rst:629
+#: ../../content/applications/websites/website/optimize/seo.rst:623
 msgid ""
 "When indexing your website, search engines take a first look at the general "
 "indexing rules of the a``/robots.txt`` file (allowed robots, sitemap path, "
@@ -2409,18 +2458,18 @@ msgid ""
 msgstr ""
 "在编制网站索引时，搜索引擎首先查看``/robots.txt``文件的一般索引规则（允许的机器人、网站地图路径等）。Odoo自动创建该文件。其内容是："
 
-#: ../../content/applications/websites/website/optimize/seo.rst:633
+#: ../../content/applications/websites/website/optimize/seo.rst:627
 msgid "User-agent: \\* Sitemap: https://www.odoo.com/sitemap.xml"
 msgstr "用户代理：\\* Sitemap: https://www.odoo.com/sitemap.xml"
 
-#: ../../content/applications/websites/website/optimize/seo.rst:636
+#: ../../content/applications/websites/website/optimize/seo.rst:630
 msgid ""
 "It means that all robots are allowed to index your website and there is no "
 "other indexing rule than specified in the sitemap to be found at following "
 "address."
 msgstr "这意味着所有的机器人都可对你的网站进行索引，除以下地址的网站地图中规定的索引规则外，没有其他索引规则。"
 
-#: ../../content/applications/websites/website/optimize/seo.rst:640
+#: ../../content/applications/websites/website/optimize/seo.rst:634
 msgid ""
 "You can customize the file *robots* in :ref:`developer mode <developer-"
 "mode>` from *Settings --> Technical --> User Interface --> Views* (exclude "
@@ -2428,14 +2477,16 @@ msgid ""
 "Data of the view *Non Updatable* to not reset the file after system "
 "upgrades."
 msgstr ""
+"您可以在以下位置自定义文件*robots*：ref:`开发者模式 <developer-"
+"mode>`来自`设置-->技术-->用户界面-->视图`（排除机器人，排除一些页面，重定向到自定义网站地图）。使视图的模型数据*不可更新*以在系统升级后不重置文件。"
 
 #: ../../content/applications/websites/website/optimize/unsplash.rst:3
 msgid "Unsplash (free images)"
-msgstr ""
+msgstr "Unsplash（免费图像）"
 
 #: ../../content/applications/websites/website/optimize/unsplash.rst:6
 msgid "Generate an Unsplash access key"
-msgstr ""
+msgstr "生成非闪存访问密钥"
 
 #: ../../content/applications/websites/website/optimize/unsplash.rst:9
 msgid ""
@@ -2443,10 +2494,11 @@ msgid ""
 "this guide to set up Unsplash information since you will use our own Odoo "
 "Unsplash key in a transparent way."
 msgstr ""
+"**作为SaaS用户**，您已经准备好使用Unsplash。您不需要按照本指南设置非Flash信息，因为您将以透明的方式使用我们自己的Odoo非Flash密钥。"
 
 #: ../../content/applications/websites/website/optimize/unsplash.rst:13
 msgid "Generate an Unsplash access key for non-Saas users"
-msgstr ""
+msgstr "为非Saas用户生成非Flash访问密钥"
 
 #: ../../content/applications/websites/website/optimize/unsplash.rst:15
 msgid "Create an account on `Unsplash.com <https://unsplash.com/join>`_."
@@ -2458,11 +2510,11 @@ msgid ""
 "<https://unsplash.com/oauth/applications>`_ and click on **New "
 "Application**."
 msgstr ""
-"前往你的`应用程序仪表板 <https://unsplash.com/oauth/applications>`_ 并点击**新应用程序**。"
+"前往你的`应用程序仪表板 <https://unsplash.com/oauth/applications>`_ 并点击 **应用程** 。"
 
 #: ../../content/applications/websites/website/optimize/unsplash.rst:23
 msgid "Accept the conditions and click on **Accept terms**."
-msgstr "接受条件并点击**接受条款**。"
+msgstr "接受条件并点击 **受条** 。"
 
 #: ../../content/applications/websites/website/optimize/unsplash.rst:28
 msgid ""
@@ -2471,14 +2523,14 @@ msgid ""
 "that Unsplash can recognize it as an Odoo instance. Once done, click on "
 "**Create application**."
 msgstr ""
-"你将被提示键入**应用程序名称**和**描述**。请将\"**Odoo:** "
-"\"作为你的应用程序名称前缀，以便Unsplash将它识别为Odoo实例。完成后，点击**创建应用程序**。"
+"你将被提示键入 **用程序名称 ** **** 。请将\"**Odoo:** "
+"\"作为你的应用程序名称前缀，以便Unsplash将它识别为Odoo实例。完成后，点击 **建应用程** 。"
 
 #: ../../content/applications/websites/website/optimize/unsplash.rst:35
 msgid ""
 "You should be redirected to your application details page. Scroll down a bit"
 " to find your **access key**."
-msgstr "你将被重定向到你的应用程序详细信息页面。向下滚动并找到你的**访问密钥**。"
+msgstr "你将被重定向到你的应用程序详细信息页面。向下滚动并找到你的 **问密** 。"
 
 #: ../../content/applications/websites/website/optimize/unsplash.rst:42
 msgid ""
@@ -2489,11 +2541,11 @@ msgstr "**作为非SaaS用户**，你将无法注册生产Unsplash密钥，仅�
 
 #: ../../content/applications/websites/website/optimize/unsplash.rst:46
 msgid "Generate an Unsplash application ID"
-msgstr ""
+msgstr "生成非Flash应用程序ID"
 
 #: ../../content/applications/websites/website/optimize/unsplash.rst:49
 msgid "You should first create and set up your Unsplash application."
-msgstr ""
+msgstr "您应该首先创建并设置Unsplash应用程序。"
 
 #: ../../content/applications/websites/website/optimize/unsplash.rst:51
 msgid ""
@@ -2501,8 +2553,8 @@ msgid ""
 "<https://unsplash.com/oauth/applications>`_ and click on your newly created "
 "Unsplash application under **Your applications**."
 msgstr ""
-"前往你的`应用程序仪表板 <https://unsplash.com/oauth/applications>`_ "
-"并在**你的应用程序**下点击新创建的Unsplash应用程序。"
+"前往你的`应用程序仪表板 <https://unsplash.com/oauth/applications>`_ 并在 **的应用程序 "
+"**点击新创建的Unsplash应用程序。"
 
 #: ../../content/applications/websites/website/optimize/unsplash.rst:57
 msgid ""
@@ -2577,6 +2629,8 @@ msgid ""
 " Odoo database (``CNAME``) and to authorize it Odoo-side. See :ref:`domain-"
 "name/existing`."
 msgstr ""
+"如果你在线运行Odoo，不要忘记将任何新域名重定向到你的Odoo数据库（`CNAME`），并在Odoo端对其进行授权。请参阅：ref:`domain-"
+"name/existing`。"
 
 #: ../../content/applications/websites/website/publish/multi_website.rst:52
 msgid "Create the menu"
@@ -2693,11 +2747,34 @@ msgstr ""
 msgid ":doc:`/administration/maintain/domain_names`"
 msgstr ""
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:130
+#: ../../content/applications/websites/website/publish/multi_website.rst:129
+msgid ""
+"If you setup an extra website and specify the domain name you will have to "
+"do three things to get this feature to work:"
+msgstr ""
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:132
+msgid ""
+"Setup an A-record in the DNS configuration of your hosting provider so that "
+"\"www.mywebsite2.ext\" is redirected to the IP of your Odoo instance."
+msgstr ""
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:134
+msgid ""
+"Create an extra Nginx ``server`` block in which you set the ``server_name`` "
+"that you've set in the :guilabel:`Website domain` field."
+msgstr ""
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:136
+msgid ""
+"Reload and restart your Nginx instance to use the new ``server`` block."
+msgstr ""
+
+#: ../../content/applications/websites/website/publish/multi_website.rst:139
 msgid "Customize the visitor experience"
 msgstr "自定义访问者体验"
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:133
+#: ../../content/applications/websites/website/publish/multi_website.rst:142
 msgid ""
 "The customer experience can be customized very profoundly thanks to the menu"
 " \\*Customize\\*. All the visual options available there are specific to "
@@ -2708,11 +2785,11 @@ msgstr ""
 "通过 \\*定制\\* "
 "菜单，可深度定制客户体验。这里所有可用的视觉选项都针对的是每个网站。浏览各个页面并针对新受众进行调整。重点关注工作流程和自动化页面（如电子商务结帐、博客、活动管理等），因为这里的可用选项极多。"
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:143
+#: ../../content/applications/websites/website/publish/multi_website.rst:152
 msgid "Publish specific content per website"
 msgstr "按网站发布具体内容"
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:146
+#: ../../content/applications/websites/website/publish/multi_website.rst:155
 msgid ""
 "Like static pages, any content created from the front-end (product, blog "
 "post, etc.) is always only published in the current website. You can change "
@@ -2722,51 +2799,51 @@ msgstr ""
 "与静态页面一样，从前端创建的任何内容（产品、博客帖子等） 均只能在当前网站上发布。你可从后端编辑表单视图中更改，并将 *网站* "
 "字段留空。这样就将在所有网站上发布。"
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:154
+#: ../../content/applications/websites/website/publish/multi_website.rst:163
 msgid ""
 "Here are all the objects that you can link to *either one or all the "
 "websites*:"
 msgstr "以下是你可以链接到 *一个或所有网站* 的所有对象："
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:157
+#: ../../content/applications/websites/website/publish/multi_website.rst:166
 msgid "Products"
 msgstr "产品"
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:159
+#: ../../content/applications/websites/website/publish/multi_website.rst:168
 msgid "Product Categories for eCommerce"
 msgstr "电子商务的产品类别"
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:161
+#: ../../content/applications/websites/website/publish/multi_website.rst:170
 msgid "Blogs"
 msgstr "部落格"
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:163
+#: ../../content/applications/websites/website/publish/multi_website.rst:172
 msgid "Slide Channels"
 msgstr "幻灯片频道"
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:165
+#: ../../content/applications/websites/website/publish/multi_website.rst:174
 msgid "Forums"
 msgstr "论坛"
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:167
+#: ../../content/applications/websites/website/publish/multi_website.rst:176
 msgid "Events"
 msgstr "活动"
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:169
+#: ../../content/applications/websites/website/publish/multi_website.rst:178
 msgid "Job Positions"
 msgstr "工作岗位"
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:172
+#: ../../content/applications/websites/website/publish/multi_website.rst:181
 msgid ""
 "When you create the record from the backend and publish it, typically a "
 "product or an event, it is made available in all websites."
 msgstr "当你从后端创建记录并发布时（通常是产品或活动），它在所有网站上均可用。"
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:176
+#: ../../content/applications/websites/website/publish/multi_website.rst:185
 msgid "Publish a page in all websites"
 msgstr "在所有网站发表某个页面"
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:178
+#: ../../content/applications/websites/website/publish/multi_website.rst:187
 msgid ""
 "A new static page is created and only made available in the current website."
 " You can duplicate it to other websites from :menuselection:`Website --> "
@@ -2775,42 +2852,42 @@ msgstr ""
 "只能在当前网站创建新的静态页面并发布。你可以将它复制到其他网站，路径为 :menuselection:`网站 --> 配置 --> 页面`。请将 "
 "*网站* 字段留空。"
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:182
+#: ../../content/applications/websites/website/publish/multi_website.rst:191
 msgid ""
 "If you want to duplicate it in just one other website, duplicate the page "
 "and set the new website."
 msgstr "如果你只需将它复制到另外一个网站，请复制页面并设置新网站。"
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:188
+#: ../../content/applications/websites/website/publish/multi_website.rst:197
 msgid ""
 "When you edit the page again, the change only affects the current website. A"
 " new page is duplicated and tied up to the website. The original page still "
 "being linked to all websites."
 msgstr "再次编辑页面时，更改只影响当前网站。新页面被复制并绑定到网站上。原页面仍链接到所有网站。"
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:193
+#: ../../content/applications/websites/website/publish/multi_website.rst:202
 msgid ""
 "By grouping pages by URL in the page manager, you quickly find the original "
 "page behind each edited page."
 msgstr "通过页面管理器按URL对页面进行分组，你可以快速找到每个编辑页面后面的原始页面。"
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:200
+#: ../../content/applications/websites/website/publish/multi_website.rst:209
 msgid "Multi-companies"
 msgstr "多公司"
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:202
+#: ../../content/applications/websites/website/publish/multi_website.rst:211
 msgid ""
 "Each website can be linked to a specific company of your system, in a multi-"
 "companies environment."
 msgstr "在多公司环境中，每个网站都可以链接到你系统中的特定公司。"
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:208
+#: ../../content/applications/websites/website/publish/multi_website.rst:217
 msgid ""
 "With such a configuration, only company-related data appear on the website "
 "(products, jobs, events, etc.)."
 msgstr "利用这项配置，只有与公司相关的数据出现在网站上（产品、工作、活动等）。"
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:211
+#: ../../content/applications/websites/website/publish/multi_website.rst:220
 msgid ""
 "Website editors can only view and edit the pages of the records they have "
 "access to, typically the ones belonging to their current company (and to "
@@ -2818,46 +2895,46 @@ msgid ""
 "visitors."
 msgstr "网站编辑只能查看和编辑他们有访问权限的记录页面，通常是属于他们目前的公司（及其子公司）的页面。访问者也是如此。"
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:217
+#: ../../content/applications/websites/website/publish/multi_website.rst:226
 msgid ""
 "If websites are multi-companies, you don’t change company when switching "
 "websites. To change the company and see the related content, use the company"
 " selector in the menu."
 msgstr "如果网站是多公司，你在切换网站时无法切换公司。如要切换公司并查看相关内容，需使用菜单中的公司选择器。"
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:223
+#: ../../content/applications/websites/website/publish/multi_website.rst:232
 msgid "Configure your eCommerce website"
 msgstr "配置你的电子商务网站"
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:225
+#: ../../content/applications/websites/website/publish/multi_website.rst:234
 msgid ""
 "eCommerce is a crucial feature in the multi-websites environment. We made it"
 " so that the entire flow can be customized to fit the very audience of each "
 "website."
 msgstr "电子商务是多网站环境中的一项关键功能。在我们的网站上，这项功能可定制，以适应每个网站的受众。"
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:230
+#: ../../content/applications/websites/website/publish/multi_website.rst:239
 msgid "Products only available on one website"
 msgstr "产品仅在一个网站可用"
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:232
+#: ../../content/applications/websites/website/publish/multi_website.rst:241
 msgid ""
 "We already saw earlier how to publish a specific record in only one website."
 " You will find the \\*Website\\* field in the eCommerce tab of the product "
 "edit form. Empty means available in all websites."
 msgstr "我们之前已经了解了如何仅在一个网站发布特定记录。你可使用产品编辑表单电子商务选项卡的\\*网站\\*字段。留空意味着在所有网站均可用。"
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:240
+#: ../../content/applications/websites/website/publish/multi_website.rst:249
 msgid "Products available on *some* websites"
 msgstr "产品在 *部分* 网站可用"
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:242
+#: ../../content/applications/websites/website/publish/multi_website.rst:251
 msgid ""
 "To make a product available on some websites, but not all of them, you "
 "should duplicate the product for each website."
 msgstr "如要使产品在部分而不是所有网站可用，你应为每个网站复制产品。"
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:245
+#: ../../content/applications/websites/website/publish/multi_website.rst:254
 msgid ""
 "If you need a unique reference to manage in your inventory, you should "
 "install *Manufacturing\\ and create *Kits* BoMs (bills of materials). Each "
@@ -2868,17 +2945,17 @@ msgstr ""
 "如果你需要通过唯一参考编号来管理库存，你应安装 *制造* 应用程序并创建 *套件* (BoMs) "
 "物料清单。每个套件将每个发布的“虚拟”产品关联到库存中管理的主要参考编号。这样，从你的网站出售的任何项目将在交货单中转换为可库存的产品。"
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:252
+#: ../../content/applications/websites/website/publish/multi_website.rst:261
 msgid "Pricelists"
 msgstr "价格表"
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:254
+#: ../../content/applications/websites/website/publish/multi_website.rst:263
 msgid ""
 "To manage specific prices by websites, you can activate *Multiple Sales "
 "Prices per Product* in Website settings."
 msgstr "如要按网站管理特定价格，你可在网站设置中启用 *每款产品的多个销售价格* 。"
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:257
+#: ../../content/applications/websites/website/publish/multi_website.rst:266
 msgid ""
 "Then, go to :menuselection:`Website --> Products --> Pricelists` to create "
 "additional pricelists. See "
@@ -2887,24 +2964,24 @@ msgstr ""
 "然后，前往 :menuselection:`网站 --> 产品 --> 价目表 `创建其他价目表。参见 "
 ":doc:`../../ecommerce/maximizing_revenue/pricing`。"
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:260
+#: ../../content/applications/websites/website/publish/multi_website.rst:269
 msgid ""
 "If you need help. Select a website to make a pricelist only available on "
 "this website."
 msgstr "如需帮助。选择一个网站，创建仅用于此网站的价目表。"
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:266
+#: ../../content/applications/websites/website/publish/multi_website.rst:275
 msgid ""
 "Leaving the field empty means that you make it work in all websites if "
 "*Selectable* is selected. Otherwise, it makes it only available for backend "
 "operations of Sales and Point of Sale applications."
 msgstr "如果选择了 *可选择* ，字段留空则意味着它适用于所有网站。否则，它只能用于销售和POS应用程序的后端操作。"
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:271
+#: ../../content/applications/websites/website/publish/multi_website.rst:280
 msgid "Payment Acquirers and Delivery Methods"
 msgstr "付款收单机构和交货方式"
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:273
+#: ../../content/applications/websites/website/publish/multi_website.rst:282
 msgid ""
 "By default, published payment acquirers and delivery methods are deployed in"
 " all websites. You could already use specific payment acquirers per country "
@@ -2914,11 +2991,11 @@ msgstr ""
 "默认情况下，所有网站都部署了已发布的付款收单机构和交货方式。你在网站配置中定义国家，即可通过Geo IP确定每个国家使用的具体支付收单机构。你也可填写 "
 "*网站* 字段，对每个网站进行设置。"
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:279
+#: ../../content/applications/websites/website/publish/multi_website.rst:288
 msgid "Customer accounts"
 msgstr "客户账户"
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:281
+#: ../../content/applications/websites/website/publish/multi_website.rst:290
 msgid ""
 "There is a setting to choose how to manage customer accounts in Website "
 "settings. You can either allow customers to use one account through all the "
@@ -2928,45 +3005,45 @@ msgid ""
 msgstr ""
 "有一个设置可用于选择在网站设置中管理客户帐户的方式。你可以允许客户在所有网站使用同一个帐户，也可以强制要求他们为每个网站创建一个帐户。最后这种选项可避免给访问者留下各个网站相互关联的印象。"
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:291
+#: ../../content/applications/websites/website/publish/multi_website.rst:300
 msgid "Technical hints for customization"
 msgstr "关于自定义的技术提示"
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:293
+#: ../../content/applications/websites/website/publish/multi_website.rst:302
 msgid ""
 "If you want to publish custom objects on the website, here are a few tips to"
 " make it work with multi websites:"
 msgstr "如果你想在网站上发布自定义对象，以下几条提示将有助于它在多网站中运行："
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:297
+#: ../../content/applications/websites/website/publish/multi_website.rst:306
 msgid "Sitemap: don’t forget the domain in the route to only publish"
 msgstr "网站地图：不要忘记仅发布路线中的域名"
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:297
+#: ../../content/applications/websites/website/publish/multi_website.rst:306
 msgid "available records in each website’s sitemap."
 msgstr "只发布可用记录的网站地图中的域。"
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:301
+#: ../../content/applications/websites/website/publish/multi_website.rst:310
 msgid "Access: you should call the method"
 msgstr "访问：应在控制器中调用方法"
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:300
+#: ../../content/applications/websites/website/publish/multi_website.rst:309
 msgid ""
 "*can_access_from_current_website* in the controller to make sure the visitor"
 " can see a record in the current website."
 msgstr "*can_access_from_current_website* 以确保访问者可在当前网站中看到记录。"
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:305
+#: ../../content/applications/websites/website/publish/multi_website.rst:314
 msgid "Search: when a list of records is displayed, don’t forget to specify"
 msgstr "搜索：当显示记录列表时，"
 
-#: ../../content/applications/websites/website/publish/multi_website.rst:304
+#: ../../content/applications/websites/website/publish/multi_website.rst:313
 msgid "the domain to only display records available for the current website."
 msgstr "不要忘记指定域只显示当前网站可用的记录。"
 
 #: ../../content/applications/websites/website/publish/on-premise_geo-ip-installation.rst:3
 msgid "Geo IP Installation (On-Premises Database)"
-msgstr ""
+msgstr "地理IP安装（内部数据库）"
 
 #: ../../content/applications/websites/website/publish/on-premise_geo-ip-installation.rst:6
 msgid "Installation"
@@ -2977,7 +3054,7 @@ msgid ""
 "Please note that the installation depends on your computer's operating "
 "system and distribution. We will assume that a Linux operating system is "
 "being used."
-msgstr ""
+msgstr "请注意，安装取决于计算机的操作系统和发行版。我们假设正在使用Linux操作系统。"
 
 #: ../../content/applications/websites/website/publish/on-premise_geo-ip-installation.rst:15
 msgid "Install `geoip2 <https://pypi.org/project/geoip2/>`__ Python library"
@@ -3007,9 +3084,11 @@ msgid ""
 "command line interface. This option takes the absolute path to the GeoIP "
 "database file and uses it as the GeoIP database. For example:"
 msgstr ""
+"如果您不能/不想在``/usr/share/GeoIP/``中定位geoip数据库，可以使用Odoo命令行界面的“-geoip "
+"db”选项。该选项采用GeoIP数据库文件的绝对路径，并将其用作GeoIP数据。例如："
 
 #: ../../content/applications/websites/website/publish/on-premise_geo-ip-installation.rst:36
-msgid ":doc:`CLI documentation </developer/misc/other/cmdline>`."
+msgid ":doc:`CLI documentation </developer/cli>`."
 msgstr ""
 
 #: ../../content/applications/websites/website/publish/on-premise_geo-ip-installation.rst:39
@@ -3019,14 +3098,16 @@ msgid ""
 "discontinued <https://support.maxmind.com/geolite-legacy-discontinuation-"
 "notice/>`_"
 msgstr ""
+"``GeoIP`` 也可以使用Python库。但是，该版本自1月份起停止使用 1.    参见 `GeoLite遗留数据库现已停止使用 "
+"<https://support.maxmind.com/geolite-legacy-discontinuation-notice/>`_"
 
 #: ../../content/applications/websites/website/publish/on-premise_geo-ip-installation.rst:44
 msgid "How To Test GeoIP Geolocation In Your Odoo Website"
-msgstr ""
+msgstr "如何在您的Odoo网站中测试GeoIP地理位置"
 
 #: ../../content/applications/websites/website/publish/on-premise_geo-ip-installation.rst:45
 msgid "Go to your website. Open the web page that you want to test ``GeoIP``."
-msgstr ""
+msgstr "转到你的网站。打开要测试“GeoIP”的网页。"
 
 #: ../../content/applications/websites/website/publish/on-premise_geo-ip-installation.rst:46
 msgid "Choose :menuselection:`Customize --> HTML/CSS/JS Editor`."
@@ -3040,13 +3121,13 @@ msgstr "在页面添加以下XML："
 msgid ""
 "You should end up with a dictionary indicating the location of the IP "
 "address."
-msgstr ""
+msgstr "最后应该有一个字典，指示IP地址的位置。"
 
 #: ../../content/applications/websites/website/publish/on-premise_geo-ip-installation.rst:59
 msgid ""
 "If the curly braces are empty ``{}``, it can be for any of the following "
 "reasons :"
-msgstr ""
+msgstr "如果大括号为空``{}``，则可能是由于以下任何原因："
 
 #: ../../content/applications/websites/website/publish/on-premise_geo-ip-installation.rst:61
 msgid ""
@@ -3058,7 +3139,7 @@ msgstr "浏览IP地址为本地主机(``127.0.0.1``)或一个局域网(``192.168
 msgid ""
 "If a reversed proxy is used, make sure to configure it correctly. See "
 ":option:`proxy mode <odoo-bin --proxy-mode>`"
-msgstr ""
+msgstr "如果使用反向代理，请确保正确配置。请参阅：选项:`代理模式 <odoo-bin --proxy-mode>`"
 
 #: ../../content/applications/websites/website/publish/on-premise_geo-ip-installation.rst:63
 msgid "``geoip2`` is not installed or the GeoIP database file wasn't found"
@@ -3090,19 +3171,19 @@ msgstr "创建网站后，您将有机会根据需要翻译成多种语言。"
 
 #: ../../content/applications/websites/website/publish/translate.rst:17
 msgid "You can only translate your website manually, follow the next step."
-msgstr ""
+msgstr "您只能手动翻译您的网站，请执行下一步。"
 
 #: ../../content/applications/websites/website/publish/translate.rst:19
 msgid ""
 "Now go to your website. On the bottom right corner of the page, click on "
 "**Add a language**."
-msgstr "现在转到您的网站。在页面的右下角，单击 **添加语言** 。"
+msgstr "现在转到您的网站。在页面的右下角，单击  **加语**  。"
 
 #: ../../content/applications/websites/website/publish/translate.rst:25
 msgid ""
 "Choose the language in which you want to translate your website and then "
 "click on **Load.**"
-msgstr "选择你想用来翻译你的网站的语言， 然后点击 **加载**  。 "
+msgstr "选择你想用来翻译你的网站的语言， 然后点击  ****   。 "
 
 #: ../../content/applications/websites/website/publish/translate.rst:31
 msgid ""
@@ -3115,4 +3196,4 @@ msgstr "你会看到，英语的旁边是法语，这意味着该网页已翻译
 msgid ""
 "To translate the content of the website, click on **Translate** (here "
 "**Traduire** since we want to translate the website in French)."
-msgstr "翻译网站的内容，点击 **翻译** (这里 **Traduire** , 是因为我们想把网站翻译成法文)。"
+msgstr "翻译网站的内容，点击  ****  (这里 **Traduire** , 是因为我们想把网站翻译成法文)。"

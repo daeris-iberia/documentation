@@ -1,9 +1,12 @@
 import re
 import os
+import shutil
 import sys
 from pathlib import Path
 
+import docutils
 from pygments.lexers import JsonLexer, XmlLexer
+from sphinx.ext import graphviz
 from sphinx.util import logging
 import sphinx
 
@@ -48,10 +51,19 @@ exclude_patterns = [
 # See https://docutils.sourceforge.io/docs/ref/rst/roles.html#standard-roles for other roles.
 default_role = 'literal'
 
+
+# Whether scaled down images should be be wrapped in a `<a/>` tag linking to the image file or not.
+html_scaled_image_link = False
+
 # If true, '()' will be appended to :func: etc. cross-reference text
 add_function_parentheses = True
 
 #=== Extensions configuration ===#
+
+source_read_replace_vals = {
+    'GITHUB_PATH': f'https://github.com/odoo/odoo/blob/{version}',
+    'GITHUB_ENT_PATH': f'https://github.com/odoo/enterprise/blob/{version}',
+}
 
 # Add extensions directory to PYTHONPATH
 extension_dir = Path('extensions')
@@ -74,11 +86,14 @@ if not odoo_sources_dirs:
         {'dir_list': '\n'.join([f'\t- {d.resolve()}' for d in odoo_sources_candidate_dirs])},
     )
 else:
-    odoo_dir = odoo_sources_dirs[0].resolve()
-    sys.path.insert(0, str(odoo_dir))
     if (3, 6) < sys.version_info < (3, 7):
-        # Running odoo needs python 3.7 min but monkey patch version_info to be compatible with 3.6
+        # Running odoo needs python 3.7 min but monkey patch version_info to be compatible with 3.6.
         sys.version_info = (3, 7, 0)
+    odoo_dir = odoo_sources_dirs[0].resolve()
+    source_read_replace_vals['ODOO_RELPATH'] = '/../' + str(odoo_sources_dirs[0])
+    sys.path.insert(0, str(odoo_dir))
+    import odoo.addons
+    odoo.addons.__path__.append(str(odoo_dir) + '/addons')
     from odoo import release as odoo_release  # Don't collide with Sphinx's 'release' config option
     odoo_version = odoo_release.version.replace('~', '-') \
         if 'alpha' not in odoo_release.version else 'master'
@@ -98,12 +113,18 @@ else:
         )
         odoo_dir_in_path = True
 
+# Mapping between odoo models related to master data and the declaration of the
+# data. This is used to point users to available xml_ids when giving values for
+# a field with the autodoc_field extension.
+model_references = {
+    'account.account.type': 'addons/account/data/data_account_type.xml',
+    'res.country': 'odoo/addons/base/data/res_country_data.xml',
+    'res.currency': 'odoo/addons/base/data/res_currency_data.xml',
+}
+
 # The Sphinx extensions to use, as module names.
 # They can be extensions coming with Sphinx (named 'sphinx.ext.*') or custom ones.
 extensions = [
-    # Parse Python docstrings (autodoc, automodule, autoattribute directives)
-    'sphinx.ext.autodoc' if odoo_dir_in_path else 'autodoc_placeholder',
-
     # Link sources in other projects (used to build the reference doc)
     'sphinx.ext.intersphinx',
 
@@ -133,7 +154,15 @@ if odoo_dir_in_path:
     extensions += [
         'sphinx.ext.linkcode',
         'github_link',
+        # Parse Python docstrings (autodoc, automodule, autoattribute directives)
+        'sphinx.ext.autodoc',
+        'autodoc_field',
     ]
+else:
+    extensions += [
+        'autodoc_placeholder',
+    ]
+extensions.append('sphinx.ext.graphviz' if shutil.which('dot') else 'graphviz_placeholder')
 
 todo_include_todos = False
 
@@ -167,18 +196,18 @@ versions_names = {
 # The language names that should be shown in the language switcher, if the config option `languages`
 # is populated. If a language is passed to `languages` but is not listed here, it will not be shown.
 languages_names = {
-    'de': 'Deutsch',
-    'en': 'English',
-    'es': 'Español',
-    'fr': 'Français',
-    'nl': 'Nederlands',
-    'pt_BR': 'Português (BR)',
-    'uk': 'українська',
-    'zh_CN': '简体中文',
+    'de': 'DE',
+    'en': 'EN',
+    'es': 'ES',
+    'fr': 'FR',
+    'nl': 'NL',
+    'pt_BR': 'PT',
+    'uk': 'UA',
+    'zh_CN': 'ZH',
 }
 
-# The specifications of redirect rules used by the redirects extension.
-redirects_file = 'redirects.txt'
+# The directory in which files holding redirect rules used by the 'redirects' extension are listed.
+redirects_dir = 'redirects/'
 
 sphinx_tabs_disable_tab_closing = True
 sphinx_tabs_disable_css_loading = True
@@ -202,12 +231,12 @@ html_favicon = os.path.join(html_theme_path[0], html_theme, 'static', 'img', 'fa
 # They are copied after the builtin static files, so a file named "default.css" will overwrite the
 # builtin "default.css".
 html_static_path = ['static']
-html_add_permalinks = '¶'  # Sphinx < 3.5
-html_permalinks = True  # Sphinx >= 3.5
+html_permalinks = True
+
 # Additional JS & CSS files that can be imported with the 'custom-js' and 'custom-css' metadata.
 # Lists are empty because the files are specified in extensions/themes.
 html_js_files = []
-html_css_files = ["css/js.css"]
+html_css_files = []
 
 # PHP lexer option to not require <?php
 highlight_options = {
@@ -225,7 +254,7 @@ latex_elements = {
     'tableofcontents': '',  # no TOC
 
     # Output manually in latex docs
-    'releasename': '14.0',
+    'releasename': release,
 }
 
 latex_additional_files = ['static/latex/odoo.sty']
@@ -265,6 +294,22 @@ latex_logo = 'static/img/odoo_logo.png'
 # If true, show URL addresses after external links.
 latex_show_urls = 'True'
 
+# https://github.com/sphinx-doc/sphinx/issues/4054#issuecomment-329097229
+def source_read_replace(app, docname, source):
+    """Substitute parts of strings with computed values.
+
+    Since the RST substitution is not working everywhere, i.e. in directives'
+    options, we need to be able to input those values when reading the sources.
+    This is using the config `source_read_replace_vals`, mapping a name to its
+    replacement. This will look for the name surrounded by curly braces in the source.
+
+    Meant to be connected to the `source-read` event.
+    """
+    result = source[0]
+    for key in app.config.source_read_replace_vals:
+        result = result.replace(f"{{{key}}}", app.config.source_read_replace_vals[key])
+    source[0] = result
+
 
 def setup(app):
     # Generate all alternate URLs for each document
@@ -273,11 +318,33 @@ def setup(app):
     app.add_config_value('versions', None, 'env')
     app.add_config_value('languages', None, 'env')
     app.add_config_value('is_remote_build', None, 'env')  # Whether the build is remotely deployed
+    app.add_config_value('source_read_replace_vals', {}, 'env')
+    app.connect('source-read', source_read_replace)
 
     app.add_lexer('json', JsonLexer)
     app.add_lexer('xml', XmlLexer)
 
     app.connect('html-page-context', _generate_alternate_urls)
+
+    # Add a `condition` option on directives to ignore them based on config values
+    app.add_config_value('odoo_dir_in_path', None, 'env')
+    def context_eval(expr):
+        return eval(expr, {confval.name: confval.value for confval in app.config})
+
+    def patch(to_patch):
+        to_patch.option_spec['condition'] = context_eval
+        original_run = to_patch.run
+        def new_run(self):
+            if not self.options.get('condition', True):
+                return []
+            return original_run(self)
+        to_patch.run = new_run
+
+    for to_patch in (
+        sphinx.directives.code.LiteralInclude,
+        docutils.parsers.rst.directives.tables.CSVTable,
+    ):
+        patch(to_patch)
 
 
 def _generate_alternate_urls(app, pagename, templatename, context, doctree):

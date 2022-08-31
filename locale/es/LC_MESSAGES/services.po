@@ -7,26 +7,28 @@
 # Antonio Trueba, 2021
 # Alejandro Kutulas <alk@odoo.com>, 2021
 # José Cabrera Lozano <jose.cabrera@edukative.es>, 2021
-# Daniela Cervantes <dace@odoo.com>, 2021
 # Martin Trigaux, 2021
 # Jesse Garza <jga@odoo.com>, 2021
 # Braulio D. López Vázquez <bdl@odoo.com>, 2022
+# marcescu, 2022
 # Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2022
+# Lucia Pacheco <lpo@odoo.com>, 2022
+# Pedro M. Baeza <pedro.baeza@tecnativa.com>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-18 14:56+0000\n"
+"POT-Creation-Date: 2022-07-22 09:36+0000\n"
 "PO-Revision-Date: 2021-11-02 08:49+0000\n"
-"Last-Translator: Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2022\n"
+"Last-Translator: Pedro M. Baeza <pedro.baeza@tecnativa.com>, 2022\n"
 "Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../content/applications/services.rst:5
 msgid "Services"
@@ -47,7 +49,7 @@ msgstr ""
 #: ../../content/applications/services/fsm/helpdesk.rst:5
 #: ../../content/applications/services/helpdesk.rst:8
 msgid "Helpdesk"
-msgstr "Mesa de Ayuda"
+msgstr "Servicio de mesa de asistencia"
 
 #: ../../content/applications/services/fsm/helpdesk/plan_onsite.rst:3
 msgid "Plan onsite interventions from helpdesk tickets"
@@ -93,9 +95,7 @@ msgstr "Ventas"
 
 #: ../../content/applications/services/fsm/sales/onsite_tasks_from_sales_orders.rst:3
 msgid "Create onsite interventions from sales orders"
-msgstr ""
-"Cree intervenciones en la ubicación del cliente a partir de pedidos de "
-"ventas"
+msgstr "Cree intervenciones in situ a partir de órdenes de ventas"
 
 #: ../../content/applications/services/fsm/sales/onsite_tasks_from_sales_orders.rst:4
 msgid ""
@@ -116,7 +116,7 @@ msgid ""
 "Go to :menuselection:`Field Service --> Configuration --> Products` and "
 "create or edit a product."
 msgstr ""
-"Vaya a: menuselection: `Servicio de Campo -> Configuración -> Productos` y "
+"Vaya a: menuselection:`Servicio externo -> Configuración -> Productos` y "
 "cree o edite un producto."
 
 #: ../../content/applications/services/fsm/sales/onsite_tasks_from_sales_orders.rst:11
@@ -131,14 +131,14 @@ msgid ""
 "Under the *Sales* tab, select *Timesheets on tasks* as *Service Invoicing "
 "Policy*."
 msgstr ""
-"En la pestaña de *Ventas* seleccione *Hojas de horas en las tareas* como "
+"En la pestaña de *Ventas* seleccione *Partes de horas en las tareas* como "
 "*Política de facturación de servicios*."
 
 #: ../../content/applications/services/fsm/sales/onsite_tasks_from_sales_orders.rst:15
 msgid "Select *Create a task in an existing project* as *Service Tracking*."
 msgstr ""
-"Seleccione * Crear una tarea en un proyecto existente * como * Seguimiento "
-"de servicios *."
+"Seleccione *Crear una tarea en un proyecto existente* como *Seguimiento del "
+"servicio*."
 
 #: ../../content/applications/services/fsm/sales/onsite_tasks_from_sales_orders.rst:17
 msgid "Select your *Project*."
@@ -208,7 +208,7 @@ msgstr ""
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:20
 msgid "Generate credit notes from tickets"
-msgstr "Generar notas de crédito desde los tickets"
+msgstr "Generar notas de crédito a partir de los tickets"
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:22
 msgid ""
@@ -225,7 +225,7 @@ msgstr ""
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:30
 msgid "Allow product returns from tickets"
-msgstr "Permitir la devolución de productos desde los tickets"
+msgstr "Permitir la devolución de productos a partir de tickets"
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:32
 msgid ""
@@ -237,7 +237,7 @@ msgstr ""
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:39
 msgid "Grant coupons from tickets"
-msgstr "Da cupones a partir de tickets "
+msgstr "Dar cupones a partir de tickets "
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:41
 msgid ""
@@ -1049,7 +1049,7 @@ msgstr ""
 
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice.rst:5
 msgid "Timesheet and Invoice"
-msgstr "Hojas de horas y Facturación"
+msgstr "Parte de horas y facturación"
 
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/invoice_time.rst:3
 msgid "Invoice Time Spent on Tickets (Prepaid Support Services)"
@@ -1090,10 +1090,14 @@ msgid ""
 " is the one at which employees timesheet on by default. However, it can be "
 "ultimately modified on each ticket."
 msgstr ""
+"Seleccione o cree un proyecto en *Parte de horas en el ticket*. El "
+"seleccionado/creado es aquel en el que los empleados registran sus hojas de "
+"horas de manera predeterminada. Sin embargo, se puede modificar fácilmente "
+"en cada ticket."
 
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/invoice_time.rst:28
 msgid "Step 2: Set up a service"
-msgstr ""
+msgstr "Paso 2: Configurar un servicio"
 
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/invoice_time.rst:31
 msgid ""
@@ -1101,18 +1105,25 @@ msgid ""
 "*Units of Measure* to optionally be able to choose *hours* (for example) as "
 "the unit of measure of your service."
 msgstr ""
+"Vaya a :menuselection:`Ventas --> Configuración --> Ajustes` y active las "
+"*unidades de medida* para poder elegir de manera opcional *horas* (por "
+"ejemplo) como unidad de medida de su servicio."
 
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/invoice_time.rst:33
 msgid ""
 "Then, go to :menuselection:`Sales --> Products --> Products`, create or edit"
 " an existing one, and set its *Product Type* as *Service*."
 msgstr ""
+"Después vaya a :menuselection:`Ventas --> Productos --> Productos`, cree o "
+"edite uno nuevo y configure su *tipo de producto* como *servicio*"
 
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/invoice_time.rst:40
 msgid ""
 "Now, select the invoicing management you would like to have under the "
 "*Sales* tab. We recommend the following configuration:"
 msgstr ""
+"Ahora, seleccione la gestión de facturación que desea tener en la pestaña "
+"*Ventas*. Recomendamos la siguiente configuración:"
 
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/invoice_time.rst:47
 msgid ""
@@ -1122,6 +1133,11 @@ msgid ""
 " order is confirmed, a new task is created under the right project, "
 "automating the process."
 msgstr ""
+"Esta configuración garantiza que se facture al cliente por el número de "
+"horas pronosticadas en la orden de venta, lo que significa que no se tienen "
+"en cuenta las horas adicionales o no usadas. También garantiza que cada vez "
+"que se confirma una orden de venta, se crea una nueva tarea en el proyecto "
+"correspondiente, automatizando el proceso."
 
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/invoice_time.rst:53
 msgid ""
@@ -1130,14 +1146,18 @@ msgid ""
 "to be set on the corresponding project or task, in order to reinvoice the "
 "time spent on a ticket."
 msgstr ""
+"Le recomendamos configurar un proyecto en específico, así como se hizo en "
+"este ejemplo. Debe tener en cuenta que el artículo en la orden de venta se "
+"debe establecer en el proyecto/tarea correspondiente, de esta manera, se "
+"podrá volver a facturar el tiempo dedicado en el ticket."
 
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/invoice_time.rst:58
 msgid "Prevision an invoice and record time"
-msgstr ""
+msgstr "Previsión de una factura y registro del tiempo"
 
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/invoice_time.rst:61
 msgid "Step 1: Place an order"
-msgstr ""
+msgstr "Paso 1: Hacer un pedido"
 
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/invoice_time.rst:63
 msgid ""
@@ -1146,96 +1166,224 @@ msgid ""
 "needs the ticket to be opened. Set the number of hours needed to assist the "
 "customer and *Confirm* the order."
 msgstr ""
+"Vaya a :menuselection:`Ventas --> Órdenes --> Órdenes` y cree uno para el "
+"producto de servicio de asistencia que configuró previamente, con el cliente"
+" que necesite que se abra el ticket. Establezca el número de horas "
+"necesarias y *Confirme* la orden."
 
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/invoice_time.rst:72
 msgid "Step 2: Invoice the customer"
-msgstr ""
+msgstr "Paso 2: Facturar al cliente"
 
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/invoice_time.rst:74
 msgid "In *Sales*, select the respective sales order to *Create Invoice*."
 msgstr ""
+"En *Ventas*, seleccione el pedido de venta correspondiente para *Crear "
+"factura*."
 
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/invoice_time.rst:82
 msgid "Step 3: Link the task to the ticket"
-msgstr ""
+msgstr "Paso 3: Vincular la tarea al ticket"
 
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/invoice_time.rst:84
 msgid ""
 "Now, in *Helpdesk*, create or edit the respective ticket and link it to the "
 "task created by the confirmation of the sales order."
 msgstr ""
+"En la aplicación de *servicio de asistencia* puede crear o editar el ticket "
+"correspondiente y vincularlo a la tarea creada al confirmar la orden de "
+"venta."
 
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/invoice_time.rst:92
 msgid "Step 4: Record the time spent"
-msgstr ""
+msgstr "Paso 4: Registrar el tiempo empleado"
 
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/invoice_time.rst:94
 msgid ""
 "Still on the respective helpdesk ticket, record the hours performed under "
 "the *Timesheets* tab."
 msgstr ""
+"Registre siempre las horas dedicadas en el ticket de de servicio de "
+"asistencia correspondiente, en la pestaña *Partes de horas*."
 
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/invoice_time.rst:100
 msgid ""
 "Note that the hours recorded on the ticket form are shown on the *Delivered*"
 " column in the sales order."
 msgstr ""
+"Tenga en cuenta que las horas registradas en el formulario del ticket se "
+"muestran en la columna *Entregado* del pedido de venta."
 
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/invoice_time.rst:108
 msgid ""
 "Hours recorded on the ticket are automatically shown in *Timesheets* and on "
 "the dedicated task."
 msgstr ""
+"Las horas registradas en el ticket se muestran automáticamente en *Partes de"
+" horas* y en la tarea correspondiente."
 
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/invoice_time.rst:111
 msgid ":doc:`reinvoice_from_project`"
-msgstr ""
+msgstr ":doc:`reinvoice_from_project`"
 
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/invoice_time.rst:112
+#: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:102
 msgid ""
 ":doc:`/applications/inventory_and_mrp/inventory/management/products/uom`"
 msgstr ""
+":doc:`/applications/inventory_and_mrp/inventory/management/products/uom`"
 
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:3
 msgid "Invoice Time Spent on Tickets (Postpaid Support Services)"
 msgstr ""
+"Facturación del tiempo dedicado a los tickets (servicios de asistencia de "
+"pospago)"
 
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:5
 msgid ""
-"Directly pull the billable time you have tracked on your helpdesk tickets "
-"into sales orders and invoices through a project task. It gives you more "
-"control over what you charge your client, and it is more efficient."
+"The :guilabel:`Timesheet on Ticket` integration provides more control and "
+"transparency over how clients are charged, and what they're specifically "
+"billed for."
 msgstr ""
 
-#: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:10
+#: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:8
+msgid ""
+"In Odoo, the Helpdesk agent can use the ticket to record timesheets. Once a "
+"ticket is solved, the client can be billed for the time spent on the ticket."
+" Odoo will pull from the ticket's timesheet to accurately bill the client."
+msgstr ""
+
+#: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:13
 msgid "Configuration"
 msgstr "Configuración"
 
-#: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:13
-msgid ""
-"Go to :menuselection:`Helpdesk --> Configuration --> Helpdesk team --> Edit`"
-" and enable the options *Timesheet on Ticket* and *Time Reinvoicing*."
-msgstr ""
-
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:15
 msgid ""
-"Under *Timesheet on Ticket*, choose the *Project* to which tickets (and "
-"timesheets) will be linked by default. Open its *External link* to enable "
-"the feature *Bill from tasks*."
+"To turn on the :guilabel:`Timesheet on Ticket` feature, go to "
+":menuselection:`Helpdesk --> Configuration --> Helpdesk Teams`, select a "
+"Helpdesk team, and then, click :guilabel:`Edit`. Next, enable the options "
+":guilabel:`Timesheet on Ticket` and :guilabel:`Time Reinvoicing`. Then, "
+"click :guilabel:`Save` to apply these changes to the Helpdesk team settings."
 msgstr ""
 
-#: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:22
-msgid "Create a sales order and an invoice"
-msgstr ""
-
-#: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:24
+#: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:20
 msgid ""
-"Now, once you have recorded the time you spent on the helpdesk ticket, under"
-" the *Timesheets* tab, access the task clicking on its name."
+"Once the :guilabel:`Timesheet on Ticket` feature is enabled, a "
+":guilabel:`Project` drop-down option will appear below :guilabel:`Timesheet "
+"on Ticket`. The :guilabel:`Project` drop-down option will automatically be "
+"set to a Project that Odoo created for the Helpdesk team. The tickets' "
+"timesheets will be stored in the selected Project."
 msgstr ""
 
-#: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:31
-msgid "*Create Sales Order* and proceed to create the invoice."
+#: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:26
+msgid "Create a sales order"
+msgstr ""
+
+#: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:28
+msgid ""
+"After a ticket comes into the pipeline, go to :menuselection:`Sales --> "
+"Create`. Then, add the customer from the ticket to the :guilabel:`Customer` "
+"field in the new quotation. In the :guilabel:`Order Lines` tab, create or "
+"select a product to charge the customer for the time spent on their Helpdesk"
+" ticket."
+msgstr ""
+
+#: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:33
+msgid ""
+"If creating a new product from the sales order form, first give the product "
+"a name by typing it in the :guilabel:`Product` column. Then, click "
+":guilabel:`Create and edit`."
+msgstr ""
+
+#: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:36
+msgid ""
+"First, in the :guilabel:`General Information` tab, set the "
+":guilabel:`Product Type` to :guilabel:`Service` and the :guilabel:`Sales "
+"Price` to the Helpdesk agent's service rate. Then, in the :guilabel:`Sales` "
+"tab, set the :guilabel:`Service Invoicing Policy` to :guilabel:`Timesheets "
+"on tasks`. Finally, click :guilabel:`Save` to create the new product and add"
+" it to the quotation."
+msgstr ""
+
+#: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:41
+msgid ""
+"Once the product is added, click :guilabel:`Confirm` to turn the quotation "
+"into a sales order."
+msgstr ""
+
+#: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:48
+msgid "Record a timesheet"
+msgstr ""
+
+#: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:50
+msgid ""
+"To record a timesheet, jump back to the Helpdesk ticket by going to the "
+"Helpdesk dashboard and clicking :guilabel:`Tickets` on the team's card (or "
+"by going to the Projects dashboard and clicking :guilabel:`Tickets` on the "
+"project card). Then, click :guilabel:`Edit` and use the "
+":guilabel:`Timesheets` tab to record the time spent on the ticket."
+msgstr ""
+
+#: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:60
+msgid ""
+"The ticket's timesheets can be recorded before or after the sales order is "
+"made, the order doesn't matter."
+msgstr ""
+
+#: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:64
+msgid "Link the Helpdesk ticket to the SO"
+msgstr ""
+
+#: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:66
+msgid ""
+"Once a timesheet is recorded, the :guilabel:`Sales Order Item` field will "
+"appear on the ticket form. To link the :abbr:`SO (Sales Order)` to the "
+"ticket, start on the ticket form and click :guilabel:`Edit`. Next, select "
+"the :abbr:`SO (Sales Order)` that was created earlier from the drop-down "
+"menu. Odoo will automatically filter the sales orders to only show sales "
+"orders that are connected to the ticket's customer. Lastly, click "
+":guilabel:`Save` to connect the ticket and the :abbr:`SO (Sales Order)`."
+msgstr ""
+
+#: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:78
+msgid "Modify billing rates"
+msgstr ""
+
+#: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:80
+msgid ""
+"If a timesheet entry is recorded, but the agent does not want to bill the "
+"client for that time, go to the :guilabel:`Timesheets` tab and toggle on the"
+" visibility of the :guilabel:`Sales Order Item` column. When filling out the"
+" information for the timesheet entry, make sure to leave the non-billable "
+"timesheet entry's :guilabel:`Sales Order Item` field blank."
+msgstr ""
+
+#: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:85
+msgid ""
+"If the agent wants to charge a different rate for a timesheet entry, first, "
+"add a new product to the connected :abbr:`SO (Sales Order)` priced at the "
+"new rate. Then, select the new product in the timesheet entry's "
+":guilabel:`Sales Order Item` field."
+msgstr ""
+
+#: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:90
+msgid "Create the invoice"
+msgstr ""
+
+#: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:92
+msgid ""
+"When the Helpdesk ticket is completed and the client is ready to be billed "
+"for time, begin by clicking the :guilabel:`Sales Order` smart button on the "
+"ticket form to navigate to the :abbr:`SO (Sales Order)`. The "
+":guilabel:`Delivered` column should match the number of hours recorded on "
+"the ticket's timesheet. After checking and filling out the relevant "
+"information, click :guilabel:`Create Invoice` to bill the client for the "
+"time spent on the ticket. Odoo will automatically generate an invoice to "
+"send to the client and the Helpdesk ticket can officially be closed."
+msgstr ""
+
+#: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:101
+msgid ":doc:`invoice_time`"
 msgstr ""
 
 #: ../../content/applications/services/project.rst:8
@@ -1248,6 +1396,8 @@ msgid ""
 "`Odoo Tutorials: Project and Timesheets "
 "<https://www.odoo.com/slides/project-and-timesheets-21>`_"
 msgstr ""
+"`Tutoriales de Odoo: Proyectos y hojas de tiempo "
+"<https://www.odoo.com/slides/project-and-timesheets-21>`_"
 
 #: ../../content/applications/services/project/tasks.rst:5
 msgid "Tasks"
@@ -1255,7 +1405,7 @@ msgstr "Tareas"
 
 #: ../../content/applications/services/project/tasks/email_alias.rst:3
 msgid "Create Project's Tasks from an Email Alias"
-msgstr ""
+msgstr "Crear tareas del proyecto a partir de un alias de correo electrónico"
 
 #: ../../content/applications/services/project/tasks/email_alias.rst:5
 msgid ""
@@ -1265,26 +1415,36 @@ msgid ""
 "structured work. It automatically creates a task in the first stage of a "
 "project."
 msgstr ""
+"Cuando cuenta con una dirección de correo electrónico que sus clientes "
+"conocen de inicio a fin, lo último que querrá hacer es cambiarla. En su "
+"lugar, vincule esa dirección a su proyecto y transforme esas conversaciones "
+"en trabajo estructurado. De esta manera se crea automáticamente una tarea en"
+" la primera etapa de un proyecto."
 
 #: ../../content/applications/services/project/tasks/email_alias.rst:11
 msgid "Set up an incoming email server"
-msgstr ""
+msgstr "Configurar un servidor de correo electrónico entrante"
 
 #: ../../content/applications/services/project/tasks/email_alias.rst:14
 msgid ""
 "On the *Settings* application, enable *External Email Servers* and define "
 "the incoming email alias you would like to use."
 msgstr ""
+"En la aplicación *Configuración*, active *Servidores de correo electrónico "
+"externos* y defina el alias de correo electrónico entrante que desea "
+"utilizar."
 
 #: ../../content/applications/services/project/tasks/email_alias.rst:15
 msgid ""
 "**For more information**: "
 ":doc:`/applications/general/email_communication/email_servers`"
 msgstr ""
+"**Para más información**: "
+":doc:`/applications/general/email_communication/email_servers"
 
 #: ../../content/applications/services/project/tasks/email_alias.rst:18
 msgid "Configure the email alias in your project"
-msgstr ""
+msgstr "Configure el alias de correo electrónico en su proyecto"
 
 #: ../../content/applications/services/project/tasks/email_alias.rst:22
 msgid ""
@@ -1293,20 +1453,29 @@ msgid ""
 "*Emails* tab, define the wanted email alias and choose the policy to receive"
 " a message."
 msgstr ""
+"Después de configurar su servidor de correo electrónico entrante, vaya a "
+":menuselection:`Proyecto --> Configuración --> Proyecto --> Editar`. En la "
+"pestaña de *correos electrónicos* puede definir su seudónimo de correo "
+"electrónico y elegir la política para recibir un mensaje."
 
 #: ../../content/applications/services/project/tasks/email_alias.rst:23
 msgid "In addition, you can now directly set it when creating a new project."
 msgstr ""
+"Además, ahora se puede establecer directamente al crear un nuevo proyecto."
 
 #: ../../content/applications/services/project/tasks/email_alias.rst:30
 msgid ""
 "All the recipients of the email (To/Cc/Bcc) are automatically added as "
 "followers of the task."
 msgstr ""
+"Todos los destinatarios del correo electrónico (To/Cc/Bcc) se añaden "
+"automáticamente como seguidores de la tarea."
 
 #: ../../content/applications/services/project/tasks/email_alias.rst:32
 msgid "The email can be seen under the name of your project on the dashboard."
 msgstr ""
+"El correo electrónico puede verse bajo el nombre de su proyecto en el "
+"tablero."
 
 #: ../../content/applications/services/timesheets.rst:8
 msgid "Timesheets"
@@ -1314,7 +1483,7 @@ msgstr "Partes de horas"
 
 #: ../../content/applications/services/timesheets/overview/time_off.rst:3
 msgid "Create Timesheets upon Time Off Validation"
-msgstr "Cree hojas de horas después de la validación de tiempo libre"
+msgstr "Cree partes de horas después de la validación de las ausencias"
 
 #: ../../content/applications/services/timesheets/overview/time_off.rst:5
 msgid ""
@@ -1323,16 +1492,20 @@ msgid ""
 "does not leave place for forgetfulness and questions after hours that have "
 "not been timesheeted by the employee."
 msgstr ""
-"Odoo planifica automáticamente las horas trabajadas en proyectos / tareas "
-"cuando se solicita tiempo libre. Esto permite un mejor control general sobre"
-" la validación de las hojas de horas, ya que no deja lugar para el olvido y "
-"las preguntas fuera del horario que no han sido escritas por el empleado."
+"Odoo planifica automáticamente las horas dedicadas en proyectos/tareas "
+"cuando se solicitan ausencias, lo que permite un mejor control general sobre"
+" la validación de los partes de horas. De esta manera, es más fácil llevar "
+"un control y no programar cosas fuera del horario especificado por el "
+"empleado."
 
 #: ../../content/applications/services/timesheets/overview/time_off.rst:9
 msgid ""
 "Activate the :ref:`developer mode <developer-mode>`, go to *Timesheets*, and"
 " change the *Project* and *Task* set by default, if you like."
 msgstr ""
+"Active el modo de :ref:`desarrollador <developer-mode>`, vaya a *Partes de "
+"horas*, y cambie el *Proyecto* y la *Tarea* establecidos de manera "
+"predeterminada, si así lo desea."
 
 #: ../../content/applications/services/timesheets/overview/time_off.rst:16
 msgid ""
@@ -1351,9 +1524,9 @@ msgid ""
 "automatically allocated on *Timesheets*, under the respective project and "
 "task."
 msgstr ""
-"Ahora, una vez que el empleado ha solicitado su tiempo libre y la solicitud "
-"ha sido validada (o no, según la configuración elegida), el tiempo se asigna"
-" automáticamente en * Hojas de horas *, bajo el respectivo proyecto y tarea."
+"Una vez que el empleado solicitó su ausencia y se validó la solicitud (o no,"
+" según la configuración elegida), el tiempo se asigna automáticamente en el "
+"*parte de horas*, bajo el respectivo proyecto y tarea."
 
 #: ../../content/applications/services/timesheets/overview/time_off.rst:27
 msgid ""
@@ -1370,10 +1543,9 @@ msgid ""
 "time is automatically allocated after the responsible person for validating "
 "does it so."
 msgstr ""
-"Teniendo en cuenta que no se requiere validación, el tiempo libre solicitado"
-" se muestra automáticamente en * Hojas de horas *. Si la validación es "
-"necesaria, el tiempo se asigna automáticamente después de que la persona "
-"responsable de la validación lo haga."
+"Si no se necesita validación, la ausencia solicitada se muestra "
+"automáticamente en los *partes de horas*. Si se necesita validación, el "
+"tiempo se asigna automáticamente después de validarlo."
 
 #: ../../content/applications/services/timesheets/overview/time_off.rst:41
 msgid ""
@@ -1459,6 +1631,9 @@ msgid ""
 "*Odoo Support does not make changes to your production database without your"
 " agreement and gives you the material and knowledge to do it yourself!*"
 msgstr ""
+"*El equipo de soporte de Odoo no realiza cambios en su base de datos de "
+"producción sin su aprobación, además le proporciona el material y los "
+"conocimientos necesarios para que pueda hacerlo usted mismo.*"
 
 #: ../../content/services/support/what_can_i_expect.rst:38
 msgid "What kind of support is not included?"
