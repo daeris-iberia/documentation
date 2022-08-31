@@ -39,7 +39,7 @@ Configución de acceso al TPV
 
 Es posible configurar la lista de posibles candidatos que pueden usar las sesiones del punto de venta.
 Para ello, navega a la pantalla :menuselection:`Punto de Venta --> Configuración --> Punto de Venta`, accede al detalle
-del TPV e informa la opción **Empleados Autorizados**. Posteriormente, selecciona todos las
+del TPV e informa la opción **Empleados Autorizados**. Posteriormente, selecciona todos los
 empleados a los que quieras otorgar acceso y pulsa el botón **Guardar**.
 
 .. image:: gestion_basica/conf_empleados.png
@@ -55,13 +55,13 @@ Añade sobre el campo **Código PIN**, el PIN deseado.
    :alt: Informa el PIN deseado
 
 En el caso de querer incorporar una credencial que pueda ser escaneada por el empleado en sustitución de la introducción
-del codigo PIN, informa el campo **ID de credencial** y haz clic sobre el botón **Generar**.
+del código PIN, informa el campo **ID de credencial** y haz clic sobre el botón **Generar**.
 
 .. image:: gestion_basica/rrhh2.png
    :align: center
    :alt: ID de credencial
 
-Para imprimir la insignia , haz clic sobre el botón **Imprimir Insignia**.
+Para imprimir la insignia, haz clic sobre el botón **Imprimir Insignia**.
 
 .. image:: gestion_basica/rrhh3.png
    :align: center
@@ -93,7 +93,7 @@ Sobre la pantalla aparecerá un indicador de carga de la aplicación TPV.
 Al finalizar la carga (suele tardar unos segundos), aparecerá la pantalla inicial del TPV .
 
 En el caso de que dispongas de más de un empleado operando con el TPV, se mostrará una pantalla inicial de inicio de sesión.
-Desde esta pantalla es posible escanear la credencial del empleado que va a inciar sesión o seleccionarlo manualmente mediante
+Desde esta pantalla es posible escanear la credencial del empleado que va a iniciar sesión o seleccionarlo manualmente mediante
 el botón **Seleccionar cajero**.
 
 .. image:: gestion_basica/pos_sesion.png
@@ -159,7 +159,7 @@ Para cerrar una sesión de TPV, debes pulsar el botón **Cerrar**.
 
 
 A continuación, se mostrará la pantalla de control de cierre, desde donde es posible indicar el importe disponible
-al contado en la caja registradora (control de caja), asi como incorporar notas de los sucesos de la sesión.
+al contado en la caja registradora (control de caja), así como incorporar notas de los sucesos de la sesión.
 
 Además, es posible realizar las siguientes acciones:
 
@@ -171,7 +171,7 @@ Además, es posible realizar las siguientes acciones:
    :align: center
    :alt: Pantalla de control de caja al cierre del TPV
 
-Al salir de la sesión, daeris navegará a la pantalla :menuselection:`Punto de Venta --> Tablero`, donde podrás ver
+Al salir de la sesión, Daeris navegará a la pantalla :menuselection:`Punto de Venta --> Tablero`, donde podrás ver
 la *Última fecha de cierre* y el *Último saldo de efectivo de cierre*.
 
 .. image:: gestion_basica/pos_post_cierre.png
@@ -214,7 +214,7 @@ En el caso de que quieras ampliar el número de unidades, puedes:
    :alt: Hacer clic sobre el teclado numérico, indicando el número de unidades , necesario que esté seleccionada la opción Cantidad del teclado numérico.
 
 Una vez añadido un producto, puedes eliminar el término buscado, mediante el botón derecho del buscador. Posteriormente
-puedes continuar añadiendo productos al pedido,seleccionando otras categorías y haciendo clic sobre los productos a incorporar.
+puedes continuar añadiendo productos al pedido, seleccionando otras categorías y haciendo clic sobre los productos a incorporar.
 
 .. image:: gestion_basica/resultado_articulo.png
    :align: center
@@ -336,7 +336,7 @@ así como poder ofrecer servicios especializados mejorando la fidelidad (descuen
 envío de catálogos, etc.).
 
 Tener a tus clientes registrados te permitirá, además, agilizar los procesos de facturación, así como ofrecerles
-información detallada de su historial. Para agilizar el registro de clientes, daeris permite al empleado crear
+información detallada de su historial. Para agilizar el registro de clientes, Daeris permite al empleado crear
 nuevos clientes desde el TPV.
 
 Para crear un nuevo cliente desde una sesión de TPV, pulsa el botón Cliente del teclado numérico:
@@ -353,7 +353,7 @@ datos de un nuevo cliente.
    :align: center
    :alt: Añadir cliente
 
-Al hacer clic sobre el botón ** +Crear**, se abre un nuevo formulario donde introducir los datos del cliente. El empleado
+Al hacer clic sobre el botón **+Crear**, se abre un nuevo formulario donde introducir los datos del cliente. El empleado
 puede registrar los datos que le ofrece el cliente.
 
 Campos como el NIF, pueden disponer de validaciones para evitar la introducción de datos erróneos. Una vez
@@ -524,7 +524,7 @@ Para limitar la carga de productos al iniciar la sesión del TPV, navega a la pa
 :menuselection:`Punto de Venta --> Configuración --> Punto de Venta`, accede al detalle
 del TPV y sobre el apartado **Inventario**, informa la opción **Carga de productos limitada**.
 
-Al activar esta opción, se cargarán **los 20.000 productos mas comunes** al iniciar la sesión.
+Al activar esta opción, se cargarán **los 20.000 productos más comunes** al iniciar la sesión.
 
 En el caso de que desees que se carguen el resto de productos una vez iniciada la sesión, selecciona la opción
 **Cargar todos los productos restantes en segundo plano**.

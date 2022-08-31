@@ -111,7 +111,7 @@ Entrada y retirada de efectivo
 Daeris permite la entrada y retirada de efectivo a los empleados **administradores** del TPV sin necesidad de
 tener que cerrar la sesión.
 
-Para realizar la entrada o retira de efectivo, haz clic sobre el botón ** Efectivo +/- ** disponible sobre la barra
+Para realizar la entrada o retira de efectivo, haz clic sobre el botón **Efectivo +/-** disponible sobre la barra
 superior.
 
 .. image:: control_caja/entrada_retirada1.png
@@ -178,23 +178,20 @@ El empleado responsable con permisos de administrador del TPV , deberá realizar
 dicha restricción.
 
 
-Establecer el volumen de monedas y billetes en la apertura del TPV
+Establecer los tipos de monedas y billetes que permite el TPV
 -------------------------------------------------------------------
 
 En primer lugar, navega a la pantalla :menuselection:`Punto de Venta --> Configuración --> Punto de Venta`, accede al
 detalle del TPV y sobre el apartado *Pagos* incorpora la opción **Efectivo** como método de pago.
 
-Al incorporar este método, es posible establecer la cantidad de monedas y billetes que debe disponer la caja tanto al iniciar
+Al incorporar este método, es posible establecer los tipos de monedas y billetes que pueden existir en caja tanto al iniciar
 como al finalizar la sesión.
-
-Configurar esta opción es tarea necesaria ya que todas las cajas deben disponer de monedas y billetes para poder
-devolver el cambio a los clientes.
 
 .. image:: control_caja/metodo.png
    :align: center
    :alt: Efectivo como método de pago
 
-Para gestionar las posibles monedas o billetes a incorporar sobre el TPV, navega a la pantalla :menuselection:`Punto de Venta --> Configuración --> Monedas / Billetes`.
+Para gestionar las posibles monedas o billetes que puedes disponer en la caja del TPV, navega a la pantalla :menuselection:`Punto de Venta --> Configuración --> Monedas / Billetes`.
 Esta acción te llevará a la pantalla de valores de moneda de los TPV, donde podrás crear nuevos registros mediante el
 botón **Crear** o actualizar los existentes.
 
@@ -209,6 +206,4 @@ aquellas que consideres oportunas sobre el apartado **Monedas / Billetes**.
    :align: center
    :alt: Monedas / Billetes sobre el TPV
 
-.. note::
-   Hay que ser cuidadoso al establecer los valores de apertura por defecto ya que en función del tipo de negocio, puede ser común que los clientes paguen con moneda pequeña, moneda de alto valor, etc. Si no dispones de suficiente cambio de moneda, el empleado deberá solicitar cambio, provocando lentitud en las colas de caja y el consiguiente malestar en los clientes.
 

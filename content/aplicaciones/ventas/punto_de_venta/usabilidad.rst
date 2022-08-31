@@ -37,10 +37,16 @@ Dispositivos externos
 Lector de códigos de barras
 ----------------------------
 
-Para 
+En comercios y negocios relacionados con la distribución de productos es común el uso de un lector de código de
+barras para el TPV.
 
+Daeris permite integrar su funcionalidad con la mayoría de los lectores de códigos de barras, herramientas
+indispensables para agilizar las ventas a través de una simple escaneo de una etiqueta para su registro.
 
-Pantalla del cliente 
+.. seealso::
+   * :doc:`../../inventario_y_fabricacion/inventario/codigos_de_barras`
+
+Pantalla del cliente
 ---------------------
 
 Daeris, permite incorporar una segunda pantalla la cual muestra los artículos y el precio cuando se está efectuando la venta.
@@ -79,6 +85,30 @@ De este modo, sobre una pantalla, el empleado manejará el TPV y sobre la otra, 
    :alt: Pantalla del cliente
 
 Impresoras
--------------
+-----------
 
-Para
+En función del tipo de acción que se realice desde el TPV, puede ser necesario realizar impresiones mediante
+un tipo de impresora u otro.
+
+    - **Impresoras convencionales**: Destinadas a la impresión de facturas completas.
+    - **Impresoras térmicas (ePos)**: Destinadas a la impresión de recibos o facturas simplificadas para entregar al cliente. También es posible la impresión de detalles de pedidos para cocinas, barras de bar, etc.
+
+Impresoras convencionales
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+Impresoras bla
+
+Impresoras de recibos
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Impresoras bla
+
+Conexión segura (HTTPS)
+""""""""""""""""""""""""
+
+Impresoras bla
+
+Certificado autofirmado para impresoras ePOS
+""""""""""""""""""""""""""""""""""""""""""""""""
+
+Impresoras bla
+
