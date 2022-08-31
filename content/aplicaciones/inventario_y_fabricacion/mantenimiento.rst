@@ -12,6 +12,11 @@ alarga su vida útil y evita problemas inesperados.
 Desde la aplicación de mantenimiento de Daeris es posible gestionar el mantenimiento de los equipos, realizar el
 seguimiento, calcular estadísticas, etc.
 
+.. youtube:: 2UuR426_1Qw
+    :align: right
+    :width: 786
+    :height: 442
+
 Configuración
 =============
 
