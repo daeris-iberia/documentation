@@ -10,8 +10,8 @@ desactivar usuarios que se han dado de baja, así como gestionar las contraseña
 
 .. youtube:: cYym8bVWk1s
     :align: right
-    :width: 786
-    :height: 442
+    :width: 700
+    :height: 394
 
 Agregar usuarios individuales
 =============================

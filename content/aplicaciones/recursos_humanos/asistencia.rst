@@ -18,8 +18,8 @@ diaria, semanal, mensual y anual.
 
 .. youtube:: SrU-O5JFqZE
     :align: right
-    :width: 786
-    :height: 442
+    :width: 700
+    :height: 394
 
 Configuración
 =============

@@ -54,8 +54,8 @@ los procedimientos de gestión de esos datos personales.
 
 .. youtube:: P4_e5A-OmAY
     :align: right
-    :width: 786
-    :height: 442
+    :width: 700
+    :height: 394
 
 Ejecutar una operación GDPR
 ===========================

@@ -10,8 +10,8 @@ lo que facilita las tareas diarias y el proceso de gestión general.
 
 .. youtube:: ZFNdOgxzE4c
     :align: right
-    :width: 786
-    :height: 442
+    :width: 700
+    :height: 394
 
 Gestionar compañías y registros
 ===============================
