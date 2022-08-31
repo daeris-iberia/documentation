@@ -382,3 +382,160 @@ es correcto, se devolverá al cliente a la página de confirmación del pago.
 .. image:: metodos_pago/stripe-8.png
    :align: center
    :alt: Configurar Stripe como método de pago (8)
+
+Configurar Adyen como método de pago
+====================================
+
+Para pagar con Adyen necesitas dar de alta una `cuenta de pruebas <https://www.adyen.com/signup>`__.
+Una vez dada de alta la cuenta, accede a tu panel de control de Adyen, y desde el menú de **Developers**, navega
+al apartado de **API credentials**. En este apartado selecciona una clave de tipo *Web Service* o crea una nueva:
+
+.. image:: metodos_pago/adyen.png
+   :align: center
+   :alt: Configurar Adyen como método de pago
+
+En el detalle de la API, navega a :menuselection:`Server settings --> Authentication` y copia o genera tu clave de API:
+
+.. image:: metodos_pago/adyen-config1.png
+   :align: center
+   :alt: Configurar Adyen como método de pago
+
+A continuación, navega a :menuselection:`Client settings --> Authentication` y copia o genera tu clave de cliente. En
+este apartado deberás también introducir la URL de tu instancia Daeris:
+
+.. image:: metodos_pago/adyen-config2.png
+   :align: center
+   :alt: Configurar Adyen como método de pago
+
+Para obtener la clave HMAC, necesitarás configurar un webhook de *Notificación estándar*. Para hacer esto, navega al menú
+de **Developers**, y accede al apartado de **Webhooks**, desde donde podrás crear un nuevo Webhook mediante el botón
+correspondiente:
+
+.. image:: metodos_pago/adyen-config3.png
+   :align: center
+   :alt: Configurar Adyen como método de pago
+
+En el detalle del Webhook, navega a :menuselection:`General --> Server configuration`, e introduce la URL de tu instancia
+Daeris seguido de `/payment/adyen/notification`:
+
+.. image:: metodos_pago/adyen-config4.png
+   :align: center
+   :alt: Configurar Adyen como método de pago
+
+A continuación, navega a :menuselection:`Security --> HMAC Key` y genera una nueva clave HMAC:
+
+.. image:: metodos_pago/adyen-config5.png
+   :align: center
+   :alt: Configurar Adyen como método de pago
+
+Una vez hecho esto, guarda los cambios del Webhook recién creado.
+
+Para obtener las URLs que se deberán configurar en Daeris, navega al menú de **Developers**, y accede al apartado de
+**API URLs**. Selecciona una de las URLs al lado de *Checkout API* para la URL de pago, y una de las URLs al lado
+de *Classic Recurring API* para la URL recurrente:
+
+.. image:: metodos_pago/adyen-config6.png
+   :align: center
+   :alt: Configurar Adyen como método de pago
+
+.. note::
+   Para más información acerca de como configurar tu cuenta, contacta directamente con Adyen. Si lo deseas, también
+   puedes contactar con los servicios profesionales de Daeris mediante nuestro `formulario de contacto <https://daeris.com/contactus>`__.
+
+Una vez dispongas de los datos de tu cuenta de Adyen, para configurarlo como método de pago en Daeris, navega a la pantalla
+:menuselection:`Sitio web --> Configuración --> Métodos de pago`, y pulsa el botón **Instalar** del método de pago Adyen:
+
+.. image:: metodos_pago/adyen-2.png
+   :align: center
+   :alt: Configurar Adyen como método de pago (2)
+
+Una vez instalado, accede al detalle del método de pago. El sistema navega al formulario de detalle del método de pago,
+en donde puedes encontrar la siguiente información:
+
+-  **Nombre**: Nombre del método de pago.
+
+-  **Imagen**: Imagen asociada al método de pago.
+
+-  **Estado**: El estado del método de pago puede ser *Deshabilitado*, *Habilitado* o *Modo de prueba*. El modo de prueba
+   se recomienda en el momento de configurar el método de pago.
+
+-  **Empresa**: Empresa asociada al método de pago.
+
+-  **Sitio web**: Sitio web en donde estará disponible el método de pago. Si este campo se deja en blanco, el método de
+   pago estará disponible en todos los sitios web.
+
+.. image:: metodos_pago/adyen-3.png
+   :align: center
+   :alt: Configurar Adyen como método de pago (3)
+
+Desde la pestaña **Credenciales**, dispones de la siguiente información:
+
+-  **Cuenta de comerciante**: El código de la cuenta de comerciante a utilizar con este método de pago.
+
+-  **Clave API**: La clave de API del usuario del servicio web.
+
+-  **Clave de cliente**: La clave de cliente del usuario del servicio web.
+
+-  **HMAC Key**: La clave HMAC del webhook.
+
+-  **URL de la API de pago**: La dirección URL base para el *endpoint* de la API de pago.
+
+-  **URL de API recurrente**: La dirección URL base para el *endpoint* de la API recurrente.
+
+.. image:: metodos_pago/adyen-4.png
+   :align: center
+   :alt: Configurar Adyen como método de pago (4)
+
+Desde la pestaña **Configuración**, dispones de la siguiente información:
+
+-  **Mostrado como**: Descripción del método de pago para los clientes. Si no se define, se utilizará el nombre.
+
+-  **Iconos de pago compatibles**: Iconos de pago que aparecerán junto con este método de pago al realizar un pedido
+   desde la tienda online.
+
+-  **Permitir guardar métodos de pago**: Esta opción permite a los clientes guardar su tarjeta de crédito y reutilizarla
+   para una compra posterior.
+
+-  **Países**: Los países para los que está disponible este método de pago. Si no se establece ninguno, está disponible para
+   todos los países.
+
+-  **Diario de pago**: Diario asociado a la cuenta donde se esperará recibir el pago.
+
+.. image:: metodos_pago/adyen-5.png
+   :align: center
+   :alt: Configurar Adyen como método de pago (5)
+
+Desde la pestaña **Mensajes**, dispones de la siguiente información:
+
+-  **Mensaje de ayuda**: El mensaje que se muestra para explicar y ayudar en el proceso de pago.
+
+-  **Mensaje pendiente**: Mensaje mostrado si la compra no finaliza correctamente una vez finalizado el proceso de pago.
+
+-  **Mensaje de terminado**: Mensaje mostrado si la compra finaliza correctamente una vez finalizado el proceso de pago.
+
+-  **Mensaje cancelado**: Mensaje mostrado si el pedido es cancelado durante el proceso de pago.
+
+.. image:: metodos_pago/adyen-6.png
+   :align: center
+   :alt: Configurar Adyen como método de pago (6)
+
+Una vez configurado el método de pago, guarda el registro mediante el botón *Guardar*.
+
+A partir de ese momento, cuando un cliente realice un pedido desde la tienda online, el método de pago Adyen aparecerá
+como método de pago disponible en la página de confirmación del pedido:
+
+.. image:: metodos_pago/adyen-7.png
+   :align: center
+   :alt: Configurar Adyen como método de pago (7)
+
+Cuando el cliente informe los datos de su tarjeta de crédito y pulse el botón **Pagar ahora**, se realizará el pago con Adyen,
+y si todo es correcto, se devolverá al cliente a la página de confirmación del pago.
+
+.. image:: metodos_pago/adyen-8.png
+   :align: center
+   :alt: Configurar Adyen como método de pago (8)
+
+.. note::
+   Si estás haciendo pruebas y tienes el control de riesgos informado, es posible que debas desactivarlo desde tu cuenta
+   de Adyen en el menú :menuselection:`Risk --> Settings`, ya que en algunos casos las transacciones de prueba pueden
+   ser rechazadas porque no cumplen la política de riesgos configurada.
