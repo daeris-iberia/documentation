@@ -11,8 +11,8 @@ conveniente de comunicarse.
 
 .. youtube:: IxGS0f6dpmI
     :align: right
-    :width: 786
-    :height: 442
+    :width: 700
+    :height: 394
 
 Seleccionar la preferencia de notificaciones
 ============================================

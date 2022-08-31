@@ -6,8 +6,8 @@ Daeris dispone de un apartado de soporte al cliente sobre el Sitio Web, que perm
 
 .. youtube:: 0F5rh1_Pats
     :align: right
-    :width: 786
-    :height: 442
+    :width: 700
+    :height: 394
 
 Página inicial de soporte
 ===========================================================

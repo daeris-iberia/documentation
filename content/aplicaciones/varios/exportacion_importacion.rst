@@ -13,8 +13,8 @@ y te permite cargar tus datos de sistemas externos en la aplicación.
 
 .. youtube:: xKx3gv7xc-Q
     :align: right
-    :width: 786
-    :height: 442
+    :width: 700
+    :height: 394
 
 Exportar datos desde Daeris
 ===========================

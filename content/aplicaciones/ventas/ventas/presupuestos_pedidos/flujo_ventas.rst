@@ -9,8 +9,8 @@ trámite o aceptada por el cliente).
 
 .. youtube:: IlvwZ4DrFbE
     :align: right
-    :width: 786
-    :height: 442
+    :width: 700
+    :height: 394
 
 Crear un presupuesto de venta
 =============================

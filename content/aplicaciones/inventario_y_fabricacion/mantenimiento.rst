@@ -14,8 +14,8 @@ seguimiento, calcular estadísticas, etc.
 
 .. youtube:: 2UuR426_1Qw
     :align: right
-    :width: 786
-    :height: 442
+    :width: 700
+    :height: 394
 
 Configuración
 =============

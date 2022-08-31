@@ -7,8 +7,8 @@ ventas únicos, utilizando **equipos de ventas**.
 
 .. youtube:: 40Jk3Nft1xU
     :align: right
-    :width: 786
-    :height: 442
+    :width: 700
+    :height: 394
 
 Configuración
 =============

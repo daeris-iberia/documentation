@@ -13,8 +13,8 @@ También te permite analizar los detalles de los defectos de tus productos.
 
 .. youtube:: 7BShoe40guk
     :align: right
-    :width: 786
-    :height: 442
+    :width: 700
+    :height: 394
 
 Configuración
 =============
