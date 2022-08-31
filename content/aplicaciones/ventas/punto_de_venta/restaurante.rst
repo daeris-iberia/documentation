@@ -133,7 +133,7 @@ Por último, el botón **Borrar** permite borrar el objeto seleccionado.
    :alt: Borrar mesa
 
 Mediante este sistema es posible crear los mapas de distintas salas usando distintos nombres para las mesas,
-distintos colores de mesas y salas, etc. También es posible arrastrar y soltar las mesas en la ubicación deseada, así como modificar su tamaño:
+distintos colores de mesas y salas, etc. También es posible arrastrar y soltar las mesas en la ubicación deseada, así como modificar su tamaño.
 
 .. image:: restaurante/mesas14.png
    :align: center

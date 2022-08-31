@@ -12,7 +12,7 @@ Aunque la tecnología avanza y la precisión de las pantallas táctiles cada vez
 muy útil que dispone de pantallas táctiles de poca sensibilidad. La baja sensibilidad de las pantallas afecta sobre
 todo a las barras de desplazamiento de las aplicaciones, siendo una tarea difícil de realizar para los empleados.
 
-En daeris se mejora la usabilidad del TPV adaptando la navegación a este tipo de pantallas. Para ello, navega a la pantalla
+En Daeris se mejora la usabilidad del TPV adaptando la navegación a este tipo de pantallas. Para ello, navega a la pantalla
 :menuselection:`Punto de Venta --> Configuración --> Punto de Venta`, accede al detalle de un TPV y marca la opción
 **Barras de desplazamiento grandes**.
 
@@ -41,7 +41,7 @@ En comercios y negocios relacionados con la distribución de productos es común
 barras para el TPV.
 
 Daeris permite integrar su funcionalidad con la mayoría de los lectores de códigos de barras, herramientas
-indispensables para agilizar las ventas a través de una simple escaneo de una etiqueta para su registro.
+indispensables para agilizar las ventas a través de un simple escaneo de una etiqueta para su registro.
 
 .. seealso::
    * :doc:`../../inventario_y_fabricacion/inventario/codigos_de_barras`
@@ -51,7 +51,7 @@ Pantalla del cliente
 
 Daeris, permite incorporar una segunda pantalla la cual muestra los artículos y el precio cuando se está efectuando la venta.
 
-Esta opción es muy recomendable para que el cliente pueda revisar el total de productos adquiridos , así como el precio
+Esta opción es muy recomendable para que el cliente pueda revisar el total de productos adquiridos, así como el precio
 total de su factura.
 
 Mediante esta opción se ofrece confianza al cliente y se evitan confusiones a la hora de indicarle el precio final de la venta.
@@ -95,20 +95,20 @@ un tipo de impresora u otro.
 
 Impresoras convencionales
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
-Impresoras bla
+Pendiente
 
 Impresoras de recibos
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Impresoras bla
+Pendiente
 
 Conexión segura (HTTPS)
 """"""""""""""""""""""""
 
-Impresoras bla
+Pendiente
 
 Certificado autofirmado para impresoras ePOS
 """"""""""""""""""""""""""""""""""""""""""""""""
 
-Impresoras bla
+Pendiente
 

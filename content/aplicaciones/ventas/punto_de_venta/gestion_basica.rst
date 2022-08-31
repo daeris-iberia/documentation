@@ -5,6 +5,14 @@ Gestión Básica
 Introducción
 =============
 
+Mediante el **Punto de venta** de Daeris puedes gestionar las ventas de tu negocio de forma sencilla.
+
+Puedes usar la aplicación desde diversos tipos de dispositivos ya que tan solo requiere acceso a un navegador.
+
+Es necesaria la conexión a internet al iniciar sesión, pero una vez iniciada puedes seguir trabajando si
+pierdes la conectividad.
+
+
 Introducción al TPV de daeris
 ----------------------------------
 

@@ -289,7 +289,7 @@ Sobre el formulario es posible informar:
     - **Uso de código promocional**: Permite aplicar la regla de forma automática o activarla a través de un código.
     - **Aplicabilidad**: Permite aplicar la recompensa sobre el pedido actual o emitir un código para ser usado en un siguiente pedido.
     - **Recompensa**: permite indicar si la recompensa equivale a un descuento o a un producto gratuito.
-    - **Aplicar descuento**:: permite aplicar un porcentaje de descuento sobre el pedido o una cantidad predeterminada.
+    - **Aplicar descuento**: permite aplicar un porcentaje de descuento sobre el pedido o una cantidad predeterminada.
     - **Aplicar descuento en**: permite indicar si el descuento se aplica sobre el importe total del pedido, en productos específicos o sobre el producto más barato.
     - **Importe descontado máximo**: Importe de descuento máximo a ofrecer.
 
@@ -323,7 +323,7 @@ el botón **Introducir código**.
    :alt: Ejemplo de uso de código promocional.
 
 Al hacer clic sobre el botón **Introducir código** aparece una nueva pantalla que solicita introducir el código de texto
-o el codigo de barras (mediante el lector de código de barras).
+o el código de barras (mediante el lector de código de barras).
 
 .. image:: tarifas_promociones/ejemplo_promo2.png
    :align: center
@@ -390,7 +390,7 @@ Sobre el formulario es posible informar:
     - **Cantidad**: cantidad mínima de productos para obtener la recompensa.
     - **Compra mínima de**: Importe mínimo para obtener la recompensa.
     - **Recompensa**: permite indicar si la recompensa equivale a un descuento o a un producto gratuito.
-    - **Aplicar descuento**:: permite aplicar un porcentaje de descuento sobre el pedido o una cantidad predeterminada.
+    - **Aplicar descuento**: permite aplicar un porcentaje de descuento sobre el pedido o una cantidad predeterminada.
     - **Aplicar descuento en**: permite indicar si el descuento se aplica sobre el importe total del pedido, en productos específicos o sobre el producto más barato.
     - **Importe descontado máximo**: Importe de descuento máximo a ofrecer.
 
@@ -473,7 +473,7 @@ Posteriormente debes hacer clic sobre el botón **Añadir filtro**, para indicar
 de los clientes , así como la plantilla de correo a utilizar. En el caso de usar la plantilla especifica **[POS] Cupón: Enviar por correo electrónico**,
 se anexará sobre el correo un documento adjunto con los detalles del cupón.
 
-Por último haz clic sobre el botón **Generar**.
+Por último, haz clic sobre el botón **Generar**.
 
 .. image:: tarifas_promociones/generar_multiple.png
    :align: center
@@ -508,7 +508,7 @@ La forma de usar los cupones desde el TPV es exactamente la misma que la forma d
 En el siguiente ejemplo se muestra la operativa de uso para un cupón que ha recibido un cliente a través de correo electrónico.
 
 Bajo un pedido del TPV, el empleado incorpora los productos que adquiere el cliente, y hace clic sobre el botón **Cliente**,
-para proceder a su identificación (el cupóo del ejemplo se ha asociado a un cliente).
+para proceder a su identificación (el cupón del ejemplo se ha asociado a un cliente).
 
 .. image:: tarifas_promociones/ejemplo_cupon0.png
    :align: center
