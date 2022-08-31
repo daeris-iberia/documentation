@@ -76,7 +76,8 @@ Posteriormente deberá confirmar la operación haciendo clic sobre el botón **c
 
 En el caso de existir diferencias entre lo contabilizado por el sistema y lo contabilizado en caja, aparecerán sobre
 el apartado diferencia. En el caso de que el empleado desee registrar la diferencia deberá seleccionar la opción
-**Acepta la diferencia...** y cerrar la sesión mediante el botón **Cerrar sesión**.
+**Acepta la diferencia de pagos y publica una entrada en el diario de pérdidas y ganancias** y cerrar la sesión
+mediante el botón **Cerrar sesión**.
 
 .. image:: control_caja/control_cierre2.png
    :align: center
@@ -97,7 +98,7 @@ Sobre la pantalla de sesiones del TPV, es posible identificar todas las sesiones
    :alt: Sesiones del TPV
 
 Al hacer clic sobre un registro del listado, accedemos a su detalle desde donde es posible consultar toda la información
-relevante de la sesión asi como sus registros relacionados haciendo clic sobre los botones de acceso a Pedidos,
+relevante de la sesión así como sus registros relacionados haciendo clic sobre los botones de acceso a Pedidos,
 albaranes, pagos, apuntes contables y registros de caja.
 
 .. image:: control_caja/sesion_detalle.png
@@ -149,7 +150,7 @@ Opciones adicionales
 Establecer la diferencia máxima sobre el control de caja
 -----------------------------------------------------------
 
-En ocaciones, debido a un error a la hora de devolver el cambio a un cliente, se producen descuadres de caja.
+En ocasiones, debido a un error a la hora de devolver el cambio a un cliente, se producen descuadres de caja.
 Daeris, permite establecer una diferencia máxima a la hora de realizar el control de caja, sin pasar por la autorización
 de un responsable.
 

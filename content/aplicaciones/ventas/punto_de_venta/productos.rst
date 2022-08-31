@@ -71,7 +71,7 @@ En función del negocio, puedes llegar a disponer de varios TPVs, y cada uno de 
 distinta para adaptarse a sus necesidades. Por ejemplo, puedes disponer de una tienda física y una cafetería,
 y un TPV en cada una de las ubicaciones.
 
-A la hora de iniciar una venta, puedes indicar que cada TPV muestre exclusivamente, una seríe de categorías.
+A la hora de iniciar una venta, puedes indicar que cada TPV muestre exclusivamente, una serie de categorías.
 Para ello, navega a la pantalla :menuselection:`Punto de Venta --> Configuración --> Punto de Venta`, accede al detalle
 de cada TPV e informa la opción **Restringir categorías de productos**. Posteriormente, selecciona todas las
 categorías que necesites mostrar sobre el TPV y pulsa el botón **Guardar**.
@@ -164,7 +164,7 @@ Añadir código de barras a un producto
 
 Para **añadir un código de barras a un producto**, navega a la pantalla :menuselection:`Punto de Venta --> Productos --> Productos`, aparecerán todos los productos
 disponibles en el TPV. Posteriormente, haz clic sobre el producto que quieras editar y sobre la pestaña
-información general, posiciónate sobre el campo **codigo de barras**.
+información general, posiciónate sobre el campo **código de barras**.
 
 Si dispones de lector de código de barras, puedes leer el código de barras del producto, acción que informará el código
 sobre el campo. También puedes informar el campo manualmente.
@@ -315,7 +315,7 @@ necesites corregir algún dato, haciendo clic sobre el icono que aparece junto a
    :alt: Informar la opción por número de serie único
 
 Cambiar la cantidad de un producto rastreado usando el teclado numérico cambiará el color del botón
-de apertura de ventana de introducción de numeros a rojo.
+de apertura de ventana de introducción de números a rojo.
 
 .. image:: productos/serie5.png
    :align: center
@@ -333,7 +333,7 @@ Los números de serie aparecerán sobre el ticket de compra cuando el cliente re
    :align: center
    :alt: Informar la opción por número de serie único
 
-Es importante indicar que los números de lote y de serie son obligatorios  en la gestión de los productos rastreados, pero no incorporalos al pedido **no impide completar la venta**.
+Es importante indicar que los números de lote y de serie son obligatorios  en la gestión de los productos rastreados, pero no incorporarlos al pedido **no impide completar la venta**.
 El sistema realizará un aviso que puede ser ignorado por el vendedor.
 
 .. image:: productos/serie8.png

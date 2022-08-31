@@ -28,7 +28,7 @@ pago de la cantidad exacta. Si ocurre esta situación, el empleado tan solo debe
    :align: center
    :alt: Realizar el pago de un pedido en una sesión de TPV
 
-Si el cliente no entrega la cantidad exacta,el empleado podrá desde el panel de pagos:
+Si el cliente no entrega la cantidad exacta, el empleado podrá desde el panel de pagos:
 
     - **Seleccionar** desde el teclado numérico la **cantidad de efectivo** ofrecida por el cliente.
     - **Seleccionar** desde el teclado numérico **los billetes** entregados por el cliente (+10, +20, +50). Cada vez que haga clic, se reducirá del importe debido el número correspondiente al billete seleccionado.
@@ -120,7 +120,7 @@ Sobre la pestaña de Ventas, debes informar:
 .. note::
    Debes crear un producto con las características indicadas por cada tipo de bolsa que desees vender.
 
-Recuerda, que si estas restringiendo categorias en tu TPV, deberás añadir la categoría **Bolsa de punto de venta**.
+Recuerda, que si estas restringiendo categorías en tu TPV, deberás añadir la categoría **Bolsa de punto de venta**.
 
 .. image:: pagos/bolsas3b.png
    :align: center
@@ -165,9 +165,9 @@ y activa la opción **Redondeo de efectivo**.
    :align: center
    :alt: Activar el redondeo de efectivo.
 
-Para crear un nuevo metodo de redondeo, haz clic sobre el enlace **Redondeos de efectivo**.
+Para crear un nuevo método de redondeo, haz clic sobre el enlace **Redondeos de efectivo**.
 
-Al hacer clic sobre el enlace se accede a la lista de metodos de redondeo. Para crear un nuevo metodo haz clic sobre
+Al hacer clic sobre el enlace se accede a la lista de métodos de redondeo. Para crear un nuevo método haz clic sobre
 el botón **Crear**.
 
 .. image:: pagos/redondeo2.png
@@ -198,14 +198,14 @@ Cuando se realice un nuevo pedido sobre el TPV, se usará el redondeo establecid
    :align: center
    :alt: Usar el redondeo de efectivo.
 
-Para ello, el empleado deberá seleccionar el metodo de pago **Efectivo**, acción que procederá a realizar el
+Para ello, el empleado deberá seleccionar el método de pago **Efectivo**, acción que procederá a realizar el
 cobro por el importe redondeado.
 
 .. image:: pagos/redondeo6.png
    :align: center
    :alt: Usar el redondeo de efectivo.
 
-Sobre el recibo aparacerá una línea que hará referéncia al redondeo cobrado al cliente.
+Sobre el recibo, aparacerá una línea que hará referencia al redondeo cobrado al cliente.
 
 .. image:: pagos/redondeo7.png
    :align: center
@@ -277,7 +277,7 @@ Es posible modificar la cantidad de productos de las líneas, si el reembolso no
    :alt: Reembolsar un pedido completado desde el TPV
 
 Al efectuar el abono al cliente mediante el botón **Pagos** aparece la pantalla de pago desde donde se debe seleccionar
-el metodo de pago apropiado para efectuar la devolución.
+el método de pago apropiado para efectuar la devolución.
 
 .. image:: pagos/asoc7.png
    :align: center
@@ -298,7 +298,7 @@ Crear recibos
 Un recibo es un documento que acredita la compra de productos o servicios y se usa como comprobante de la
 transacción comercial entre el vendedor y comprador.
 
-En daeris, el recibo dispone de:
+En Daeris, el recibo dispone de:
 
     - la **fecha** en la que se realiza la transacción.
     - Los **artículos** que componen la venta.
@@ -311,7 +311,7 @@ Se diferencia de la factura simplificada en que la factura simplificada muestra 
 por cada **venta** realizada (TPV).
 
 Cada vez que se realiza una venta desde el TPV de Daeris, se emite un recibo para su impresión tras validar
-el pago del pedido. También es posible enviarlo al cliente por correo electónico.
+el pago del pedido. También es posible enviarlo al cliente por correo electrónico.
 
 .. image:: pagos/pagos1.png
    :align: center
@@ -329,7 +329,7 @@ Crear facturas simplificadas
 Una factura simplificada es un documento que acredita la compra de productos o servicios y se usa como comprobante de la
 transacción comercial entre el vendedor y comprador.
 
-En daeris, una factura simplificada dispone de:
+En Daeris, una factura simplificada dispone de:
 
     - la **fecha** en la que se realiza la transacción.
     - Los **artículos** que componen la venta.
@@ -342,7 +342,7 @@ Para configurar tu TPV para que genere facturas simplificadas en lugar de recibo
 navega a la pantalla :menuselection:`Punto de Venta --> Configuración --> Punto de Venta`, accede al detalle
 del TPV y sobre el apartado **Facturas y recibos**, informa la opción **Secuencia de Factura Simplificada**.
 
-Además, en función del tipo de ventas que realiza tu negocio, debes establecer el importe límite sobre el cúal
+Además, en función del tipo de ventas que realiza tu negocio, debes establecer el importe límite sobre el cual
 no se puede emitir una factura simplificada. Para ello, activa la opción **Límite de Factura Simplificada** e
 incorpora el importe que consideres oportuno (3000 es la cantidad predeterminada).
 
@@ -350,18 +350,18 @@ incorpora el importe que consideres oportuno (3000 es la cantidad predeterminada
    :align: center
    :alt: Crear facturas simplificadas
 
-Activar esta opciones supone:
+Activar esta opción supone:
 
     - No emitir recibos desde el TPV si no facturas o facturas simplificadas.
     - Adaptar el recibo a la factura simplificada (Incorpora secuencia formada por el nombre del TPV + código).
     - Añade el texto **Factura simplificada** para conocimiento del cliente.
-    - Valídar que no se realiza factura simplificada por un importe mayor al configurado.
+    - Validar que no se realiza factura simplificada por un importe mayor al configurado.
 
 .. note::
    En el siguiente `enlace <https://sede.agenciatributaria.gob.es/Sede/iva/facturacion-registro/facturacion-iva/tipos-factura.html>`_ se puede leer todo lo referente a la normativa española que obliga al uso de facturas simplificadas en lugar de recibos.
 
-Una vez configurada esta opción, cada vez que se realiza una venta desde el TPV de Daeris, se emite una gactura simplificada
-para su impresión tras validar el pago del pedido. También es posible enviarlo al cliente por correo electónico.
+Una vez configurada esta opción, cada vez que se realiza una venta desde el TPV de Daeris, se emite una factura simplificada
+para su impresión tras validar el pago del pedido. También es posible enviarlo al cliente por correo electrónico.
 
 .. image:: pagos/pagos2.png
    :align: center
@@ -379,7 +379,7 @@ Crear facturas
 Una factura es un documento que acredita la compra de productos o servicios y se usa como comprobante de la
 transacción comercial entre el vendedor y comprador.
 
-En daeris, una factura dispone de:
+En Daeris, una factura dispone de:
 
     - la **fecha** en la que se realiza la transacción.
     - Los **artículos** que componen la venta.
@@ -390,7 +390,7 @@ En daeris, una factura dispone de:
     - El código correlativo y único** por cada **venta** realizada (INV/AÑO/XXXXX).
 
 Se diferencia de la factura simplificada en que incluye los datos del vendedor, además de ser **Obligatoria** para
-efectuar diferentes tramites burocrátricos a partir de determinados importes y/o situaciones.
+efectuar diferentes tramites burocráticos a partir de determinados importes y/o situaciones.
 
 Sobre el TPV de Daeris es posible generar una factura identificando al cliente mediante el botón **Cliente**.
 Antes de validar el pago del pedido será requerido hacer clic sobre el botón **Factura** (quedará sombreado).
@@ -422,7 +422,7 @@ del TPV y sobre el apartado **Facturas y recibos** marca la opción **Facturaci�
 .. note::
    La opción para generar facturas desde Daeris viene activa por defecto al crear un TPV y no es recomendable deshabilitarla.
 
-Añadir notas sobre las lineas de pedido
+Añadir notas sobre las íde pedido
 ----------------------------------------
 
 Daeris permite incorporar notas sobre las líneas del pedido. Estas notas aparecerán en la facturas y el recibo.
@@ -466,7 +466,7 @@ Al efectuar el pago, la nota aparece tanto en la factura del cliente como en el 
 Añadir Texto predeterminado sobre el recibo
 --------------------------------------------
 
-Daeris permite incorporar un texto predeterimando sobre el encabezado y el pie de página del recibo.
+Daeris permite incorporar un texto predeterminado sobre el encabezado y el pie de página del recibo.
 
 Para usar esta opción, navega a la pantalla :menuselection:`Punto de Venta --> Configuración --> Punto de Venta`, accede al detalle
 del TPV y marca la opción **Encabezado y pie de página**.
@@ -560,5 +560,4 @@ Métodos de pago
 Crear tarjeta de crédito como método de pago 
 ---------------------------------------------
 
-Para 
-
+Pendiente

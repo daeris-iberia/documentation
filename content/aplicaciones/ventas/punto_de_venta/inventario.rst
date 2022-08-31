@@ -31,12 +31,12 @@ Enviar los productos vendidos por TPV.
 ------------------------------------------
 
 Daeris permite vender tus productos desde el TPV para que sean enviados más tarde. Para ello, debes indicar
-el almacén donde residen las existencias que estas vendiendo, asi como la politica de entrega. Para ello,
+el almacén donde residen las existencias que estas vendiendo, así como la política de entrega. Para ello,
 navega al detalle del TPV desde la pantalla :menuselection:`Punto de Venta --> Configuración --> Punto de Venta`
 e informa el campo **Enviar más tarde**.
 
 Posteriormente debes informar el **almacén** y la **política de entrega**, siendo posible seleccionar entre enviar
-los productos a medida que esten disponibles o enviarlos cuando todos esten disponibles.
+los productos a medida que estén disponibles o enviarlos cuando todos estén disponibles.
 
 .. image:: inventario/mas_tarde.png
    :align: center
@@ -49,7 +49,7 @@ deberás pulsar la opción **enviar más tarde** y seleccionar el cliente al que
    :align: center
    :alt: Enviar el pedido del tpv.
 
-Una vez el pedido haya sido validado, podrás encontrar el albaran de entrega sobre las expediciones del almacén configurado.
+Una vez el pedido haya sido validado, podrás encontrar el albarán de entrega sobre las expediciones del almacén configurado.
 Para ello navega a la pantalla :menuselection:`Inventario --> Información general` y haz clic sobre el registro
 **Expediciones**.
 
@@ -93,7 +93,7 @@ Para ello, navega a la pantalla :menuselection:`Punto de Venta --> Configuració
 A partir del momento en que inicies una nueva sesión, los movimientos de inventario de tus productos se visualizarán
 en tiempo real.
 
-Recordamos que es posible visualizar la infomación sobre el volumen de inventario que hay disponible sobre un
+Recordamos que es posible visualizar la información sobre el volumen de inventario que hay disponible sobre un
 producto en concreto de las siguientes formas:
 
     - Haciendo clic sobre el botón **(i)** sobre la imagen del producto
