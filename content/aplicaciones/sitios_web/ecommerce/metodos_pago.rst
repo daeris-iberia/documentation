@@ -27,6 +27,8 @@ Los métodos de pago disponibles en Daeris son los siguientes:
 
 -  **Buckaroo**: Pasarela de pagos que acepta pagos online a través de tarjetas de crédito.
 
+-  **Mercado Pago**: Pasarela de pagos digitales para Latinoamérica.
+
 -  **Mollie**: Pasarela de pago de Mollie para aceptar pagos en línea.
 
 -  **Ogone**: Servicios de pago Ingenico (anteriormente Ogone) admite tarjetas de crédito, tarjetas de débito y
