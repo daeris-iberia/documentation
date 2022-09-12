@@ -45,7 +45,7 @@ Al informar el campo **Dinámica** aparecen una serie de nuevas opciones para de
 
 .. attention::
    Sobre **criterio de sincronización** se incorporan por defecto las condiciones que indican que el contacto no está en la lista negra y que dispone de un correo electrónico al cual emitir el correo.
-   Estas condiciones pueden eliminarse, pero esta acción no tendrá ningún efecto en el resultado final, ya que son criterios fijados a la hora de sincronizar los contactos.
+   Estas condiciones pueden eliminarse, pero esta acción solo tendrá efecto sobre el filtro que hace referéncia al correo electrónico, ya que impedir la introducción de contactos de la lista negra es un criterio fijado a la hora de sincronizar los contactos.
 
 Mediante el botón **Cargar filtros** es posible incorporar como criterios de búsqueda, los mismos criterios que
 disponen los filtros de las búsquedas en **favoritos** del listado de **contactos**, en el caso de disponer de alguno.
@@ -68,9 +68,9 @@ Al cargar los filtros, se borran las condiciones anteriores y se incorporan las 
    :alt: Crear listas de correo dinámicas
 
 .. attention::
-   Es importante añadir las condiciones iniciales que hacen referencia a que el usuario **no está en la lista negra** y que **dispone de un correo electrónico** al cual emitir la comunicación.
-   No añadirlas implica que pueden existir diferencias entre el número de resultados indicado en el criterio de sincronización y el número de contactos disponible tras la sincronización.
-   Esto es debido a que los criterios iniciales aplican **SIEMPRE**, incluso cuando se han eliminado del criterio de sincronización.
+   Es importante añadir la condicion inicial que hace referencia a que el usuario **no está en la lista negra**.
+   No añadirla implica que pueden existir diferencias entre el número de resultados indicado en el criterio de sincronización y el número de contactos disponible tras la sincronización.
+   Esto es debido a que el criterio inicial que hace referencia a la lista negra aplica **SIEMPRE**, incluso cuando se ha eliminado del criterio de sincronización.
 
 .. image:: listas_dinamicas/dinamica08.png
    :align: center

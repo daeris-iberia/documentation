@@ -236,73 +236,6 @@ Pasados unos instantes y tras actualizar la página, el estado del mailing será
    :align: center
    :alt: Reenviar mailing
 
-
-
-Integrar Marketing por email con Ventas y CRM
-==============================================
-
-Daeris permite la integración del Mailing con la gestión de las **Ventas** y el **CRM** con el objetivo de crear
-**clientes potenciales, oportunidades y presupuestos** que puedan derivar en nuevas **ventas**.
-
-Una vez se ha enviado un mailing, se puede empezar a medir el número de **clientes potenciales y/o oportunidades**,
-**presupuestos** generados, así como el importe total de las **ventas facturadas**.
-
-.. image:: mailings/crm11.png
-   :align: center
-   :alt: Integrar Marketing por email con Ventas y CRM
-
-Las **campañas** también ofrecen estadísticas, contabilizando el total de los mailings que tienen asociados.
-
-.. image:: mailings/crm10.png
-   :align: center
-   :alt: Integrar Marketing por email con Ventas y CRM
-
-Para integrar un mailing con tu sistema de ventas es imprescindible que, al generarlo, sobre la pestaña **Ajustes**
-se informe el campo **responder a** con el valor del **alias de la cuenta de correo** de un equipo de ventas.
-
-.. image:: mailings/crm05.png
-   :align: center
-   :alt: Integrar Marketing por email con Ventas y CRM
-
-Es posible editar los alias de los equipos de ventas desde la pantalla
-:menuselection:`CRM --> Configuración --> Equipos de ventas`
-
-.. image:: mailings/crm06.png
-   :align: center
-   :alt: Integrar Marketing por email con Ventas y CRM
-
-.. seealso::
-   * :doc:`../../ventas/ventas/equipos`
-
-Al realizar esta acción, cada vez que un destinatario del mailing responda el correo recibido, esta respuesta se
-registrará en el sistema como un nuevo cliente potencial/oportunidad asociada al mailing y a la campaña del mailing,
-en el caso de que disponga de una.
-
-.. image:: mailings/crm07.png
-   :align: center
-   :alt: Integrar Marketing por email con Ventas y CRM
-
-En el caso de que el equipo de ventas logre convertir el cliente potencial / oportunidad en un presupuesto,
-este quedará asociado al mailing y a la campaña del mailing.
-
-.. image:: mailings/crm08.png
-   :align: center
-   :alt: Integrar Marketing por email con Ventas y CRM
-
-En el caso de que el equipo de ventas logre emitir una factura pagada asociada al presupuesto, esta quedará asociado
-al mailing y a la campaña del mailing.
-
-.. image:: mailings/crm09.png
-   :align: center
-   :alt: Integrar Marketing por email con Ventas y CRM
-
-Todas estas asociaciones permiten contabilizar los resultados desde el mailing y desde la campaña de marketing.
-
-.. image:: mailings/crm10.png
-   :align: center
-   :alt: Integrar Marketing por email con Ventas y CRM
-
-
 Añadir pre encabezados
 =======================
 
@@ -407,13 +340,13 @@ Los enlaces que disponen no son accesos directos a los medios, si no rastreadore
    :align: center
    :alt: Configurar iconos de medios sociales sobre los mailings
 
-Rastrear enlaces
-===================
+Rastrear enlaces de Mailings
+=============================
 
 Los rastreadores de enlaces te permiten llevar el seguimiento de tus campañas de marketing.
 
-Mediante su uso, puedes identificar tus fuentes de mejor tráfico y tomar decisiones informadas sobre l
-a distribución de tu presupuesto de marketing.
+Mediante su uso, puedes identificar tus fuentes de mejor tráfico y tomar decisiones informadas sobre la
+distribución de tu presupuesto de marketing.
 
 .. seealso::
    * :doc:`../../sitios_web/sitio_web/optimizar/rastreador_enlaces`
@@ -443,7 +376,7 @@ El botón inteligente **% Clic** disponible sobre los mailings, indica este porc
    :align: center
    :alt: Rastrear enlaces
 
-Al hacer clic sobre el botón **% CLic**, la aplicación navega al listado de rastreadores del mailing.
+Al hacer clic sobre el botón **% Clic**, la aplicación navega al listado de rastreadores del mailing.
 Este listado muestra la información relevante sobre cada rastreador.
 
 .. image:: mailings/enlaces05.png
@@ -456,6 +389,154 @@ Al hacer clic sobre el enlace **estadísticas** navegamos a la pantalla de estad
    :align: center
    :alt: Rastrear enlaces
 
+Gracias a los enlaces, también es posible identificar el número de **clientes potenciales**, **presupuestos** generados y ventas **facturadas**.
+
+.. image:: mailings/enlaces06.png
+   :align: center
+   :alt: Rastrear enlaces
+
+Integrar Marketing por email con Ventas y CRM
+==============================================
+
+Daeris permite la integración del Mailing con la gestión del **CRM** con el objetivo de crear
+**clientes potenciales, oportunidades y presupuestos** que puedan derivar en nuevas **ventas**.
+
+Una vez se ha enviado un mailing, se puede empezar a medir el número de **clientes potenciales y/o oportunidades**,
+**presupuestos** generados, así como el importe total de las **ventas facturadas**.
+
+.. image:: mailings/crm11.png
+   :align: center
+   :alt: Integrar Marketing por email con Ventas y CRM
+
+Las **campañas** también ofrecen estadísticas, contabilizando el total de los mailings y los SMS de Marketing que tienen asociados.
+
+.. image:: mailings/crm10.png
+   :align: center
+   :alt: Integrar Marketing por email con Ventas y CRM
+
+Existen varias formas de integrar tus mailings con el sistema de ventas.
+
+Para obtener **Clientes potenciales**, es posible informar sobre la pestaña **Ajustes**,
+el campo **responder a** con el valor del **alias de la cuenta de correo** de un equipo de ventas.
+
+.. image:: mailings/crm05.png
+   :align: center
+   :alt: Integrar Marketing por email con Ventas y CRM
+
+Puedes editar los alias de los equipos de ventas desde la pantalla
+:menuselection:`CRM --> Configuración --> Equipos de ventas`
+
+.. image:: mailings/crm06.png
+   :align: center
+   :alt: Integrar Marketing por email con Ventas y CRM
+
+.. seealso::
+   * :doc:`../../ventas/ventas/equipos`
+
+Al realizar esta acción, cada vez que un destinatario del mailing responda el correo recibido, esta respuesta se
+registrará en el sistema como un nuevo cliente potencial/oportunidad asociada al mailing y a la campaña del mailing,
+en el caso de que disponga de una.
+
+.. image:: mailings/crm07.png
+   :align: center
+   :alt: Integrar Marketing por email con Ventas y CRM
+
+En el caso de que el equipo de ventas logre convertir el cliente potencial / oportunidad en un presupuesto,
+este quedará asociado al mailing y a la campaña del mailing.
+
+.. image:: mailings/crm08.png
+   :align: center
+   :alt: Integrar Marketing por email con Ventas y CRM
+
+En el caso de que el equipo de ventas logre emitir una factura pagada asociada al presupuesto, esta quedará asociado
+al mailing y a la campaña del mailing.
+
+.. image:: mailings/crm09.png
+   :align: center
+   :alt: Integrar Marketing por email con Ventas y CRM
+
+Todas estas asociaciones permiten contabilizar los resultados desde el mailing y desde la campaña de marketing.
+
+.. image:: mailings/crm10.png
+   :align: center
+   :alt: Integrar Marketing por email con Ventas y CRM
+
+Con el objetivo de obtener **Clientes potenciales**, es posible incorporar un enlace hacia un **formulario** de contacto
+de creación de clientes potenciales.
+
+Para ello, incorpora sobre tu mailing un enlace hacia la página donde se encuentre el formulario de contacto de tu **Sitio Web**.
+
+.. image:: mailings/enlaces12.png
+   :align: center
+   :alt: Integrar Marketing por email con Ventas y CRM
+
+Cuando el destinatario del mailing recibe la comunicación, el enlace hacia el formulario ha sido sustituido por
+un **enlace rastreable**.
+
+.. image:: mailings/enlaces13.png
+   :align: center
+   :alt: Integrar Marketing por email con Ventas y CRM
+
+Cuando el destinatario hace clic sobre el enlace, navega a la página del formulario. Esta página dispone
+sobre su enlace de información de la campaña y el mailing .
+
+.. image:: mailings/enlaces14.png
+   :align: center
+   :alt: Integrar Marketing por email con Ventas y CRM
+
+Si el destinatario completa el formulario, se registra un nuevo **cliente potencial** asociado al mailing y a la
+campaña.
+
+.. image:: mailings/enlaces15.png
+   :align: center
+   :alt: Integrar Marketing por email con Ventas y CRM
+
+Al hacer clic sobre el botón **Clientes potenciales** es posible navegar al listado de clientes potenciales asociados
+al mailing.
+
+.. image:: mailings/enlaces16.png
+   :align: center
+   :alt: Integrar Marketing por email con Ventas y CRM
+
+Con el objetivo de obtener **presupuestos** y **facturas**, también es posible incorporar un enlace hacia
+la tienda online.
+
+Para ello, navega a la página deseada y copia la dirección que aparece en el navegador.
+
+.. image:: mailings/enlaces07.png
+   :align: center
+   :alt: Integrar Marketing por email con Ventas y CRM
+
+Al editar tu mailing, incorpora el enlace a tu página sobre un enlace o botón.
+
+.. image:: mailings/enlaces08.png
+   :align: center
+   :alt: Integrar Marketing por email con Ventas y CRM
+
+Cuando el destinatario del mailing recibe la comunicación, el enlace hacia la página ha sido sustituido por
+un **enlace rastreable**.
+
+.. image:: mailings/enlaces09.png
+   :align: center
+   :alt: Integrar Marketing por email con Ventas y CRM
+
+Cuando el destinatario hace clic sobre el enlace, navega a la página que dispone sobre su enlace de información
+de la campaña y el mailing .
+
+.. image:: mailings/enlaces10.png
+   :align: center
+   :alt: Integrar Marketing por email con Ventas y CRM
+
+Si el destinatario añade el producto al carrito de la compra, se genera un nuevo **presupuesto** asociado al Mailing
+y a la campaña.
+
+Si el destinatario completa el proceso de compra, se genera una nueva **factura** asociada al mailing y a la campaña.
+
+Toda esta información se puede consultar desde el mailing.
+
+.. image:: mailings/enlaces11.png
+   :align: center
+   :alt: Integrar Marketing por email con Ventas y CRM
 
 Realizar Seguimiento
 ======================

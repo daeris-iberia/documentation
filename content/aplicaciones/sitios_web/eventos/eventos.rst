@@ -374,6 +374,8 @@ La pestaña **Notas** se puede usar para mencionar información adicional sobre 
 
 Una vez dispones de toda la información del evento completada, debes pulsar el botón *Guardar* en el formulario del evento.
 
+.. _sitios_web/eventos/invitar_personas_evento:
+
 Invitar personas al evento
 --------------------------
 
@@ -491,6 +493,8 @@ Las opciones relacionadas con la página de detalle de los eventos son las sigui
 -  **Patrocinadores**: Muestra una sección con los diferentes patrocinadores del evento.
 
 -  **Doblar los detalles del ticket**: Por defecto, dobla los detalles del ticket del evento.
+
+.. _sitios_web/eventos/contactar_personas_evento:
 
 Contactar con los asistentes del evento
 ---------------------------------------

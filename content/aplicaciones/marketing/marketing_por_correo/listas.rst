@@ -2,11 +2,15 @@
 Listas de correo
 =================
 
+Las listas de correo son agrupadoras de contactos que disponen de una **cuenta de correo** y/o **número de teléfono móvil**.
+Sirven para establecer comunicaciones a través de **mailings** o **SMS de marketing**.
+
 Crear listas de correo
 =======================
 
-Desde la pantalla :menuselection:`Marketing por email --> Listas de correo --> Listas de correo`,
-puedes gestionar las listas de correo existentes en la aplicación.
+Es posible gestionar las listas de correo existentes en la aplicación
+desde la pantalla :menuselection:`Marketing por email --> Listas de correo --> Listas de correo`,
+o desde la pantalla :menuselection:`Marketing por SMS --> Listas de correo --> Listas de correo`.
 
 .. image:: listas/lista01.png
    :align: center
@@ -43,9 +47,9 @@ registro como:
 
 -  **Es público**: El destinatario puede acceder a la página de cancelación de la suscripción a lista de correo y gestionar sus preferencias.
 
--  **Crear Contacto asociado**: Mediante esta opción, cada vez que se une un contacto a la lista de correos, se revisa si existe como contacto en la aplicación. Si existe, se asocia el contacto de la aplicación al contacto de la lista de correo. Si no existe, se crea un nuevo contacto en la aplicación y se asocia al contacto de la lista de correos.
+-  **Crear Contacto asociado**: Mediante esta opción, cada vez que se une un contacto a la lista de correos, se revisa si existe como contacto en la aplicación a partir del número de teléfono y/p móvil. Si existe, se asocia el contacto de la aplicación al contacto de la lista de correo. Si no existe, se crea un nuevo contacto en la aplicación y se asocia al contacto de la lista de correos.
 
-Desde la pantalla de contactos de la aplicación es posible visualizar si está asociada a un contacto de la lista de correos mediante el botón contacto de listas de correos.
+Desde la pantalla de contactos de la aplicación, es posible visualizar si un contacto está asociado a un contacto de la lista de correos mediante el botón contacto de listas de correos.
 
 Al hacer clic se visualiza el contacto de la lista de correos.
 
@@ -55,7 +59,7 @@ Al hacer clic se visualiza el contacto de la lista de correos.
 
 -  **Etiqueta del contacto asociado**: El uso de este contacto nos permite incorporar una etiqueta al contacto de la aplicación cuando se asocia a una lista de correos.
 -  **Deshabilitar baja cruzada**: Cuando un contacto de una lista de correos cursa una baja, se procede a mostrar todas las listas de correos alas que está suscrito, dándole la posibilidad de darse de baja, si así lo decide. Al informar esta opción deshabilitamos la posibilidad de mostrar esta lista de correos cuando un contacto cursa una baja de otra lista de correos a la que este asociado.
--  **Plantilla de bienvenida**: Plantilla de correo electrónico que se usará para dar la bienvenida a la lista de correos a los contactos que se asocien a ella.
+-  **Plantilla de bienvenida**: Plantilla de correo electrónico que se usará para dar la bienvenida a la lista de correos a los contactos que se asocien a ella a través de un apartado de suscripción del sitio web o de una ventana emergente de suscripción.
 -  **Lista Dinámica**: mediante esta opción se permite crear listas de correos de contactos de la aplicación. Al seleccionar esta opción se muestran una serie de campos para configurar la lista dinámica.
 
 .. image:: listas/lista04.png
@@ -65,7 +69,8 @@ Al hacer clic se visualiza el contacto de la lista de correos.
 Actualizar el mensaje de bienvenida
 =====================================
 
-Cada vez que una nueva cuenta de correo se asocia a una lista de correos, se emite un correo de bienvenida.
+Cada vez que una nueva cuenta de correo se asocia a una lista de correos a través de un apartado de suscripción
+del sitio web o de una ventana emergente de suscripción, se emite un correo de bienvenida.
 
 .. image:: listas/mensaje01.png
    :align: center
@@ -101,8 +106,9 @@ Recuerda que este mensaje se emitirá a cada cuenta de correo que se haya suscri
 Crear contactos
 =======================
 
-Desde la pantalla :menuselection:`Marketing por email --> Listas de correo --> Contactos de la lista de correo`
-, puedes gestionar los contactos de las listas de correo existentes en la aplicación.
+Desde la pantalla :menuselection:`Marketing por email --> Listas de correo --> Contactos de la lista de correo`,
+o desde la pantalla :menuselection:`Marketing por SMS --> Listas de correo --> Contactos de la lista de correo`,
+puedes gestionar los contactos de las listas de correo existentes en la aplicación.
 
 .. image:: listas/contacto01.png
    :align: center
@@ -120,13 +126,20 @@ de introducción de datos:
    :alt: Crear contactos
 
 -  **Nombre**: Nombre del contacto.
+-  **Etiquetas**: Etiquetas asociadas al contacto.
 -  **Correo electrónico**: Email del contacto.
+-  **Móvil**: Teléfono movil del contacto.
 -  **Contacto asociado**: Campo de selección desde donde se puede incorporar el contacto de la aplicación. Este campo no es requerido, pero puedes informarlo si quieres asociar tu contacto de la lista de correos a un contacto de la aplicación. Debes tener en cuenta para evitar correos duplicados que este contacto debería tener el mismo email que el del contacto que estas dando de alta.
 -  **Título**: Desplegable con varias opciones.
 -  **Nombre de la compañía**: Permite informar la compañía del contacto.
 -  **País**: Permite informar el país del contacto.
 -  **Rebote**: Campo que se utiliza para almacenar el número de correos rebotados de este contacto.
 -  **Lista de correo**: Permite añadir al contacto a las listas de correo existentes.
+
+Al finalizar la edición recuerda hacer clic sobre el botón **Guardar**.
+
+.. attention::
+    Todos los contactos creados manualmente no recibirán correo de bienvenida.
 
 Importar contactos
 =======================
@@ -174,6 +187,9 @@ Al posicionarte sobre cualquiera de ellos podrás visualizar los datos importado
 .. image:: listas/contacto08.png
    :align: center
    :alt: Importar contactos
+
+.. attention::
+    Todos los contactos importados no recibirán correo de bienvenida.
 
 Uso del proceso de suscripción
 =====================================
@@ -285,7 +301,7 @@ parte de la lista negra, no recibirá correos y no podrá gestionar sus subscrip
 Configurar los motivos de las bajas
 ==================================================
 
-Cuando un contacto hace clic sobre el botón **Anular suscripción**, navega a la página de cancelación de
+Cuando un contacto hace clic sobre el enlace **Anular suscripción**, navega a la página de cancelación de
 suscripciones y se le solicita que indique un motivo de baja.
 
 .. image:: listas/gestionar03.png
@@ -329,3 +345,6 @@ complementaria de la acción realizada.
 .. image:: listas/registro02.png
    :align: center
    :alt: Consultar el registro a las listas de correo
+
+.. important::
+   Las bajas de listas realizadas desde enlaces de SMS **DETENER SMS**, no se incorporan sobre el registro.

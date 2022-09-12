@@ -15,7 +15,7 @@ Una vez marcada la opción, debes guardar los ajustes mediante el botón **Guard
    :alt: Gestionar con etapas las campañas de marketing
 
 El sistema añade una nueva sección de **Campañas** dentro del módulo de marketing, que permite agrupar varios mailings
-dentro de una campaña, además de gestionar las propias campañas en diferentes etapas y realizar su seguimiento.
+y SMS de Marketing dentro de una campaña, además de gestionar las propias campañas en diferentes etapas y realizar su seguimiento.
 
 Inicialmente el sistema solo dispone de una etapa configurada. Si deseas incorporar nuevas etapas para gestionar
 tus compañas navega a la pantalla :menuselection:`Marketing por email --> Configuración --> Etapas` e informa las
@@ -232,16 +232,9 @@ el mailing.
    :align: center
    :alt: Crear campañas de marketing
 
-Para finalizar la edición de esta versión, haz clic sobre el botón **Guardar** y posiciónate sobre la campaña
-haciendo clic sobre el enlace que dispone el nombre de la campaña.
+Para finalizar la edición de esta versión, haz clic sobre el botón **Guardar** y posiciónate sobre la pestaña **Ajustes**.
 
-.. image:: campanas/pruebas10.png
-   :align: center
-   :alt: Crear campañas de marketing
-
-Sobre la pestaña **mailings** disponemos de una lista con los datos de todos los mailings relacionados con la campaña.
-
-Haz clic sobre el botón **duplicar** para generar una versión del mailing.
+Haz clic sobre el botón **Crear una versión alternativa** para generar una versión del mailing.
 
 .. image:: campanas/pruebas06.png
    :align: center
@@ -254,7 +247,7 @@ asunto y el cuerpo del correo para establecer las diferencias con la primera ver
    :align: center
    :alt: Crear campañas de marketing
 
-Sobre la pestaña **Pruebas A/B** pues incorporar el porcentaje de correos de prueba y la fecha de envío definitva.
+Sobre la pestaña **Pruebas A/B** puedes incorporar el porcentaje de correos de prueba y la fecha de envío definitva.
 
 .. image:: campanas/pruebas08.png
    :align: center
@@ -281,40 +274,42 @@ de medir su efectividad.
    :alt: Crear campañas de marketing
 
 Para enviar una versión, haz clic sobre su registro sobre la pestaña Mailings. Esta acción, abrira una ventana
-con los detalles de la versión. Para realizar el envio de la versión se ha de hacer clic sobre el botón
-**Planificación**.
+con los detalles de la versión. Para realizar el envio de la versión, haz clic sobre el botón
+**Enviar**.
 
-.. danger::
-    Hacer clic sobre el botón **Enviar** realizaría un **envío definitivo a todos los destinatarios** y no se realizarían las pruebas A/B.
-    En el caso de que quieras enviar la prueba A/B en este preciso instante planifica el envío con la fecha actual.
+.. note::
+    En el caso de que no quieras enviar la prueba A/B en este preciso instante, planifica el envío mediante el botón **planificar** e incorpora la fecha de planificación deseada.
 
 .. image:: campanas/pruebas12.png
    :align: center
    :alt: Crear campañas de marketing
 
-Al hacer clic sobre el botón **Planificación**, el sistema solicita una fecha.
-
-Introduce la fecha y hora deseada y haz clic sobre el botón **Planificación**.
+Al hacer clic sobre el botón **Enviar**, el sistema solicita confirmación. Haz clic sobre el botón **Aceptar**.
 
 .. image:: campanas/pruebas13.png
    :align: center
    :alt: Crear campañas de marketing
 
-Una vez planificado el envío, puedes salir de la ventana emergente haciendo clic sobre el botón **X** de la parte superior derecha.
+Una vez realizado el envío, puedes salir de la ventana emergente haciendo clic sobre el botón **X** de la parte superior derecha.
 
 .. image:: campanas/pruebas14.png
    :align: center
    :alt: Crear campañas de marketing
 
-Sobre la campaña, puedes repetir la acción de **Planificar** una versión, haciendo clic sobre el registro en
+Actualiza la información de la campa mediante el botón **Actualizar**.
+
+.. image:: campanas/pruebas14b.png
+   :align: center
+   :alt: Crear campañas de marketing
+
+Sobre la campaña, puedes repetir la acción de **Enviar** una versión, haciendo clic sobre el registro en
 estado borrador de la pestaña **Mailings**.
 
 .. image:: campanas/pruebas15.png
    :align: center
    :alt: Crear campañas de marketing
 
-Sobre la nueva ventana, haz clic sobre el botón **Planificación**, incorpora una fecha para el envío y haz clic sobre
-el botón **Planificar**.
+Al hacer clic sobre el botón **Enviar**, el sistema solicita confirmación. Haz clic sobre el botón **Aceptar**.
 
 .. image:: campanas/pruebas16.png
    :align: center
@@ -323,6 +318,12 @@ el botón **Planificar**.
 Una vez planificado el envío, puedes salir de la ventana emergente haciendo clic sobre el botón **X** de la parte superior derecha.
 
 .. image:: campanas/pruebas17.png
+   :align: center
+   :alt: Crear campañas de marketing
+
+Actualiza la información de la campa mediante el botón **Actualizar**.
+
+.. image:: campanas/pruebas14b.png
    :align: center
    :alt: Crear campañas de marketing
 
