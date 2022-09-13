@@ -9,6 +9,11 @@ empresarial. A menos que las ausencias se manejen adecuadamente, la gestión de 
 complicada. La implementación de un sistema de gestión de ausencias ayudará a los empleados y al departamento de recursos
 humanos de tu organización a administrar las solicitudes de ausencia de una manera mejor y más rápida.
 
+.. youtube:: Qi4ni9H3XPM
+    :align: right
+    :width: 700
+    :height: 394
+
 Configuración
 =============
 
