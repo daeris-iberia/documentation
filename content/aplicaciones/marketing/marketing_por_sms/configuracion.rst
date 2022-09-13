@@ -5,11 +5,11 @@ Consideraciones
 Activar el envío de SMS
 ===========================
 
-Para poder realizar los envíos por SMS, es necesario contratar los servicios de un proveedor externo de telefonía que realice dichos envíos.
+Para poder realizar los envíos por SMS, es necesario contratar los servicios de un proveedor externo de telefonía que los realice.
 
 `OVH <https://www.ovh.es/sms/>`_ permite enviar SMS por Internet mediante la conexión a su API integrada con Daeris.
 
-La integración de la función de envío de SMS con OVH requiere que se realice configuración tanto en OVH como en Daeris.
+La integración de la función de envío de SMS con OVH, requiere que se realice configuración en OVH y en Daeris.
 
 .. seealso::
    * :doc:`../../varios/sms`
@@ -160,15 +160,15 @@ El límite se reduce a 153 caracteres por SMS en el caso de utilizar SMS concate
      - \\
 
 El volumen de caracteres del alfabeto **GSM** lo hace la mejor opción a la hora de enviar SMS, debido a que
-permite emitir mayor numero de caracteres por SMS, reduciendo el impacto económico de los envíos.
+permite emitir mayor número de caracteres por SMS, reduciendo el impacto económico de los envíos.
 
-El alfabeto **Unicode** tiene un limite de **70 caracteres por SMS** y **permite incluir gran cantidad de caracteres
+El alfabeto **Unicode** tiene un límite de **70 caracteres por SMS** y **permite incluir gran cantidad de caracteres
 especiales**.
 
-El límite se reduce a 67 caracteres por SMS en el caso de utilizar SMS concatenados (Contenido que ocupa más de un SMS).
+El límite se reduce a 67 caracteres por SMS, en el caso de utilizar SMS concatenados (Contenido que ocupa más de un SMS).
 
-En el caso de enviar SMS con contenido reducido (menos de 70 caracteres), es aconsejable usar el alfabeto Unicode, e
-incluir prácticamente todos los formatos y caracteres que existen en la actualidad e incluso añadir emojis.
+En el caso de enviar SMS con contenido reducido (menos de 70 caracteres), es aconsejable usar el alfabeto Unicode, el cual
+permite incluir prácticamente todos los formatos y caracteres que existen en la actualidad e incluso añadir emojis.
 
 El editor de SMS de Daeris, dispone de un contador de caracteres que detecta automáticamente el **número de caracteres**
 que ocupa el texto redactado, así como el **alfabeto** que debe usarse y el **número de SMS** que ocupa, dando prioridad

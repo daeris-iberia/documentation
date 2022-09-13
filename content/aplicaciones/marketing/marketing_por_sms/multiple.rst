@@ -5,7 +5,7 @@ Enviar de SMS desde otras aplicaciones
 Envío de SMS desde Daeris
 --------------------------
 
-Daeris permite realizar envíos de SMS a teléfonos móviles desde varios puntos de la aplicación, lo que resulta bastante
+Daeris, permite realizar envíos de SMS a teléfonos móviles desde varios puntos de la aplicación, lo que resulta bastante
 útil para establecer diferentes comunicaciones con tus clientes actuales y potenciales. Gracias a su carácter instantáneo
 y a la frecuencia con la que los usuarios consultan sus teléfonos móviles, el SMS goza de unos índices de apertura y
 lectura considerablemente elevados.

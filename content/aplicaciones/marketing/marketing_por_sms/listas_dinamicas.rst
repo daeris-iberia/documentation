@@ -5,7 +5,7 @@ Listas de correo dinámicas
 Una lista de correos dinámica es un listado que se genera a partir de los contactos disponibles en pantalla de
 contactos, filtrado por los criterios deseados.
 
-Este listado se actualiza de forma automática a diario, revisando si existen nuevos contactos que cumplen con los
+Este listado se puede **actualizar de forma automática** a diario, revisando si existen nuevos contactos que cumplen con los
 criterios establecidos.
 
 Crear listas de correo dinámicas
@@ -20,8 +20,9 @@ Para editar o dar de alta una nueva lista, debes navegar a la pantalla
    :align: center
    :alt: Crear listas de correo dinámicas
 
-Al crear una nueva lista se muestra un asistente por pantalla, desde donde podemos informar el **nombre** de la lista,
-así como si queremos que los visitantes puedan darse de alta y baja mediante el campo **es público**.
+Al crear una nueva lista, se muestra un asistente por pantalla, desde donde podemos informar el **nombre** de la lista,
+así como si queremos que los destinatarios de correo electrónico puedan darse de alta y baja mediante el campo **es público**.
+
 Una vez informados los campos, pulsa el botón **guardar**.
 
 .. image:: listas_dinamicas/dinamica02.png
@@ -45,7 +46,7 @@ Al informar el campo **Dinámica** aparecen una serie de nuevas opciones para de
 
 .. attention::
    Sobre **criterio de sincronización** se incorporan por defecto las condiciones que indican que el contacto no está en la lista negra y que dispone de un correo electrónico al cual emitir el correo.
-   Estas condiciones pueden eliminarse, pero esta acción solo tendrá efecto sobre el filtro que hace referéncia al correo electrónico, ya que impedir la introducción de contactos de la lista negra es un criterio fijado a la hora de sincronizar los contactos.
+   Estas condiciones pueden eliminarse, pero esta acción solo tendrá efecto sobre el filtro que hace referencia al correo electrónico, ya que impedir la introducción de contactos de la lista negra es un criterio fijado a la hora de sincronizar los contactos.
 
 Es posible incorporar nuevas condiciones sobre el criterio de sincronización. Para ello haz clic sobre el botón **+**. Posteriormente busca el campo sobre el que quieras indicar la condición y añádele la condición de búsqueda.
 
@@ -75,7 +76,7 @@ Al cargar los filtros, se borran las condiciones anteriores y se incorporan las 
    :alt: Crear listas de correo dinámicas
 
 .. attention::
-   Es importante añadir la condicion inicial que hace referencia a que el usuario **no está en la lista negra**.
+   Es importante añadir la condición inicial que hace referencia a que el usuario **no está en la lista negra**.
    No añadirla implica que pueden existir diferencias entre el número de resultados indicado en el criterio de sincronización y el número de contactos disponible tras la sincronización.
    Esto es debido a que el criterio inicial que hace referencia a la lista negra aplica **SIEMPRE**, incluso cuando se ha eliminado del criterio de sincronización.
 
@@ -105,7 +106,7 @@ el listado de contactos de la aplicación Contactos.
 .. seealso::
    * :doc:`../../ventas/contactos`
 
-Si haces clic sobre el número de destinatarios, puedes acceder al listado de destinatarios filtrado por aquellos que
+Al hacer clic sobre el número de destinatarios, puedes acceder al listado de destinatarios filtrado por aquellos que
 no disponen de la marca **envío no deseado**.
 
 .. image:: listas_dinamicas/dinamica11.png
@@ -144,8 +145,8 @@ El criterio de sincronización está compuesto por **nodos**. Un nodo es un filt
 Es posible configurar el criterio de sincronización para indicar que los resultados se han de obtener aplicando
 **Todos** los filtros de todos los nodos o aplicando **cualquier** filtro de todos los nodos:
 
-   - Si se aplican todos los filtros, los resultados serán los que cumplan todos los criterios.
-   - Si se aplica cualquier filtro, los resultados serán los que cumplan como mínimo uno de los criterios.
+   - Si se aplican todos los filtros, los resultados serán los que cumplan **todos** los criterios.
+   - Si se aplica cualquier filtro, los resultados serán los que cumplan **como mínimo uno** de los criterios.
 
 .. image:: listas_dinamicas/segmentar02.png
    :align: center

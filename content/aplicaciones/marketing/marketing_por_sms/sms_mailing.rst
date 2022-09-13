@@ -10,7 +10,7 @@ Además, es posible emitir comunicaciones a contactos de listas de correos, cand
 registradas a un evento o a una sesión de evento y a clientes que han efectuado algún pedido de venta.
 
 La tasa de apertura de una campaña de marketing por SMS se estima en un **98%** por lo que se considera el medio
-mas eficiente a la hora de realizar marketing.
+más eficiente a la hora de realizar marketing.
 
 La aplicación de **Marketing por SMS** de Daeris, te permite realizar marketing por SMS orientado a los objetivos que desees
 como, por ejemplo:
@@ -58,16 +58,16 @@ a un formulario desde donde podrás completar la siguiente información:
    -  **Sesión del evento**: Permite seleccionar entre todas las personas que hayan realizado una sesión en un evento, o establecer un filtro que limite los registros.
    -  **Candidato**: Permite seleccionar entre todas las personas que se hayan inscrito en una oferta de trabajo, o establecer un filtro que limite los registros.
 
--  **Contenido de SMS**: Permite editar el texto del SMS hasta un **máximo de 160 caracteres** (GSM7) o **70 carcateres** (Unicode).
+-  **Contenido de SMS**: Permite editar el texto del SMS hasta un **máximo de 160 caracteres** (GSM7) o **70 caracteres** (Unicode).
 
    -  El sistema informa en tiempo real sobre el alfabeto que usará en el envío a partir de los caracteres introducidos sobre el texto, así como el número de SMS.
 
 .. warning::
    En el caso de usar la opción de **incluir enlace de exclusión** debes tener en cuenta que se incluirá al final del mensaje el texto **DETENER SMS https://tudominio.com/sms/XXXX/XXX**.
 
-   Esto hará crecer el número de caracteres de tu mensaje (35 + el número de caracteres de tu dominio). Esta suma del conjunto de caracteres **no se ve reflejado a la hora de contabilizar el número de SMS que se enviarán** , pero si afectará en el resultado final.
+   Esto hará crecer el número de caracteres de tu mensaje (35 + el número de caracteres de tu dominio). Esta suma del conjunto de caracteres **no se ve reflejado a la hora de contabilizar el número de SMS que se enviarán**, pero si afectará en el resultado final.
 
-   Has de tener muy presente este punto al realizar tus campañas de marketing para evitar costes inesperados ya que pueden llegar a enviarse mas SMS por destinatario de los que la plataforma indica.
+   Has de tener muy presente este punto al realizar tus campañas de marketing para evitar costes inesperados ya que pueden llegar a enviarse más SMS por destinatario de los que la plataforma indica.
 
    Ten presente que el realizar una prueba mediante el botón **Prueba** no incluye el enlace de excusión sobre la prueba.
 
@@ -371,7 +371,7 @@ La notificación emitida se divide en los siguientes apartados:
    :alt: Resumen de seguimiento del SMS de Marketing
 
 .. attention::
-   Los correos de notificación se envian una única vez por SMS de Marketing, a través de una tarea planificada, cada 24 horas.
+   Los correos de notificación se envían una única vez por SMS de Marketing, a través de una tarea planificada, cada 24 horas.
 
 Analizar resultados
 ===========================

@@ -20,7 +20,7 @@ Puedes crear nuevas listas mediante el botón **Crear**, acción que abre un for
 introducir los siguientes datos:
 
 -  **Lista de correo**: Nombre de la lista.
--  **Es público**: Al marcar este campo, el destinatario podrá acceder a la lista de correo en la página de cancelación de la suscripción para que pueda actualizar sus preferencias de suscripción.
+-  **Es público**: Al marcar este campo, si el destinatario es una cuenta de correo electrónico, podrá acceder a la página de cancelación de la suscripción de la lista de correo, permitiéndole actualizar sus preferencias de suscripción.
 
 .. image:: listas/lista02.png
    :align: center
@@ -45,29 +45,30 @@ Desde los bloques de la vista Kanban podemos visualizar varios datos y navegar h
 Si hacemos clic sobre el **titulo** podemos navegar a la pantalla de tipo formulario donde editar la información del
 registro como:
 
--  **Es público**: El destinatario puede acceder a la página de cancelación de la suscripción a lista de correo y gestionar sus preferencias.
+-  **Es público**: El destinatario puede acceder a la página de cancelación de la suscripción de la lista de correo y gestionar sus preferencias.
 
--  **Crear Contacto asociado**: Mediante esta opción, cada vez que se une un contacto a la lista de correos, se revisa si existe como contacto en la aplicación a partir del número de teléfono y/p móvil. Si existe, se asocia el contacto de la aplicación al contacto de la lista de correo. Si no existe, se crea un nuevo contacto en la aplicación y se asocia al contacto de la lista de correos.
+-  **Crear Contacto asociado**: Mediante esta opción, cada vez que se une un contacto a la lista de correos, se revisa si existe como contacto en la aplicación a partir del número de teléfono y/o móvil. Si existe, se asocia el contacto de la aplicación al contacto de la lista de correo. Si no existe, se crea un nuevo contacto en la aplicación y se asocia al contacto de la lista de correos.
 
-Desde la pantalla de contactos de la aplicación, es posible visualizar si un contacto está asociado a un contacto de la lista de correos mediante el botón contacto de listas de correos.
+Desde la pantalla de contactos de la aplicación, es posible visualizar si un contacto está asociado a un contacto de la
+lista de correos mediante el botón **contacto de listas de correos**.
 
-Al hacer clic se visualiza el contacto de la lista de correos.
+Al hacer clic, se visualiza el contacto de la lista de correos.
 
 .. image:: listas/lista05.png
    :align: center
    :alt: Crear listas de correo
 
--  **Etiqueta del contacto asociado**: El uso de este contacto nos permite incorporar una etiqueta al contacto de la aplicación cuando se asocia a una lista de correos.
--  **Deshabilitar baja cruzada**: Cuando un contacto de una lista de correos cursa una baja, se procede a mostrar todas las listas de correos alas que está suscrito, dándole la posibilidad de darse de baja, si así lo decide. Al informar esta opción deshabilitamos la posibilidad de mostrar esta lista de correos cuando un contacto cursa una baja de otra lista de correos a la que este asociado.
+-  **Etiqueta del contacto asociado**: Mediante esta opción se permite incorporar una etiqueta al contacto de la aplicación cuando se asocia a una lista de correos.
+-  **Deshabilitar baja cruzada**: Cuando un contacto de una lista de correos cursa una baja, se procede a mostrar todas las listas de correos en las que está suscrito, dándole la posibilidad de darse de baja, si así lo decide. Al informar esta opción deshabilitamos la posibilidad de mostrar esta lista de correos cuando un contacto cursa una baja de otra lista de correos a la que este asociado.
 -  **Plantilla de bienvenida**: Plantilla de correo electrónico que se usará para dar la bienvenida a la lista de correos a los contactos que se asocien a ella a través de un apartado de suscripción del sitio web o de una ventana emergente de suscripción.
--  **Lista Dinámica**: mediante esta opción se permite crear listas de correos de contactos de la aplicación. Al seleccionar esta opción se muestran una serie de campos para configurar la lista dinámica.
+-  **Lista Dinámica**: Mediante esta opción se permite crear listas de correos de contactos de la aplicación. Al seleccionar esta opción se muestran una serie de campos para configurar la lista dinámica.
 
 .. image:: listas/lista04.png
    :align: center
    :alt: Crear listas de correo
 
-Crear contactos
-=======================
+Crear contactos de listas de correo
+=====================================
 
 Desde la pantalla :menuselection:`Marketing por SMS --> Listas de correo --> Contactos de la lista de correo`,
 o desde la pantalla :menuselection:`Marketing por email --> Listas de correo --> Contactos de la lista de correo`,
@@ -78,8 +79,8 @@ puedes gestionar los contactos de las listas de correo existentes en la aplicaci
    :alt: Crear contactos
 
 .. warning::
-    Has de tener presente la legislación vigente de tu país, al dar de alta contactos sobre listas de correos, ya que
-    es posible que solo puedas generarlos en el caso de haber recibido consentimiento expreso del propio contacto.
+    Al dar de alta contactos sobre listas de correos, has de tener presente la **legislación vigente de tu país**, ya que
+    es posible que solo puedas generarlos en el caso de haber recibido **consentimiento expreso** del propio contacto.
 
 Para crear un nuevo contacto, puedes hacer clic sobre el botón **Crear**, que te llevará al siguiente formulario
 de introducción de datos:
@@ -91,7 +92,7 @@ de introducción de datos:
 -  **Nombre**: Nombre del contacto.
 -  **Etiquetas**: Etiquetas asociadas al contacto.
 -  **Correo electrónico**: Email del contacto.
--  **Móvil**: Teléfono movil del contacto.
+-  **Móvil**: Teléfono móvil del contacto.
 -  **Contacto asociado**: Campo de selección desde donde se puede incorporar el contacto de la aplicación. Este campo no es requerido, pero puedes informarlo si quieres asociar tu contacto de la lista de correos a un contacto de la aplicación. Debes tener en cuenta para evitar correos duplicados que este contacto debería tener el mismo email que el del contacto que estas dando de alta.
 -  **Título**: Desplegable con varias opciones.
 -  **Nombre de la compañía**: Permite informar la compañía del contacto.
@@ -117,7 +118,7 @@ necesarias para informar los detalles de cada registro.
 Desde la pantalla :menuselection:`Marketing por email --> Listas de correo --> Contactos de la lista de correo`
 , puedes importar contactos sobre las listas de correo existentes en la aplicación.
 
-Para importar un fichero haz clic sobre el menú **favoritos** seleccionando **Importar registros**.
+Para importar un fichero, haz clic sobre el menú **favoritos** seleccionando **Importar registros**.
 
 .. image:: listas/contacto04.png
    :align: center
@@ -131,8 +132,9 @@ La aplicación navega a la pantalla de importación donde debes hacer clic sobre
 
 Selecciona el archivo que dispone de los datos de importación.
 
-Haz clic sobre el botón **abrir**. Esta acción te lleva a la pantalla de importación donde debes indicar la
+Haz clic sobre el botón **abrir**. Esta acción, te lleva a la pantalla de importación, donde debes indicar la
 correspondencia entre la columna de tu archivo y la columna de Daeris.
+
 Al finalizar pulsa el botón **importar**.
 
 .. image:: listas/contacto06.png
@@ -145,7 +147,7 @@ Los nuevos contactos se habrán creado y serán visibles desde el listado.
    :align: center
    :alt: Importar contactos
 
-Al posicionarte sobre cualquiera de ellos podrás visualizar los datos importados.
+Al posicionarte sobre cualquiera de ellos, podrás visualizar los datos importados.
 
 .. image:: listas/contacto08.png
    :align: center
@@ -157,8 +159,9 @@ Al posicionarte sobre cualquiera de ellos podrás visualizar los datos importado
 Permitir gestionar las bajas de las suscripciones
 ==================================================
 
-Cada vez que emitimos un SMS de Marketing, podemos incorporar el enlace que le permite tramitar su baja.
-Para esta tarea se debe informar el campo **Incluir enlace de exclusión** disponible sobre la pestaña **Ajustes**.
+Cada vez que emitimos un SMS de Marketing, podemos incorporar el enlace que permite tramitar la baja de la suscripción.
+
+Para añadir el enlace, se debe informar el campo **Incluir enlace de exclusión** disponible sobre la pestaña **Ajustes**.
 
 .. image:: listas/gestionar02.png
    :align: center
@@ -171,7 +174,7 @@ Mediante esta opción, se incorpora en enlace **DETENER SMS** en la parte final 
    :alt: Permitir gestionar las suscripciones a clientes
 
 Cuando un contacto hace clic sobre el enlace **DETENER SMS**, navega a la página de cancelación de la
-suscripciones y se le solicita que introduca el número de teléfono.
+suscripción y se le solicita que introduzca el número de teléfono.
 
 .. image:: listas/gestionar03.png
    :align: center
@@ -194,7 +197,7 @@ de baja.
 Para consultar los contactos que se han dado de baja de una lista de correos, debes navegar a la pantalla
 :menuselection:`Marketing por SMS --> Listas de correo --> Contactos de las listas de correos`.
 
-El campo **Esclusión voluntaria** indica que el contacto se ha dado de baja.
+El campo **Exclusión voluntaria** indica que el contacto se ha dado de baja.
 
 .. image:: listas/gestionar06.png
    :align: center
