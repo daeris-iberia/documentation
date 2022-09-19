@@ -11,6 +11,11 @@ crear y administrar los detalles y perfiles de los empleados de tu empresa.
 Gestión de empleados
 ====================
 
+.. youtube:: -sw1_Fc9icM
+    :align: right
+    :width: 700
+    :height: 394
+
 Configuración
 -------------
 
