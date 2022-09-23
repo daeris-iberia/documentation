@@ -272,13 +272,9 @@ con **color verde** sobre la línea del pedido. El botón **pedido** también se
    :align: center
    :alt: Pedido de impresora
 
-Al pulsar el botón **Pedido**, se pedirá confirmación para imprimir mediante una nueva ventana del navegador.
+Al pulsar el botón **Pedido**, se realizará la impresión sobre la impresora asociada a la categoría del producto sin solicitar confirmación.
 
-.. image:: restaurante/imprimir06.png
-   :align: center
-   :alt: Imprimir pedido
-
-Sobre la impresión, puedes encontrar el número de pedido, la ubicación, la hora, la instrucción y el contenido
+En la impresión, puedes encontrar el número de pedido, la ubicación, la hora, la instrucción y el contenido
 de productos de la categoría.
 
 .. image:: restaurante/imprimir07.png
@@ -307,11 +303,7 @@ Cada cambio se verá reflejado en color verde. Además, el botón **Pedido** vol
    :align: center
    :alt: Líneas del pedido
 
-Al pulsar el botón **Pedido**, se solicitará confirmación para **imprimir** mediante una nueva ventana del navegador.
-
-.. image:: restaurante/imprimirmas02.png
-   :align: center
-   :alt: Imprimir pedido
+Al pulsar el botón **Pedido**, se realizará la impresión sobre la impresora asociada a la categoría del producto sin solicitar confirmación.
 
 Sobre la impresión, puedes encontrar el número de pedido, la ubicación, la hora, la instrucción y el contenido de productos de la categoría.
 
@@ -327,6 +319,25 @@ Las líneas de pedido verdes, así como el sombreado verde del propio botón, de
 
 .. note::
    Para permitir emitir impresiones de pedidos, debes tener habilitada la opción **Pedido en impresora** en la configuración de la TPV, y haber informado al menos una impresora.
+
+También es posible añadir notas sobre lineas de pedido ya enviadas a cocina. Para ello, selecciona la línea, haz clic sobre el botón **Nota interna**,
+informa el texto de la nota y haz sobre el botón **Enviar**.
+
+.. image:: restaurante/imprimirmas05.png
+   :align: center
+   :alt: Líneas del pedido
+
+La nota queda asociada a la línea de pedido y se sombrea el botón **Pedido**.
+
+.. image:: restaurante/imprimirmas06.png
+   :align: center
+   :alt: Líneas del pedido
+
+Al hacer clic sobre el botón pedido se realiza una impresión la cual dispone de la cancelación de la línea y una nueva línea que dispone de la nota.
+
+.. image:: restaurante/imprimirmas07.png
+   :align: center
+   :alt: Líneas del pedido
 
 Transferir los clientes de una mesa a otra
 -------------------------------------------
