@@ -39,6 +39,11 @@ que previamente se han incluido en el sistema detallando ingredientes y costes p
 restaurantes de la zona). Los administradores de la aplicación de comidas son los encargados de gestionar los pedidos a
 diario y administrar el saldo de los empleados.
 
+.. youtube:: dzMRcs46voI
+    :align: right
+    :width: 700
+    :height: 394
+
 Configuración
 =============
 
@@ -344,7 +349,7 @@ Gestionar los pedidos telefónicos del día
 
 Una vez emitidos los pedidos del día por los empleados y siempre que el canal de contacto con el proveedor sea telefónico,
 será necesario llamarlo, indicar los productos solicitados y confirmar el encargo sobre la aplicación. Para ello, el
-responsable debe acceder a la :menuselection:`Comidas --> Responsable --> Pedidos de hoy`. La aplicación navega al listado
+responsable debe acceder a la pantalla :menuselection:`Comidas --> Responsable --> Pedidos de hoy`. La aplicación navega al listado
 de pedidos para hoy agrupados por proveedor. Mediante los botones *Confirmar* y *Cancelar* de cada línea del listado, el
 responsable debe confirmar si el producto ha sido emitido al proveedor:
 
@@ -390,7 +395,7 @@ Consultar el historial de cuentas de los empleados
 Los responsables de la aplicación de comidas, pueden consultar el historial de cuentas de los empleados. Para ello,
 navega a la pantalla :menuselection:`Comidas --> Responsable --> Control de cuentas`. La aplicación navega al listado de
 ingresos introducidos en las cuentas de los empleados y los gastos relacionados con los pedidos solicitados. El listado
-esta agrupado por empleado:
+está agrupado por empleado:
 
 .. image:: comidas/control-cuentas.png
    :align: center
