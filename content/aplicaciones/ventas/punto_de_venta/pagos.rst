@@ -557,7 +557,56 @@ la impresión haciendo clic sobre el botón **Imprimir recibo**.
 Métodos de pago
 ===============
 
-Crear tarjeta de crédito como método de pago 
+Crear tarjeta de crédito como método de pago
 ---------------------------------------------
 
-Pendiente
+Para crear un nuevo método de pago, navega a la pantalla :menuselection:`Punto de Venta --> Configuración --> Métodos de pago`
+
+El sistema navegará a la pantalla de métodos de pago del TPV, donde podrás crear un nuevo método de pago mediante el botón **Crear**.
+
+.. image:: pagos/tarjeta01.png
+   :align: center
+   :alt: Crear tarjeta de crédito como método de pago
+
+Sobre el nuevo método de pago, se deberán informar los siguientes campos:
+
+   - **Método**: Especificar un nombre para el método de pago.
+   - **Tipo**: Se deberá seleccionar **Banco**.
+   - **Identificar al cliente**: Vacío. Obliga a identificar al cliente a la hora de realizar el pago.
+   - **Cuenta pendiente**: Dejad en blanco para usar una cuenta predeterminada o seleccionad una del listado. Utilizada como cuenta pendiente al crear registros de pago contables para pagos bancarios.
+   - **Cuenta intermedia**: Dejad en blanco para usar una cuenta predeterminada o seleccionad una del listado. Anula la cuenta por cobrar de la empresa (Para el TPV) utilizada en las entradas de diario.
+
+.. image:: pagos/tarjeta02.png
+   :align: center
+   :alt: Crear tarjeta de crédito como método de pago
+
+Una vez informados los campos necesarios, guarda el método de pago mediante el botón **Guardar**.
+
+A continuación, vuelve al detalle del TPV, e informa el nuevo método de pago creado en el campo **Métodos de Pago**:
+
+.. image:: pagos/tarjeta03.png
+   :align: center
+   :alt: Crear tarjeta de crédito como método de pago
+
+Para poder visualizar el nuevo método de pago sobre una sesión de TPV, será necesario finalizar la sesión activa, si hay una en proceso, y abrir una de nueva.
+
+Para usar el nuevo método de pago, completa un pedido y haz clic sobre el botón **Pagos**.
+
+El sistema navegará a la pantalla de pagos, donde aparecerá el nuevo método de pago configurado.
+
+.. image:: pagos/tarjeta04.png
+   :align: center
+   :alt: Crear tarjeta de crédito como método de pago
+
+Al hacer clic sobre el nuevo método de pago, se incorporará todo el coste como entregado y podrás incorporar **manualmente** el importe sobre el
+datáfono del banco. Cuando confirmes que la transacción es correcta, deberás hacer clic sobre el botón **Validar**.
+
+.. image:: pagos/tarjeta05.png
+   :align: center
+   :alt: Crear tarjeta de crédito como método de pago
+
+Sobre el ticket de caja, aparecerá como método de pago, el método usado:
+
+.. image:: pagos/tarjeta06.png
+   :align: center
+   :alt: Crear tarjeta de crédito como método de pago
