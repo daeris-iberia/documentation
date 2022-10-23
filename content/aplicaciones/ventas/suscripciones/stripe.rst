@@ -191,12 +191,13 @@ disponible desde la URL `https://miempresa.daeris.com/suscribirse`, y validando 
    :align: center
    :alt: Configurar el grupo de países que estará disponible desde el formulario de suscripción (3)
 
-Crear tipos de impuestos por país para el pago de las suscripciones
--------------------------------------------------------------------
+Crear tipos de impuestos para el pago de las suscripciones
+----------------------------------------------------------
 
-Daeris permite definir un tipo de impuesto distinto por cada uno de los países configurados en el formulario de suscripción.
-Para ello, accede a tu área de cliente de Stripe y navega a la pantalla :menuselection:`Productos --> Tipos de impuesto`.
-Crea un nuevo tipo de impuesto mediante el botón *Nuevo* e informa los siguientes campos:
+Daeris permite definir un tipo de impuesto distinto por cada uno de los países y provincias configurados en el formulario
+de suscripción. Para ello, accede a tu área de cliente de Stripe y navega a la pantalla
+:menuselection:`Productos --> Tipos de impuesto`. Crea un nuevo tipo de impuesto mediante el botón *Nuevo* e informa
+los siguientes campos:
 
 -  **Tipo**: El nombre del tipo impositivo.
 
@@ -206,13 +207,13 @@ Crea un nuevo tipo de impuesto mediante el botón *Nuevo* e informa los siguient
 
 .. image:: stripe/configurar-tipos-impuesto.png
    :align: center
-   :alt: Crear tipos de impuestos por país para el pago de las suscripciones
+   :alt: Crear tipos de impuestos para el pago de las suscripciones
 
 Una vez creado el impuesto, anotar el identificador del tipo impositivo:
 
 .. image:: stripe/configurar-tipos-impuesto-2.png
    :align: center
-   :alt: Crear tipos de impuestos por país para el pago de las suscripciones (2)
+   :alt: Crear tipos de impuestos para el pago de las suscripciones (2)
 
 A continuación, desde la aplicación Daeris, navega a la pantalla :menuselection:`Contactos --> Configuración --> Países`,
 y selecciona el país para el que quieres configurar el impuesto. Desde el formulario de detalle, informa los siguientes campos:
@@ -227,11 +228,25 @@ y selecciona el país para el que quieres configurar el impuesto. Desde el formu
 
 .. image:: stripe/configurar-tipos-impuesto-3.png
    :align: center
-   :alt: Crear tipos de impuestos por país para el pago de las suscripciones (3)
+   :alt: Crear tipos de impuestos para el pago de las suscripciones (3)
+
+.. tip::
+   Si quieres incluir un impuesto del 0%, deberás informar solamente el campo **Impuesto facturas de las suscripciones**,
+   ya que Stripe no permite crear tipos impositivos del 0%. De esta manera, cuando la factura se cree en Daeris, se añadirá
+   el impuesto a la factura.
 
 Por último, guarda la información del país mediante el botón *Guardar*.
 
-A partir de ese momento, el impuesto quedará configurado para todas las suscripciones vendidas a clientes del país
+Si dentro de un mismo país, debes cobrar un impuesto diferente a los clientes de un estado o provincia, lo puedes hacer
+navegando a la pantalla :menuselection:`Contactos --> Configuración --> Provincias` y seleccionando la provincia para la
+que quieres configurar el impuesto. El sistema siempre tendrá en cuenta antes la provincia del cliente para calcular el
+impuesto. Si no está informado el impuesto a nivel de la provincia, se tomará el impuesto del país.
+
+.. image:: stripe/configurar-tipos-impuesto-3b.png
+   :align: center
+   :alt: Crear tipos de impuestos para el pago de las suscripciones (3b)
+
+A partir de ese momento, el impuesto quedará configurado para todas las suscripciones vendidas a clientes del país o provincia
 seleccionado, a los que se les añadirá el porcentaje de impuesto sobre el precio del producto de la suscripción.
 
 Configurar el checkout y el portal de clientes de Stripe
@@ -342,28 +357,28 @@ de Daeris.
 
 El formulario de suscripción dispone de los siguientes campos:
 
--  **Nombre y apellidos**: Campo obligatorio de tipo texto con el nombre y apellidos del usuario.
+-  **Nombre y apellidos**: Campo de tipo texto con el nombre y apellidos del usuario.
 
--  **Correo electrónico**: Campo obligatorio de tipo E-mail, que se utilizará como método de contacto e identificador de
+-  **Correo electrónico**: Campo de tipo E-mail, que se utilizará como método de contacto e identificador de
    acceso del usuario al sistema.
 
--  **Número de teléfono**: Campo opcional donde el usuario puede introducir su teléfono.
+-  **Número de teléfono**: Campo donde el usuario puede introducir su teléfono.
 
--  **Nombre de la compañía**: Campo opcional donde el usuario puede introducir su compañía, en caso de tratarse de una empresa.
+-  **Nombre de la compañía**: Campo donde el usuario puede introducir su compañía, en caso de tratarse de una empresa.
 
--  **NIF (Número de Identificación Fiscal)**: Campo opcional donde el usuario puede introducir su número de identificación
+-  **NIF (Número de Identificación Fiscal)**: Campo donde el usuario puede introducir su número de identificación
    fiscal, en caso que quiera que así aparezca en sus facturas.
 
--  **Dirección**: Campo opcional donde el usuario puede introducir su calle y número de casa.
+-  **Dirección**: Campo donde el usuario puede introducir su calle y número de casa.
 
--  **Código postal**: Campo opcional donde el usuario puede introducir su código postal.
+-  **Código postal**: Campo donde el usuario puede introducir su código postal.
 
--  **Ciudad**: Campo opcional donde el usuario puede introducir su ciudad.
+-  **Ciudad**: Campo donde el usuario puede introducir su ciudad.
 
--  **País**: Campo obligatorio donde el usuario debe introducir su país de residencia, y para que sea posible hacer el
+-  **País**: Campo donde el usuario debe introducir su país de residencia, y para que sea posible hacer el
    cálculo del tipo impositivo en función del país.
 
--  **Tarifa**: Campo obligatorio con el listado de productos de tipo suscripción publicados.
+-  **Tarifa**: Campo con el listado de productos de tipo suscripción publicados.
 
 .. image:: stripe/suscribirse.png
    :align: center
