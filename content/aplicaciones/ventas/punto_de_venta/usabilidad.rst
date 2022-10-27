@@ -486,10 +486,6 @@ un tipo de impresora u otro.
     - **Impresoras convencionales**: Destinadas a la impresión de facturas completas.
     - **Impresoras térmicas (ePos)**: Destinadas a la impresión de recibos o facturas simplificadas para entregar al cliente. También es posible la impresión de detalles de pedidos para cocinas, barras de bar, etc.
 
-Impresoras convencionales
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-Pendiente
-
 Impresoras de recibos
 ~~~~~~~~~~~~~~~~~~~~~~~
 

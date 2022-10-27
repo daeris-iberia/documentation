@@ -541,3 +541,52 @@ y si todo es correcto, se devolverá al cliente a la página de confirmación de
    Si estás haciendo pruebas y tienes el control de riesgos informado, es posible que debas desactivarlo desde tu cuenta
    de Adyen en el menú :menuselection:`Risk --> Settings`, ya que en algunos casos las transacciones de prueba pueden
    ser rechazadas porque no cumplen la política de riesgos configurada.
+
+
+Métodos de pago: Múltiempresa
+==================================
+
+Daeris dispone de forma predeterminada, de todos los métodos de pago configurados sobre la **primera empresa** que hayas
+configurado.
+
+Si creas una nueva empresa y, posicionado sobre ella, navegas a la pantalla
+:menuselection:`Sitio web --> Configuración --> Métodos de pago` no verás ningún método de pago.
+
+.. image:: metodos_pago/multi00.png
+   :align: center
+   :alt: Métodos de pago Múltiempresa
+
+Para configurar nuevos métodos de pago sobre tus empresas, sigue las siguientes instrucciones:
+
+#. Posiciónate sobre la primera empresa que configuraste (la que dispone de los métodos de pago) y sobre la empresa sobre la que quieres configurar el método de pago.
+
+   Para ello, haz clic sobre el **nombre de la empresa** de la barra superior derecha, y **selecciona** las dos empresas (**Modo multiempresa activado**), como se muestra en la imagen:
+
+   .. image:: metodos_pago/multi01.png
+      :align: center
+      :alt: Métodos de pago Múltiempresa
+
+   .. tip::
+      Recuerda que, para poder seleccionar ambas empresas, tu usuario debe estar **asociado** a ambas.
+
+#. Accede a la pantalla :menuselection:`Sitio web --> Configuración --> Métodos de pago` y haz clic sobre el **método de pago** que quieras incorporar en tu empresa.
+
+   Sobre el formulario de detalle del método de pago haz clic sobre el botón **Acción** y selecciona la opción **Duplicar**.
+
+   .. image:: metodos_pago/multi02.png
+      :align: center
+      :alt: Métodos de pago Múltiempresa
+
+#. Sustituye el valor del campo **empresa** por el de la empresa sobre la que quieres introducir el método de pago, y configura las opciones en base a este nuevo método de pago.
+
+   .. image:: metodos_pago/multi03.png
+      :align: center
+      :alt: Métodos de pago Múltiempresa
+
+#. Por último, guarda el registro mediante el botón **Guardar**.
+
+Repite los pasos **2** , **3** y **4**, sobre cada método de pago que desees introducir en tu nueva empresa.
+
+.. tip::
+   Al finalizar de editar tus nuevos métodos de pago, recuerda hacer clic sobre el **nombre de la empresa** de la barra
+   superior derecha, y dejar **seleccionada** únicamente, aquella empresa sobre la que quieras trabajar (**Modo multiempresa desactivado**).

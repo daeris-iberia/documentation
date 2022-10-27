@@ -39,5 +39,5 @@ def setup(app):
     }
 
 
-admonitionlabels['example'] = 'Example'
-admonitionlabels['exercise'] = 'Exercise'
+admonitionlabels['example'] = 'Ejemplo'
+admonitionlabels['exercise'] = 'Ejercicio'

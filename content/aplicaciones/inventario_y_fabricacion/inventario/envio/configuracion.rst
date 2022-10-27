@@ -179,6 +179,8 @@ El documento PDF contiene el albarán de entrega junto con la firma del cliente:
    :align: center
    :alt: Requerir una firma en tus entregas (5)
 
+.. _inventario_y_fabricacion/inventario/envio/configuracion/mostrar_incoterms:
+
 Mostrar incoterms en pedidos y facturas
 =======================================
 
