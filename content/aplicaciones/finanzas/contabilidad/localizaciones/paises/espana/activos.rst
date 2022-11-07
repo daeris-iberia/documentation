@@ -2,9 +2,20 @@
 Gestión de activos fijos
 =====================================
 
-Cambia la gestión estándar de activos fijos de Daeris para acomodarla a las regulaciones españolas:
+Adaptación a la regulación española
+====================================
 
-Cambia el método de cálculo para el prorrateo temporal.
-Añade un nuevo método de cálculo para porcentaje fijo por periodo.
-Añade la opción de trasladar la depreciación al final del periodo.
-Añade un campo de fecha de comienzo de amortizacion para definir una distinta a la de compra.
+Daeris adapta la gestión de activos fijos estándar acomodándola a la regulación española.
+
+Se amplia la funcionalidad sobre la pantalla :menuselection:`Contabilidad / Facturación --> Configuración --> Categoría del activo`.
+
+Desde el formulario de la categoria y sobre el apartado **Fechas de depreciación** se incorpora sobre el campo
+**Método de tiempo** la opción **Porcentaje fijo**, que permite realizar el cálculo para porcentaje fijo por periodo.
+
+.. image:: activos/opcion01.png
+   :align: center
+   :alt: Gestión de activos fijos
+
+.. seealso::
+   * :doc:`../../../../contabilidad/cuentas_pagar/facturas_proveedores/activos`
+

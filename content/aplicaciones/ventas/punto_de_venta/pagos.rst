@@ -289,8 +289,8 @@ Al validar el pedido se muestra el recibo de la operación efectuada.
    :align: center
    :alt: Reembolsar un pedido completado desde el TPV
 
-Recibos, facturas y facturas simplificadas
-===========================================
+Recibos y facturas
+===================
 
 Crear recibos
 --------------
@@ -320,56 +320,6 @@ el pago del pedido. También es posible enviarlo al cliente por correo electrón
 Ejemplo de recibo:
 
 .. image:: pagos/pagos1b.png
-   :align: center
-   :alt: Pantalla de factura simplificada al realizar el pago
-
-Crear facturas simplificadas
------------------------------
-
-Una factura simplificada es un documento que acredita la compra de productos o servicios y se usa como comprobante de la
-transacción comercial entre el vendedor y comprador.
-
-En Daeris, una factura simplificada dispone de:
-
-    - la **fecha** en la que se realiza la transacción.
-    - Los **artículos** que componen la venta.
-    - El detalle de los **impuestos** aplicados
-    - Toda la información disponible que identifica al **vendedor**.
-    - El detalle del **pago** realizado.
-    - El código correlativo y único** por cada **venta** realizada (TPVXXXX).
-
-Para configurar tu TPV para que genere facturas simplificadas en lugar de recibos,
-navega a la pantalla :menuselection:`Punto de Venta --> Configuración --> Punto de Venta`, accede al detalle
-del TPV y sobre el apartado **Facturas y recibos**, informa la opción **Secuencia de Factura Simplificada**.
-
-Además, en función del tipo de ventas que realiza tu negocio, debes establecer el importe límite sobre el cual
-no se puede emitir una factura simplificada. Para ello, activa la opción **Límite de Factura Simplificada** e
-incorpora el importe que consideres oportuno (3000 es la cantidad predeterminada).
-
-.. image:: contabilidad/tpv_legislacion_esp.png
-   :align: center
-   :alt: Crear facturas simplificadas
-
-Activar esta opción supone:
-
-    - No emitir recibos desde el TPV si no facturas o facturas simplificadas.
-    - Adaptar el recibo a la factura simplificada (Incorpora secuencia formada por el nombre del TPV + código).
-    - Añade el texto **Factura simplificada** para conocimiento del cliente.
-    - Validar que no se realiza factura simplificada por un importe mayor al configurado.
-
-.. note::
-   En el siguiente `enlace <https://sede.agenciatributaria.gob.es/Sede/iva/facturacion-registro/facturacion-iva/tipos-factura.html>`_ se puede leer todo lo referente a la normativa española que obliga al uso de facturas simplificadas en lugar de recibos.
-
-Una vez configurada esta opción, cada vez que se realiza una venta desde el TPV de Daeris, se emite una factura simplificada
-para su impresión tras validar el pago del pedido. También es posible enviarlo al cliente por correo electrónico.
-
-.. image:: pagos/pagos2.png
-   :align: center
-   :alt: Pantalla de factura simplificada al realizar el pago
-
-Ejemplo de factura simplificada
-
-.. image:: pagos/pagos2b.png
    :align: center
    :alt: Pantalla de factura simplificada al realizar el pago
 

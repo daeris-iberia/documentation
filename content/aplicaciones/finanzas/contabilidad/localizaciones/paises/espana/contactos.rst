@@ -1,29 +1,85 @@
 ====================================================================
-Adaptación de clientes, proveedores y bancos
+Adaptación de contactos y entidades bancarias
 ====================================================================
 
-Añade el campo Nombre comercial a las empresas y permite buscar por él.
-Permite definir un patrón del nombre a mostrar a partir del nombre y el nombre comercial de la empresa.
-Añade los campos nombre largo, NIF y web a los bancos.
-Añade los datos de los bancos españoles extraídos del registro oficial del Banco de España (http://goo.gl/mtx6ic). El asistente realiza la descarga automática de Internet, pero si por cualquier razón hay algún problema, existe una copia local cuya última actualización fue el 26/10/2017.
+Nombre comercial
+=================
 
-Configuración
-=============
+Desde la pantalla :menuselection:`Contactos --> Contactos`, y bajo el formulario de un contacto
+de tipo **Compañía**, se incorpora el campo **Nombre comercial** el cual permite informar
+el nombre comercial de una compañía.
 
-Para añadir cuentas bancarias a la compañía, el mejor camino es ir a Contabilidad > Configuración > Contabilidad > Cuentas bancarias.
+.. image:: contactos/nombre01.png
+   :align: center
+   :alt: Nombre comercial
 
-Para añadir cuentas bancarias a los clientes/proveedores, hay que ir a la lista de empresas desde cualquiera de los accesos, y pulsar sobre el enlace "n Cuenta(s) bancaria(s)" que hay en la pestaña "Ventas y compras".
+Si se informa el nombre comercial, el nombre de la compañía se muestra como el (nombre comercial)
+seguido del nombre de la empresa.
 
-Para definir el patrón del nombre a mostrar en empresas, hay que ir a Configuración > Técnico > Parámetros > Parámetros del sistema Seleccionar la clave l10n_es_partner.name_pattern Definir el patron utilizando las etiquetas %(name)s para nombre y %(comercial_name)s para nombre comercial.
+.. image:: contactos/nombre02.png
+   :align: center
+   :alt: Nombre comercial
+
+Comprobación de Calidad de datos identificativos
+==================================================
+
+Daeris permite comprobar los datos de la empresa en el censo de la AEAT y en el recargo de equivalencia.
+
+.. seealso::
+   `Calidad de datos identificativos <https://www.agenciatributaria.es/static_files/AEAT/Contenidos_Comunes/La_Agencia_Tributaria/Modelos_y_formularios/Declaraciones/Modelos_01_al_99/030_036_037/WS_Masivo/Manual_Tecnico_WS_Masivo_Calidad_Datos_Identificativos.pdf>`_ .
+
+Es posible configurar la aplicación, para que al crear o editar un contacto de tipo **Empresa** se
+verifique la información en la AEAT de forma automática.
+
+Para ello, navega a :menuselection:`Ajustes --> Usuarios y compañías --> Compañías` y sobre el detalle de una compañía
+informa el campo**Verificar Información de la Empresa AEAT**.
+
+.. image:: contactos/datos01.png
+   :align: center
+   :alt: Comprobación de Calidad de datos identificativos
+
+También es posible verificar la información de forma manual. Para ello navega al detalle de un contacto de tipo
+**Empresa** y sobre la pestaña **AEAT**, haz clic sobre el botón **Comprobar datos de la Empresa**.
+
+.. image:: contactos/datos02.png
+   :align: center
+   :alt: Comprobación de Calidad de datos identificativos
 
 Información mercantil
 =======================
 
-En los contactos que sean del tipo compañía aparecerán unos campos para insertar los datos mercantiles.
+Desde la pantalla :menuselection:`Contactos --> Contactos`, y bajo el formulario de un contacto
+de tipo **Compañía**, se incorpora una nueva pestaña **Información mercantil**, que permite registrar
+la información mercantil. Es posible informar los siguientes campos:
 
-Libro
-Registro Mercantil
-Hoja
-Folio
-Seccion
-Tomo
+   - **Libro**
+   - **Registro Mercantil**
+   - **Hoja**
+   - **Folio**
+   - **Sección**
+   - **Tomo**
+
+.. image:: contactos/mercantil01.png
+   :align: center
+   :alt: Información mercantil
+
+Entidades bancarias
+====================
+
+Se añaden los datos de los bancos españoles extraídos del registro oficial del Banco de España.
+
+.. image:: contactos/bancos02.png
+   :align: center
+   :alt: Entidades bancarias
+
+Desde la pantalla :menuselection:`Contactos --> Configuración --> Bancos`, y bajo el formulario
+de una entidad bancaría, se incorporan los campos:
+
+   - Nombre completo
+   - NIF
+   - Web
+
+.. image:: contactos/bancos01.png
+   :align: center
+   :alt: Entidades bancarias
+

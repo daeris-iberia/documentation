@@ -2,21 +2,51 @@
 Topónimos españoles
 ==================================
 
-Provincias, municipios y códigos postales de España.
+Daeris permite incorporar las provincias, municipios y códigos postales de España y de muchos otros paises
+a partir de los datos obtenidos de `Geonames <https://www.geonames.org>`_ .
 
 Asistente de Alta de municipios y provincias
 =============================================
 
-Proporciona un asistente para dar de alta los municipios y provincias por defecto asociados a los
-códigos postales españoles.
+Para incorporar los municipios y provincias españolas, accede al asistente de importación. Para ello, navega a
+:menuselection:`Contactos --> Configuración --> Importar de geonames`.
 
-Añade las 52 provincias actuales de España con posibilidad de escoger entre versión oficial, española o ambas.
+Este asistente descarga la última versión de la lista de ciudades para el país seleccionado, crea nuevos registros
+de ubicación si no se encuentran ya en el sistema y borra los registros ausentes del nuevo archivo.
 
-Los datos se obtienen de GeoNames (https://www.geonames.org) directamente, o bien utilizando una copia
-local extraída del mismo sitio cuya última actualización es del 25/02/2015.
+.. image:: toponimos/asistente01.png
+   :align: center
+   :alt: Asistente de Alta de municipios y provincias
+
+Sobre el asistente, informa el campo **País**, seleccionando los países que desees importar.
+
+Sobre el campo **Capitalización** puedes seleccionar las siguientes opciones:
+   - **Sin Cambios**: Incorpora los datos como los recupera de geonames.
+   - **Nombre propio**: Incorpora la nomenclatura con la primera letra en mayúsculas y el resto en minúsculas.
+   - **Capitalización**: Incorpora la nomenclatura en mayúsculas.
+
+Una vez completados los datos, haz clic sobre el botón **Importar**.
+
+.. attention::
+   La importación de los datos puede tardar varios minutos.
+   En el caso de error, es posible que el servicio de **geonames** esté temporalmente deshabilitado, con lo que se recomienda volver a probar pasadas unas horas.
 
 Autocompletar datos
 ====================
 
-Utilizando el módulo base_location, permite rellenar automáticamente los campos ciudad y provincia
-del formulario de empresa, de contacto y de compañía a partir del código postal o el nombre de la ciudad.
+Desde el campo **Completado de ubicación** disponible sobre el formulario de contactos, es posible escribir
+el código postal o el nombre de la ciudad. Al realizar esta acción, el campo irá filtrando por los resultados que
+vaya obteniendo.
+
+.. image:: toponimos/asistente02.png
+   :align: center
+   :alt: Autocompletar datos
+
+Al seleccionar un resultado se incorporan automáticamente los campos ciudad, provincia, país y código postal.
+
+.. image:: toponimos/asistente03.png
+   :align: center
+   :alt: Autocompletar datos
+
+.. tip::
+   Si antes de informar el campo **Autocompletar ubicación**, se informa el país o la provincia, se usarán estos valores para restringir los posibles resultados.

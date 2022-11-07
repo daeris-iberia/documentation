@@ -28,7 +28,7 @@ bancario, haz clic sobre el botón **Importar extractos**, o haz clic sobre el b
    :align: center
    :alt: Importar archivos de extractos bancarios
 
-A continuación, haz clic sobre el botón **Suva su archivo** , selecciona el archivo que deseas importar y haz clic sobre el botón **Importar**.
+A continuación, haz clic sobre el botón **Suba su archivo** , selecciona el archivo que deseas importar y haz clic sobre el botón **Importar**.
 
 .. image:: extractos/importar02.png
    :align: center
