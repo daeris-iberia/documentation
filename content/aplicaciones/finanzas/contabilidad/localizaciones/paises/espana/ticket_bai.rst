@@ -53,47 +53,6 @@ código QR.
 Configuración
 ==============
 
-Solicitud de acceso a TicketBAI
----------------------------------
-Para activar el envío de facturas a TicketBAI desde Daeris, será necesario darse de alta en la Hacienda Foral
-correspondiente. En el caso de la Hacienda Foral de Gipuzkoa, se deberán facilitar los siguientes datos al correo
-electrónico `ticketbaikontsultak@gipuzkoa.eus <ticketbaikontsultak@gipuzkoa.eus/>`_.
-
-   - **Título del correo**: Solicitud de participación en la fase de pruebas TicketBAI
-   - **Nombre de la empresa o persona interesada**
-   - **NIF de la empresa desarrolladora o persona interesada** (tal como se va a indicar en el elemento Software/EntidadDesarrolladora/NIF del XML)
-   - **Nombre del software** (tal como se va a indicar en el elemento Software/Nombre)
-   - **Persona y datos de contacto**: email y/o teléfono contacto
-
-.. image:: ticket_bai/bai01.png
-   :align: center
-   :alt: Solicitud de acceso a TicketBAI
-
-Desde TicketBAI, nos remitirán un correo con el código de licencia, necesaria para configurar en Daeris.
-
-.. image:: ticket_bai/bai02.png
-   :align: center
-   :alt: Solicitud de acceso a TicketBAI
-
-Crear instalación
-------------------
-Una vez recibido el código, navega a la pantalla
-:menuselection:`Facturación / Contabilidad --> Configuración --> TicketBAI Instalaciones` y crea un nuevo registro.
-
-.. image:: ticket_bai/bai03.png
-   :align: center
-   :alt: Crear instalación
-
-En el formulario de detalle, informa los siguientes campos.
-
-   - **Nombre del software**: Nombre registrado en la Hacienda.
-   - **Entidad desarrolladora**: Deberás seleccionar un contacto de la aplicación que coincida con el nombre de la empresa o persona interesada, así como su NIF. Si no existe el contacto, deberás crear uno desde la pantalla de Contactos.
-   - **Licencia TBAI**: Inserta el código de licencia recibido de TicketBAI.
-
-.. image:: ticket_bai/bai04.png
-   :align: center
-   :alt: Crear instalación
-
 Instalar TicketBAI
 ------------------
 Para instalar TicketBAI en Daeris , navega a la pantalla :menuselection:`Facturación / Contabilidad --> Configuración --> Ajustes`
