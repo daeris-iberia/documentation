@@ -432,6 +432,9 @@ configurada:
    :align: center
    :alt: Optimizar la velocidad de carga de las páginas del sitio web (6)
 
+.. tip::
+   Es necesario cerrar sesión en Daeris o abrir una pestaña de navegador en modo incógnito para poder hacer esta comprobación.
+
 Páginas HTML
 ------------
 
