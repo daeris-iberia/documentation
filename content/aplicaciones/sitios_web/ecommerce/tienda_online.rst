@@ -249,8 +249,8 @@ continuar con el proceso de compra:
    :align: center
    :alt: Gestionar los carros abandonados (8)
 
-¿Cómo es que los clientes pueden acceder a su cuenta?
-=====================================================
+¿Cómo pueden acceder los clientes a su cuenta?
+==============================================
 
 Nunca había sido tan fácil que los clientes accedan a su cuenta. Olvídate de los infinitos formularios de registro, Daeris
 lo hace tan fácil como aprenderse el ABC. Se sugiere que se registren (nombre, correo electrónico, contraseña) al momento
@@ -290,3 +290,43 @@ Allí los clientes podrán encontrar todo su historial. La dirección principal 
 .. note::
    Si el cliente está configurado como contacto de una empresa en tu libreta de direcciones, verá todos los documentos
    de la empresa a la que pertenece.
+
+Cambiar datos de facturación de un cliente
+------------------------------------------
+
+Cuando se ha generado una factura para un cliente, si intenta modificar sus datos de facturación desde su portal de clientes,
+se encontrará que los campos *Nombre de la compañía* y *NIF* están en modo de solo lectura:
+
+.. image:: tienda_online/datos-facturacion.png
+   :align: center
+   :alt: Cambiar datos de facturación de un cliente
+
+Si el cliente quiere cambiar el nombre de su compañía o su NIF, deberá ponerse en contacto contigo para realizar esta operación.
+
+Una vez recibida la petición del cliente, deberás navegar a la pantalla :menuselection:`Contactos --> Contactos` y buscar
+el contacto asociado al cliente:
+
+.. image:: tienda_online/datos-facturacion-2.png
+   :align: center
+   :alt: Cambiar datos de facturación de un cliente (2)
+
+En el detalle del contacto, duplica el registro mediante la opción del menú :menuselection:`Acción --> Duplicar`:
+
+.. image:: tienda_online/datos-facturacion-3.png
+   :align: center
+   :alt: Cambiar datos de facturación de un cliente (3)
+
+Sobre el contacto duplicado, cambia sus datos de facturación, informando el NIF y/o nombre de compañía asociado. Una
+vez hayas modificado sus datos de facturación, concede acceso al nuevo contacto al portal de clientes mediante la opción
+del menú :menuselection:`Acción --> Otorgar acceso al portal`:
+
+.. image:: tienda_online/datos-facturacion-4.png
+   :align: center
+   :alt: Cambiar datos de facturación de un cliente (4)
+
+A partir de ese momento, el cliente podrá acceder con su nuevo usuario de portal para hacer sus pedidos y descargar
+sus facturas.
+
+.. note::
+   Las facturas y pedidos asociadas al usuario de portal antiguo, no se trasladan de forma automática al nuevo usuario,
+   por lo que si el cliente quiere consultar dichos documentos, deberá seguir accediendo con el usuario antiguo.
