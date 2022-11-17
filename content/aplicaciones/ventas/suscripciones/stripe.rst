@@ -89,15 +89,6 @@ y una vez finalizada la instalación, deberás informar los siguientes campos:
 
 -  **Usuario responsable**: Usuario al que se asignarán las tareas asociadas con las suscripciones.
 
--  **Compañía**: Compañía que se asociará a las facturas generadas en las suscripciones.
-
-   .. important::
-      En caso de trabajar con múltiples compañías, se deberá seleccionar la compañía con la que se ha configurado el plan
-      contable y los impuestos utilizados en las suscripciones. En caso de existir incongruencias, la creación de la factura
-      fallará, ya que no es posible crear una factura cuya cuenta contable o impuestos sean distintos a la compañía utilizada.
-
--  **Cuenta contable**: Cuenta contable que se asociará a las facturas generadas en las suscripciones.
-
 -  **Clave Recaptcha**: Debes introducir la `clave del sitio Recaptcha <http://www.google.com/recaptcha/admin>`__. La
    clave creada debe ser de tipo ReCaptcha v2 y el dominio debe coincidir con el dominio de tu instancia Daeris.
 
@@ -221,6 +212,8 @@ y selecciona el país para el que quieres configurar el impuesto. Desde el formu
 -  **Impuesto Stripe de las suscripciones**: Identificador del tipo de impuesto de Stripe.
 
 -  **Impuesto facturas de las suscripciones**: Impuesto que se añadirá a las facturas de las suscripciones creadas en Daeris.
+
+- **Cuenta facturas de las suscripciones**: Cuenta contable que se añadirá a las facturas de las suscripciones creadas en Daeris.
 
 .. important::
    El porcentaje de impuesto debe coincidir en ambos impuestos, ya que, si no, se producirán incoherencias entre el monto
