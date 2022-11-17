@@ -16,11 +16,15 @@ posible con Daeris, y los pasos a seguir son los siguientes:
 #. Debes disponer de un dominio propio, por ejemplo *miempresa.com*. Los nombres de dominio se pueden obtener en línea a
    través de multitud de proveedores de dominio existentes en el mercado.
 
-#. Envía un correo a soporte@daeris.com indicando en el asunto del correo `Personalizar nombre de dominio miempresa.daeris.com`,
-   donde *miempresa* se corresponde con tu nombre de dominio actual.
+#. Ponte en contacto con nosotros desde nuestro `formulario de contacto <https://daeris.com/contactus>`_ indicando en el
+   asunto `Personalizar nombre de dominio miempresa.daeris.com`, donde *miempresa* se corresponde con tu nombre de dominio actual.
 
-#. Una vez enviado el correo, espera a que el equipo de soporte de Daeris se ponga en contacto contigo para iniciar las
+#. Una vez enviado el formulario, espera a que el equipo de soporte de Daeris se ponga en contacto contigo para iniciar las
    gestiones de cambio de dominio.
+
+.. note::
+   Si has contratado los planes **Intermedio** o **Empresa** tienes un cambio de dominio incluido de forma gratuita. Si
+   has contratado el plan **Profesional**, te enviaremos un presupuesto con el coste asociado al cambio de dominio.
 
 Ejecutar el configurador del sitio web
 ======================================
