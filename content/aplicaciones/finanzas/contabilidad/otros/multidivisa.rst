@@ -9,6 +9,8 @@ actividades en moneda extranjera.
 Configuración
 ======================================
 
+.. _finanzas/contabilidad/otros/multidivisa/moneda_principal:
+
 Moneda principal
 -----------------
 Para seleccionar la moneda principal de tu empresa, navega a :menuselection:`Facturación / Contabilidad --> Configuración --> Ajustes`
@@ -19,6 +21,8 @@ Por último, haz clic sobre el botón **Guardar**.
 .. image:: multidivisa/monedas03.png
    :align: center
    :alt: Seleccionar la moneda principal de la empresa
+
+.. _finanzas/contabilidad/otros/multidivisa/habilitar_monedas:
 
 Habilitar monedas extranjeras
 ----------------------------------
@@ -47,6 +51,7 @@ posible visualizar el registro histórico de los tipos de cambio que se han prod
 Al activar la moneda, puedes optar por automatizar la actualización del tipo de cambio respecto a tu moneda principal
 o realizar esta acción manualmente.
 
+.. _finanzas/contabilidad/otros/multidivisa/tipo_cambio:
 
 Tipo de cambio
 -----------------

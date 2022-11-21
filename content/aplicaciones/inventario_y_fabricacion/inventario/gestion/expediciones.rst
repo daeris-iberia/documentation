@@ -27,6 +27,8 @@ El sistema de tres pasos es útil en situaciones más específicas, principalmen
 artículos se transfieren a un área de empaquetado, donde se agruparán por área de destino. Después de esto, se enviarán
 a camiones de salida para la entrega final a clientes.
 
+.. _inventario_y_fabricacion/inventario/gestion/expedicieones/entregar_bienes_directamente:
+
 Entregar bienes directamente (1 paso)
 =====================================
 
@@ -78,6 +80,8 @@ la entrega se ha producido gracias a que el estado de la orden ahora es *Hecho*:
 .. image:: expediciones/flujo-una-etapa-5.png
    :align: center
    :alt: Flujo de una etapa (5)
+
+.. _inventario_y_fabricacion/inventario/gestion/expedicieones/entregar_bienes_dos_pasos:
 
 Enviar bienes a ubicación de salida y entregar (2 pasos)
 ========================================================
@@ -152,6 +156,8 @@ Puedes ver que la entrega se ha producido gracias a que el estado de la orden ah
 .. image:: expediciones/flujo-dos-etapas-8.png
    :align: center
    :alt: Flujo de dos etapas (8)
+
+.. _inventario_y_fabricacion/inventario/gestion/expedicieones/entregar_bienes_tres_pasos:
 
 Empaquetar, transferir bienes a ubicación de salida, y enviar (3 pasos)
 =======================================================================
@@ -277,6 +283,8 @@ Puntos a tener en cuenta al implementar la triangulación
 
    Es bueno saber si el producto que estás vendiendo está disponible previamente. Si no tienes esa información, informa
    a tus clientes que no tienes existencias del artículo y que está sujeto a la disponibilidad de un tercero.
+
+.. _inventario_y_fabricacion/inventario/gestion/expedicieones/triangulacion:
 
 Configurar la triangulación de envíos
 -------------------------------------

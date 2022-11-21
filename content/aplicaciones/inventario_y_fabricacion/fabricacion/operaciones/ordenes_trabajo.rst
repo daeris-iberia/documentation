@@ -13,6 +13,8 @@ consecuencia.
 
 De esta forma, tu proceso se vuelve más eficiente, ya que se optimiza la utilización del centro de trabajo.
 
+.. _inventario_y_fabricacion/fabricacion/operaciones/ordenes_trabajo/habilitar_ordenes:
+
 Habilitar las órdenes de trabajo
 ================================
 
@@ -24,6 +26,8 @@ y activa la opción **Ordenes de trabajo**:
    :alt: Habilitar las órdenes de trabajo
 
 Una vez hecho esto, pulsa el botón *Guardar* de la pantalla de ajustes.
+
+.. _inventario_y_fabricacion/fabricacion/operaciones/ordenes_trabajo/configurar_centros:
 
 Configurar los centros de producción
 ====================================
@@ -47,6 +51,8 @@ producción. El resto de campos de la pestaña de **Información general** son d
 posteriormente ser explotados mediante informes.
 
 Una vez hayas completado los campos correspondientes pulsa el botón *Guardar*.
+
+.. _inventario_y_fabricacion/fabricacion/operaciones/ordenes_trabajo/configurar_operaciones:
 
 Configurar las operaciones
 ==========================

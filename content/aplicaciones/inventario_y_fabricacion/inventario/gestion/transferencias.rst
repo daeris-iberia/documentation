@@ -274,6 +274,8 @@ derecha del formulario:
    :align: center
    :alt: Cerrar formulario para enviar WhatsApp en una transferencia de inventario
 
+.. _inventario_y_fabricacion/inventario/gestion/transferencias/advertencias:
+
 Recibir advertencias en transferencias de inventario
 ====================================================
 

@@ -20,6 +20,8 @@ seguimiento, calcular estadísticas, etc.
 Configuración
 =============
 
+.. _inventario_y_fabricacion/mantenimiento/configurar_equipos:
+
 Configurar equipos de mantenimiento
 -----------------------------------
 
@@ -42,6 +44,8 @@ En el campo *Miembros del equipo*, debes seleccionar los usuarios que integrará
    :alt: Crear equipos de mantenimiento
 
 Por último, haz clic sobre el botón *Guardar*.
+
+.. _inventario_y_fabricacion/mantenimiento/configurar_categorias:
 
 Configurar categorías de equipamiento
 -------------------------------------
@@ -83,6 +87,8 @@ inteligentes para acceder a los equipamientos asociados a la categoría y a las 
 
 .. seealso::
    * :doc:`../varios/correo_electronico/recibir_correos`
+
+.. _inventario_y_fabricacion/mantenimiento/gestión_equipamiento:
 
 Gestión del equipamiento
 ========================

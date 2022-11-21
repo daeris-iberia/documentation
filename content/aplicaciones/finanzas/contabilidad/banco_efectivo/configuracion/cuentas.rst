@@ -13,6 +13,8 @@ Los **diarios bancarios** se muestran por defecto en el tablero contable. Para a
 :menuselection:`Facturación / Contabilidad --> Tablero`. Cada diario dispone de una tarjeta que incluye diversa información
 y botones de acción.
 
+.. _finanzas/contabilidad/banco_efectivo/configuracion/cuentas/anadir_cuenta:
+
 Añadir una nueva cuenta bancaria
 ======================================
 

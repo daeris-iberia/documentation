@@ -2,6 +2,8 @@
 Configuración
 =============
 
+.. _inventario_y_fabricacion/compras/presupuestos_pedidos/aprobacion_importe:
+
 Solicitar a administradores que aprueben pedidos superiores a un importe mínimo
 ===============================================================================
 
@@ -35,6 +37,8 @@ Una vez aprobado el pedido, el estado cambia a *Pedido de compra*:
 .. image:: configuracion/aprobacion-pedido-compra-4.png
    :align: center
    :alt: Aprobación de pedido de compra (4)
+
+.. _inventario_y_fabricacion/compras/presupuestos_pedidos/recibir_advertencias:
 
 Recibir advertencias en pedidos de productos o proveedores
 ==========================================================
@@ -104,6 +108,8 @@ alerta configurada:
    :align: center
    :alt: Advertencias de compra en contactos (2)
 
+.. _inventario_y_fabricacion/compras/presupuestos_pedidos/recordar_fecha_recepcion:
+
 Recordar automáticamente la fecha de recepción a los proveedores
 ================================================================
 
@@ -129,6 +135,8 @@ Llegado el momento, el sistema realizará el envío del correo, solicitando conf
 .. seealso::
    * :doc:`../../../varios/correo_electronico/enviar_correos`
 
+.. _inventario_y_fabricacion/compras/presupuestos_pedidos/bloquear_pedidos:
+
 Bloquear automáticamente los pedidos confirmados para evitar la edición
 =======================================================================
 
@@ -153,6 +161,8 @@ Al estar en estado bloqueado, el pedido no podrá ser modificado.
 .. note::
    También es posible bloquear y desbloquear los pedidos de forma manual, mediante los botones ubicados en el formulario
    del pedido de compra.
+
+.. _inventario_y_fabricacion/compras/presupuestos_pedidos/politica_facturacion:
 
 Establecer la política de control de facturas predeterminada
 ============================================================

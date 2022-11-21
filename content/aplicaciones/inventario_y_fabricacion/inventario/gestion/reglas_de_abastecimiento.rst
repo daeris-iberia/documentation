@@ -101,6 +101,8 @@ Puedes encontrar más información acerca sobre la fabricación bajo pedido en l
 .. seealso::
    * :ref:`inventario_y_fabricacion/fabricacion/orden_produccion_bajo_pedido`
 
+.. _inventario_y_fabricacion/inventario/gestion/reglas_de_abastecimiento/reabastecer_otro_almacen:
+
 Reabastecer de otro almacén
 ===========================
 

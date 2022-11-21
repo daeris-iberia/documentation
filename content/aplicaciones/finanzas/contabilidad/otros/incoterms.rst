@@ -23,6 +23,8 @@ Inicialmente, vienen preconfigurados los incoterms usados en la comunidad intern
 .. important::
    Es posible crear y editar incoterms si bien no es una práctica habitual, debido a que los valores son establecidos por la comunidad internacional.
 
+.. _finanzas/contabilidad/otros/incoterms/valor_predeterminado:
+
 Incorporar un valor predeterminado
 ======================================
 

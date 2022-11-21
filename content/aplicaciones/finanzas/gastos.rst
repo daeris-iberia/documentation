@@ -43,6 +43,8 @@ continuación:
     :width: 700
     :height: 394
 
+.. _finanzas/gastos/tipos_gasto:
+
 Cómo configurar los tipos de gasto
 ==================================
 
@@ -169,6 +171,8 @@ Al crear un nuevo gasto, se deben seguir los siguientes pasos:
    :alt: Adjuntar recibo en un gasto
 
 Una vez completados los campos necesarios, pulsa el botón *Guardar*.
+
+.. _finanzas/gastos/registrar_gastos_correo:
 
 Por correo electrónico
 ----------------------

@@ -8,6 +8,8 @@ es más alta que la unidad mínima de cuenta.
 .. example::
    Algunos países exigen a sus empresas que redondeen al alza o a la baja el importe total de una factura a los cinco céntimos más cercanos, cuando el pago se realiza en efectivo.
 
+.. _finanzas/contabilidad/cuentas_cobrar/facturas_clientes/redondeo/configuracion:
+
 Configuración
 ===============
 

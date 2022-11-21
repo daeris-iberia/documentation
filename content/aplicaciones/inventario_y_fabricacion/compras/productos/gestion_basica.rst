@@ -5,6 +5,8 @@ Gestión básica
 Configuración
 =============
 
+.. _inventario_y_fabricacion/compras/productos/gestion_basica/diferentes_unidades_medida:
+
 Comprar productos en diferentes unidades de medida
 --------------------------------------------------
 
@@ -72,6 +74,8 @@ mediante el campo **UdM de Compra**:
    :align: center
    :alt: Unidad de medida de un producto en Daeris
 
+.. _inventario_y_fabricacion/compras/productos/gestion_basica/productos_empaquetados:
+
 Comprar productos empaquetados
 ------------------------------
 
@@ -105,6 +109,8 @@ mediante el campo **Empaquetado**:
 .. note::
    Otro uso útil de los empaquetados es para la recepción de productos. Al escanear el código de barras del empaquetado,
    Daeris agrega el número de unidades contenidas en el empaquetado al inventario.
+
+.. _inventario_y_fabricacion/compras/productos/gestion_basica/crear_productos_compra:
 
 Crear un producto de compra
 ===========================
@@ -150,6 +156,8 @@ A partir de ese momento, ya podrá ser seleccionado al crear una nueva solicitud
 .. image:: gestion_basica/seleccionar-producto-presupuesto.png
    :align: center
    :alt: Seleccionar producto en presupuesto de compra
+
+.. _inventario_y_fabricacion/compras/productos/gestion_basica/lotes_y_serie:
 
 Utilizar lotes y números de serie en la compra de productos
 ===========================================================

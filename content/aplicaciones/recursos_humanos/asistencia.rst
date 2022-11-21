@@ -24,6 +24,8 @@ diaria, semanal, mensual y anual.
 Configuración
 =============
 
+.. _recursos_humanos/asistencia/control_presencia:
+
 Configurar el control de presencia de los empleados
 ---------------------------------------------------
 
@@ -70,6 +72,8 @@ ver los empleados *Ausentes*, empleados *Presentes* y empleados *Por definir*:
 .. image:: asistencia/ausencia-presencia-empleados.png
    :align: center
    :alt: Empleados ausentes y presentes
+
+.. _recursos_humanos/asistencia/recuento_horas:
 
 Activar el recuento de horas extra de los empleados
 ---------------------------------------------------

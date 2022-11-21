@@ -5,6 +5,8 @@ Impuestos
 Existen varios tipos de impuestos y en función de la localización de tu empresa es requerido el uso de unos u otros.
 Daeris permite diferentes formas de usar y calcular los impuestos para adecuarse a las necesidades de cada empresa.
 
+.. _finanzas/contabilidad/impuestos/impuestos/impuestos/activar_impuestos:
+
 Activar impuestos
 ==================
 

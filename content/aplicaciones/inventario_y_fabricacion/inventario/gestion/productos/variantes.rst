@@ -22,6 +22,8 @@ su propio inventario, ventas, etc.
 Configuración
 =============
 
+.. _inventario_y_fabricacion/inventario/gestion/productos/activar_variantes:
+
 Activar la función variante
 ---------------------------
 
@@ -33,6 +35,8 @@ navegar a la pantalla :menuselection:`Inventario --> Configuración --> Ajustes`
    :alt: Activar variantes de productos
 
 Una vez activada la opción, pulsa el botón *Guardar*.
+
+.. _inventario_y_fabricacion/inventario/gestion/productos/crear_variantes:
 
 Crear productos con variantes
 -----------------------------

@@ -13,6 +13,8 @@ nueva línea a la factura.
 .. important::
    Las **posiciones fiscales** son tomadas en cuenta para aplicar el impuesto predeterminado. Si se aplica una posición fiscal a una factura, Daeris aplica el impuesto relacionado con la posición fiscal en lugar del impuesto predeterminado.
 
+.. _finanzas/contabilidad/impuestos/impuestos/predeterminados/configurar_impuestos:
+
 Configuración
 ===============
 

@@ -47,6 +47,8 @@ diario y administrar el saldo de los empleados.
 Configuración
 =============
 
+.. _recursos_humanos/comidas/saldo_maximo:
+
 Configurar el saldo máximo negativo de los empleados
 ----------------------------------------------------
 
@@ -62,6 +64,8 @@ desde donde puedes informar el importe sobre el campo saldo negativo:
    :alt: Saldo máximo negativo de los empleados
 
 Una vez informado el campo, pulsa el botón *Guardar* para que se apliquen tus cambios.
+
+.. _recursos_humanos/comidas/proveedores:
 
 Configurar los proveedores de comida
 ------------------------------------
@@ -135,6 +139,8 @@ de la agrupación se pueden indicar los productos y su precio.
 
 Una vez informados todos los campos necesarios, pulsa el botón *Guardar*.
 
+.. _recursos_humanos/comidas/comedores:
+
 Configurar los comedores
 ------------------------
 
@@ -147,6 +153,8 @@ puedes visualizar los comedores disponibles.
 
 Para dar de alta un nuevo comedor haz clic sobre el botón *Crear* e informa el nombre y la dirección del comedor. Una
 vez informados los campos, pulsa el botón *Guardar*.
+
+.. _recursos_humanos/comidas/productos_categorias:
 
 Configurar productos y categorías de productos
 ----------------------------------------------
@@ -207,6 +215,8 @@ Una vez informados los campos, pulsa el botón *Guardar*.
 .. note::
    Es importante que el proveedor proporcione la mayor información posible sobre cada plato para que los empleados no
    tengan dudas al seleccionarlos.
+
+.. _recursos_humanos/comidas/alertas:
 
 Configurar alertas de comidas
 -----------------------------

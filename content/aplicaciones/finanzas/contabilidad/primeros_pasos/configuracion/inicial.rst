@@ -1,3 +1,5 @@
+.. _finanzas/contabilidad/primeros_pasos/configuracion/inicial/asistente:
+
 ==========================================================
 Asistente de contabilidad y facturación
 ==========================================================
@@ -82,6 +84,8 @@ Es posible crear tantas cuentas bancarias como necesites. Para ello, haz clic so
 .. image:: inicial/asistente05.png
    :align: center
    :alt: Impuestos
+
+.. _finanzas/contabilidad/primeros_pasos/configuracion/inicial/asistente_facturas:
 
 Asistente de configuración de facturas
 ==========================================

@@ -15,6 +15,8 @@ proceso de selección de Daeris.
 Configuración
 =============
 
+.. _recursos_humanos/contratacion/activar_publicacion:
+
 Activar la publicación de ofertas de trabajo en el sitio web
 ------------------------------------------------------------
 
@@ -37,6 +39,8 @@ publican las ofertas de empleo creadas:
 .. tip::
    Si lo necesitas, puedes crear un nuevo elemento del menú en el sitio web para que los visitantes puedan acceder con
    facilidad a la página de empleos del sitio web.
+
+.. _recursos_humanos/contratacion/activar_formularios:
 
 Crear formularios de entrevista en el sitio web
 -----------------------------------------------
@@ -80,6 +84,8 @@ informando el campo *Formulario de entrevista* de la pestaña *Contratación*:
 
 Este formulario de entrevista servirá como guión para las entrevistas que los miembros de tu departamento de recursos
 humanos realicen a los solicitantes de empleo.
+
+.. _recursos_humanos/contratacion/configurar_puestos:
 
 Configurar los puestos de trabajo
 ---------------------------------
@@ -158,6 +164,8 @@ el botón *No publicado* que cambiará el estado a *Publicado*:
    :align: center
    :alt: Publicar puesto de trabajo en el sitio web
 
+.. _recursos_humanos/contratacion/configurar_razones:
+
 Configurar las razones de rechazo
 ---------------------------------
 
@@ -196,6 +204,8 @@ Después de asignar el motivo de rechazo, puedes hacer clic en el botón *Enviar
 .. image:: contratacion/solicitud-rechazada.png
    :align: center
    :alt: Solicitud de empleo rechazada
+
+.. _recursos_humanos/contratacion/configurar_etapas:
 
 Configurar las etapas del proceso de selección
 ----------------------------------------------

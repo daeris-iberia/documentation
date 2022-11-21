@@ -22,6 +22,8 @@ El siguiente es un ejemplo de subcontratación de la fabricación de "C", que se
 
 Con su función de subcontratación de la fabricación, Daeris te ayuda a manejar este flujo fácilmente.
 
+.. _inventario_y_fabricacion/fabricacion/operaciones/subcontratacion/activar:
+
 Configuración
 =============
 

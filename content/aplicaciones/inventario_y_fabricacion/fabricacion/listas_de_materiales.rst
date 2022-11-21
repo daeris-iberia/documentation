@@ -329,6 +329,8 @@ producto final:
    :align: center
    :alt: Productos semiacabados (5)
 
+.. _inventario_y_fabricacion/fabricacion/listas_de_materiales/subprductos:
+
 Producción de subproductos
 ==========================
 

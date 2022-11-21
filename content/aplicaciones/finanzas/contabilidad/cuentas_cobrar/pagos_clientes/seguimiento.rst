@@ -6,6 +6,8 @@ Daeris permite emitir una comunicación a los clientes que disponen de facturas 
 identificar los pagos atrasados, permitiéndote enviar recordatorios apropiados a través de diferentes medios como el
 correo electrónico, correo postal, o registrar una actividad de llamada.
 
+.. _finanzas/contabilidad/cuentas_cobrar/pagos_clientes/seguimiento/configuracion:
+
 Configuración
 ================
 

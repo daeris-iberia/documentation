@@ -35,6 +35,8 @@ Daeris soporta, entre otros, los siguientes formatos:
    * - UBL BIS Billing 3.0
      - Para empresas colombianas
 
+.. _finanzas/contabilidad/cuentas_cobrar/facturas_clientes/electronica/configuracion:
+
 Configuración
 ==============
 

@@ -84,6 +84,8 @@ contada y el producto, puedes hacer clic en el botón *Aplicar* para configurar 
    :align: center
    :alt: Ajustes de inventario (8)
 
+.. _inventario_y_fabricacion/inventario/gestion/productos/dia_mes_inventario:
+
 Configurar el día y mes del inventario anual
 ============================================
 
@@ -104,6 +106,8 @@ definido en la pantalla de ajustes:
 .. image:: ajustes_inventario/ajuste-inventario-10.png
    :align: center
    :alt: Ajustes de inventario (10)
+
+.. _inventario_y_fabricacion/inventario/gestion/productos/inventario_ciclico:
 
 Inventario cíclico en ubicaciones
 =================================

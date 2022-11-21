@@ -2,6 +2,8 @@
 Usar paquetes, unidades de medida o empaquetados especiales
 ===========================================================
 
+.. _inventario_y_fabricacion/inventario/gestion/productos/paquetes_unidades_empaquetados:
+
 Utilizar diferentes unidades de medida
 ======================================
 
@@ -69,6 +71,8 @@ mediante los campos **Unidad de medida** y **UdM de Compra**:
    :align: center
    :alt: Unidad de medida de un producto en Daeris
 
+.. _inventario_y_fabricacion/inventario/gestion/productos/administrar_empaquetados:
+
 Administrar empaquetados de productos
 =====================================
 
@@ -102,6 +106,8 @@ campo **Empaquetado**:
 .. note::
    Otro uso útil de los empaquetados es para la recepción de productos. Al escanear el código de barras del empaquetado,
    Daeris agrega el número de unidades contenidas en el empaquetado al inventario.
+
+.. _inventario_y_fabricacion/inventario/gestion/productos/administrar_paquetes:
 
 Administrar paquetes de entrega de productos
 ============================================

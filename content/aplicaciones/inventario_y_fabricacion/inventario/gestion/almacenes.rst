@@ -25,6 +25,8 @@ Hay tres tipos de ubicaciones:
 Las ubicaciones se estructuran jerárquicamente mediante una relación padre-hijo, lo que permite conseguir un nivel exacto
 en la organización del almacén y analizar en detalle las operaciones relacionadas con el inventario.
 
+.. _inventario_y_fabricacion/inventario/gestion/almacenes/configurar_almacenes:
+
 Configurar los almacenes de inventario
 ======================================
 
@@ -50,6 +52,8 @@ Al crear o editar un almacén, el sistema navega a la pantalla de detalle, donde
    :alt: Configurar los almacenes de inventario (2)
 
 Una vez informados los campos necesarios, pulsa el botón *Guardar*.
+
+.. _inventario_y_fabricacion/inventario/gestion/almacenes/configurar_ubicaciones:
 
 Configurar las ubicaciones de inventario
 ========================================

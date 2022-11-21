@@ -154,6 +154,8 @@ Si navegas al detalle de la orden, ya puedes iniciar la producción, como si de 
    :align: center
    :alt: Orden de producción bajo pedido (2)
 
+.. _inventario_y_fabricacion/fabricacion/operaciones/gestion_fabricacion/desbloquear_ordenes:
+
 Desbloquear órdenes de producción
 =================================
 

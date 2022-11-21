@@ -22,6 +22,8 @@ su propio inventario, ventas, etc.
 Configuración
 =============
 
+.. _inventario_y_fabricacion/compras/productos/variantes/activar_variantes:
+
 Activar la función variante
 ---------------------------
 
@@ -33,6 +35,8 @@ navegar a la pantalla :menuselection:`Compra --> Configuración --> Ajustes`, y 
    :alt: Activar variantes de productos
 
 Una vez activada la opción, pulsa el botón *Guardar*.
+
+.. _inventario_y_fabricacion/compras/productos/variantes/activar_cuadricula:
 
 Agregar variantes al pedido de compra a través de una entrada de cuadrícula
 ---------------------------------------------------------------------------
@@ -53,6 +57,8 @@ formulario en donde poder seleccionar las cantidades de cada una de las variante
 .. image:: variantes/entrada-cuadricula-pedido.png
    :align: center
    :alt: Entrada de cuadrícula en un pedido de compra
+
+.. _inventario_y_fabricacion/compras/productos/variantes/crear_productos_variantes:
 
 Crear productos con variantes
 -----------------------------

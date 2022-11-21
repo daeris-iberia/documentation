@@ -14,6 +14,8 @@ un mandato SDD.
 
    `Lista de todos los países SEPA. <https://www.europeanpaymentscouncil.eu/document-library/other/epc-list-sepa-scheme-countries>`_
 
+.. _finanzas/contabilidad/cuentas_cobrar/pagos_clientes/sepa/configuracion:
+
 Configuración
 ==============
 

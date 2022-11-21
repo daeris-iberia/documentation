@@ -25,6 +25,8 @@ Es posible definir términos de pago muy variados como, por ejemplo:
    - **Pago el último día del mes siguiente**: Se requiere el pago total de la factura el último día del mes siguiente a su emisión.
    - **Pago del 50% inicial y el resto a final de mes**: Se requiere el pago del 50% el día de la emisión de la factura y el resto el último día del mes.
 
+.. _finanzas/contabilidad/cuentas_cobrar/facturas_clientes/terminos/configuracion:
+
 Configuración
 ==================
 

@@ -2,6 +2,8 @@
 Operaciones varias
 ==================
 
+.. _inventario_y_fabricacion/inventario/gestion/varios/inventario_no_pertenece:
+
 Gestionar inventario que no te pertenece
 ========================================
 
@@ -42,6 +44,8 @@ Esto no afecta la valoración del inventario.
 .. image:: varios/consigna-3.png
    :align: center
    :alt: Propietario en recepción de inventario validada
+
+.. _inventario_y_fabricacion/inventario/gestion/varios/transferencias_lote:
 
 Procesar transferencias en lote
 ===============================
@@ -123,6 +127,8 @@ desde la pantalla :menuselection:`Inventario --> Operaciones --> Transferencias 
    :align: center
    :alt: Crear transferencia por lotes (9)
 
+.. _inventario_y_fabricacion/inventario/gestion/varios/transferencias_olas:
+
 Procesar transferencias en olas
 -------------------------------
 
@@ -179,6 +185,8 @@ Puedes consultar la transferencia por olas desde la pantalla :menuselection:`Inv
 
 Como en el caso de las transferencias por lotes, se deberán informar las cantidades en el campo *Hecho*, para después
 validar la transferencia.
+
+.. _inventario_y_fabricacion/inventario/gestion/varios/informe_recepcion:
 
 Mostrar un informe de recepción
 ===============================

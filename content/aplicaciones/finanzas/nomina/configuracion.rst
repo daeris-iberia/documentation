@@ -78,6 +78,8 @@ El sistema de generación de nóminas se basa en:
 Configuración
 =============
 
+.. _finanzas/nomina/configuracion/reglas_salariales:
+
 Configurar las reglas salariales
 ---------------------------------
 
@@ -133,6 +135,7 @@ Estas variables pueden ser usadas en el campo de Código Python de la pestaña *
 
 Al generar una nómina, las variables a informar se visualizarán sobre la pestaña de **Otras entradas**.
 
+.. _finanzas/nomina/configuracion/categorias_reglas_salariales:
 
 Configurar las categorías de reglas salariales
 -----------------------------------------------
@@ -150,6 +153,7 @@ categoría padre. Una vez modificado el registro, pulsa el botón *Guardar*.
    :align: center
    :alt: Edición de categorías de reglas salariales
 
+.. _finanzas/nomina/configuracion/estructuras_salariales:
 
 Configurar las estructuras salariales
 -------------------------------------
@@ -166,7 +170,7 @@ Al crear o editar un registro, el sistema navegará al formulario, donde será p
    :align: center
    :alt: Gestión de estructuras salariales
 
-
+.. _finanzas/nomina/configuracion/registros_contribucion:
 
 Configurar los registros de contribución
 ----------------------------------------

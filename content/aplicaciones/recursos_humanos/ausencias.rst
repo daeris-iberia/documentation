@@ -17,6 +17,8 @@ humanos de tu organización a administrar las solicitudes de ausencia de una man
 Configuración
 =============
 
+.. _recursos_humanos/ausencias/configurar_tipos:
+
 Configurar los tipos de ausencias
 ---------------------------------
 
@@ -77,6 +79,8 @@ De manera similar, la **Aprobación** se puede seleccionar entre opciones como *
 Finalmente, en la sección **Mostrar opción** se permite elegir un color para el informe de ausencias de empleado, un color
 y una imagen de portada para mostrar con el tipo de ausencia.
 
+.. _recursos_humanos/ausencias/plan_acumulacion:
+
 Configurar planes de acumulación
 --------------------------------
 
@@ -127,6 +131,8 @@ en el campo **Limitar a**. Finalmente, puedes especificar si las acumulaciones n
 Esto se puede asignar en el campo **Al final del año civil, los devengos no utilizados serán**.
 
 Una vez completados todos los campos, guarda el plan de acumulación.
+
+.. _recursos_humanos/ausencias/dias_festivos:
 
 Configurar los días festivos de la compañía
 -------------------------------------------

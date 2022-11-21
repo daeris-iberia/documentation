@@ -15,6 +15,8 @@ Hay dos tipos principales de **acuerdos de compra** preconfiguradas en Daeris: �
    cuando quieren adquirir bienes o servicios, las organizaciones privadas también pueden utilizarlas para conseguir la
    mejor oferta entre varios proveedores.
 
+.. _inventario_y_fabricacion/compras/acuerdos/habilitar_acuerdos:
+
 Habilitar los acuerdos de compra
 ================================
 
@@ -26,6 +28,8 @@ activa la opción **Acuerdos de compra**:
    :alt: Habilitar los acuerdos de compra
 
 Una vez activado, pulsa el botón *Guardar* de la pantalla de ajustes.
+
+.. _inventario_y_fabricacion/compras/acuerdos/crear_tipos_acuerdos:
 
 Configurar o crear nuevos tipos de acuerdos de compra
 =====================================================

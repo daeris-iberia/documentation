@@ -23,6 +23,8 @@ Según el país establecido en tu empresa, se puede utilizar otro formato: 'pain
 Configuración
 ==============
 
+.. _finanzas/contabilidad/cuentas_pagar/pagos_proveedores/sepa/activar_sepa:
+
 Activar métodos de pago SEPA sobre los diarios bancarios
 ----------------------------------------------------------
 
@@ -59,6 +61,8 @@ Recuerda, hacer clic sobre el botón **Guardar**, para que tus cambios queden re
    .. image:: sepa/sepa04.png
       :align: center
       :alt: Activar métodos de pago SEPA sobre los diarios bancarios
+
+.. _finanzas/contabilidad/cuentas_pagar/pagos_proveedores/sepa/pagar_sepa:
 
 Pagar con SEPA
 ===============

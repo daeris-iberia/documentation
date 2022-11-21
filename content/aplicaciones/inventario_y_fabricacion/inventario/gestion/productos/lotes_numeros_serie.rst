@@ -20,6 +20,8 @@ administres estos productos. Darle un número de serie a cada producto es una ta
 en caso de artículos que tienen una garantía y/o servicio de posventa. Ponerle un número de serie al pan, por ejemplo,
 no tiene sentido.
 
+.. _inventario_y_fabricacion/inventario/gestion/productos/numeros_serie:
+
 Trabajar con números de serie
 =============================
 
@@ -150,6 +152,8 @@ En este caso, verás donde se encuentra el número de serie en particular:
 .. image:: lotes_numeros_serie/ubicacion-numero-serie-2.png
    :align: center
    :alt: Ubicación de un número de serie (2)
+
+.. _inventario_y_fabricacion/inventario/gestion/productos/lotes:
 
 Trabajar con lotes
 ==================
@@ -344,6 +348,8 @@ Ahí, puedes usar todos los filtros existentes pera mostrar todos los lotes/núm
 .. image:: lotes_numeros_serie/alertas-caducidad-producto.png
    :align: center
    :alt: Alertas de caducidad del producto
+
+.. _inventario_y_fabricacion/inventario/mostrar_lotes:
 
 Mostrar lotes y números de serie en albaranes
 =============================================

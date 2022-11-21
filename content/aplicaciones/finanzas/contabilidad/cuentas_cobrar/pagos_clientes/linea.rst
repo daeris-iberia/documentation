@@ -12,6 +12,8 @@ lo que facilita mucho el proceso de pago.
    :align: center
    :alt: Pago de facturas en línea
 
+.. _finanzas/contabilidad/cuentas_cobrar/pagos_clientes/linea/configuracion:
+
 Configuración
 ===============
 

@@ -12,10 +12,12 @@ causarían problemas de pago.
 .. attention::
    Esta función solo está disponible para emitir facturas a varios países europeos como Austria, Bélgica, Finlandia, Alemania y los Países Bajos.
 
+.. _finanzas/contabilidad/cuentas_cobrar/facturas_clientes/codigos_qr/configuracion:
+
 Configuración
 =================
 
-Para activar la funcionalidad de añadir un codigo QR Sepa sobre las facturas, navega a
+Para activar la funcionalidad de añadir un código QR Sepa sobre las facturas, navega a
 :menuselection:`Contabilidad / Facturación --> Configuración --> Ajustes` , y sobre el apartado **Pagos de cliente**,
 informa la opción **Códigos QR**.
 

@@ -19,6 +19,8 @@ Gestión de empleados
 Configuración
 -------------
 
+.. _recursos_humanos/empleados/enriquecer_perfiles:
+
 Enriquecer los perfiles de los empleados con habilidades y currículums
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -40,6 +42,8 @@ del empleado:
    :align: center
    :alt: Curriculum vitae de los empleados
 
+.. _recursos_humanos/empleados/calendario_predeterminado:
+
 Establecer el calendario por defecto de los empleados
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -53,6 +57,8 @@ e informa el campo *Horas laborales de la empresa*:
 Una vez informado el calendario, pulsa el botón *Guardar* de la pantalla de ajustes.
 
 El calendario seleccionado será utilizado para calcular el tiempo asignado a las ausencias, partes de horas, etc.
+
+.. _recursos_humanos/empleados/permitir_actualizar:
 
 Permitir a los empleados actualizar sus propios datos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -72,6 +78,8 @@ y activa la opción de *Edición de empleados*:
 Una vez activada la opción, pulsa el botón *Guardar* de la pantalla de ajustes.
 
 A partir de ese momento, los usuarios podrán actualizar sus propios datos de empleado, además de sus preferencias de usuario.
+
+.. _recursos_humanos/empleados/lugares_trabajo:
 
 Configurar los lugares de trabajo de los empleados
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -216,6 +224,8 @@ descargas configurado en el navegador:
    :align: center
    :alt: Descargar insignia del empleado
 
+.. _recursos_humanos/empleados/plan_actividades:
+
 Lanzar plan de actividades del empleado
 ---------------------------------------
 
@@ -274,6 +284,8 @@ Gestión de contratos
 Configuración
 -------------
 
+.. _recursos_humanos/empleados/puestos_trabajo:
+
 Configurar los puestos de trabajo
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -306,6 +318,8 @@ en caso de haberlo.
 
 Una vez que completes todos los campos, puedes hacer clic en el botón *Guardar* para guardar los detalles.
 
+.. _recursos_humanos/empleados/tipos_contrato:
+
 Configurar los tipos de contrato
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -328,6 +342,8 @@ tipos de contrato, donde podrás informar el nombre:
 
 Una vez que completada la información, puedes hacer clic en el botón *Guardar* para guardar los detalles.
 
+.. _recursos_humanos/empleados/motivos_salida:
+
 Configurar los motivos de salida de los empleados
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -338,6 +354,8 @@ motivos de salida en la misma ventana haciendo clic en el botón *Crear*.
 .. image:: empleados/motivos-salida.png
    :align: center
    :alt: Motivos de salida de los empleados
+
+.. _recursos_humanos/empleados/crear_contrato:
 
 Crear un contrato de empleado
 -----------------------------
@@ -397,6 +415,8 @@ cuando el contrato haya finalizado, o a *Cancelado*, cuando el contrato decida s
 
 Gestión de departamentos
 ========================
+
+.. _recursos_humanos/empleados/crear_departamento:
 
 Crear un departamento de la compañía
 ------------------------------------
