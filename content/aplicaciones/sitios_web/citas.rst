@@ -15,6 +15,8 @@ Gracias a la aplicación de citas, tus clientes serán autónomos a la hora de r
 Configuración
 =================
 
+.. _sitios_web/citas/crear_bloque:
+
 Crear un bloque de gestión de citas
 -------------------------------------
 
@@ -83,6 +85,8 @@ Mediante el apartado *Citas* del sitio web es posible acceder al listado de toda
    :align: center
    :alt: Página principal de citas del sitio web
 
+.. _sitios_web/citas/franjas:
+
 Configurar franjas horarias
 ----------------------------------
 
@@ -115,6 +119,7 @@ Una vez configuradas las franjas horarias de las citas, los usuarios podrán esc
    :align: center
    :alt: Formulario de selección de franja horaria
 
+.. _sitios_web/citas/spam:
 
 Configurar la protección de envio de formularios frente a SPAM
 ----------------------------------------------------------------
@@ -137,6 +142,7 @@ Una vez informada la clave, debes pulsar el botón Guardar.
 
 .. important:: Si no dispones de una clave ReCaptcha, puedes crear una `Aquí <http://www.google.com/recaptcha/admin>`_. La clave creada debe ser de tipo ReCaptcha v2 y el dominio debe coincidir con el dominio de tu instancia daeris.
 
+.. _sitios_web/citas/registro:
 
 Limitar el acceso al registro de citas
 ----------------------------------------

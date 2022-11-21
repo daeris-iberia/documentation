@@ -20,6 +20,8 @@ etc. Las funcionalidades de este módulo se pueden integrar con Proyecto, Emplea
 Configuración
 =============
 
+.. _servicios/partes_de_horas/unidad_codificacion:
+
 Configurar la unidad de codificación de los partes de horas
 -----------------------------------------------------------
 
@@ -33,6 +35,8 @@ utilizada para registrar los partes de horas:
 
 Las opciones disponibles son *Horas* o *Días*. Una vez seleccionada la opción correspondiente, pulsa el botón *Guardar*
 de la pantalla de ajustes.
+
+.. _servicios/partes_de_horas/ausencias:
 
 Generar partes de horas tras la validación de las ausencias
 -----------------------------------------------------------

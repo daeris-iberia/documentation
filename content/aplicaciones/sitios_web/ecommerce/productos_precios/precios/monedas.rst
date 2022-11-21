@@ -79,6 +79,8 @@ pero para la tarifa en USD el precio será de $160:
    :align: center
    :alt: Tarifa por moneda en un producto
 
+.. _sitios_web/ecommerce/productos_precios/precios/adaptar_precios:
+
 Adaptar precios a los visitantes del sitio web
 ==============================================
 

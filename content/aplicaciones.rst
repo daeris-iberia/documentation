@@ -14,6 +14,7 @@ Descubre nuestras guías de usuario y tutoriales de configuración por aplicaci�
 .. toctree::
     :maxdepth: 2
 
+    aplicaciones/primeros_pasos
     aplicaciones/finanzas
     aplicaciones/ventas
     aplicaciones/sitios_web

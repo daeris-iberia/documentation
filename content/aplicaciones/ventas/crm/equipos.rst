@@ -13,6 +13,8 @@ ventas únicos, utilizando **equipos de ventas**.
 Configuración
 =============
 
+.. _ventas/crm/equipos/varios:
+
 Asignar vendedores a varios equipos de ventas
 ---------------------------------------------
 
@@ -27,6 +29,8 @@ el sistema para que los usuarios puedan pertenecer a varios equipos de ventas. P
 Una vez marcada la opción, pulsa el botón *Guardar* de la pantalla de ajustes.
 
 A partir de ese momento, el sistema permitirá añadir el mismo comercial a varios equipos de ventas.
+
+.. _ventas/crm/equipos/crear:
 
 Crear un equipo de ventas
 =========================
@@ -69,6 +73,8 @@ En la página de creación, tienes disponibles los siguientes campos:
 .. image:: equipos/detalle-equipo-ventas.png
    :align: center
    :alt: Detalle del equipo de ventas
+
+.. _ventas/crm/equipos/anadir:
 
 Añadir miembros a un equipo de ventas
 -------------------------------------

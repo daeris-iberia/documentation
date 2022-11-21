@@ -2,6 +2,8 @@
 Campañas
 =========
 
+.. _marketing/marketing_por_correo/campanas/etapas:
+
 Crear etapas
 ====================
 
@@ -34,6 +36,7 @@ Las etapas te permitirán agrupar tus campañas según las necesidades de tu neg
    :align: center
    :alt: Crear etapas de campañas de marketing
 
+.. _marketing/marketing_por_correo/campanas/crear_campanas:
 
 Crear una campaña
 ====================

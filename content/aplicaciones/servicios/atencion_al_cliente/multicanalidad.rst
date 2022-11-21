@@ -68,6 +68,7 @@ El estado del ticket es *Abierto* y queda disponible en la aplicación para su g
    :align: center
    :alt: Formulario de tickets de soporte
 
+.. _servicios/atencion_al_cliente/multicanalidad/ticket_web:
 
 Crear un ticket desde formulario web
 ===========================================================
@@ -134,6 +135,8 @@ Esta comunicación dispone de un enlace de acceso al ticket sobre el portal del 
 .. image:: multicanalidad/correo_cliente_inicial.png
    :align: center
    :alt: Correo electrónico confirmando la creación del ticket
+
+.. _servicios/atencion_al_cliente/multicanalidad/ticket_correo:
 
 Crear un ticket desde correo electrónico
 ===========================================================

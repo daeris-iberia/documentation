@@ -19,6 +19,8 @@ para la renovación de la membresía.
     :width: 700
     :height: 394
 
+.. _ventas/suscripciones/crear_productos:
+
 Crear y administrar productos de suscripción
 ============================================
 
@@ -52,6 +54,8 @@ A continuación, en el formulario de productos de suscripción, puedes informar 
 
 Una vez informados todos los campos necesarios, pulsa el botón *Guardar*.
 
+.. _ventas/suscripciones/crear_miembros:
+
 Crear y configurar miembros
 ===========================
 
@@ -75,6 +79,8 @@ A continuación, en el formulario de miembros, puedes informar los siguientes ca
 
 Una vez informados todos los campos necesarios, pulsa el botón *Guardar*.
 
+.. _ventas/suscripciones/miembro_gratuito:
+
 Configurar la membresía gratuita
 --------------------------------
 
@@ -95,6 +101,8 @@ A continuación, accede a la pestaña *Suscripción*:
 
 El usuario puede elegir la opción de **Miembro gratuito** desde aquí. Si la opción está habilitada, al marcar la casilla,
 el miembro obtendrá una membresía gratuita. El estado de membresía actual del miembro cambiará a *Miembro gratuito*.
+
+.. _ventas/suscripciones/comprar_membresia:
 
 Comprar y facturar una membresía
 --------------------------------

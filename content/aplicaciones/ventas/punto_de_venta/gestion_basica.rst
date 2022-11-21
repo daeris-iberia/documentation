@@ -42,6 +42,8 @@ Las secciones principales de las que se compone la pantalla principal del TPV so
 Sesiones
 =============
 
+.. _ventas/punto_de_venta/gestion_basica/configurar_acceso:
+
 Configución de acceso al TPV
 ------------------------------
 

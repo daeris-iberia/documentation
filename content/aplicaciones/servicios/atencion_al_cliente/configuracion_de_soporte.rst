@@ -9,6 +9,8 @@ Daeris dispone de un apartado de soporte al cliente sobre el Sitio Web, que perm
     :width: 700
     :height: 394
 
+.. _servicios/atencion_al_cliente/configuracion_soporte/pagina_inicial:
+
 Página inicial de soporte
 ===========================================================
 
@@ -46,8 +48,10 @@ A partir de ese momento, al navegar a la página de soporte del sitio web, se po
    :align: center
    :alt: Página de soporte configurada
 
+.. _servicios/atencion_al_cliente/configuracion_soporte/grupos_ayuda:
+
 Grupos de ayuda
-===========================================================
+===================
 
 Los grupos de ayuda son contenedores de páginas web que permiten agrupar documentación de soporte de una temática particular.
 
@@ -90,6 +94,8 @@ Mediante el botón *Ir al Sitio Web* es posible navegar a la página del grupo d
    :align: center
    :alt: Página web de grupos de ayuda
 
+.. _servicios/atencion_al_cliente/configuracion_soporte/categorias_ayuda:
+
 Categorías de páginas de ayuda
 ===========================================================
 
@@ -116,6 +122,8 @@ Una vez completado el registro, pulsa el botón *Guardar*.
 .. image:: configuracion_de_soporte/formulario_categorias_ayuda.png
    :align: center
    :alt: Formulario de categorías de páginas de ayuda
+
+.. _servicios/atencion_al_cliente/configuracion_soporte/paginas_ayuda:
 
 Páginas de ayuda
 ===========================================================

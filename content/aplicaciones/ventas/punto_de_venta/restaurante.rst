@@ -5,6 +5,8 @@ Modo Restaurante/Bar
 Configuración inicial
 ======================
 
+.. _ventas/punto_de_venta/restaurante/modo_bar:
+
 Función en modo restaurante/bar
 --------------------------------
 
@@ -28,6 +30,8 @@ restaurante. Dichas opciones están acompañadas del siguiente símbolo:
 
 .. note::
    El resto de opciones disponibles se utilizan del mismo modo que para los TPVs genéricos, es decir, aquellos que no tienen la marca de bar/restaurante activa.
+
+.. _ventas/punto_de_venta/restaurante/mesas:
 
 Configurar las mesas de las salas
 -----------------------------------
@@ -222,6 +226,8 @@ Una vez introducida la nota, esta quedará asociada a la línea del pedido.
    :align: center
    :alt: Nota del pedido
 
+.. _ventas/punto_de_venta/restaurante/impresion_cocina:
+
 Gestionar la impresión de pedidos de barra / cocina
 ----------------------------------------------------
 
@@ -286,7 +292,6 @@ Las líneas de pedido verdes, así como el sombreado verde del propio botón, de
 .. image:: restaurante/imprimir08.png
    :align: center
    :alt: Líneas del pedido
-
 
 Actualizar pedidos de cocina
 -------------------------------
@@ -420,6 +425,8 @@ Al finalizar el primer pago, si vuelves al detalle del pedido, aparecen el resto
 El procedimiento a realizar puede ser el re realizar el pago restante mediante el botón **pagos** o el de continuar
 dividiendo la cuenta mediante el botón **Dividir**.
 
+.. _ventas/punto_de_venta/restaurante/imprimir_cuenta:
+
 Imprimir una cuenta antes de realizar el pago
 -------------------------------------------------
 
@@ -449,7 +456,7 @@ Al hacer clic sobre el botón Imprimir, se llevará a cabo la impresión.
    :align: center
    :alt: Imprimir
 
-
+.. _ventas/punto_de_venta/restaurante/propinas:
 
 Gestionar las propinas antes de completar un pago
 --------------------------------------------------

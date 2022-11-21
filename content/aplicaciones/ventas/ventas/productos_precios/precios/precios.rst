@@ -10,6 +10,8 @@ Las listas de precios solo sugieren dichos precios, los vendedores pueden sustit
 Configuración
 =============
 
+.. _ventas/ventas/productos_precios/precios/descuentos_linea_pedido:
+
 Conceder descuentos en líneas de pedido de venta
 ------------------------------------------------
 
@@ -28,6 +30,8 @@ campo *Desc.%*:
 .. image:: precios/descuento-manual-pedido.png
    :align: center
    :alt: Descuento manual en pedidos de venta
+
+.. _ventas/ventas/productos_precios/precios/margenes_pedido:
 
 Mostrar márgenes en pedidos
 ---------------------------
@@ -49,6 +53,8 @@ pedido:
    :align: center
    :alt: Márgen en pedidos de venta
 
+.. _ventas/ventas/productos_precios/precios/mostrar_descuento:
+
 Mostrar el porcentaje de descuento a los clientes
 -------------------------------------------------
 
@@ -59,6 +65,8 @@ selecciona la opción **Mostrar al cliente el precio público y el descuento**:
 .. image:: precios/mostrar-precio-descuento.png
    :align: center
    :alt: Mostrar al cliente el precio público y el descuento
+
+.. _ventas/ventas/productos_precios/precios/precios_multiples:
 
 Múltiples precios por producto
 ==============================

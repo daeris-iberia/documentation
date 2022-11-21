@@ -241,6 +241,8 @@ tradicionales de pago. Con la aplicación de Ventas de Daeris, puedes usar los p
 confirmación de los pedidos. Los pagos en línea se realizan de manera instantánea, lo cual es muy conveniente y ahorra
 mucho tiempo en el proceso básico de venta.
 
+.. _ventas/presupuestos_pedidos/configuracion/pago_en_linea:
+
 Activar el pago en línea
 ------------------------
 

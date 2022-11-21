@@ -5,6 +5,8 @@ Gestión básica
 Configuración
 =============
 
+.. _ventas/ventas/productos_precios/productos/unidades_medida:
+
 Vender productos en diferentes unidades de medida
 -------------------------------------------------
 
@@ -133,6 +135,8 @@ campo **Empaquetado**:
 .. note::
    Otro uso útil de los empaquetados es para la recepción de productos. Al escanear el código de barras del empaquetado,
    Daeris agrega el número de unidades contenidas en el empaquetado al inventario.
+
+.. _ventas/ventas/productos_precios/crear_producto_venta:
 
 Crear un producto de venta
 ==========================

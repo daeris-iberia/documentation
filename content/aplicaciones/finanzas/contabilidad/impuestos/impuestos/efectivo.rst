@@ -15,7 +15,7 @@ de base de efectivo, el impuesto que tienes que pagar a la administración, es e
 Configuración
 =================
 
-Para configurar los impuestos de base de efectivo navega a Contabilidad ‣ Configuración ‣ Ajustes
+Para configurar los impuestos de base de efectivo navega a :menuselection:`Contabilidad --> Configuración --> Ajustes`
 y sobre e apartado **Impuestos** informa el campo **Base de efectivo**.
 
 Al realizar esta acción se solicita informar el **Diario de impuestos de base de efectivo**, proponiéndote por defecto
@@ -31,7 +31,7 @@ Por último haz clic sobre el botón **Guardar**.
    :align: center
    :alt: Gestionar la retención fiscal
 
-Posteriormente, debes configurar tus impuestos. Para ello, navega a Contabilidad ‣ Configuración ‣ Impuestos, y haz
+Posteriormente, debes configurar tus impuestos. Para ello, navega a :menuselection:`Contabilidad --> Configuración --> Impuestos`, y haz
 clic sobre el impuesto que desees configurar.
 
 Sobre la pestaña **Opciones avanzadas**, debes informar el campo **Exigibilidad fiscal** a **Basado en el pago**.

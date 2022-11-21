@@ -9,6 +9,8 @@ Puedes establecer varios criterios para utilizar un precio específico: período
 Configuración
 =============
 
+.. _sitios_web/ecommerce/productos_precios/precios/precios:
+
 Conceder descuentos en líneas de pedido de venta
 ------------------------------------------------
 

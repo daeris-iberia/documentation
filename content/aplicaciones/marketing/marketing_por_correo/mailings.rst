@@ -288,6 +288,8 @@ Puedes realizar una prueba para visualizar el contenido sobre tu cuenta de corre
    :align: center
    :alt: Usar encabezados
 
+.. _marketing/marketing_por_correo/iconos_medios:
+
 Mostrar iconos de medios sociales
 =====================================
 

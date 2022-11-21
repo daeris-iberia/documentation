@@ -9,8 +9,10 @@ La aplicación de soporte de Daeris se puede configurar para adaptarla a tus nec
     :width: 700
     :height: 394
 
+.. _servicios/atencion_al_cliente/configuracion_basica/categorias:
+
 Categorías
-==========================
+==============
 
 Las *categorías* permiten clasificar y agrupar los tickets en función de las necesidades de tu negocio.
 
@@ -104,7 +106,7 @@ Este color se incorpora como fondo del registro de los tickets sobre la vista Ka
    :alt: Formulario de prioridades de tickets
 
 Tipologías
-===========================
+==============
 
 Los tipos sirven para categorizar el ámbito de gestión de un ticket de soporte.
 
@@ -126,6 +128,7 @@ Este color se incorpora como fondo del campo tipo de los tickets sobre la vista 
 
 .. important:: Se recomienda usar tonos suaves para que se visualice la información correctamente.
 
+.. _servicios/atencion_al_cliente/configuracion_basica/sla:
 
 SLA
 ===================

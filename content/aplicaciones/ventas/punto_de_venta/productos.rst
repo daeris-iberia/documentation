@@ -5,6 +5,8 @@ Productos
 Categorías
 =============
 
+.. _ventas/punto_de_venta/productos/categorias:
+
 Crear categorías y subcategorías 
 ----------------------------------
 
@@ -112,6 +114,8 @@ por defecto, se posiciona sobre la categoría indicada.
 Gestionar productos
 ====================
 
+.. _ventas/punto_de_venta/productos/anadir:
+
 Añadir productos
 ---------------------------------
 
@@ -158,6 +162,7 @@ productos configurados, que serán mostrados en base a la categoría sobre la qu
 .. seealso::
    * :doc:`../../ventas/ventas/productos_precios`
 
+.. _ventas/punto_de_venta/productos/barras:
 
 Añadir código de barras a un producto
 ------------------------------------------

@@ -11,7 +11,6 @@ Facturas de clientes
    facturas_clientes/terminos
    facturas_clientes/descuentos
    facturas_clientes/redondeo
-   facturas_clientes/diferidos
    facturas_clientes/rectificativa
    facturas_clientes/codigos_qr
    facturas_clientes/electronica

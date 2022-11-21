@@ -5,6 +5,8 @@ Tienda Online
 Personalización
 ===============
 
+.. _sitios_web/ecommerce/tienda_online:
+
 Configurar la tienda online
 ---------------------------
 
@@ -132,6 +134,8 @@ A continuación, se describen dichas opciones:
 
 -  **Lista de Deseos**: Incluye un icono para añadir el producto a la lista de deseos.
 
+.. _sitios_web/ecommerce/cesta:
+
 Personalizar la cesta de la compra
 ----------------------------------
 
@@ -158,6 +162,8 @@ Además, desde el paso de pago de la cesta de la compra, es posible seleccionar 
 .. image:: tienda_online/personalizar-cesta-compra-2.png
    :align: center
    :alt: Personalizar la cesta de la compra (2)
+
+.. _sitios_web/ecommerce/seguimiento_pedidos:
 
 Seguimiento de pedidos
 ======================

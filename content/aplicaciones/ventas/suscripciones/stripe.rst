@@ -5,6 +5,8 @@ Gestionar suscripciones con Stripe
 Configuración
 =============
 
+.. _ventas/suscripciones/activar_stripe:
+
 Activar las suscripciones de clientes con Stripe
 ------------------------------------------------
 
@@ -106,6 +108,8 @@ y una vez finalizada la instalación, deberás informar los siguientes campos:
    :alt: Activar las suscripciones de clientes con Stripe (5)
 
 Una vez completados los campos, pulsa de nuevo el botón *Guardar* de la pantalla de ajustes.
+
+.. _ventas/suscripciones/crear_productos_stripe:
 
 Crear los productos y precios de la suscripción
 -----------------------------------------------
@@ -248,6 +252,8 @@ impuesto. Si no está informado el impuesto a nivel de la provincia, se tomará 
 
 A partir de ese momento, el impuesto quedará configurado para todas las suscripciones vendidas a clientes del país o provincia
 seleccionado, a los que se les añadirá el porcentaje de impuesto sobre el precio del producto de la suscripción.
+
+.. _ventas/suscripciones/configurar_stripe:
 
 Configurar el checkout y el portal de clientes de Stripe
 --------------------------------------------------------

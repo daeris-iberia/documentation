@@ -2,6 +2,8 @@
 Inventario
 ==============
 
+.. _ventas/punto_de_venta/inventario/tablero:
+
 Configurar el TPV sobre el tablero del inventario
 ------------------------------------------------------------
 
@@ -27,7 +29,9 @@ de inventario realizados a partir de las ventas realizadas a los clientes.
    :align: center
    :alt: Panel TPV
 
-Enviar los productos vendidos por TPV.
+.. _ventas/punto_de_venta/inventario/envio:
+
+Enviar los productos vendidos por TPV
 ------------------------------------------
 
 Daeris permite vender tus productos desde el TPV para que sean enviados más tarde. Para ello, debes indicar
@@ -71,6 +75,7 @@ Desde el detalle del registro, es posible gestionar el envío.
    :align: center
    :alt: Enviar el pedido del tpv.
 
+.. _ventas/punto_de_venta/inventario/stock:
 
 Actualizar stock en tiempo real
 ----------------------------------

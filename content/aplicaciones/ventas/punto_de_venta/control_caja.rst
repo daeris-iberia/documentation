@@ -178,6 +178,7 @@ pantalla, indicando que ha de contactar con un responsable para **Aceptar** la d
 El empleado responsable con permisos de administrador del TPV , deberá realizar el control de cierre para poder cerrar la sesión, ya que a este, no le aplicará
 dicha restricción.
 
+.. _ventas/punto_de_venta/control_caja/monedas:
 
 Establecer los tipos de monedas y billetes que permite el TPV
 -------------------------------------------------------------------

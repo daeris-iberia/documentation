@@ -5,6 +5,8 @@ Oportunidades de venta
 Configuración
 =============
 
+.. _ventas/crm/oportunidades/etapas:
+
 Configurar las etapas de las oportunidades de venta
 ---------------------------------------------------
 
@@ -80,6 +82,8 @@ El detalle de los campos es el siguiente:
 
 Una vez informados todos los campos necesarios, pulsa el botón *Guardar*.
 
+.. _ventas/crm/oportunidades/actividades:
+
 Configurar los tipos de actividad
 ---------------------------------
 
@@ -125,6 +129,8 @@ sistema despliega automáticamente una nueva actividad de llamada:
    :align: center
    :alt: Nueva actividad sugerida
 
+.. _ventas/crm/oportunidades/motivos:
+
 Configurar los motivos de pérdida de las oportunidades
 ------------------------------------------------------
 
@@ -138,6 +144,8 @@ campo seleccionable de motivo de pérdida al marcar una oportunidad como perdida
 .. image:: oportunidades/motivos-perdida.png
    :align: center
    :alt: Motivos de pérdida de las oportunidades de venta
+
+.. _ventas/crm/oportunidades/etiquetas:
 
 Configurar etiquetas de las oportunidades de venta
 --------------------------------------------------
@@ -168,6 +176,8 @@ Al asociar una etiqueta a una oportunidad, se podrá visualizar la misma desde e
 .. image:: oportunidades/etiqueta-en-oportunidad.png
    :align: center
    :alt: Etiquetas en una oportunidad de venta
+
+.. _ventas/crm/oportunidades/planes:
 
 Definir planes e ingresos recurrentes en las oportunidades
 ----------------------------------------------------------

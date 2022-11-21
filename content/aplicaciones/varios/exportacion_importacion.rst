@@ -79,6 +79,8 @@ en las vistas de tipo lista cuando todavía no hemos seleccionado ningún regist
 Al pulsar ese botón, la aplicación generará un fichero .xlsx con todos los registros del listado actual, y permitirá
 guardarlo en el sistema.
 
+.. _varios/importar_datos:
+
 Importar datos en Daeris
 ========================
 

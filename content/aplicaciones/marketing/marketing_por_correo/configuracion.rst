@@ -2,6 +2,8 @@
 Configuración
 =================
 
+.. _marketing/marketing_por_correo/servidor_exclusivo:
+
 Utilizar un servidor de correo exclusivo para el envío de mailing
 ====================================================================
 

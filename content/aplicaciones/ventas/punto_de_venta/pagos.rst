@@ -66,6 +66,7 @@ El cliente recibirá en  su correo un email con el anexo del recibo de compra.
    :align: center
    :alt: Enviar por email un pedido en una sesión de TPV
 
+.. _ventas/punto_de_venta/pagos/bolsas:
 
 Pago de bolsas
 ----------------------------
@@ -147,6 +148,8 @@ seleccionado.
    :align: center
    :alt: Bolsa en el pedido del TPV
 
+.. _ventas/punto_de_venta/pagos/redondeo:
+
 Redondeo de efectivo
 ---------------------
 
@@ -210,6 +213,8 @@ Sobre el recibo, aparacerá una línea que hará referencia al redondeo cobrado 
 .. image:: pagos/redondeo7.png
    :align: center
    :alt: Usar el redondeo de efectivo.
+
+.. _ventas/punto_de_venta/pagos/restringir_precios:
 
 Restringir el cambio de precios en las líneas de pedido
 --------------------------------------------------------
@@ -323,6 +328,8 @@ Ejemplo de recibo:
    :align: center
    :alt: Pantalla de factura simplificada al realizar el pago
 
+.. _ventas/punto_de_venta/pagos/facturas:
+
 Crear facturas
 ---------------
 
@@ -372,7 +379,9 @@ del TPV y sobre el apartado **Facturas y recibos** marca la opción **Facturaci�
 .. note::
    La opción para generar facturas desde Daeris viene activa por defecto al crear un TPV y no es recomendable deshabilitarla.
 
-Añadir notas sobre las íde pedido
+.. _ventas/punto_de_venta/pagos/notas:
+
+Añadir notas sobre las líneas de pedido
 ----------------------------------------
 
 Daeris permite incorporar notas sobre las líneas del pedido. Estas notas aparecerán en la facturas y el recibo.
@@ -506,6 +515,8 @@ la impresión haciendo clic sobre el botón **Imprimir recibo**.
 
 Métodos de pago
 ===============
+
+.. _ventas/punto_de_venta/pagos/tarjeta:
 
 Crear tarjeta de crédito como método de pago
 ---------------------------------------------

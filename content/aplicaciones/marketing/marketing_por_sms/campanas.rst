@@ -11,6 +11,8 @@ en diferentes etapas y permiten el uso de pruebas A/B.
 .. seealso::
    * :doc:`../../marketing/marketing_por_correo/campanas`
 
+.. _marketing/marketing_por_sms/campanas:
+
 Crear una campaña
 ====================
 

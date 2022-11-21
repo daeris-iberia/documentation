@@ -12,6 +12,8 @@ con la planificación y realización de eventos.
 Configuración
 =============
 
+.. _sitios_web/eventos/eventos/salas:
+
 Crear salas de conferencia virtuales
 ------------------------------------
 
@@ -62,6 +64,8 @@ el botón *No publicado*:
    :align: center
    :alt: Salas de chat de la comunidad (6)
 
+.. _sitios_web/eventos/eventos/patrocinadores:
+
 Mostrar patrocinadores y expositores en las páginas de tu evento
 ----------------------------------------------------------------
 
@@ -99,6 +103,8 @@ permite seleccionar entre *Patrocinador*, *Expositor* o *Expositor Online*. Por 
    :alt: Patrocinadores y expositores en eventos (4)
 
 Una vez informados todos los campos necesarios, pulsa el botón *Guardar*.
+
+.. _sitios_web/eventos/eventos/stands:
 
 Crear stands y gestionar sus reservas
 -------------------------------------
@@ -203,6 +209,8 @@ En el tipo *Selección*, puedes informar las respuestas para seleccionar en la p
 
 Utiliza el botón *Guardar y cerrar* para guardar la pregunta.
 
+.. _sitios_web/eventos/eventos/plantillas:
+
 Configurar plantillas del evento
 --------------------------------
 
@@ -227,6 +235,8 @@ los de la ventana de creación de nuevos eventos. Puedes completar la plantilla 
 pertenece a la misma categoría.
 
 Una vez informados los campos necesarios, pulsa el botón *Guardar*.
+
+.. _sitios_web/eventos/eventos/etapas:
 
 Configurar las etapas del evento
 --------------------------------
@@ -253,6 +263,8 @@ esta etapa y agregar una descripción sobre esta etapa en el campo **Descripció
 
 Haz clic en el botón *Guardar* después de completar todos los campos.
 
+.. _sitios_web/eventos/eventos/categorias_etiquetas:
+
 Configurar las categorías de etiquetas de evento
 ------------------------------------------------
 
@@ -277,6 +289,8 @@ categoría de la etiqueta sea visible en el sitio web. Con la opción *Agregar l
 categoría. Selecciona los colores adecuados para cada etiqueta incluida en esta categoría.
 
 Finalmente, puedes usar el botón *Guardar* para agregar esta nueva categoría a la lista existente.
+
+.. _sitios_web/eventos/eventos/reglas_clientes:
 
 Configurar reglas de generación de clientes potenciales
 -------------------------------------------------------

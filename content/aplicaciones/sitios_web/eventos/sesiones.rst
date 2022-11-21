@@ -6,6 +6,8 @@ En el módulo de **Eventos** de Daeris, es posible aceptar propuestas de charlas
 agenda del evento en tu sitio web. El menú **Sesiones de eventos** en el módulo de eventos registrará todas las sesiones
 de los eventos publicados en el sitio web.
 
+.. _sitios_web/eventos/sesiones/horario:
+
 Administrar y publicar un horario con sesiones
 ==============================================
 
@@ -105,6 +107,8 @@ el usuario obtendrá campos adicionales para introducir información de contacto
    :alt: Proponer una sesión para un evento (2)
 
 Haz clic en el botón **Enviar propuesta** para enviar la propuesta de sesión.
+
+.. _sitios_web/eventos/sesiones/sesion_youtube:
 
 Transmitir tus sesiones en línea con una integración con Youtube
 ================================================================

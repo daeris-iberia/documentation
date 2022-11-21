@@ -2,6 +2,8 @@
 Gestión básica
 ==============
 
+.. _sitios_web/ecommerce/productos_precios/productos/crear_producto:
+
 Crear un producto en la tienda online
 =====================================
 

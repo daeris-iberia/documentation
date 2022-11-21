@@ -19,6 +19,8 @@ También te permite analizar los detalles de los defectos de tus productos.
 Configuración
 =============
 
+.. _servicios/reparaciones/etiquetas:
+
 Configurar las etiquetas de órdenes de reparación
 -------------------------------------------------
 

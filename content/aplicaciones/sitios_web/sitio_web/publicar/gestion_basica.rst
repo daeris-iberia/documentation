@@ -26,6 +26,8 @@ posible con Daeris, y los pasos a seguir son los siguientes:
    Si has contratado los planes **Intermedio** o **Empresa** tienes un cambio de dominio incluido de forma gratuita. Si
    has contratado el plan **Profesional**, te enviaremos un presupuesto con el coste asociado al cambio de dominio.
 
+.. _sitios_web/publicar/configurador_web:
+
 Ejecutar el configurador del sitio web
 ======================================
 
@@ -109,6 +111,8 @@ Al finalizar, podrás editar el contenido de las páginas del sitio web para ada
 .. image:: gestion_basica/configurador-sitio-web-10.png
    :align: center
    :alt: Ejecutar el configurador del sitio web (10)
+
+.. _sitios_web/publicar/personalizar_sitio_web:
 
 Personalizar el tema del sitio web
 ==================================
@@ -290,6 +294,8 @@ en la parte superior derecha del menú:
 
 Una vez publicada, la página ya será visible para los visitantes del sitio web.
 
+.. _sitios_web/publicar/editar_menu_web:
+
 Editar el menú
 ==============
 
@@ -436,6 +442,8 @@ la página en sus respectivos formatos:
 .. image:: gestion_basica/previsualizacion-movil-4.png
    :align: center
    :alt: Visualizar una página en formato móvil (4)
+
+.. _sitios_web/publicar/cookies:
 
 Configurar el aviso de cookies
 ==============================

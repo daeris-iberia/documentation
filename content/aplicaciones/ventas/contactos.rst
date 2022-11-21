@@ -15,6 +15,8 @@ entorno empresarial.
     :width: 700
     :height: 394
 
+.. _ventas/contactos/contacto_individual:
+
 Crear un contacto de tipo individual
 ====================================
 
@@ -122,6 +124,8 @@ Mediante las pestañas inferiores puedes incorporar la siguiente información:
    :alt: Información de ticket de soporte del contacto
 
 Una vez informados todos los campos necesarios, pulsa el botón *Guardar*.
+
+.. _ventas/contactos/contacto_compania:
 
 Crear un contacto de tipo compañía
 ==================================
@@ -467,6 +471,8 @@ del contacto, informando la latitud y longitud correspondientes a la dirección 
 .. image:: contactos/asignacion-del-contacto.png
    :align: center
    :alt: Asignación del contacto
+
+.. _ventas/contactos/importar_ciudades:
 
 Importar la lista de ciudades de GeoNames
 =========================================

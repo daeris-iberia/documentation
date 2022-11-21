@@ -106,6 +106,9 @@ el chat incorporado:
 .. seealso::
    * :ref:`productividad/notas/utilizar_pads_colaborativos`
 
+
+.. _servicios/gestion_de_proyecto/autogenerar_tareas:
+
 Autogenerar tareas para actividades regulares
 ---------------------------------------------
 
@@ -143,6 +146,8 @@ seleccionados, se enumeran las próximas ocurrencias:
    :align: center
    :alt: Tareas recurrentes (3)
 
+.. _servicios/gestion_de_proyecto/seguimiento_etapas:
+
 Realizar un seguimiento del progreso de los proyectos
 -----------------------------------------------------
 
@@ -176,6 +181,8 @@ Si accedes al detalle de un proyecto, también podrás modificar la etapa del pr
 .. image:: gestion_de_proyectos/flujo-estados-proyecto.png
    :align: center
    :alt: Flujo de estados del proyecto
+
+.. _servicios/gestion_de_proyecto/subtareas:
 
 Utilizar sub-tareas en los proyectos
 ------------------------------------
@@ -219,6 +226,8 @@ hija aparece un botón inteligente que indica que la tarea dispone de una tarea 
    :align: center
    :alt: Detalle de sub-tareas en tareas de proyectos
 
+.. _servicios/gestion_de_proyecto/orden_tareas:
+
 Determinar el orden en el que se realizarán las tareas
 ------------------------------------------------------
 
@@ -260,6 +269,8 @@ tarea dependiente aparece un botón inteligente que indica que la tarea dispone 
    :align: center
    :alt: Detalle de dependencia en tareas de proyectos
 
+.. _servicios/gestion_de_proyecto/partes_de_horas:
+
 Hacer seguimiento del tiempo empleado en proyectos y tareas
 -----------------------------------------------------------
 
@@ -289,6 +300,8 @@ Al final del listado hay un resumen del total de horas dedicadas y de las horas 
 
 .. seealso::
    * :doc:`partes_de_horas`
+
+.. _servicios/gestion_de_proyecto/rentabilidad:
 
 Realizar un seguimiento de los costes e ingresos vinculados a los proyectos
 ---------------------------------------------------------------------------
@@ -321,6 +334,8 @@ Desde la pestaña de **Ajustes** del proyecto, también será posible informar l
 .. image:: gestion_de_proyectos/cuenta-analitica-proyecto.png
    :align: center
    :alt: Cuenta analítica asociada al proyecto
+
+.. _servicios/gestion_de_proyecto/tareas_satisfaccion:
 
 Seguir la satisfacción de los clientes en tareas
 ------------------------------------------------
@@ -414,6 +429,8 @@ También será posible consultar el grado de satisfacción de los proyectos desd
    :align: center
    :alt: Calificación asociada a un proyecto
 
+.. _servicios/gestion_de_proyecto/categorias:
+
 Configurar las categorías de los proyectos
 ------------------------------------------
 
@@ -435,6 +452,8 @@ botón *Guardar*:
 .. image:: gestion_de_proyectos/crear-categorias-gestion-proyectos.png
    :align: center
    :alt: Crear categorías del módulo de gestión de proyectos
+
+.. _servicios/gestion_de_proyecto/tipos_actividad:
 
 Configurar los tipos de actividad de los proyectos
 --------------------------------------------------

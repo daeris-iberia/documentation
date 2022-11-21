@@ -20,6 +20,8 @@ en línea y puede utilizarse tanto para la venta de cursos online como para la f
     :width: 700
     :height: 394
 
+.. _sitios_web/elearning/curso:
+
 Crear un curso de eLearning
 =============================
 
@@ -66,6 +68,8 @@ Si deseas dar acceso a los visitantes de tu sitio web, debes publicar tu curso. 
    :align: center
    :alt: Publicar curso de elearning
 
+.. _sitios_web/elearning/seccion:
+
 Añadir una sección a un curso
 =============================
 
@@ -88,6 +92,7 @@ La nueva sección quedará registrada y aparecerá sobre la página del curso.
    :align: center
    :alt: Sección sobre un curso de elearning
 
+.. _sitios_web/elearning/contenidos:
 
 Añadir contenidos
 =================
@@ -555,6 +560,8 @@ Sobre la pestaña *Estadísticas* es posible visualizar estadísticas relacionad
 Una vez informados todos los campos necesarios, pulsa el botón *Guardar*.
 
 .. warning:: Es importante recordar que si el contenido es de tipo *infografía* , la imagen de la infografía se ha de incorporar sobre el campo imagen del contenido. No es posible modificarla desde el editor del sitio web.
+
+.. _sitios_web/elearning/vender:
 
 Vender cursos de eLearning en la tienda online
 ===============================================

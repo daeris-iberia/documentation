@@ -64,6 +64,8 @@ Inicialmente, el vehículo dispone de estado *Registrado*, aunque puede modifica
 El estado del vehículo sirve para conocer su situación actual que, en función de las necesidades de tu negocio, puede disponer
 de distintos valores.
 
+.. _servicios/flota/categorias_modelos:
+
 Crear categorías y modelos de vehículos
 ---------------------------------------
 Una categoría de vehículo es un agrupador que permite clasificar modelos de vehículos en base a las necesidades de cada negocio.
@@ -103,6 +105,8 @@ Mediante el botón *Añadir*, se pueden asociar tantos proveedores como se desee
    :alt: Formulario de proveedores de modelos de la flota
 
 Una vez registrados los datos pulsa el botón *Guardar*.
+
+.. _servicios/flota/fabricantes:
 
 Registrar fabricantes de vehículos
 ----------------------------------
@@ -194,6 +198,8 @@ También es posible informar:
 .. image:: flota/formulario_contratos.png
    :align: center
    :alt: Formulario de contratos de la flota
+
+.. _servicios/flota/alertas:
 
 Gestionar alertas de vencimientos de contratos
 ----------------------------------------------
