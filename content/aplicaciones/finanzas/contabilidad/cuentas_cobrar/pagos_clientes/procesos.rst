@@ -103,17 +103,6 @@ Posteriormente, haz clic sobre el botón **Acción** y selecciona la opción **A
    :align: center
    :alt: Pago por lotes
 
-
-Correspondencia de pagos
---------------------------
-
-ENTERPRISE
-
-Coincidencia de pagos por lotes
-----------------------------------
-
-ENTERPRISE
-
 Conciliación de pagos con extractos bancarios
 ================================================
 
