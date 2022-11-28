@@ -53,8 +53,6 @@ navega a la pantalla :menuselection:`Compra --> Configuración --> Ajustes` y ac
 .. seealso::
    * :ref:`inventario_y_fabricacion/compras/presupuestos_pedidos/bloquear_pedidos`
 
-.. _inventario_y_fabricacion/compras/presupuestos_pedidos/politica_facturacion:
-
 Establecer la política de control de facturas predeterminada
 ============================================================
 

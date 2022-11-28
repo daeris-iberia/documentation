@@ -61,8 +61,6 @@ Sobre el listado de redondeos, haz clic sobre el redondeo a gestionar o sobre el
 .. seealso::
    * :ref:`finanzas/contabilidad/cuentas_cobrar/facturas_clientes/redondeo/configuracion`
 
-.. _finanzas/contabilidad/cuentas_cobrar/facturas_clientes/codigos_qr/configuracion:
-
 Configuración código QR Sepa
 ==============================
 Para activar la funcionalidad de añadir un código QR Sepa sobre las facturas, navega a
@@ -123,8 +121,6 @@ Sobre el apartado **Recordatorios de facturas vencidas** informa los campos nece
 
 .. seealso::
    * :ref:`finanzas/contabilidad/cuentas_cobrar/pagos_clientes/seguimiento/configuracion`
-
-.. _finanzas/contabilidad/cuentas_pagar/pagos_proveedores/sepa/activar_sepa:
 
 Activar métodos de pago SEPA sobre los diarios bancarios
 ===========================================================
