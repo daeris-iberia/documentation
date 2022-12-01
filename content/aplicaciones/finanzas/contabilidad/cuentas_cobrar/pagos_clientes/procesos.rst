@@ -85,8 +85,8 @@ Pago por lotes
 Los pagos por lotes te permiten agrupar diferentes pagos para facilitar la conciliación. También son útiles cuando
 depositas cheques en el banco o para pagos SEPA.
 
-Para realizar pagos por lotes, navega a a :menuselection:`Contabilidad / Facturación --> Clientes --> Pagos por lotes`
-o a :menuselection:`Contabilidad / Facturación --> Proveedores --> Pagos por lotes`.
+Para realizar pagos por lotes, navega a a :menuselection:`Contabilidad / Facturación --> Clientes --> Órdenes de pago`
+o a :menuselection:`Contabilidad / Facturación --> Proveedores --> Órdenes de pago`.
 Al crear una orden de pago, es posible añadir los detalles de la orden sobre el formulario de la orden.
 
 .. image:: procesos/procesos06.png

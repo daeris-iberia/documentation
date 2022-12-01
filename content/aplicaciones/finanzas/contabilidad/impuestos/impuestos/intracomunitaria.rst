@@ -34,8 +34,8 @@ normativa, creando y configurando las **posiciones fiscales** e **impuestos**, e
 Activación
 ============
 
-Para activar la **venta intracomunitaria a distancia navega a :menuselection:`Contabilidad --> Ajustes --> Impuestos`.
-Y sobre el apartado **Impuestos** marca el campo **Venta intracomunitaria a distancia de la UE** y haz clic sobre el botón **Guardar**.
+Para activar la **venta intracomunitaria a distancia** navega a :menuselection:`Contabilidad --> Ajustes --> Impuestos`
+, y sobre el apartado **Impuestos** marca el campo **Venta intracomunitaria a distancia de la UE** y haz clic sobre el botón **Guardar**.
 
 .. image:: intracomunitaria/venta_ue.png
    :align: center

@@ -193,8 +193,8 @@ Asegúrate también de tener informada la **dirección** completa del contacto, 
 
 Gestión de facturas electrónicas
 ----------------------------------
-Para crear una factura electónica accede a la pantalla `Facturación / Contabilidad --> Clientes --> Facturas`
-y haz clic sobre el botón **Crear**.
+Para crear una factura electónica accede a la pantalla :menuselection:`Facturación / Contabilidad --> Clientes --> Facturas`
+ y haz clic sobre el botón **Crear**.
 
 Selecciona un cliente configurado para recibir para facturas electrónicas,un **modo de pago** con el código de
 Factura-e establecido y un **banco destinatario** con IBAN y número de BIC asociado a la compañía.

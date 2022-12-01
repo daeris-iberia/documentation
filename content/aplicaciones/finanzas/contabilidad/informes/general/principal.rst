@@ -341,4 +341,22 @@ Activos financieros
 Informe de activos financieros
 -------------------------------
 
-Informe de activos financieros
+Para acceder al asistente de generación del informe de activos financieros, navega a :menuselection:`Facturación / Contabilidad --> Informes --> Informe de activos financieros`.
+
+.. image:: principal/activos01.png
+   :align: center
+   :alt: Informe de activos financieros
+
+Sobre el formulario de configuración del informe, puedes incorporar:
+
+   - **Grupo de activo**: Selecciona el grupo de activos financieros.
+   - **Fecha de inicio**: Fecha desde la que se empieza a contabilizar datos en el informe.
+   - **Fecha de finalización**: Fecha hasta la que se empieza a contabilizar datos en el informe.
+   - **Incluir activos en borrador**: Muestra activos cuyo estado es borrador.
+   - **Compañia**: Permite seleccionar entre todas las compañias.
+
+Al hacer clic sobre el botón **Generar informe** se crea el informe en formato XLSX.
+
+.. image:: principal/activos02.png
+   :align: center
+   :alt: Informe de activos financieros

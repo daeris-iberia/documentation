@@ -20,7 +20,6 @@ España
    espana/informes
    espana/extractos
    espana/sepa
-   espana/face
    espana/facturae
    espana/sii
    espana/ticket_bai
