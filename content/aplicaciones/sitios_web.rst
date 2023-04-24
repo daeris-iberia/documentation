@@ -13,3 +13,4 @@ Sitios Web
     sitios_web/elearning
     sitios_web/eventos
     sitios_web/citas
+    sitios_web/documentos
